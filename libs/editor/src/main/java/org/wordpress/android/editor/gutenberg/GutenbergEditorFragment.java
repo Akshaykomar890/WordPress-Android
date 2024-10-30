@@ -1657,17 +1657,20 @@ public class GutenbergEditorFragment extends EditorFragmentAbstract implements
         }
     }
 
-    @Nullable @Override
-    public WebResourceResponse modifyRequest(@NonNull WebResourceRequest request) {
+    @Override
+    public boolean canIntercept(@NonNull WebResourceRequest request) {
         Uri url = request.getUrl();
         String siteURL = (String) (mSettings != null ? mSettings.get("siteURL") : "");
         String siteHostedMedia = siteURL + "/.*\\.(jpg|jpeg|png|gif|bmp|webp|mp4|mov|avi|mkv|mp3|wav|flac)(\\?.*)?$";
         Pattern pattern = Pattern.compile(siteHostedMedia, Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(url.toString());
 
-        if (siteURL == null || !mIsPrivate || !matcher.matches()) {
-            return null;
-        }
+        return siteURL != null && mIsPrivate && matcher.matches();
+    }
+
+    @Nullable @Override
+    public WebResourceResponse handleRequest(@NonNull WebResourceRequest request) {
+        Uri url = request.getUrl();
 
         String proxyUrl = url.toString();
         if (mIsPrivateAtomic) {
