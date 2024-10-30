@@ -102,7 +102,10 @@ import org.wordpress.gutenberg.GutenbergWebViewPool;
 
 import java.io.IOException;
 import java.io.Serializable;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -111,8 +114,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CountDownLatch;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 import okhttp3.Headers;
@@ -1660,12 +1661,42 @@ public class GutenbergEditorFragment extends EditorFragmentAbstract implements
     @Override
     public boolean canIntercept(@NonNull WebResourceRequest request) {
         Uri url = request.getUrl();
-        String siteURL = (String) (mSettings != null ? mSettings.get("siteURL") : "");
-        String siteHostedMedia = siteURL + "/.*\\.(jpg|jpeg|png|gif|bmp|webp|mp4|mov|avi|mkv|mp3|wav|flac)(\\?.*)?$";
-        Pattern pattern = Pattern.compile(siteHostedMedia, Pattern.CASE_INSENSITIVE);
-        Matcher matcher = pattern.matcher(url.toString());
 
-        return siteURL != null && mIsPrivate && matcher.matches();
+        return mIsPrivate && isSiteHostedMediaFile(url.toString());
+    }
+
+    boolean isSiteHostedMediaFile(@NonNull String urlString) {
+        String siteURL = (String) (mSettings != null ? mSettings.get("siteURL") : "");
+        Set<String> mediaExtensions = new HashSet<>(Arrays.asList(
+                "jpg", "jpeg", "png", "gif", "bmp", "webp",
+                "mp4", "mov", "avi", "mkv",
+                "mp3", "wav", "flac"
+        ));
+
+        try {
+            URL url = new URL(urlString);
+            URL siteUrlObj = new URL(siteURL);
+
+            // Check if the URL is from the same host as the site URL
+            if (!url.getHost().equalsIgnoreCase(siteUrlObj.getHost())) {
+                return false;
+            }
+
+            // Extract the file name and extension
+            String path = url.getPath();
+            int lastDotIndex = path.lastIndexOf('.');
+            if (lastDotIndex == -1) {
+                return false;
+            }
+
+            String extension = path.substring(lastDotIndex + 1).toLowerCase();
+
+            // Check if the extension is in the list of media extensions
+            return mediaExtensions.contains(extension);
+        } catch (MalformedURLException e) {
+            // Handle invalid URLs
+            return false;
+        }
     }
 
     @Nullable @Override
