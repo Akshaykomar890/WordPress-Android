@@ -110,6 +110,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -1689,7 +1690,7 @@ public class GutenbergEditorFragment extends EditorFragmentAbstract implements
                 return false;
             }
 
-            String extension = path.substring(lastDotIndex + 1).toLowerCase();
+            String extension = path.substring(lastDotIndex + 1).toLowerCase(Locale.ROOT);
 
             // Check if the extension is in the list of media extensions
             return mediaExtensions.contains(extension);
