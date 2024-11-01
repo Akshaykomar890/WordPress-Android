@@ -16,10 +16,10 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material.Button
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Scaffold
-import androidx.compose.material.Text
+import androidx.compose.material3.Button
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -45,7 +45,7 @@ import org.wordpress.android.R
 import org.wordpress.android.ui.WPWebViewActivity
 import org.wordpress.android.ui.compose.components.MainTopAppBar
 import org.wordpress.android.ui.compose.components.NavigationIcons
-import org.wordpress.android.ui.compose.theme.AppThemeM2
+import org.wordpress.android.ui.compose.theme.AppThemeM3
 import org.wordpress.android.ui.compose.utils.uiStringText
 import org.wordpress.android.ui.main.jetpack.migration.compose.state.LoadingState
 import org.wordpress.android.ui.sitecreation.SiteCreationActivity.Companion.ARG_STATE
@@ -62,7 +62,7 @@ class SiteCreationPlansFragment : Fragment(), SiteCreationPlansWebViewClientList
         savedInstanceState: Bundle?
     ): View = ComposeView(requireContext()).apply {
         setContent {
-            AppThemeM2 {
+            AppThemeM3 {
                 SiteCreationPlansPage(
                     navigationUp = requireActivity().onBackPressedDispatcher::onBackPressed
                 )
@@ -99,7 +99,7 @@ class SiteCreationPlansFragment : Fragment(), SiteCreationPlansWebViewClientList
     }
 
     @Composable
-    @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
+    @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
     fun SiteCreationPlansPage(
         navigationUp: () -> Unit = { },
         viewModel: SiteCreationPlansViewModel = viewModel(),
@@ -140,12 +140,12 @@ class SiteCreationPlansFragment : Fragment(), SiteCreationPlansWebViewClientList
         ) {
             Text(
                 text = uiStringText(uiString = error.title),
-                style = MaterialTheme.typography.h5,
+                style = MaterialTheme.typography.headlineSmall,
                 textAlign = TextAlign.Center
             )
             Text(
                 text = uiStringText(uiString = error.description),
-                style = MaterialTheme.typography.body1,
+                style = MaterialTheme.typography.bodyLarge,
                 textAlign = TextAlign.Center,
                 modifier = Modifier.padding(top = 8.dp)
             )

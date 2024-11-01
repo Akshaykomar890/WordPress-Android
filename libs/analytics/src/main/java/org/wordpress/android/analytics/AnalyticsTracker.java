@@ -654,7 +654,13 @@ public final class AnalyticsTracker {
         SUPPORT_CHATBOT_TICKET_SUCCESS,
         SUPPORT_CHATBOT_TICKET_FAILURE,
         SUPPORT_CHATBOT_ENDED,
-        FEEDBACK_FORM_OPENED,
+
+        // these events are for the feedback form, which on iOS was originally part of the
+        // in-app review feature.
+        APP_REVIEWS_FEEDBACK_SCREEN_OPENED,
+        APP_REVIEWS_FEEDBACK_SENT,
+        APP_REVIEWS_FEEDBACK_SCREEN_CANCELED,
+
         QUICK_START_STARTED,
         QUICK_START_CARD_SHOWN,
         QUICK_START_TAPPED,

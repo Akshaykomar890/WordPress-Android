@@ -70,7 +70,6 @@ class ReaderPostMoreButtonUiStateBuilder @Inject constructor(
         menuItems.add(buildBlockSite(onButtonClicked))
         menuItems.add(buildReportPost(onButtonClicked))
         checkAndAddUserMenuItems(post, menuItems, onButtonClicked)
-
         return menuItems
     }
 

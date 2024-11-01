@@ -15,6 +15,8 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.wordpress.android.R
+import org.wordpress.android.analytics.AnalyticsTracker.Stat.APP_REVIEWS_FEEDBACK_SENT
+import org.wordpress.android.analytics.AnalyticsTracker.Stat.APP_REVIEWS_FEEDBACK_SCREEN_CANCELED
 import org.wordpress.android.fluxc.utils.AppLogWrapper
 import org.wordpress.android.modules.UI_THREAD
 import org.wordpress.android.support.ZendeskHelper
@@ -28,6 +30,7 @@ import org.wordpress.android.ui.photopicker.MediaPickerLauncher
 import org.wordpress.android.util.AppLog.T
 import org.wordpress.android.util.NetworkUtils
 import org.wordpress.android.util.ToastUtilsWrapper
+import org.wordpress.android.util.analytics.AnalyticsTrackerWrapper
 import org.wordpress.android.util.extensions.copyToTempFile
 import org.wordpress.android.util.extensions.fileSize
 import org.wordpress.android.util.extensions.mimeType
@@ -47,6 +50,7 @@ class FeedbackFormViewModel @Inject constructor(
     private val toastUtilsWrapper: ToastUtilsWrapper,
     private val feedbackFormUtils: FeedbackFormUtils,
     private val mediaPickerLauncher: MediaPickerLauncher,
+    private val analyticsTrackerWrapper: AnalyticsTrackerWrapper,
 ) : ScopedViewModel(mainDispatcher) {
     private val _messageText = MutableStateFlow("")
     val messageText = _messageText.asStateFlow()
@@ -172,6 +176,7 @@ class FeedbackFormViewModel @Inject constructor(
     fun onCloseClick(context: Context) {
         (context as? Activity)?.let { activity ->
             if (_messageText.value.isEmpty() && _attachments.value.isEmpty()) {
+                analyticsTrackerWrapper.track(APP_REVIEWS_FEEDBACK_SCREEN_CANCELED)
                 activity.finish()
             } else {
                 confirmDiscard(activity)
@@ -183,6 +188,7 @@ class FeedbackFormViewModel @Inject constructor(
         MaterialAlertDialogBuilder(activity).also { builder ->
             builder.setTitle(R.string.feedback_form_discard)
             builder.setPositiveButton(R.string.discard) { _, _ ->
+                analyticsTrackerWrapper.track(APP_REVIEWS_FEEDBACK_SCREEN_CANCELED)
                 activity.finish()
             }
             builder.setNegativeButton(R.string.cancel) { _, _ ->
@@ -192,6 +198,7 @@ class FeedbackFormViewModel @Inject constructor(
     }
 
     private fun onSuccess(context: Context) {
+        analyticsTrackerWrapper.track(APP_REVIEWS_FEEDBACK_SENT)
         showToast(R.string.feedback_form_success)
         (context as? Activity)?.finish()
     }

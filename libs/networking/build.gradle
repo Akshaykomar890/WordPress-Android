@@ -16,15 +16,6 @@ android {
     }
 }
 
-repositories {
-    maven {
-        url "https://a8c-libs.s3.amazonaws.com/android"
-        content {
-            includeGroup "org.wordpress"
-        }
-    }
-}
-
 dependencies {
     implementation(libs.automattic.rest) {
         exclude group: 'com.mcxiaoke.volley'

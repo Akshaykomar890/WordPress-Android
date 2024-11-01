@@ -259,25 +259,7 @@
 
                 <org.wordpress.android.util.widgets.AutoResizeTextView
                     style="@style/MeListRowTextView"
-                    android:text="@string/me_btn_help" />
-
-            </LinearLayout>
-
-            <View style="@style/MeListSectionDividerView" />
-
-            <LinearLayout
-                android:id="@+id/row_feedback"
-                style="@style/MeListRowLayout">
-
-                <ImageView
-                    android:id="@+id/me_feedback_icon"
-                    style="@style/MeListRowIcon"
-                    android:contentDescription="@null"
-                    android:src="@drawable/ic_pencil_white_24dp" />
-
-                <org.wordpress.android.util.widgets.AutoResizeTextView
-                    style="@style/MeListRowTextView"
-                    android:text="@string/me_btn_feedback" />
+                    android:text="@string/me_btn_help_and_support" />
 
             </LinearLayout>
 

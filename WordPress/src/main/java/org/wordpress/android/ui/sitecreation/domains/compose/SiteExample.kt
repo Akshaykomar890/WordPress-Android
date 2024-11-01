@@ -12,12 +12,12 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.Icon
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.outlined.Lock
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -32,9 +32,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.wordpress.android.R
-import org.wordpress.android.ui.compose.theme.AppThemeM2
+import org.wordpress.android.ui.compose.theme.AppThemeM3
 
-private val grayColor @Composable get() = MaterialTheme.colors.onSurface.copy(0.05f)
+private val grayColor @Composable get() = MaterialTheme.colorScheme.onSurface.copy(0.05f)
 private val regularFontSize = 12.sp
 private val regularRadius = 4.dp
 private val radius2x = regularRadius*2
@@ -97,7 +97,7 @@ private fun AddressBar(domainText: String) {
             modifier = Modifier
                 .weight(1f)
                 .height(36.dp)
-                .background(MaterialTheme.colors.surface, RoundedCornerShape(radius2x))
+                .background(MaterialTheme.colorScheme.surface, RoundedCornerShape(radius2x))
         ) {
             Box(
                 contentAlignment = Alignment.Center,
@@ -125,7 +125,7 @@ private fun AddressBar(domainText: String) {
             contentAlignment = Alignment.Center,
             modifier = Modifier
                 .size(36.dp)
-                .background(MaterialTheme.colors.surface, RoundedCornerShape(radius2x))
+                .background(MaterialTheme.colorScheme.surface, RoundedCornerShape(radius2x))
         ) {
             Icon(
                 imageVector = Icons.Default.Add,
@@ -142,7 +142,7 @@ private fun AddressBar(domainText: String) {
             .height(100.dp)
             .padding(horizontal = 8.dp)
             .background(
-                verticalGradient(0f to MaterialTheme.colors.surface, 1f to Color.Transparent),
+                verticalGradient(0f to MaterialTheme.colorScheme.surface, 1f to Color.Transparent),
                 RoundedCornerShape(radius2x, radius2x),
             )
     )
@@ -154,7 +154,7 @@ private fun AddressBar(domainText: String) {
 @Preview(widthDp = 900, heightDp = 415, name = "Landscape")
 @Preview(widthDp = 415, heightDp = 900, name = "RTL", locale = "ar")
 private fun SiteExamplePreview() {
-    AppThemeM2 {
+    AppThemeM3 {
         SiteExample()
     }
 }

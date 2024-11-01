@@ -25,7 +25,7 @@ class SiteCreationDomainsAdapter(
         parent: ViewGroup,
         viewType: Int
     ): SiteCreationDomainViewHolder<*> {
-        return when (Type.values()[viewType]) {
+        return when (Type.entries[viewType]) {
             DOMAIN_V1 -> OldDomainViewHolder(parent, uiHelpers)
             DOMAIN_V2 -> NewDomainViewHolder(parent)
             ERROR_V1 -> OldDomainErrorViewHolder(parent)

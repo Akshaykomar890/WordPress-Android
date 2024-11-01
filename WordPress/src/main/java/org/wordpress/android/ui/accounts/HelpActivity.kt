@@ -112,7 +112,7 @@ class HelpActivity : LocaleAwareActivity() {
                 showContactUs()
             }
 
-            if(BuildConfig.DEBUG && BuildConfig.ENABLE_DEBUG_SETTINGS) {
+            if (BuildConfig.DEBUG && BuildConfig.ENABLE_DEBUG_SETTINGS) {
                 enableDebugSettings()
             }
 
@@ -120,6 +120,10 @@ class HelpActivity : LocaleAwareActivity() {
             applicationVersion.text = getString(R.string.version_with_name_param, WordPress.versionName)
             logsButton.setOnClickListener { v ->
                 startActivity(Intent(v.context, AppLogViewerActivity::class.java))
+            }
+
+            feedbackButton.setOnClickListener {
+                ActivityLauncher.viewFeedbackForm(this@HelpActivity)
             }
 
             if (originFromExtras == Origin.JETPACK_MIGRATION_HELP) {
@@ -169,6 +173,7 @@ class HelpActivity : LocaleAwareActivity() {
     }
 
     private fun launchSupportWidget() {
+        ActivityLauncher.warnIfIdentityA8C(this)
         val intent = SupportWebViewActivity.createIntent(
             this,
             originFromExtras,
@@ -179,6 +184,7 @@ class HelpActivity : LocaleAwareActivity() {
     }
 
     private fun createNewZendeskTicket() {
+        ActivityLauncher.warnIfIdentityA8C(this)
         zendeskHelper.createNewTicket(
             this,
             originFromExtras,
@@ -193,6 +199,7 @@ class HelpActivity : LocaleAwareActivity() {
     }
 
     private fun showZendeskTickets() {
+        ActivityLauncher.warnIfIdentityA8C(this)
         zendeskHelper.showAllTickets(
             this,
             originFromExtras,

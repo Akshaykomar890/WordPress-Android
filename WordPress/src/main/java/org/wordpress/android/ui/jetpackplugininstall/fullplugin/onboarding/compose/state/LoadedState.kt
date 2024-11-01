@@ -10,8 +10,8 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.Icon
-import androidx.compose.material.IconButton
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -22,10 +22,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import org.wordpress.android.R
 import org.wordpress.android.ui.compose.components.ButtonsColumn
-import org.wordpress.android.ui.compose.components.buttons.PrimaryButton
-import org.wordpress.android.ui.compose.components.buttons.SecondaryButton
-import org.wordpress.android.ui.compose.components.text.Title
-import org.wordpress.android.ui.compose.theme.AppThemeM2
+import org.wordpress.android.ui.compose.components.buttons.PrimaryButtonM3
+import org.wordpress.android.ui.compose.components.buttons.SecondaryButtonM3
+import org.wordpress.android.ui.compose.components.text.TitleM3
+import org.wordpress.android.ui.compose.theme.AppThemeM3
 import org.wordpress.android.ui.compose.unit.Margin
 import org.wordpress.android.ui.jetpackplugininstall.fullplugin.onboarding.JetpackFullPluginInstallOnboardingViewModel.UiState
 import org.wordpress.android.ui.jetpackplugininstall.fullplugin.onboarding.compose.component.JPInstallFullPluginAnimation
@@ -75,7 +75,7 @@ fun LoadedState(
                         .align(Alignment.Start)
                         .padding(start = 30.dp)
                 )
-                Title(text = stringResource(R.string.jetpack_individual_plugin_support_onboarding_title))
+                TitleM3(text = stringResource(R.string.jetpack_individual_plugin_support_onboarding_title))
                 PluginDescription(
                     modifier = Modifier
                         .padding(horizontal = 30.dp)
@@ -95,11 +95,11 @@ fun LoadedState(
                 )
             }
             ButtonsColumn {
-                PrimaryButton(
+                PrimaryButtonM3(
                     text = stringResource(R.string.jetpack_full_plugin_install_onboarding_install_button),
                     onClick = { onInstallFullPluginClick() },
                 )
-                SecondaryButton(
+                SecondaryButtonM3(
                     text = stringResource(R.string.jetpack_full_plugin_install_onboarding_contact_support_button),
                     onClick = { onContactSupportClick() }
                 )
@@ -113,7 +113,7 @@ fun LoadedState(
 @Preview(showBackground = true, device = Devices.PIXEL_4_XL, fontScale = 2f)
 @Composable
 private fun PreviewLoadedState() {
-    AppThemeM2 {
+    AppThemeM3 {
         val uiState = UiState.Loaded(
             siteUrl = "wordpress.com",
             pluginNames = listOf("Jetpack Search"),

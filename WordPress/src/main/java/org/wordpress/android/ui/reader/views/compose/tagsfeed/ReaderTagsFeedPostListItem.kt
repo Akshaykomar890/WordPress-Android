@@ -57,7 +57,7 @@ import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import org.wordpress.android.R
 import org.wordpress.android.ui.compose.theme.AppColor
-import org.wordpress.android.ui.compose.theme.AppThemeM2
+import org.wordpress.android.ui.compose.theme.AppThemeM3
 import org.wordpress.android.ui.compose.unit.Margin
 import org.wordpress.android.util.extensions.getColorResIdFromAttribute
 import org.wordpress.android.util.extensions.getDrawableResIdFromAttribute
@@ -221,7 +221,7 @@ fun ReaderTagsFeedPostListItem(
                         }
                     ),
                     tint = if (isPostLiked) {
-                        androidx.compose.material.MaterialTheme.colors.primary
+                        MaterialTheme.colorScheme.primary
                     } else {
                         secondaryElementColor
                     },
@@ -229,7 +229,7 @@ fun ReaderTagsFeedPostListItem(
                 Text(
                     text = stringResource(R.string.reader_label_like),
                     color = if (isPostLiked) {
-                        androidx.compose.material.MaterialTheme.colors.primary
+                        MaterialTheme.colorScheme.primary
                     } else {
                         secondaryElementColor
                     },
@@ -399,7 +399,7 @@ fun PostTextContent(
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_YES)
 @Composable
 fun ReaderTagsFeedPostListItemPreview() {
-    AppThemeM2 {
+    AppThemeM3 {
         Box(
             modifier = Modifier
                 .fillMaxWidth()

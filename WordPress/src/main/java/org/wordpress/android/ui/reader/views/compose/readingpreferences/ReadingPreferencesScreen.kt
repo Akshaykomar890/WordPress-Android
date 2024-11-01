@@ -17,8 +17,8 @@ import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.text.ClickableText
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Text
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.getValue
@@ -48,7 +48,7 @@ import androidx.compose.ui.unit.sp
 import org.wordpress.android.R
 import org.wordpress.android.ui.compose.components.MainTopAppBar
 import org.wordpress.android.ui.compose.components.NavigationIcons
-import org.wordpress.android.ui.compose.theme.AppThemeM2
+import org.wordpress.android.ui.compose.theme.AppThemeM3
 import org.wordpress.android.ui.compose.unit.Margin
 import org.wordpress.android.ui.reader.models.ReaderReadingPreferences
 import org.wordpress.android.ui.reader.utils.toComposeFontFamily
@@ -177,7 +177,7 @@ fun ReadingPreferencesScreen(
             modifier = Modifier
                 .fillMaxWidth()
                 .wrapContentHeight()
-                .background(MaterialTheme.colors.surface)
+                .background(MaterialTheme.colorScheme.surface)
                 .padding(vertical = Margin.ExtraMediumLarge.value),
             verticalArrangement = Arrangement.spacedBy(Margin.ExtraMediumLarge.value, Alignment.CenterVertically),
         ) {
@@ -190,7 +190,7 @@ fun ReadingPreferencesScreen(
             ) {
                 Spacer(modifier = Modifier.width(Margin.ExtraLarge.value))
 
-                ReaderReadingPreferences.Theme.values().forEach { theme ->
+                ReaderReadingPreferences.Theme.entries.forEach { theme ->
                     ReadingPreferencesThemeButton(
                         theme = theme,
                         isSelected = theme == currentReadingPreferences.theme,
@@ -213,7 +213,7 @@ fun ReadingPreferencesScreen(
             ) {
                 Spacer(modifier = Modifier.width(Margin.ExtraLarge.value))
 
-                ReaderReadingPreferences.FontFamily.values().forEach { fontFamily ->
+                ReaderReadingPreferences.FontFamily.entries.forEach { fontFamily ->
                     ReadingPreferencesFontFamilyButton(
                         fontFamily = fontFamily,
                         isSelected = fontFamily == currentReadingPreferences.fontFamily,
@@ -292,6 +292,7 @@ private fun ReadingPreferencesPreviewFeedback(
     }
 
     val buttonLabel = stringResource(R.string.reader_preferences_screen_preview_text_feedback_label)
+    @Suppress("DEPRECATION")
     ClickableText(
         text = annotatedString,
         style = textStyle,
@@ -334,7 +335,7 @@ private fun getTitleTextStyle(
 @Preview
 @Composable
 private fun ReadingPreferencesScreenPreview() {
-    AppThemeM2 {
+    AppThemeM3 {
         var readingPreferences by remember { mutableStateOf(ReaderReadingPreferences()) }
 
         ReadingPreferencesScreen(

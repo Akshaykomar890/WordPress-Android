@@ -9,7 +9,7 @@ import org.wordpress.android.R
 import org.wordpress.android.models.ReaderTag
 import org.wordpress.android.models.ReaderTagList
 import org.wordpress.android.models.ReaderTagType
-import org.wordpress.android.ui.compose.components.menu.dropdown.MenuElementData
+import org.wordpress.android.ui.reader.views.compose.dropdown.JetpackMenuElementData
 import org.wordpress.android.ui.utils.UiString.UiStringRes
 import org.wordpress.android.ui.utils.UiString.UiStringText
 import org.wordpress.android.util.config.ReaderTagsFeedFeatureConfig
@@ -57,7 +57,7 @@ class ReaderTopBarMenuHelperTest {
         val followedP2sItem = menu.findSingleItem { it.id == "5" }!!
         assertThat(followedP2sItem.text).isEqualTo(UiStringText("Followed P2s"))
 
-        assertThat(menu).contains(MenuElementData.Divider)
+        assertThat(menu).contains(JetpackMenuElementData.Divider)
 
         val customListsItem = menu.findSubMenu()!!
         assertThat(customListsItem.text).isEqualTo(UiStringRes(R.string.reader_dropdown_menu_lists))
@@ -134,7 +134,7 @@ class ReaderTopBarMenuHelperTest {
         val followedP2sItem = menu.findSingleItem { it.id == "6" }!!
         assertThat(followedP2sItem.text).isEqualTo(UiStringText("Followed P2s"))
 
-        assertThat(menu).contains(MenuElementData.Divider)
+        assertThat(menu).contains(JetpackMenuElementData.Divider)
 
         val customListsItem = menu.findSubMenu()!!
         assertThat(customListsItem.text).isEqualTo(UiStringRes(R.string.reader_dropdown_menu_lists))
@@ -257,7 +257,7 @@ class ReaderTopBarMenuHelperTest {
         val menu = helper.createMenu(tags)
 
         val customListsItem = menu.findSubMenu()
-        assertThat(menu).doesNotContain(MenuElementData.Divider)
+        assertThat(menu).doesNotContain(JetpackMenuElementData.Divider)
         assertThat(customListsItem).isNull()
     }
 
@@ -312,14 +312,14 @@ class ReaderTopBarMenuHelperTest {
         assertThat(helper.getReaderTagIndexFromMenuItem(customList3Item)).isEqualTo(7)
     }
 
-    private fun List<MenuElementData>.findSingleItem(
-        predicate: (MenuElementData.Item.Single) -> Boolean
-    ): MenuElementData.Item.Single? {
-        return find { it is MenuElementData.Item.Single && predicate(it) } as? MenuElementData.Item.Single
+    private fun List<JetpackMenuElementData>.findSingleItem(
+        predicate: (JetpackMenuElementData.Item.Single) -> Boolean
+    ): JetpackMenuElementData.Item.Single? {
+        return find { it is JetpackMenuElementData.Item.Single && predicate(it) } as? JetpackMenuElementData.Item.Single
     }
 
-    private fun List<MenuElementData>.findSubMenu(): MenuElementData.Item.SubMenu? {
-        return find { it is MenuElementData.Item.SubMenu } as? MenuElementData.Item.SubMenu
+    private fun List<JetpackMenuElementData>.findSubMenu(): JetpackMenuElementData.Item.SubMenu? {
+        return find { it is JetpackMenuElementData.Item.SubMenu } as? JetpackMenuElementData.Item.SubMenu
     }
 
     private fun mockDiscoverTag(): ReaderTag {

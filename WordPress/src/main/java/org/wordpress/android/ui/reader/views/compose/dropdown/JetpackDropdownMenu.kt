@@ -1,4 +1,4 @@
-package org.wordpress.android.ui.compose.components.menu.dropdown
+package org.wordpress.android.ui.reader.views.compose.dropdown
 
 import android.content.res.Configuration
 import androidx.compose.animation.core.FiniteAnimationSpec
@@ -13,10 +13,9 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material.ContentAlpha
-import androidx.compose.material.Divider
-import androidx.compose.material.Icon
 import androidx.compose.material3.DropdownMenuItem
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Icon
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.MenuDefaults
@@ -38,29 +37,29 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
-import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.DpOffset
+import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import me.saket.cascade.CascadeColumnScope
 import me.saket.cascade.CascadeDropdownMenu
 import org.wordpress.android.R
-import org.wordpress.android.ui.compose.theme.AppThemeM2
+import org.wordpress.android.ui.compose.theme.AppThemeM3
 import org.wordpress.android.ui.compose.utils.uiStringText
 import org.wordpress.android.ui.utils.UiString.UiStringText
 
 @Composable
 fun JetpackDropdownMenu(
-    menuItems: List<MenuElementData>,
-    selectedItem: MenuElementData.Item.Single,
-    onSingleItemClick: (MenuElementData.Item.Single) -> Unit,
+    menuItems: List<JetpackMenuElementData>,
+    selectedItem: JetpackMenuElementData.Item.Single,
+    onSingleItemClick: (JetpackMenuElementData.Item.Single) -> Unit,
     menuButtonHeight: Dp = 36.dp,
     contentSizeAnimation: FiniteAnimationSpec<IntSize> = spring(),
     onDropdownMenuClick: () -> Unit,
 ) {
     Column {
         var isMenuVisible by remember { mutableStateOf(false) }
-        DropdownMenuButton(
+        JetpackDropdownMenuButton(
             height = menuButtonHeight,
             contentSizeAnimation = contentSizeAnimation,
             selectedItem = selectedItem,
@@ -72,7 +71,7 @@ fun JetpackDropdownMenu(
         val cascadeMenuWidth = 200.dp
         CascadeDropdownMenu(
             modifier = Modifier
-                .background(MenuColors.itemBackgroundColor()),
+                .background(JetpackDropdownMenuColors.itemBackgroundColor()),
             expanded = isMenuVisible,
             fixedWidth = cascadeMenuWidth,
             onDismissRequest = { isMenuVisible = false },
@@ -81,7 +80,7 @@ fun JetpackDropdownMenu(
                 y = 0.dp
             )
         ) {
-            val onMenuItemSingleClick: (MenuElementData.Item.Single) -> Unit = { clickedItem ->
+            val onMenuItemSingleClick: (JetpackMenuElementData.Item.Single) -> Unit = { clickedItem ->
                 isMenuVisible = false
                 onSingleItemClick(clickedItem)
             }
@@ -94,18 +93,16 @@ fun JetpackDropdownMenu(
 
 @Composable
 private fun CascadeColumnScope.MenuElementComposable(
-    element: MenuElementData,
-    onMenuItemSingleClick: (MenuElementData.Item.Single) -> Unit
+    element: JetpackMenuElementData,
+    onMenuItemSingleClick: (JetpackMenuElementData.Item.Single) -> Unit
 ) {
     when (element) {
-        is MenuElementData.Divider -> Divider(
-            color = MenuColors.itemDividerColor(),
-        )
+        is JetpackMenuElementData.Divider -> HorizontalDivider(color = JetpackDropdownMenuColors.itemDividerColor())
 
-        is MenuElementData.Item -> {
+        is JetpackMenuElementData.Item -> {
             when (element) {
-                is MenuElementData.Item.Single -> Single(element, onMenuItemSingleClick)
-                is MenuElementData.Item.SubMenu -> SubMenu(element, onMenuItemSingleClick)
+                is JetpackMenuElementData.Item.Single -> Single(element, onMenuItemSingleClick)
+                is JetpackMenuElementData.Item.SubMenu -> SubMenu(element, onMenuItemSingleClick)
             }
         }
     }
@@ -113,14 +110,14 @@ private fun CascadeColumnScope.MenuElementComposable(
 
 @Composable
 private fun Single(
-    element: MenuElementData.Item.Single,
-    onMenuItemSingleClick: (MenuElementData.Item.Single) -> Unit,
+    element: JetpackMenuElementData.Item.Single,
+    onMenuItemSingleClick: (JetpackMenuElementData.Item.Single) -> Unit,
 ) {
-    val enabledContentColor = MenuColors.itemContentColor()
-    val disabledContentColor = enabledContentColor.copy(alpha = ContentAlpha.disabled)
+    val enabledContentColor = JetpackDropdownMenuColors.itemContentColor()
+    val disabledContentColor = enabledContentColor.copy(alpha = 0.38f)
     DropdownMenuItem(
         modifier = Modifier
-            .background(MenuColors.itemBackgroundColor()),
+            .background(JetpackDropdownMenuColors.itemBackgroundColor()),
         onClick = {
             onMenuItemSingleClick(element)
         },
@@ -160,7 +157,7 @@ private fun CascadeColumnScope.SubMenuHeader(
 ) {
     Row(
         modifier = modifier
-            .background(MenuColors.itemBackgroundColor())
+            .background(JetpackDropdownMenuColors.itemBackgroundColor())
             .fillMaxWidth()
             .clickable(enabled = hasParentMenu, role = Role.Button) {
                 if (!isNavigationRunning) {
@@ -174,7 +171,7 @@ private fun CascadeColumnScope.SubMenuHeader(
             LocalTextStyle provides MaterialTheme.typography.bodyLarge
         ) {
             if (this@SubMenuHeader.hasParentMenu) {
-                val backIconResource = if(LocalLayoutDirection.current == LayoutDirection.Rtl) {
+                val backIconResource = if (LocalLayoutDirection.current == LayoutDirection.Rtl) {
                     R.drawable.ic_arrow_right_white_24dp
                 } else {
                     R.drawable.ic_arrow_left_white_24dp
@@ -182,7 +179,7 @@ private fun CascadeColumnScope.SubMenuHeader(
                 Image(
                     painter = painterResource(backIconResource),
                     contentDescription = stringResource(R.string.reader_label_toolbar_back),
-                    colorFilter = ColorFilter.tint(MenuColors.itemContentColor()),
+                    colorFilter = ColorFilter.tint(JetpackDropdownMenuColors.itemContentColor()),
                 )
             }
             Box(Modifier.weight(1f)) {
@@ -194,14 +191,14 @@ private fun CascadeColumnScope.SubMenuHeader(
 
 @Composable
 private fun CascadeColumnScope.SubMenu(
-    element: MenuElementData.Item.SubMenu,
-    onMenuItemSingleClick: (MenuElementData.Item.Single) -> Unit,
+    element: JetpackMenuElementData.Item.SubMenu,
+    onMenuItemSingleClick: (JetpackMenuElementData.Item.Single) -> Unit,
 ) {
-    val enabledContentColor = MenuColors.itemContentColor()
-    val disabledContentColor = enabledContentColor.copy(alpha = ContentAlpha.disabled)
+    val enabledContentColor = JetpackDropdownMenuColors.itemContentColor()
+    val disabledContentColor = enabledContentColor.copy(alpha = 0.38f)
     DropdownMenuItem(
         modifier = Modifier
-            .background(MenuColors.itemBackgroundColor()),
+            .background(JetpackDropdownMenuColors.itemBackgroundColor()),
         colors = MenuDefaults.itemColors(
             textColor = enabledContentColor,
             leadingIconColor = enabledContentColor,
@@ -235,34 +232,34 @@ private fun CascadeColumnScope.SubMenu(
 @Composable
 fun JetpackDropdownMenuPreview() {
     val menuItems = listOf(
-        MenuElementData.Item.Single(
+        JetpackMenuElementData.Item.Single(
             id = "text-only",
             text = UiStringText("Text only"),
         ),
-        MenuElementData.Item.Single(
+        JetpackMenuElementData.Item.Single(
             id = "text-and-icon",
             text = UiStringText("Text and leading icon"),
             leadingIcon = R.drawable.ic_jetpack_logo_white_24dp,
         ),
-        MenuElementData.Divider,
-        MenuElementData.Item.SubMenu(
+        JetpackMenuElementData.Divider,
+        JetpackMenuElementData.Item.SubMenu(
             id = "text-and-sub-menu",
             text = UiStringText("Text and sub-menu"),
             children = listOf(
-                MenuElementData.Item.Single(
+                JetpackMenuElementData.Item.Single(
                     id = "text-sub-menu-1",
                     text = UiStringText("Text sub-menu 1"),
                 ),
-                MenuElementData.Item.Single(
+                JetpackMenuElementData.Item.Single(
                     id = "text-sub-menu-2",
                     text = UiStringText("Text sub-menu 2"),
                 )
             )
         ),
     )
-    var selectedItem by remember { mutableStateOf(menuItems.first() as MenuElementData.Item.Single) }
+    var selectedItem by remember { mutableStateOf(menuItems.first() as JetpackMenuElementData.Item.Single) }
 
-    AppThemeM2 {
+    AppThemeM3 {
         Box(
             modifier = Modifier
                 .padding(start = 8.dp, top = 8.dp)

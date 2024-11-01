@@ -11,8 +11,8 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material.Button
-import androidx.compose.material.ButtonDefaults
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -26,7 +26,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import org.wordpress.android.R
 import org.wordpress.android.ui.compose.theme.AppColor
-import org.wordpress.android.ui.compose.theme.AppThemeM2
+import org.wordpress.android.ui.compose.theme.AppThemeM3
 import org.wordpress.android.ui.compose.unit.Margin
 
 @Composable
@@ -63,9 +63,9 @@ fun ReaderAnnouncementCard(
             modifier = Modifier
                 .fillMaxWidth(),
             onClick = { onAnnouncementCardDoneClick() },
-            elevation = ButtonDefaults.elevation(0.dp),
+            elevation = ButtonDefaults.buttonElevation(0.dp),
             colors = ButtonDefaults.buttonColors(
-                backgroundColor = primaryColor,
+                containerColor = primaryColor,
             ),
         ) {
             Text(
@@ -87,7 +87,6 @@ private fun ReaderAnnouncementCardItem(data: ReaderAnnouncementCardItemData) {
             .defaultMinSize(minWidth = 54.dp, minHeight = 54.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        val iconBackgroundColor = primaryColor
         Icon(
             modifier = Modifier
                 .padding(
@@ -96,7 +95,7 @@ private fun ReaderAnnouncementCardItem(data: ReaderAnnouncementCardItemData) {
                 )
                 .drawBehind {
                     drawCircle(
-                        color = iconBackgroundColor,
+                        color = primaryColor,
                         radius = this.size.maxDimension,
                     )
                 },
@@ -139,7 +138,7 @@ data class ReaderAnnouncementCardItemData(
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_YES)
 @Composable
 fun ReaderTagsFeedPostListItemPreview() {
-    AppThemeM2 {
+    AppThemeM3 {
         Box(
             modifier = Modifier
                 .fillMaxWidth()

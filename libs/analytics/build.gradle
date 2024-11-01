@@ -2,17 +2,6 @@ plugins {
     alias(libs.plugins.android.library)
 }
 
-repositories {
-    maven {
-        url "https://a8c-libs.s3.amazonaws.com/android"
-        content {
-            includeGroup "org.wordpress"
-            includeGroup "com.automattic"
-            includeGroup "com.automattic.tracks"
-        }
-    }
-}
-
 dependencies {
     implementation(libs.automattic.tracks.android)
     implementation(libs.wordpress.utils)

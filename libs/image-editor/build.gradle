@@ -38,10 +38,6 @@ android {
     }
 }
 
-repositories {
-    maven { url "https://www.jitpack.io" }
-}
-
 dependencies {
     implementation(libs.androidx.core.main)
     implementation(libs.androidx.activity.main)

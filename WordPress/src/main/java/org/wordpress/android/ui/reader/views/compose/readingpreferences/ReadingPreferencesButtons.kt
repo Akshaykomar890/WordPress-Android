@@ -14,8 +14,8 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Text
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -43,7 +43,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.wordpress.android.R
-import org.wordpress.android.ui.compose.theme.AppThemeM2
+import org.wordpress.android.ui.compose.theme.AppThemeM3
 import org.wordpress.android.ui.compose.unit.Margin
 import org.wordpress.android.ui.reader.models.ReaderReadingPreferences
 import org.wordpress.android.ui.reader.utils.toComposeFontFamily
@@ -83,16 +83,16 @@ private fun ReadingPreferenceButton(
             }
             .width(buttonWidth)
             .background(
-                color = MaterialTheme.colors.surface,
+                color = MaterialTheme.colorScheme.surface,
                 shape = buttonShape,
             )
             .border(
                 width = buttonBorderWidth,
                 shape = buttonShape,
                 color = if (isSelected) {
-                    MaterialTheme.colors.onSurface.copy(alpha = BORDER_ALPHA_100)
+                    MaterialTheme.colorScheme.onSurface.copy(alpha = BORDER_ALPHA_100)
                 } else {
-                    MaterialTheme.colors.onSurface.copy(alpha = BORDER_ALPHA_10)
+                    MaterialTheme.colorScheme.onSurface.copy(alpha = BORDER_ALPHA_10)
                 },
             )
             .clickable { onClick() }
@@ -108,7 +108,7 @@ private fun ReadingPreferenceButton(
             overflow = TextOverflow.Ellipsis,
             style = TextStyle(
                 fontSize = labelFontSize,
-                color = MaterialTheme.colors.onSurface,
+                color = MaterialTheme.colorScheme.onSurface,
             )
         )
     }
@@ -135,7 +135,7 @@ fun ReadingPreferencesThemeButton(
                 .border(
                     width = themeButtonPreviewBorderWidth,
                     shape = CircleShape,
-                    color = MaterialTheme.colors.onSurface.copy(alpha = BORDER_ALPHA_10),
+                    color = MaterialTheme.colorScheme.onSurface.copy(alpha = BORDER_ALPHA_10),
                 )
                 .rotate(-45f),
         ) {
@@ -183,13 +183,13 @@ fun ReadingPreferencesFontFamilyButton(
 @Preview
 @Composable
 fun ReadingPreferencesThemeButtonPreview() {
-    AppThemeM2 {
+    AppThemeM3 {
         var selectedItem: ReaderReadingPreferences.Theme? by remember { mutableStateOf(null) }
 
         Row(
             horizontalArrangement = Arrangement.spacedBy(Margin.Medium.value),
         ) {
-            ReaderReadingPreferences.Theme.values().forEach { theme ->
+            ReaderReadingPreferences.Theme.entries.forEach { theme ->
                 ReadingPreferencesThemeButton(
                     theme = theme,
                     isSelected = theme == selectedItem,
@@ -203,13 +203,13 @@ fun ReadingPreferencesThemeButtonPreview() {
 @Preview
 @Composable
 fun ReadingPreferencesFontFamilyButtonPreview() {
-    AppThemeM2 {
+    AppThemeM3 {
         var selectedItem: ReaderReadingPreferences.FontFamily? by remember { mutableStateOf(null) }
 
         Row(
             horizontalArrangement = Arrangement.spacedBy(Margin.Medium.value),
         ) {
-            ReaderReadingPreferences.FontFamily.values().forEach { fontFamily ->
+            ReaderReadingPreferences.FontFamily.entries.forEach { fontFamily ->
                 ReadingPreferencesFontFamilyButton(
                     fontFamily = fontFamily,
                     isSelected = fontFamily == selectedItem,

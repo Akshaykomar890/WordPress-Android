@@ -84,40 +84,6 @@ sentry {
     telemetry = false
 }
 
-repositories {
-    maven {
-        url "https://a8c-libs.s3.amazonaws.com/android"
-        content {
-            includeGroup "org.wordpress"
-            includeGroup "org.wordpress.aztec"
-            includeGroup "org.wordpress.wellsql"
-            includeGroup "org.wordpress.gutenberg-mobile"
-            includeGroup "org.wordpress.gutenbergkit"
-            includeGroupByRegex "org.wordpress.react-native-libraries.*"
-            includeGroup "com.automattic"
-            includeGroup "com.automattic.tracks"
-            includeGroup "com.gravatar"
-            includeGroup "rs.wordpress.api"
-        }
-    }
-    maven {
-        url "https://a8c-libs.s3.amazonaws.com/android/react-native-mirror"
-        content {
-            includeGroup "com.facebook.react"
-        }
-    }
-    maven {
-        url 'https://zendesk.jfrog.io/zendesk/repo'
-        content {
-            includeGroup "com.zendesk"
-            includeGroup "com.zendesk.belvedere2"
-        }
-    }
-    google()
-    mavenCentral()
-    maven { url "https://www.jitpack.io" }
-}
-
 allOpen {
     // allows mocking for classes w/o directly opening them for release builds
     annotation 'org.wordpress.android.testing.OpenClassAnnotation'

@@ -25,7 +25,7 @@ import org.wordpress.android.models.ReaderTag
 import org.wordpress.android.models.ReaderTagList
 import org.wordpress.android.modules.BG_THREAD
 import org.wordpress.android.modules.UI_THREAD
-import org.wordpress.android.ui.compose.components.menu.dropdown.MenuElementData
+import org.wordpress.android.ui.reader.views.compose.dropdown.JetpackMenuElementData
 import org.wordpress.android.ui.jetpackoverlay.JetpackFeatureRemovalOverlayUtil
 import org.wordpress.android.ui.jetpackoverlay.JetpackOverlayConnectedFeature.READER
 import org.wordpress.android.ui.mysite.SelectedSiteRepository
@@ -382,20 +382,20 @@ class ReaderViewModel @Inject constructor(
         readerTracker.trackDropdownMenuOpened()
     }
 
-    private fun getMenuItemFromReaderTag(readerTag: ReaderTag): MenuElementData.Item.Single? =
+    private fun getMenuItemFromReaderTag(readerTag: ReaderTag): JetpackMenuElementData.Item.Single? =
         _topBarUiState.value?.menuItems
             // Selected menu item must be an Item.Single
             ?.filterSingleItems()
             // Find menu item based onn selected ReaderTag
             ?.find { readerTopBarMenuHelper.getReaderTagIndexFromMenuItem(it) == readerTagsList.indexOf(readerTag) }
 
-    private fun List<MenuElementData>.filterSingleItems(): List<MenuElementData.Item.Single> {
-        val singleItems = mutableListOf<MenuElementData.Item.Single>()
+    private fun List<JetpackMenuElementData>.filterSingleItems(): List<JetpackMenuElementData.Item.Single> {
+        val singleItems = mutableListOf<JetpackMenuElementData.Item.Single>()
         forEach {
-            if (it is MenuElementData.Item.Single) {
+            if (it is JetpackMenuElementData.Item.Single) {
                 singleItems.add(it)
-            } else if (it is MenuElementData.Item.SubMenu) {
-                singleItems.addAll(it.children.filterIsInstance<MenuElementData.Item.Single>())
+            } else if (it is JetpackMenuElementData.Item.SubMenu) {
+                singleItems.addAll(it.children.filterIsInstance<JetpackMenuElementData.Item.Single>())
             }
         }
         return singleItems
@@ -406,7 +406,7 @@ class ReaderViewModel @Inject constructor(
         readerTagsList.addAll(readerTags)
     }
 
-    fun onTopBarMenuItemClick(item: MenuElementData.Item.Single) {
+    fun onTopBarMenuItemClick(item: JetpackMenuElementData.Item.Single) {
         val selectedReaderTag = readerTagsList[readerTopBarMenuHelper.getReaderTagIndexFromMenuItem(item)]
 
         // Avoid reloading a content stream that is already loaded
@@ -524,8 +524,8 @@ class ReaderViewModel @Inject constructor(
     }
 
     data class TopBarUiState(
-        val menuItems: List<MenuElementData>,
-        val selectedItem: MenuElementData.Item.Single,
+        val menuItems: List<JetpackMenuElementData>,
+        val selectedItem: JetpackMenuElementData.Item.Single,
         val filterUiState: FilterUiState? = null,
         val onDropdownMenuClick: () -> Unit,
         val isSearchActionVisible: Boolean = false,

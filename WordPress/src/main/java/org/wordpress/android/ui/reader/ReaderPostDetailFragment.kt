@@ -595,6 +595,10 @@ class ReaderPostDetailFragment : ViewPagerFragment(),
             // Do nothing
         }
 
+        viewModel.postBlocked.observe(viewLifecycleOwner) { postBlocked ->
+            modifyMoreMenu(postBlocked)
+        }
+
         viewModel.snackbarEvents.observeEvent(viewLifecycleOwner) { it.showSnackbar(binding) }
 
         viewModel.navigationEvents.observeEvent(viewLifecycleOwner) { it.handleNavigationEvent() }
@@ -980,6 +984,18 @@ class ReaderPostDetailFragment : ViewPagerFragment(),
                     bookmarksSavedLocallyDialog = it
                     it.show()
                 }
+        }
+    }
+
+    private fun modifyMoreMenu(
+        postBlocked: Boolean
+    ){
+        val moreMenu:MenuItem? = toolBar.menu.findItem(R.id.menu_more)
+        if (postBlocked){
+            moreMenu?.setVisible(false)
+        }
+        else{
+            moreMenu?.setVisible(true)
         }
     }
 

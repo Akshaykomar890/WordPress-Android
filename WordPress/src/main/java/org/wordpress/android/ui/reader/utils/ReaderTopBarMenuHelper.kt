@@ -8,7 +8,7 @@ import org.wordpress.android.R
 import org.wordpress.android.models.ReaderTag
 import org.wordpress.android.models.ReaderTagList
 import org.wordpress.android.models.ReaderTagType
-import org.wordpress.android.ui.compose.components.menu.dropdown.MenuElementData
+import org.wordpress.android.ui.reader.views.compose.dropdown.JetpackMenuElementData
 import org.wordpress.android.ui.utils.UiString
 import org.wordpress.android.util.config.ReaderTagsFeedFeatureConfig
 import org.wordpress.android.util.extensions.indexOrNull
@@ -17,8 +17,8 @@ import javax.inject.Inject
 class ReaderTopBarMenuHelper @Inject constructor(
     private val readerTagsFeedFeatureConfig: ReaderTagsFeedFeatureConfig
 ) {
-    fun createMenu(readerTagsList: ReaderTagList): List<MenuElementData> {
-        return mutableListOf<MenuElementData>().apply {
+    fun createMenu(readerTagsList: ReaderTagList): List<JetpackMenuElementData> {
+        return mutableListOf<JetpackMenuElementData>().apply {
             readerTagsList.indexOrNull { it.isDiscover }?.let { discoverIndex ->
                 add(createDiscoverItem(getMenuItemIdFromReaderTagIndex(discoverIndex)))
             }
@@ -54,13 +54,13 @@ class ReaderTopBarMenuHelper @Inject constructor(
                 }
                 .takeIf { it.isNotEmpty() }
                 ?.let { customListsArray ->
-                    add(MenuElementData.Divider)
+                    add(JetpackMenuElementData.Divider)
                     createCustomListsItems(customListsArray)
                 }
         }
     }
 
-    private fun MutableList<MenuElementData>.createCustomListsItems(
+    private fun MutableList<JetpackMenuElementData>.createCustomListsItems(
         customListsArray: SparseArrayCompat<ReaderTag>
     ) {
         if (customListsArray.size() > 2) {
@@ -70,7 +70,7 @@ class ReaderTopBarMenuHelper @Inject constructor(
             // If the custom lists has 2 or less items, we add the items directly without submenu
             customListsArray.forEach { index, readerTag ->
                 add(
-                    MenuElementData.Item.Single(
+                    JetpackMenuElementData.Item.Single(
                         id = getMenuItemIdFromReaderTagIndex(index),
                         text = UiString.UiStringText(readerTag.tagTitle),
                     )
@@ -79,71 +79,71 @@ class ReaderTopBarMenuHelper @Inject constructor(
         }
     }
 
-    private fun createDiscoverItem(id: String): MenuElementData.Item.Single {
-        return MenuElementData.Item.Single(
+    private fun createDiscoverItem(id: String): JetpackMenuElementData.Item.Single {
+        return JetpackMenuElementData.Item.Single(
             id = id,
             text = UiString.UiStringRes(R.string.reader_dropdown_menu_discover),
             leadingIcon = R.drawable.ic_reader_discover_24dp,
         )
     }
 
-    private fun createSubscriptionsItem(id: String): MenuElementData.Item.Single {
-        return MenuElementData.Item.Single(
+    private fun createSubscriptionsItem(id: String): JetpackMenuElementData.Item.Single {
+        return JetpackMenuElementData.Item.Single(
             id = id,
             text = UiString.UiStringRes(R.string.reader_dropdown_menu_subscriptions),
             leadingIcon = R.drawable.ic_reader_subscriptions_24dp,
         )
     }
 
-    private fun createSavedItem(id: String): MenuElementData.Item.Single {
-        return MenuElementData.Item.Single(
+    private fun createSavedItem(id: String): JetpackMenuElementData.Item.Single {
+        return JetpackMenuElementData.Item.Single(
             id = id,
             text = UiString.UiStringRes(R.string.reader_dropdown_menu_saved),
             leadingIcon = R.drawable.ic_reader_saved_24dp,
         )
     }
 
-    private fun createLikedItem(id: String): MenuElementData.Item.Single {
-        return MenuElementData.Item.Single(
+    private fun createLikedItem(id: String): JetpackMenuElementData.Item.Single {
+        return JetpackMenuElementData.Item.Single(
             id = id,
             text = UiString.UiStringRes(R.string.reader_dropdown_menu_liked),
             leadingIcon = R.drawable.ic_reader_liked_24dp,
         )
     }
 
-    private fun createAutomatticItem(id: String): MenuElementData.Item.Single {
-        return MenuElementData.Item.Single(
+    private fun createAutomatticItem(id: String): JetpackMenuElementData.Item.Single {
+        return JetpackMenuElementData.Item.Single(
             id = id,
             text = UiString.UiStringRes(R.string.reader_dropdown_menu_automattic),
         )
     }
 
-    private fun createFollowedP2sItem(id: String, text: String): MenuElementData.Item.Single {
-        return MenuElementData.Item.Single(
+    private fun createFollowedP2sItem(id: String, text: String): JetpackMenuElementData.Item.Single {
+        return JetpackMenuElementData.Item.Single(
             id = id,
             text = UiString.UiStringText(text),
         )
     }
 
-    private fun createTagsItem(id: String): MenuElementData.Item.Single {
-        return MenuElementData.Item.Single(
+    private fun createTagsItem(id: String): JetpackMenuElementData.Item.Single {
+        return JetpackMenuElementData.Item.Single(
             id = id,
             text = UiString.UiStringRes(R.string.reader_dropdown_menu_tags),
             leadingIcon = R.drawable.ic_reader_tags_24dp,
         )
     }
 
-    private fun createCustomListsItem(customLists: SparseArrayCompat<ReaderTag>): MenuElementData.Item.SubMenu {
-        val customListsMenuItems = mutableListOf<MenuElementData.Item.Single>()
+    private fun createCustomListsItem(customLists: SparseArrayCompat<ReaderTag>): JetpackMenuElementData.Item.SubMenu {
+        val customListsMenuItems = mutableListOf<JetpackMenuElementData.Item.Single>()
         customLists.forEach { index, readerTag ->
             customListsMenuItems.add(
-                MenuElementData.Item.Single(
+                JetpackMenuElementData.Item.Single(
                     id = getMenuItemIdFromReaderTagIndex(index),
                     text = UiString.UiStringText(readerTag.tagTitle),
                 )
             )
         }
-        return MenuElementData.Item.SubMenu(
+        return JetpackMenuElementData.Item.SubMenu(
             // We don't need this ID since this menu item just opens the sub-menu. It doesn't
             // change the content that is currently being displayed.
             id = "custom-lists",
@@ -154,5 +154,5 @@ class ReaderTopBarMenuHelper @Inject constructor(
 
     private fun getMenuItemIdFromReaderTagIndex(readerTagIndex: Int): String = "$readerTagIndex"
 
-    fun getReaderTagIndexFromMenuItem(menuItem: MenuElementData.Item.Single) = menuItem.id.toInt()
+    fun getReaderTagIndexFromMenuItem(menuItem: JetpackMenuElementData.Item.Single) = menuItem.id.toInt()
 }

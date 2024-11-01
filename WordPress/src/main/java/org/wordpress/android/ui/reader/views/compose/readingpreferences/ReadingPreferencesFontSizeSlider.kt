@@ -9,8 +9,8 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.wrapContentWidth
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Text
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Slider
 import androidx.compose.material3.SliderDefaults
@@ -54,7 +54,7 @@ private val sliderTrackColor: Color
     @Composable
     get() {
         val alpha = 0.4f
-        return MaterialTheme.colors.onSurface.copy(alpha = alpha).compositeOver(MaterialTheme.colors.surface)
+        return MaterialTheme.colorScheme.onSurface.copy(alpha = alpha).compositeOver(MaterialTheme.colorScheme.surface)
     }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -65,8 +65,8 @@ fun ReadingPreferencesFontSizeSlider(
     previewFontFamily: FontFamily,
     modifier: Modifier = Modifier,
 ) {
-    val selectedIndex = ReaderReadingPreferences.FontSize.values().indexOf(selectedFontSize)
-    val maxRange = (ReaderReadingPreferences.FontSize.values().size - 1).toFloat()
+    val selectedIndex = ReaderReadingPreferences.FontSize.entries.indexOf(selectedFontSize)
+    val maxRange = (ReaderReadingPreferences.FontSize.entries.size - 1).toFloat()
 
     Column(
         modifier = modifier,
@@ -81,7 +81,7 @@ fun ReadingPreferencesFontSizeSlider(
 
             val interactionSource = remember { MutableInteractionSource() }
             val sliderColors = SliderDefaults.colors(
-                thumbColor = MaterialTheme.colors.onSurface,
+                thumbColor = MaterialTheme.colorScheme.onSurface,
             )
 
             val contentDescriptionLabel = stringResource(R.string.reader_preferences_screen_font_size_label)
@@ -98,11 +98,11 @@ fun ReadingPreferencesFontSizeSlider(
                 onValueChange = {
                     val newIndex = it.toInt()
                     if (newIndex != selectedIndex) {
-                        onFontSizeSelected(ReaderReadingPreferences.FontSize.values()[newIndex])
+                        onFontSizeSelected(ReaderReadingPreferences.FontSize.entries[newIndex])
                     }
                 },
                 valueRange = 0f..maxRange,
-                steps = ReaderReadingPreferences.FontSize.values().size - 2, // start and end are already steps
+                steps = ReaderReadingPreferences.FontSize.entries.size - 2, // start and end are already steps
                 colors = sliderColors,
                 interactionSource = interactionSource,
                 thumb = {
@@ -110,7 +110,7 @@ fun ReadingPreferencesFontSizeSlider(
                         modifier = Modifier.padding(thumbPadding),
                         thumbSize = DpSize(thumbSize, thumbSize),
                         interactionSource = interactionSource,
-                        colors = SliderDefaults.colors(thumbColor = MaterialTheme.colors.onSurface),
+                        colors = SliderDefaults.colors(thumbColor = MaterialTheme.colorScheme.onSurface),
                     )
                 },
                 track = {
@@ -133,7 +133,7 @@ private fun FontSizePreviewLabels(
             .fillMaxWidth()
             .clearAndSetSemantics { },
         content = {
-            ReaderReadingPreferences.FontSize.values().forEach { fontSize ->
+            ReaderReadingPreferences.FontSize.entries.forEach { fontSize ->
                 val isSelected = fontSize == selectedFontSize
 
                 Text(
@@ -179,7 +179,7 @@ private fun FontSizePreviewLabels(
 @Composable
 private fun SliderStepIndicators() {
     val stepIndicatorColor = sliderTrackColor
-    val steps = ReaderReadingPreferences.FontSize.values().size
+    val steps = ReaderReadingPreferences.FontSize.entries.size
 
     Canvas(
         modifier = Modifier

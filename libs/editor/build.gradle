@@ -5,30 +5,6 @@ plugins {
     alias(libs.plugins.kotlinx.kover)
 }
 
-repositories {
-    maven {
-        url "https://a8c-libs.s3.amazonaws.com/android"
-        content {
-            includeGroup "org.wordpress"
-            includeGroup "org.wordpress.aztec"
-            includeGroup "org.wordpress.gutenberg-mobile"
-            includeGroup "org.wordpress.gutenbergkit"
-            includeGroupByRegex "org.wordpress.react-native-libraries.*"
-            includeGroup "com.automattic"
-            includeGroup "com.automattic.tracks"
-        }
-    }
-    maven {
-        url "https://a8c-libs.s3.amazonaws.com/android/react-native-mirror"
-        content {
-            includeGroup "com.facebook.react"
-        }
-    }
-    google()
-    mavenCentral()
-    maven { url "https://www.jitpack.io" }
-}
-
 android {
     namespace "org.wordpress.android.editor"
 
