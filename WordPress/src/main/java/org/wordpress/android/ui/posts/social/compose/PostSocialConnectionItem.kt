@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -25,7 +26,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import org.wordpress.android.R
-import org.wordpress.android.ui.compose.components.buttons.WPSwitch
 import org.wordpress.android.ui.compose.theme.AppThemeM3
 import org.wordpress.android.ui.compose.unit.Margin
 import org.wordpress.android.ui.posts.social.PostSocialConnection
@@ -62,7 +62,7 @@ fun PostSocialConnectionItem(
                 .copy(alpha = if (enabled) 1.0f else 0.38f),
         )
         Spacer(modifier = Modifier.weight(1f))
-        WPSwitch(
+        Switch(
             checked = connection.isSharingEnabled,
             onCheckedChange = onSharingChange,
             enabled = enabled,
