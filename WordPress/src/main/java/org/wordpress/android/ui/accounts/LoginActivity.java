@@ -197,7 +197,7 @@ public class LoginActivity extends LocaleAwareActivity implements ConnectionCall
                     break;
                 case WPCOM_REAUTHENTICATE:
                     mUnifiedLoginTracker.setSource(Source.REAUTHENTICATION);
-                    checkSmartLockPasswordAndStartLogin();
+                    showWPcomLoginScreen(getBaseContext());
                     break;
                 case SHARE_INTENT:
                     mUnifiedLoginTracker.setSource(Source.SHARE);
