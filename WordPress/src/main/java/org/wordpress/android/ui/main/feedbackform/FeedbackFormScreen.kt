@@ -212,7 +212,7 @@ private fun Screen(
         Scaffold(
             topBar = {
                 TopAppBar(
-                    title = { Text(stringResource(id = R.string.feedback_form_title)) },
+                    title = { Text(stringResource(id = R.string.feedback_form_screen_title)) },
                     navigationIcon = {
                         IconButton(onClick = onCloseClick) {
                             Icon(Icons.Filled.Close, stringResource(R.string.close))

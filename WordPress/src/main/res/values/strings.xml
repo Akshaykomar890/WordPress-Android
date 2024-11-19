@@ -1137,7 +1137,7 @@
     <string name="jetpack_plugin_install_error_button_contact_support">Contact Support</string>
 
     <!-- feedback form -->
-    <string name="feedback_form_title">Feedback</string>
+    <string name="feedback_form_screen_title">@string/suggest_a_feature</string>
     <string name="feedback_form_message_hint">Your feedback is appreciated!</string>
     <string name="feedback_form_discard">Discard your feedback?</string>
     <string name="feedback_form_success">Thanks for submitting your feedback!</string>
@@ -2965,7 +2965,7 @@
     <string name="let_us_help">Let Us Help</string>
     <string name="start_over_text">If you want a site but don\'t want any of the posts and pages you have now, our support team can delete your posts, pages, media and comments for you.\n\nThis will keep your site and URL active, but give you a fresh start on your content creation. Just contact us to have your current content cleared out.</string>
     <string name="contact_support">Contact Support</string>
-    <string name="send_feedback">Send feedback</string>
+    <string name="suggest_a_feature">Suggest a feature</string>
     <string name="confirm_delete_site">Confirm Delete Site</string>
     <string name="confirm_delete_site_prompt">Please type in %1$s in the field below to confirm. Your site will then be gone forever.</string>
     <string name="site_settings_export_content_title">Export content</string>

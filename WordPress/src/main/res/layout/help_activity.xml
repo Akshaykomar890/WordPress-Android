@@ -133,7 +133,7 @@
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/feedbackButton"
                     style="@style/HelpActivitySingleText"
-                    android:text="@string/send_feedback" />
+                    android:text="@string/suggest_a_feature" />
 
                 <LinearLayout
                     android:id="@+id/forumContainer"
