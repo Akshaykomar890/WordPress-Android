@@ -209,6 +209,8 @@ android {
             buildConfigField "String", "PUSH_NOTIFICATIONS_APP_KEY", '"org.wordpress.android"'
             buildConfigField "boolean", "ENABLE_QRCODE_AUTH_FLOW", "false"
             buildConfigField "boolean", "ENABLE_OPEN_WEB_LINKS_WITH_JP_FLOW", "true"
+            buildConfigField "String", "APPLICATION_PASSWORD_APP_NAME", '"WordPress for Android"'
+            buildConfigField "String", "APPLICATION_PASSWORD_SCHEME", '"wordpress"'
 
             manifestPlaceholders = [magicLinkScheme:"wordpress"]
         }
@@ -229,6 +231,8 @@ android {
             buildConfigField "String", "PUSH_NOTIFICATIONS_APP_KEY", '"com.jetpack.android"'
             buildConfigField "boolean", "ENABLE_QRCODE_AUTH_FLOW", "true"
             buildConfigField "boolean", "ENABLE_OPEN_WEB_LINKS_WITH_JP_FLOW", "false"
+            buildConfigField "String", "APPLICATION_PASSWORD_APP_NAME", '"Jetpack for Android"'
+            buildConfigField "String", "APPLICATION_PASSWORD_SCHEME", '"jetpack"'
 
             manifestPlaceholders = [magicLinkScheme:"jetpack"]
 

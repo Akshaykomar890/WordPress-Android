@@ -8,6 +8,9 @@ import kotlinx.coroutines.runBlocking
 import org.wordpress.android.fluxc.network.rest.wpapi.WPcomLoginClient
 import org.wordpress.android.fluxc.network.rest.wpcom.auth.AppSecrets
 import org.wordpress.android.fluxc.store.AccountStore
+import uniffi.wp_api.ParsedUrl.Companion.parse
+import uniffi.wp_api.WpApiApplicationPasswordDetails
+import uniffi.wp_api.extractLoginDetailsFromUrl
 import javax.inject.Inject
 import kotlin.coroutines.CoroutineContext
 
@@ -46,5 +49,43 @@ class WPcomLoginHelper @Inject constructor(
 
     private fun codeFromAuthorizationUri(string: String): String? {
         return Uri.parse(string).getQueryParameter("code")
+    }
+
+    fun isAttemptingSelfHostedLogin(data: String?): Boolean {
+        if (data == null) {
+            return false
+        }
+
+        return parseLoginDetailsFromUrl(data) != null && parseXmlRpcEndpointFromUrl(data) != null
+    }
+
+    fun loginDetails(data: String?): WpApiApplicationPasswordDetails? {
+        if (data == null) {
+            return null
+        }
+
+        return parseLoginDetailsFromUrl(data)
+    }
+
+    fun parseXmlRpcEndpointFromUrl(string: String?): String? {
+        return Uri.parse(string).getQueryParameter("xmlrpcEndpoint")
+    }
+
+    private fun parseLoginDetailsFromUrl(string: String): WpApiApplicationPasswordDetails? {
+        try {
+            val parsedUrl = parse(string)
+            return extractLoginDetailsFromUrl(parsedUrl)
+        } catch (ex: Exception) {
+            val message = ex.message
+            if (message != null) {
+                Log.e("WP_RS", message)
+            } else {
+                Log.e("WP_RS", "Unknown parsing error")
+            }
+
+            // TODO: More error handling
+        }
+
+        return null
     }
 }

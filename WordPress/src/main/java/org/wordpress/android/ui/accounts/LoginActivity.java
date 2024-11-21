@@ -24,11 +24,15 @@ import com.google.android.material.snackbar.Snackbar;
 import org.wordpress.android.R;
 import org.wordpress.android.analytics.AnalyticsTracker;
 import org.wordpress.android.analytics.AnalyticsTracker.Stat;
+import org.wordpress.android.fluxc.Dispatcher;
+import org.wordpress.android.fluxc.generated.AccountActionBuilder;
+import org.wordpress.android.fluxc.generated.SiteActionBuilder;
 import org.wordpress.android.fluxc.model.SiteModel;
 import org.wordpress.android.fluxc.network.MemorizingTrustManager;
 import org.wordpress.android.fluxc.store.AccountStore.AuthEmailPayloadScheme;
 import org.wordpress.android.fluxc.store.SiteStore;
 import org.wordpress.android.fluxc.store.SiteStore.ConnectSiteInfoPayload;
+import org.wordpress.android.fluxc.store.SiteStore.RefreshSitesXMLRPCPayload;
 import org.wordpress.android.login.AuthOptions;
 import org.wordpress.android.login.GoogleFragment;
 import org.wordpress.android.login.GoogleFragment.GoogleListener;
@@ -46,6 +50,7 @@ import org.wordpress.android.login.LoginUsernamePasswordFragment;
 import org.wordpress.android.login.SignupConfirmationFragment;
 import org.wordpress.android.login.SignupGoogleFragment;
 import org.wordpress.android.login.SignupMagicLinkFragment;
+import org.wordpress.android.login.util.SiteUtils;
 import org.wordpress.android.support.SupportWebViewActivity;
 import org.wordpress.android.support.ZendeskExtraTags;
 import org.wordpress.android.support.ZendeskHelper;
@@ -88,6 +93,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.EnumSet;
 import java.util.List;
+import java.util.Objects;
 
 import javax.inject.Inject;
 
@@ -95,6 +101,7 @@ import dagger.android.AndroidInjector;
 import dagger.android.DispatchingAndroidInjector;
 import dagger.android.HasAndroidInjector;
 import dagger.hilt.android.AndroidEntryPoint;
+import uniffi.wp_api.WpApiApplicationPasswordDetails;
 
 import static org.wordpress.android.util.ActivityUtils.hideKeyboard;
 
@@ -135,7 +142,7 @@ public class LoginActivity extends LocaleAwareActivity implements ConnectionCall
     private LoginMode mLoginMode;
     private LoginViewModel mViewModel;
     @Inject protected WPcomLoginHelper mLoginHelper;
-
+    @Inject protected Dispatcher mDispatcher;
     @Inject DispatchingAndroidInjector<Object> mDispatchingAndroidInjector;
     @Inject protected LoginAnalyticsListener mLoginAnalyticsListener;
     @Inject ZendeskHelper mZendeskHelper;
@@ -153,7 +160,17 @@ public class LoginActivity extends LocaleAwareActivity implements ConnectionCall
         mLoginHelper.tryLoginWithDataString(getIntent().getDataString());
 
         if (mLoginHelper.isLoggedIn()) {
-            this.loggedInAndFinish(new ArrayList<Integer>(), true);
+            this.loggedInAndFinish(new ArrayList<>(), true);
+            return;
+        }
+
+        if (mLoginHelper.isAttemptingSelfHostedLogin(getIntent().getDataString())) {
+            WpApiApplicationPasswordDetails details = mLoginHelper.loginDetails(getIntent().getDataString());
+            String xmlRpcEndpoint = mLoginHelper.parseXmlRpcEndpointFromUrl(getIntent().getDataString());
+
+            assert details != null;        // Guaranteed by `isAttemptingSelfHostedLogin`
+            assert xmlRpcEndpoint != null; // Guaranteed by `isAttemptingSelfHostedLogin`
+            this.gotXmlRpcLoginDetails(xmlRpcEndpoint, details);
             return;
         }
 
@@ -675,19 +692,46 @@ public class LoginActivity extends LocaleAwareActivity implements ConnectionCall
 
     @Override
     public void gotXmlRpcEndpoint(String inputSiteAddress, String endpointAddress) {
-        LoginUsernamePasswordFragment loginUsernamePasswordFragment =
-                LoginUsernamePasswordFragment.newInstance(inputSiteAddress, endpointAddress, null, null, false);
-        slideInFragment(loginUsernamePasswordFragment, true, LoginUsernamePasswordFragment.TAG);
-
-        // In the background, run the API discovery test to see if we can add this site for the REST API
+        // Run the API discovery test to see if we can add this site for the REST API
+        // If anything goes wrong, we'll fall back to the old flow
         try {
             String authorizationUrl = mViewModel.runApiDiscoveryTest(inputSiteAddress);
             Log.d("WP_RS", "Found authorization URL: " + authorizationUrl);
             AnalyticsTracker.track(Stat.BACKGROUND_REST_AUTODISCOVERY_SUCCESSFUL);
+
+            CustomTabsIntent intent = new CustomTabsIntent.Builder()
+                    .setShareState(CustomTabsIntent.SHARE_STATE_OFF)
+                    .setStartAnimations(this, R.anim.activity_slide_up_from_bottom,
+                            R.anim.activity_slide_up_from_bottom)
+                    .setExitAnimations(this, R.anim.activity_slide_out_to_bottom, R.anim.activity_slide_out_to_bottom)
+                    .setUrlBarHidingEnabled(true)
+                    .build();
+
+            if (authorizationUrl != null) {
+                Uri authUri = mViewModel.buildSelfHostedLoginUri(authorizationUrl, endpointAddress);
+                Log.i("WP_RS", authUri.toString());
+                intent.launchUrl(this, authUri);
+            } else {
+                // Fallback to the old behaviour and try logging in with username/password
+                LoginUsernamePasswordFragment loginUsernamePasswordFragment =
+                        LoginUsernamePasswordFragment.newInstance(inputSiteAddress, endpointAddress, null, null, false);
+                slideInFragment(loginUsernamePasswordFragment, true, LoginUsernamePasswordFragment.TAG);
+            }
         } catch (Exception ex) {
             Log.e("WP_RS", "Unable to find authorization URL:" + ex.getMessage());
             AnalyticsTracker.track(Stat.BACKGROUND_REST_AUTODISCOVERY_FAILED);
         }
+    }
+
+    public void gotXmlRpcLoginDetails(@NonNull String xmlRpcEndpoint, @NonNull WpApiApplicationPasswordDetails details) {
+        RefreshSitesXMLRPCPayload selfHostedPayload = new RefreshSitesXMLRPCPayload(
+                details.getUserLogin(),
+                details.getPassword(),
+                xmlRpcEndpoint
+        );
+        mDispatcher.dispatch(SiteActionBuilder.newFetchSitesXmlRpcAction(selfHostedPayload));
+        mDispatcher.dispatch(AccountActionBuilder.newFetchAccountAction());
+        this.loggedInAndFinish(new ArrayList<>(), false);
     }
 
     @Override

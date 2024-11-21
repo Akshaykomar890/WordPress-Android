@@ -27,7 +27,7 @@ import dagger.hilt.components.SingletonComponent;
 public class AppConfigModule {
     @NonNull @Provides
     public AppSecrets provideAppSecrets() {
-        return new AppSecrets(BuildConfig.OAUTH_APP_ID, BuildConfig.OAUTH_APP_SECRET, BuildConfig.OAUTH_REDIRECT_URI);
+        return new AppSecrets(BuildConfig.OAUTH_APP_ID, BuildConfig.OAUTH_APP_SECRET, "");
     }
 
     @Singleton
