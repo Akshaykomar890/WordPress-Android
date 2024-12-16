@@ -1,0 +1,5 @@
+25.5:
+Este mes, hemos:
+- corregido algunos fallos del modo oscuro
+- llevado el editor experimental a Android: ¡pruébalo y dinos qué te parece!
+- ajustado la forma en que los usuarios inician sesión en WordPress.com: esto soluciona un problema antiguo por el que no se podía iniciar sesión si se utilizaba una clave de acceso.

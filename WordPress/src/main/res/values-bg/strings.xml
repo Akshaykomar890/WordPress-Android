@@ -26,7 +26,7 @@ Language: bg
     <string name="history_empty_subtitle_post">Когато направите промени в публикацията си, ще можете да видите историята тук</string>
     <string name="history_empty_subtitle_page">Когато направите промени в страницата си, ще можете да видите историята тук</string>
     <string name="history_footer_page">Страницата е създадена на %1$s в %2$s</string>
-    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="login">Въведете сайт на WordPress.com или самостоятелно хостван такъв, сръзан с Jetpack.</string>
+    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Въведете сайт на WordPress.com или самостоятелно хостван такъв, сръзан с Jetpack.</string>
     <string name="description_user">Потребителски аватар</string>
     <string name="image_size_full_label">Пълен размер</string>
     <string name="image_size_large_label">Голям</string>
@@ -43,8 +43,8 @@ Language: bg
     <string name="pages_set_parent">Задаване на родител</string>
     <string name="pages_scheduled" tools:ignore="UnusedResources">Планирана</string>
     <string name="pages_published" tools:ignore="UnusedResources">Публикувана</string>
-    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="login">Направихте прекалено много опити да изпратите SMS кода за потвърждение - спрете за кратко и подайте нова заявка след минута.</string>
-    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="login">Няма профил в WordPress.com, съответстващ на този профил в Google.</string>
+    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="module:login">Направихте прекалено много опити да изпратите SMS кода за потвърждение - спрете за кратко и подайте нова заявка след минута.</string>
+    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="module:login">Няма профил в WordPress.com, съответстващ на този профил в Google.</string>
     <string name="site_picker_remove_site_empty">Няма сайтове, съответстващи на търсенето ви</string>
     <string name="page_parent_changed">Родителската страница е сменена</string>
     <string name="page_permanently_deleted">Страницата е изтрита за постоянно</string>
@@ -61,8 +61,8 @@ Language: bg
     <string name="quick_start_focus_point_description">докоснете тук</string>
     <string name="quick_start_list_create_site_title">Създайте своя сайт</string>
     <string name="quick_start_dialog_share_site_title">Споделете сайта си</string>
-    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">\nЗащо не пробвате с друг профил?</string>
-    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">Възникна проблем при опит за връзка с Google профила.</string>
+    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">\nЗащо не пробвате с друг профил?</string>
+    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">Възникна проблем при опит за връзка с Google профила.</string>
     <string name="login_error_button">Затваряне</string>
     <string name="post_settings_remove_featured_image">Премахване картинката на публикацията</string>
     <string name="post_settings_choose_featured_image">Избор на картинка за публикацията</string>
@@ -108,17 +108,17 @@ Language: bg
     <string name="connection_to_server_lost">Връзката със сървъра бе прекъсната</string>
     <string name="login_epilogue_mysites_other">Моите сайтове</string>
     <string name="login_epilogue_mysites_one">Моя сайт</string>
-    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="login">Моля въведете потвърждаващия код</string>
+    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="module:login">Моля въведете потвърждаващия код</string>
     <string name="login_email_client_not_found">Не можахме да засечем вашия имейл клиент</string>
-    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="login">Въведете име</string>
-    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Проверяване на адреса на сайта</string>
-    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="login">Имате нужда от помощ?</string>
-    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="login">Какъв е адресът на сайта ми?</string>
-    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Адрес на сайта</string>
+    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="module:login">Въведете име</string>
+    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Проверяване на адреса на сайта</string>
+    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="module:login">Имате нужда от помощ?</string>
+    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Какъв е адресът на сайта ми?</string>
+    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Адрес на сайта</string>
     <string name="login_already_logged_in_wpcom">Вече сте влезли в WordPress.com</string>
-    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="login">Въведете вашата WordPress.com парола.</string>
-    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="login">Напред</string>
-    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="login">Изглежда вашата парола е грешна. Моля проверете информацията повторно и пробвайте отново.</string>
+    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Въведете вашата WordPress.com парола.</string>
+    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="module:login">Напред</string>
+    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="module:login">Изглежда вашата парола е грешна. Моля проверете информацията повторно и пробвайте отново.</string>
     <string name="next">Следващ</string>
     <string name="me_profile_photo">Снимка на профила</string>
     <string name="error_media_parse_error">Неочакван отговор от сървъра</string>
@@ -226,8 +226,8 @@ Language: bg
     <string name="error_all_media_upload_canceled">Качването на всички файлове беше прекъснато по неизвестна причина. Моля повторете качването</string>
     <string name="error_unknown_post_type">Непознат формат на публикацията</string>
     <string name="submit_for_review">Изпращане</string>
-    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="login">Сайтът вече съществува в приложението и не може да го добавите</string>
-    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="login">Сайт - дубликат беше засечен.</string>
+    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Сайтът вече съществува в приложението и не може да го добавите</string>
+    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="module:login">Сайт - дубликат беше засечен.</string>
     <string name="error_media_unauthorized">Нямате разрешение да преглеждате или редактирате файловете</string>
     <string name="error_media_not_found">Файлът не може да бъде намерен</string>
     <string name="error_media_insufficient_fs_permissions">Нужно е разрешение за четене на медийни файлове.</string>
@@ -322,8 +322,8 @@ Language: bg
     <string name="error_locating_image">Неуспешно откриване на изрязаното изображение</string>
     <string name="error_refreshing_gravatar">Грешка при презареждането на вашия аватар в Gravatar</string>
     <string name="error_cropping_image">Грешка при изрязване на изображението</string>
-    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="login">Проверяване на имейл</string>
-    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="login">В момента не е налично. Въведете вашата парола</string>
+    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Проверяване на имейл</string>
+    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">В момента не е налично. Въведете вашата парола</string>
     <string name="logging_in">Влизане</string>
     <string name="web_address_dialog_hint">Ще се показва когато коментирате.</string>
     <string name="capture_or_pick_photo">Заснемане или избор на снимка</string>
@@ -354,7 +354,7 @@ Language: bg
     <string name="editor_remove_failed_uploads">Премахване на неуспешно качените файлове</string>
     <string name="site_settings_advanced_header">Разширени</string>
     <string name="button_skip">Пропускане</string>
-    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="login">Грешка при свързването. Задължителни XML-RPC методи липсват на този сървър.</string>
+    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Грешка при свързването. Задължителни XML-RPC методи липсват на този сървър.</string>
     <string name="post_format_status">Състояние</string>
     <string name="post_format_video">Видео клип</string>
     <string name="alignment_center">В средата</string>
@@ -412,7 +412,7 @@ Language: bg
     <string name="about_the_app">За приложението</string>
     <string name="error_post_account_settings">Грешка при запазване на вашите профилни настройки</string>
     <string name="error_fetch_account_settings">Грешка при зареждане на вашите профилни настройки</string>
-    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="login">Грешка при зареждане на вашия профил</string>
+    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="module:login">Грешка при зареждане на вашия профил</string>
     <string name="site_settings_unknown_language_code_error">Неразпознат код на езика</string>
     <string name="site_settings_threading_dialog_description">Позволяване на подреждането на коментарите дървовидно.</string>
     <string name="site_settings_threading_dialog_header">Подкоментари до</string>
@@ -597,10 +597,10 @@ Language: bg
     <string name="select_all">Избор на всичко</string>
     <string name="deselect_all">От-маркиране на всичко</string>
     <string name="show">Показване</string>
-    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Невалиден верификационен код</string>
+    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Невалиден верификационен код</string>
     <string name="language">Език</string>
-    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Верификационен код</string>
-    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">За да продължите, влезте отново.</string>
+    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Верификационен код</string>
+    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">За да продължите, влезте отново.</string>
     <string name="stats_view_authors">Автори</string>
     <string name="media_fetching">Извличане на файлове…</string>
     <string name="pages_fetching">Извличане на страници…</string>
@@ -678,7 +678,7 @@ Language: bg
     <string name="error_refresh_posts">Публикациите не могат да бъдат обновени в момента</string>
     <string name="error_moderate_comment">Възникна грешка по време на модерирането</string>
     <string name="invalid_email_message">Адресът на електронната поща не е валиден</string>
-    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="login">Добавете валидна електронна поща</string>
+    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="module:login">Добавете валидна електронна поща</string>
     <string name="username_or_password_incorrect">Името или паролата, които зададохте, са грешни</string>
     <string name="error_deleting_post">Грешка при изтриване на публикацията</string>
     <string name="comment_status_spam">Спам</string>
@@ -717,7 +717,7 @@ Language: bg
     <string name="view_in_browser">Преглед в браузър</string>
     <string name="add_new_category">Добавяне на нова категория</string>
     <string name="file_error_create">Грешка при създаване на временния файл. Уверете се че има достатъчно свободно място на вашето устройство.</string>
-    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="login">Нужна е оторизация</string>
+    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Нужна е оторизация</string>
     <string name="wordpress_blog">Блог от вида WordPress</string>
     <string name="reader_title_applog">Дневник на приложението</string>
     <string name="notifications_empty_all">Все още няма известявания.</string>
@@ -773,13 +773,13 @@ Language: bg
     <string name="note_reply_successful">Отговорът е публикуван</string>
     <string name="sign_in">Влизане</string>
     <string name="loading">Зареждане…</string>
-    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP Парола</string>
-    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="login">Потребител за HTTP</string>
+    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP Парола</string>
+    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="module:login">Потребител за HTTP</string>
     <string name="error_media_upload">Грешка при качването на медийния файл</string>
     <string name="incorrect_credentials">Грешно име и/или парола</string>
     <string name="password">Парола</string>
     <string name="username">Име</string>
-    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="login">Вход</string>
+    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Вход</string>
     <string name="reader">Читател</string>
     <string name="no_network_title">Няма активна мрежа</string>
     <string name="pages">Страници</string>

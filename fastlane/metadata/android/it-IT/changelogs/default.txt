@@ -1,0 +1,5 @@
+25.5:
+Questo mese abbiamo:
+- Sistemato alcuni bug relativi alla Dark Mode
+- Lanciato l'editor in versione trial su Android: provalo e facci sapere cosa ne pensi!
+- Sistemato la modalità di accesso a WordPress.com per risolvere un problema di lunga data relativo all'impossibilità di effettuare l'accesso con un Passkey.

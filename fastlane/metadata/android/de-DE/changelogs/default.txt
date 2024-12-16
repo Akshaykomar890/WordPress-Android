@@ -1,0 +1,5 @@
+25.5:
+Die Bugfixes in diesem Monat:
+- Bugs mit dem dunklen Modus wurden behoben
+- Der experimentelle Editor ist nun auch auf Android verfügbar ‒ probiere ihn aus! Wir freuen uns über dein Feedback.
+- Anmeldung bei WordPress.com wurde angepasst: Lange Zeit war es Benutzern nicht möglich, sich mit einem Passkey anzumelden. Dieses Problem ist nun behoben.

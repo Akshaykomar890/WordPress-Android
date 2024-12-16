@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Translation-Revision-Date: 2024-10-10 21:30:11+0000
+Translation-Revision-Date: 2024-12-06 09:15:45+0000
 Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);
 Generator: GlotPress/4.0.1
 Language: ro
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="me_btn_feedback">Trimite-ne impresii</string>
+    <string name="default_web_client_id" a8c-src-lib="module:login">substituent</string>
+    <string name="personalization_screen_shortcuts_accessibility_label">Comută la scurtătura %s</string>
+    <string name="personalization_screen_card_accessibility_label">Comută la cartușul %s</string>
+    <string name="user_avatar_content_description">Avatar pentru utilizatorul %s</string>
+    <string name="user_row_content_description">Arată detalii pentru utilizatorul %s</string>
+    <string name="biographical_info_empty">Nu ai oferit nimic</string>
+    <string name="biographical_info">Informații biografice</string>
+    <string name="about_the_user">Despre utilizator</string>
+    <string name="website">Site web</string>
+    <string name="contact_info">Informații de contact</string>
+    <string name="nickname">Poreclă</string>
+    <string name="name">Nume</string>
+    <string name="no_users">Niciun utilizator</string>
+    <string name="user">Utilizator</string>
+    <string name="users">Utilizatori</string>
+    <string name="me_btn_help_and_support">Ajutor și suport</string>
+    <string name="me_btn_experimental_features">Funcționalități experimentale</string>
+    <string name="more_content_description_plans">Mai multe planuri</string>
+    <string name="more_content_description_recent_activity">Mai multe activități recente</string>
+    <string name="more_content_description_pages">Mai multe pagini</string>
+    <string name="more_content_description_posts">Mai multe articole</string>
+    <string name="more_content_description_quick_start">Mai multe pentru Inițiere rapidă</string>
+    <string name="more_content_description_today_stats">Mai multe statistici pentru azi</string>
+    <string name="more_content_description_blogging_prompts">Mai multe îndemnuri</string>
+    <string name="more_content_description_promote_blaze">Mai multe despre Blaze</string>
+    <string name="reader_toast_success_undo">Blog deblocat</string>
+    <string name="feedback_form_note_link">Ecran Contactează suportul</string>
+    <string name="feedback_form_note_text">Te rog să reții că acesta nu este un formular pentru suport și nu îți vom putea răspunde. Dacă ai nevoie de suport, te rog să folosești „</string>
+    <string name="experimental_block_editor_theme_styles">Stiluri pentru editorul de blocuri experimental</string>
+    <string name="experimental_block_editor">Editor de blocuri experimental</string>
+    <string name="experimental_features_screen_title">Funcționalități experimentale</string>
+    <string name="back">Înapoi</string>
+    <string name="dialog_confirm_autosave_dont_restore_button">Din această aplicație</string>
+    <string name="dialog_confirm_autosave_restore_button">De pe un alt dispozitiv</string>
+    <string name="item_selected">Selectat</string>
+    <string name="send_feedback">Trimite-ne impresii</string>
     <string name="media_pager_remove_item_content_description">Înlătură elementul %1$d</string>
     <string name="feedback_form_add_attachments">Adaugă atașamente</string>
     <string name="feedback_form_unable_to_create_tempfile">Nu am putut să creez fișierul temporar</string>
@@ -265,9 +300,9 @@ Language: ro
     <string name="jp_migration_done_no_sites_message">Este timpul să-ți continui călătoria WordPress în aplicația Jetpack.</string>
     <string name="domain_management_clear_search">Șterge căutarea</string>
     <string name="media_encoder_quality_very_high">Foarte mare</string>
-    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Pentru a continua, trebuie să furnizezi cheia de securitate.</string>
-    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">Au fost unele probleme la autentificarea cu cheia de securitate</string>
-    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">Folosește o cheie de securitate</string>
+    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pentru a continua, trebuie să furnizezi cheia de securitate.</string>
+    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">Au fost unele probleme la autentificarea cu cheia de securitate</string>
+    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">Folosește o cheie de securitate</string>
     <string name="new_domain_search_screen_error_title">Nu am putut să aduc domeniile</string>
     <string name="new_domain_search_screen_list_item_sale_price">%s în primul an</string>
     <string name="new_domain_search_screen_list_item_regular_price">%s/an</string>
@@ -286,7 +321,6 @@ Language: ro
     <string name="post_list_toggle_author_filter">Filtrează după autor</string>
     <string name="gutenberg_native_s_block_converted_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">Am convertit blocul „%s” în blocuri</string>
     <string name="gutenberg_native_alternatively_you_can_convert_the_content_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">Ca alternativă, poți să convertești conținutul în blocuri.</string>
-    <string name="personalization_screen_shortcuts_add_or_remove_shortcut_button">Adaugă sau înlătură scurtături</string>
     <string name="personalization_screen_tab_shortcuts_inactive_shortcuts">Scurtături inactive</string>
     <string name="personalization_screen_tab_shortcuts_active_shortcuts">Scurtături active</string>
     <string name="personalization_screen_shortcuts_tab_title">Scurtături</string>
@@ -547,7 +581,6 @@ Language: ro
     <string name="site_creation_domain_tag_recommended">Recomandat</string>
     <string name="site_creation_domain_tag_best_alternative">Cea mai bună alternativă</string>
     <string name="site_creation_domain_cost">pe an</string>
-    <string name="me_btn_help">Ajutor</string>
     <string name="support_faq_caption">Vezi întrebările frecvente pentru răspunsuri la întrebările pe care le ai.</string>
     <string name="support_faq_title">Îți mulțumim că ai comutat la aplicația Jetpack!</string>
     <string name="logs_button">Jurnale</string>
@@ -713,9 +746,9 @@ Language: ro
     <string name="connections_label">Conexiuni la Jetpack Social</string>
     <string name="stats_widget_log_in_to_add_message">Te rog autentifică-te în aplicația Jetpack pentru a adăuga o piesă.</string>
     <string name="stats_view_publicize">Conexiuni la Jetpack Social</string>
-    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="login">Tocmai am trimis o legătură magică la</string>
-    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="login">Verifică-ți emailul primit pe acest dispozitiv!</string>
-    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="login">Folosește parola pentru autentificare</string>
+    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tocmai am trimis o legătură magică la</string>
+    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="module:login">Verifică-ți emailul primit pe acest dispozitiv!</string>
+    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Folosește parola pentru autentificare</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack_caption">Rămâi informat cu actualizări în timp real pentru comentarii noi, trafic pe site, rapoarte de securitate și multe altele.</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack">Notificări propulsate de Jetpack</string>
     <string name="wp_jetpack_powered_stats_powered_by_jetpack_caption">Urmărește creșterea traficului și află despre publicul tău din Statistici și Perspective - reproiectate acum și disponibile în noua aplicație Jetpack.</string>
@@ -949,10 +982,10 @@ Language: ro
     <string name="my_site_dashboard_tab_title">Prima pagină</string>
     <string name="adding_cat">Se adaugă categorie</string>
     <string name="login_select_email_client">Ce aplicație pentru email folosești?</string>
-    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="login">A fost o problemă la comunicarea cu site-ul. A fost returnat codul de eroare HTTP 401.</string>
-    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Apelările XML-RPC par a fi blocate pe acest site (cod eroare 401). Dacă încercarea de autentificare eșuează, atinge iconul pentru ajutor ca să vezi Întrebări frecvente.</string>
-    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="login">Nu pot să găsesc un site WordPress la acel URL. Atinge iconul pentru ajutor ca să vezi Întrebări frecvente.</string>
-    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="login">Serviciile XML-RPC sunt dezactivate pe acest site.</string>
+    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="module:login">A fost o problemă la comunicarea cu site-ul. A fost returnat codul de eroare HTTP 401.</string>
+    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Apelările XML-RPC par a fi blocate pe acest site (cod eroare 401). Dacă încercarea de autentificare eșuează, atinge iconul pentru ajutor ca să vezi Întrebări frecvente.</string>
+    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nu pot să găsesc un site WordPress la acel URL. Atinge iconul pentru ajutor ca să vezi Întrebări frecvente.</string>
+    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="module:login">Serviciile XML-RPC sunt dezactivate pe acest site.</string>
     <string name="my_site_menu_tab_title">Meniu</string>
     <string name="new_site_creation_empty_domain_list_message_invalid_query">Căutarea ta include caractere care nu sunt acceptate în domeniile WordPress.com. Sunt permise următoarele caractere: A–Z, a–z, 0–9.</string>
     <string name="my_site_error_within_card_subtitle">Verifică dacă ai conexiune la internet și reîmprospătează pagina.</string>
@@ -1316,7 +1349,7 @@ Language: ro
     <string name="new_site_creation_search_domain_input_hint">Scrie un nume pentru site-ul tău</string>
     <string name="quick_start_completed_type_grow_message">&lt;b&gt;Ai finalizat toate sarcinile&lt;/b&gt;&lt;br/&gt;Vei atrage mai multe persoane. Foarte bine!</string>
     <string name="quick_start_completed_type_customize_message">&lt;b&gt;Ai finalizat toate sarcinile&lt;/b&gt;&lt;br/&gt;Ți-ai personalizat site-ul. Foarte bine!</string>
-    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="login">Nu ai vrut să creezi un cont nou? Mergi înapoi și reintrodu adresa ta de email.</string>
+    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nu ai vrut să creezi un cont nou? Mergi înapoi și reintrodu adresa ta de email.</string>
     <string name="invite_links_disable_dialog_message">După ce această legătură la invitație este dezactivată, nimeni nu o va putea folosi pentru a se alătura echipei. Sigur?</string>
     <string name="invite_links_disable_dialog_title">Dezactivează legătura la invitație</string>
     <string name="invite_links_bad_format_response">Am primit un răspuns invalid</string>
@@ -1594,8 +1627,8 @@ Language: ro
     <string name="hpp_retry_error">Te rog verifică-ți conexiunea la internet și încearcă din nou.</string>
     <string name="hpp_error_subtitle">Atinge reîncearcă când ești din nou online.</string>
     <string name="hpp_error_title">Aranjamentele nu sunt disponibile când ești offline</string>
-    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="login">Continuă cu datele de conectare la magazin</string>
-    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="login">Găsește emailul conectat</string>
+    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="module:login">Continuă cu datele de conectare la magazin</string>
+    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Găsește emailul conectat</string>
     <string name="reader_discover_no_posts_follow_subtitle">Încearcă să urmărești mai multe etichete pentru a extinde căutarea</string>
     <string name="reader_discover_no_posts_title">Niciun articol recent</string>
     <string name="reader_discover_empty_title">Bine ai venit!</string>
@@ -1663,8 +1696,8 @@ Language: ro
     <string name="suggestion_no_connection">Nu există conexiune la internet.\nSugestiile nu sunt disponibile.</string>
     <string name="mlp_notselected_description">%s</string>
     <string name="mlp_selected_description">%s selectat</string>
-    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Primești o legătură de autentificare prin email</string>
-    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="login">Nu putem găsi un cont WordPress.com conectat la această adresă de email.</string>
+    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Primești o legătură de autentificare prin email</string>
+    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nu putem găsi un cont WordPress.com conectat la această adresă de email.</string>
     <string name="permission_microphone">Microfon</string>
     <string name="comment_unable_to_show_error">Nu pot să arăt acest comentariu</string>
     <string name="media_browse_for_items">Răsfoiește pentru a căuta elemente</string>
@@ -1710,26 +1743,26 @@ Language: ro
     <string name="gutenberg_native_choose_image" tools:ignore="UnusedResources">Alege o imagine</string>
     <string name="gutenberg_native_block_removed" tools:ignore="UnusedResources">Am înlăturat blocul</string>
     <string name="enter_your_site_address">Introdu adresa site-ului tău de acum</string>
-    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="login">Confirmare înregistrare</string>
-    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">Dacă continui cu Google și nu ai deja un cont WordPress.com, îți creezi un cont și ești de acord cu %1$stermenii de utilizare ai serviciului%2$s nostru.</string>
-    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">Dacă continui, ești de acord cu %1$stermenii de utilizare ai serviciului%2$s nostru.</string>
-    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="login">Vom folosi această adresă de email pentru a-ți crea noul cont WordPress.com.</string>
-    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="login">Ți-am trimis prin email o legătură de înregistrare pentru a-ți crea noul cont WordPress.com. Verifică emailurile primite pe acest dispozitiv și atinge legătura din emailul primit de la WordPress.com.</string>
-    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Introdu informațiile contului pentru %1$s.</string>
-    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="login">sau</string>
-    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">Continuă cu Google</string>
-    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="login">Găsește adresa site-ului</string>
+    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Confirmare înregistrare</string>
+    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">Dacă continui cu Google și nu ai deja un cont WordPress.com, îți creezi un cont și ești de acord cu %1$stermenii de utilizare ai serviciului%2$s nostru.</string>
+    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">Dacă continui, ești de acord cu %1$stermenii de utilizare ai serviciului%2$s nostru.</string>
+    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vom folosi această adresă de email pentru a-ți crea noul cont WordPress.com.</string>
+    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ți-am trimis prin email o legătură de înregistrare pentru a-ți crea noul cont WordPress.com. Verifică emailurile primite pe acest dispozitiv și atinge legătura din emailul primit de la WordPress.com.</string>
+    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Introdu informațiile contului pentru %1$s.</string>
+    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="module:login">sau</string>
+    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">Continuă cu Google</string>
+    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Găsește adresa site-ului</string>
     <string name="login_done">Gata</string>
-    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="login">Nu ai găsit emailul? Uită-te și în dosarele Spam sau Junk.</string>
-    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="login">Verifică emailurile primite pe acest dispozitiv și atinge legătura din emailul primit de la WordPress.com.</string>
-    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="login">Îți vom trimite prin email o legătură care te va autentifica instantaneu, fără nicio parolă.</string>
-    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="login">Verifică emailurile primite</string>
-    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="login">Începe</string>
-    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">Introdu adresa ta de email pentru a te autentifica sau creează un cont WordPress.com.</string>
-    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Sau tastează parola</string>
-    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="login">Creează un cont</string>
-    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Trimite legătura prin email</string>
-    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Resetează-ți parola</string>
+    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nu ai găsit emailul? Uită-te și în dosarele Spam sau Junk.</string>
+    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Verifică emailurile primite pe acest dispozitiv și atinge legătura din emailul primit de la WordPress.com.</string>
+    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Îți vom trimite prin email o legătură care te va autentifica instantaneu, fără nicio parolă.</string>
+    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Verifică emailurile primite</string>
+    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="module:login">Începe</string>
+    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">Introdu adresa ta de email pentru a te autentifica sau creează un cont WordPress.com.</string>
+    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Sau tastează parola</string>
+    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">Creează un cont</string>
+    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Trimite legătura prin email</string>
+    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Resetează-ți parola</string>
     <string name="reader_error_request_failed_title">A fost o problemă la gestionarea cererii. Te rog reîncearcă mai târziu.</string>
     <string name="quick_start_list_update_site_title_title">Verifică titlul site-ului</string>
     <string name="quick_start_dialog_update_site_title_message_short">Atinge &lt;b&gt;%1$s&lt;/b&gt; pentru a seta un nou titlu</string>
@@ -1982,12 +2015,12 @@ Language: ro
     <string name="dialog_confirm_scheduled_post_sync_title">Ești gata pentru sincronizare?</string>
     <string name="new_site_creation_unavailable_domain">Acest domeniu nu este disponibil</string>
     <string name="negative_prefix">-%s</string>
-    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">Nu am putut să-ți accesăm site-ul. Pentru a rezolva acest lucru, va trebui să contactezi serviciul tău de găzduire.</string>
-    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="login">Nu am putut să-ți accesăm site-ul din cauza unei probleme cu &lt;b&gt;certificatul SSL&lt;/b&gt;. Pentru a rezolva acest lucru, va trebui să contactezi serviciul tău de găzduire.</string>
-    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="login">Nu am putut să-ți accesăm site-ul deoarece solicită &lt;b&gt;autentificarea HTTP&lt;/b&gt;. Pentru a rezolva acest lucru, va trebui să contactezi serviciul tău de găzduire.</string>
-    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="login">Nu am putut să accesăm &lt;b&gt;fișierul XMLRPC&lt;/b&gt; pe site-ul tău. Pentru a rezolva acest lucru, va trebui să contactezi serviciul tău de găzduire.</string>
-    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="login">Aproape gata! Trebuie doar să-ți verificăm adresa de email conectată la Jetpack &lt;b&gt;%1$s&lt;/b&gt;</string>
-    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Autentifică-te cu datele de conectare ale site-ului %1$s</string>
+    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nu am putut să-ți accesăm site-ul. Pentru a rezolva acest lucru, va trebui să contactezi serviciul tău de găzduire.</string>
+    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nu am putut să-ți accesăm site-ul din cauza unei probleme cu &lt;b&gt;certificatul SSL&lt;/b&gt;. Pentru a rezolva acest lucru, va trebui să contactezi serviciul tău de găzduire.</string>
+    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nu am putut să-ți accesăm site-ul deoarece solicită &lt;b&gt;autentificarea HTTP&lt;/b&gt;. Pentru a rezolva acest lucru, va trebui să contactezi serviciul tău de găzduire.</string>
+    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nu am putut să accesăm &lt;b&gt;fișierul XMLRPC&lt;/b&gt; pe site-ul tău. Pentru a rezolva acest lucru, va trebui să contactezi serviciul tău de găzduire.</string>
+    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Aproape gata! Trebuie doar să-ți verificăm adresa de email conectată la Jetpack &lt;b&gt;%1$s&lt;/b&gt;</string>
+    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autentifică-te cu datele de conectare ale site-ului %1$s</string>
     <string name="my_site_bottom_sheet_add_page">Pagină site</string>
     <string name="reader_my_likes_display_name">Aprecieri</string>
     <string name="reader_discover_display_name">Descoperă</string>
@@ -2085,8 +2118,6 @@ Language: ro
     <string name="post_preview_remote_auto_saving_post">Generez previzualizarea…</string>
     <string name="post_preview_saving_draft">Salvez…</string>
     <string name="local_post_autosave_revision_available">Ai modificări nesalvate la acest articol</string>
-    <string name="dialog_confirm_autosave_dont_restore_button">Versiunea din această aplicație</string>
-    <string name="dialog_confirm_autosave_restore_button">Versiunea de pe un alt dispozitiv</string>
     <string name="dialog_confirm_autosave_body_second_part">Din această aplicație\nSalvată pe %1$s\n\nDe pe un alt dispozitiv\nSalvată pe %2$s\n</string>
     <string name="dialog_confirm_autosave_body_first_part">Ai făcut recent modificări la acest articol, dar nu le-ai salvat. Alege o versiune de încărcat:\n\n</string>
     <string name="dialog_confirm_autosave_title">Care versiune vrei s-o editezi?</string>
@@ -2153,8 +2184,8 @@ Language: ro
     <string name="post_settings_add_to_calendar">Adaugă în calendar</string>
     <string name="post_settings_notification">Notificare</string>
     <string name="post_settings_time_and_date">Dată și oră</string>
-    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="login">Te rog introdu adresa completă a site-ului web, cum ar fi exemplu.com.</string>
-    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Autentifică-te cu WordPress.com pentru a te conecta la %1$s</string>
+    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="module:login">Te rog introdu adresa completă a site-ului web, cum ar fi exemplu.com.</string>
+    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autentifică-te cu WordPress.com pentru a te conecta la %1$s</string>
     <string name="stats_post_views_label">Vizualizări</string>
     <string name="stats_post_label">Articol</string>
     <string name="stats_list_item_description">%1$s: %2$s, %3$s: %4$s</string>
@@ -2270,8 +2301,8 @@ Language: ro
     <string name="posts_draft_empty">Nu ai niciun articol în ciornă</string>
     <string name="posts_scheduled_empty">Nu ai niciun articol programat</string>
     <string name="posts_published_empty">Nu ai publicat încă niciun articol</string>
-    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Te rog autentifică-te cu numele de utilizator și parola.</string>
-    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="login">Te rog autentifică-te folosind numele tău de utilizator WordPress.com în loc de adresa ta de email.</string>
+    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Te rog autentifică-te cu numele de utilizator și parola.</string>
+    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Te rog autentifică-te folosind numele tău de utilizator WordPress.com în loc de adresa ta de email.</string>
     <string name="stats_insights_average_words">Medie de cuvinte/articol</string>
     <string name="stats_insights_total_words">Total cuvinte</string>
     <string name="stats_insights_average_likes">Medie de aprecieri/articol</string>
@@ -2281,7 +2312,7 @@ Language: ro
     <string name="stats_insights_posts">Articole</string>
     <string name="stats_insights_year">An</string>
     <string name="stats_insights_this_year_site_stats">Anul acesta</string>
-    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="login">Site-ul de la această adresă nu este un site WordPress. Pentru a-l putea conecta, site-ul trebuie să folosească WordPress.</string>
+    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Site-ul de la această adresă nu este un site WordPress. Pentru a-l putea conecta, site-ul trebuie să folosească WordPress.</string>
     <string name="plugin_check_domain_credit_error">Verificarea reputației domeniului disponibil a eșuat</string>
     <string name="plugin_check_domain_credits_progress_dialog_message">Verific reputația domeniului</string>
     <string name="plugin_install_custom_domain_required_dialog_register_btn">Înregistrează domeniul</string>
@@ -2442,7 +2473,7 @@ Language: ro
     <string name="history_detail_button_previous">Anterior</string>
     <string name="history_detail_button_next">Următoare</string>
     <string name="media_space_used">%1$s folosiți</string>
-    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="login">Te rog introdu un site WordPress.com sau unul auto-găzduit conectat cu Jetpack</string>
+    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Te rog introdu un site WordPress.com sau unul auto-găzduit conectat cu Jetpack</string>
     <string name="history_loading_revision">Încărcare revizie</string>
     <string name="history_loaded_revision">Revizie încărcată</string>
     <string name="history_load_dialog_button_positive">Încarcă</string>
@@ -2474,8 +2505,8 @@ Language: ro
     <string name="pages_scheduled" tools:ignore="UnusedResources">Programate</string>
     <string name="pages_drafts" tools:ignore="UnusedResources">Ciorne</string>
     <string name="pages_published" tools:ignore="UnusedResources">Publicate</string>
-    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="login">Am făcut prea multe încercări de a trimite un cod de verificare prin SMS — ia o pauză și cere altul nou peste un minut.</string>
-    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="login">Nu există niciun cont WordPress.com care să se potrivească cu acest cont Google.</string>
+    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="module:login">Am făcut prea multe încercări de a trimite un cod de verificare prin SMS — ia o pauză și cere altul nou peste un minut.</string>
+    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nu există niciun cont WordPress.com care să se potrivească cu acest cont Google.</string>
     <string name="site_picker_remove_site_empty">Nu se potrivește niciun site cu căutarea ta</string>
     <string name="reader_no_followed_blogs_search_title">Nu se potrivește niciun blog cu căutarea ta</string>
     <string name="page_parent_changed">Părintele paginii a fost schimbat</string>
@@ -2511,7 +2542,7 @@ Language: ro
     <string name="content_description_more">Mai mult</string>
     <string name="my_site_create_new_site_title">Nu ai niciun site</string>
     <string name="reader_empty_subscribed_tags_subtitle">Adaugă etichete aici ca să găsești articole despre subiectele tale preferate</string>
-    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="login">Autentifică-te în contul WordPress.com pe care l-ai folosit pentru a conecta Jetpack.</string>
+    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autentifică-te în contul WordPress.com pe care l-ai folosit pentru a conecta Jetpack.</string>
     <string name="jetpack">Jetpack</string>
     <string name="stats_jetpack_connection_faq">Întrebări frecvente Jetpack</string>
     <string name="stats_jetpack_connection_setup_info">Pentru a folosi Statisticile pe site-ul tău WordPress va trebui să instalezi modulul Jetpack.</string>
@@ -2565,13 +2596,13 @@ Language: ro
     <string name="reader_empty_search_title">Nu am găsit niciun rezultat</string>
     <string name="comment_read_source_post">Citește articolul sursă</string>
     <string name="sites">Site-uri</string>
-    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="login">Legătura magică a fost trimisă</string>
-    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="login">Verificare cod</string>
-    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Date de autentificare</string>
-    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Legătura magică a fost trimisă</string>
-    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Autentificare prin legătura magică</string>
-    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Autentificare prin adresa site-ului</string>
-    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Autentificare prin adresa de email</string>
+    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Legătura magică a fost trimisă</string>
+    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Verificare cod</string>
+    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Date de autentificare</string>
+    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Legătura magică a fost trimisă</string>
+    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autentificare prin legătura magică</string>
+    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autentificare prin adresa site-ului</string>
+    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autentificare prin adresa de email</string>
     <string name="reader_empty_saved_posts_description">Atinge %s pentru a salva un articol în lista ta.</string>
     <string name="reader_empty_saved_posts_title">Niciun articol salvat - până acum!</string>
     <string name="reader_bookmark_snack_title">Publică salvate</string>
@@ -2674,7 +2705,7 @@ Language: ro
     <string name="invite_user_delete_desc">înlătură %s</string>
     <string name="profile_picture">poza de profil a lui %s</string>
     <string name="comment_checkmark_desc">bifează marcajul</string>
-    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Înregistrare cu Google…</string>
+    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Înregistrare cu Google…</string>
     <string name="jetpack_connection_failed_with_reason">Conectarea la Jetpack a eșuat: %s</string>
     <string name="jetpack_already_connected_toast">Ești deja conectat la Jetpack</string>
     <string name="menu_visual_mode">Modul vizual</string>
@@ -2690,7 +2721,7 @@ Language: ro
     <string name="site_settings_quota_space_hint">Dacă ai nevoie de mai mult spațiu, ia în considerare actualizarea planul tău WordPress.</string>
     <string name="site_settings_quota_space_title">Spațiu folosit</string>
     <string name="site_settings_quota_header">Media</string>
-    <string name="comment_unspam_talkback">Comentariu marcat ca nefiind spam</string>
+    <string name="comment_unspam_talkback">Comentariu marcat ca Nu este spam</string>
     <string name="comment_spam_talkback">Comentariul a fost marcat ca spam</string>
     <string name="comment_delete_talkback">Am șters comentariul</string>
     <string name="comment_untrash_talkback">Am restaurat comentariul</string>
@@ -2755,7 +2786,7 @@ Language: ro
     <string name="site_creation_domain_finish_button">Creează un site</string>
     <string name="notification_site_creation_created">Atinge pentru a continua.</string>
     <string name="notification_site_creation_title_success">Site creat!</string>
-    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="login">A durat prea mult până a răspuns Google. Va trebui să aștepți până când ai o conexiune la internet mai bună.</string>
+    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="module:login">A durat prea mult până a răspuns Google. Va trebui să aștepți până când ai o conexiune la internet mai bună.</string>
     <string name="username_changer_title">Schimbă numele de utilizator</string>
     <string name="username_changer_hint">Tastează pentru a primi mai multe sugestii</string>
     <string name="username_changer_header">Numele tău actual de utilizator este %1$s%2$s%3$s. Cu câteva excepții, ceilalți îți vor vedea întotdeauna numele pentru afișare, %4$s%5$s%6$s.</string>
@@ -2767,10 +2798,10 @@ Language: ro
     <string name="content_description_add_avatar">Adaugă avatar</string>
     <string name="signup_user_exists">Emailul există deja pe WordPress.com.\nContinui autentificarea.</string>
     <string name="signup_updating_account">Actualizez contul…</string>
-    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Trimit emailul</string>
-    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="login">Reîncearcă</string>
-    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="login">Închide</string>
-    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="login">Au fost unele probleme la trimiterea emailului. Poți reîncerca acum sau închide și încercă din nou mai târziu.</string>
+    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Trimit emailul</string>
+    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="module:login">Reîncearcă</string>
+    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="module:login">Închide</string>
+    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Au fost unele probleme la trimiterea emailului. Poți reîncerca acum sau închide și încercă din nou mai târziu.</string>
     <string name="signup_epilogue_hint_username">Nume utilizator</string>
     <string name="signup_epilogue_hint_password_detail">Poți să te autentifici mereu cu o legătură, ca cea pe care tocmai ai folosit-o, dar poți, de asemenea, să inițializezi o parolă, dacă preferi.</string>
     <string name="signup_epilogue_hint_password">Parolă (opțional)</string>
@@ -2868,18 +2899,18 @@ Language: ro
     <string name="my_site_btn_plugins">Module</string>
     <string name="media_edit_link_hint">Deschide legătura într-o fereastră/filă nouă</string>
     <string name="media_edit_link_text">Legătură la</string>
-    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="login">A apărut o eroare.</string>
-    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Te rog furnizează codul de autentificare pentru a continua.</string>
-    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="login">Te rog verifică-ți de două ori parola înainte de a continua.</string>
-    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="login">Autentificare oprită</string>
-    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="login">Te rog așteaptă până te autentificăm.</string>
-    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Autentificare în curs…</string>
-    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="login">Atinge pentru a continua.</string>
-    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="login">Ești autentificat!</string>
-    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="login">Autentificarea Google nu poate fi pornită.</string>
-    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="login">Te rog să introduci o parolă</string>
-    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="login">În schimb, trimite-mi un mesaj text cu un alt cod</string>
-    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="login">Am trimis un mesaj text către numărul de telefon care se termină cu %s. Te rog introdu codul de verificare în SMS.</string>
+    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="module:login">A apărut o eroare.</string>
+    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Te rog furnizează codul de autentificare pentru a continua.</string>
+    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Te rog verifică-ți de două ori parola înainte de a continua.</string>
+    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autentificare oprită</string>
+    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Te rog așteaptă până te autentificăm.</string>
+    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autentificare în curs…</string>
+    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Atinge pentru a continua.</string>
+    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ești autentificat!</string>
+    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autentificarea Google nu poate fi pornită.</string>
+    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Te rog să introduci o parolă</string>
+    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="module:login">În schimb, trimite-mi un mesaj text cu un alt cod</string>
+    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="module:login">Am trimis un mesaj text către numărul de telefon care se termină cu %s. Te rog introdu codul de verificare în SMS.</string>
     <string name="image_size">Dimensiune</string>
     <string name="uploading_subtitle_media_only_one">1 fișier rămas</string>
     <string name="uploading_subtitle_media_only">%1$d din %2$d fișiere rămase</string>
@@ -2896,15 +2927,15 @@ Language: ro
     <string name="confirm_remove_media_image">Înlături această imagine din articol?</string>
     <string name="media_edit_customize_card_caption">Personalizează</string>
     <string name="media_edit_file_details_card_caption">Detalii fișier</string>
-    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">\nPoate încerci un alt cont?</string>
-    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">Au fost probleme cu conectarea la contul Google.</string>
+    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">\nPoate încerci un alt cont?</string>
+    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">Au fost probleme cu conectarea la contul Google.</string>
     <string name="login_error_button">Închide</string>
-    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="login">Pentru a continua cu acest cont Google, te rog furnizează parola WordPress.com care se potrivește. Aceasta va fi cerută o singură dată.</string>
+    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pentru a continua cu acest cont Google, te rog furnizează parola WordPress.com care se potrivește. Aceasta va fi cerută o singură dată.</string>
     <string name="error_generic_network">A apărut o eroare de rețea. Te rog verifică-ți conexiunea și încearcă din nou.</string>
     <string name="post_settings_remove_featured_image">Înlătură imaginea reprezentativă</string>
     <string name="post_settings_choose_featured_image">Alege imagine reprezentativă</string>
-    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Autentifică-te în WordPress.com pentru a-ți partaja conținutul.</string>
-    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Introdu adresa site-ului tău WordPress de pe care vrei să partajezi conținutul.</string>
+    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autentifică-te în WordPress.com pentru a-ți partaja conținutul.</string>
+    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Introdu adresa site-ului tău WordPress de pe care vrei să partajezi conținutul.</string>
     <string name="jetpack_disconnect_error_toast">Eroare la deconectarea site-ului</string>
     <string name="jetpack_disconnect_success_toast">Site deconectat</string>
     <string name="jetpack_disconnect_confirm">Deconectează</string>
@@ -2988,28 +3019,28 @@ Language: ro
     <string name="login_epilogue_mysites_other">Site-urile mele</string>
     <string name="login_epilogue_mysites_one">Site-ul meu</string>
     <string name="login_email_client_not_found">Nu pot detecta aplicația ta client de email</string>
-    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="login">Te rog să introduci un cod de verificare</string>
-    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="login">Te rog să introduci un nume de utilizator</string>
-    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="login">Autentifică-te în WordPress.com pentru a accesa articolul.</string>
-    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="login">Eroare în timpul adăugării site-ului. Cod eroare: %s</string>
-    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Verific adresa site-ului</string>
-    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="login">Ai nevoie de mai mult ajutor?</string>
-    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="login">Adresa site-ului tău apare în bara din partea de sus a ecranului când îți vizitezi site-ul în Chrome.</string>
-    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="login">Care este adresa site-ului meu?</string>
-    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Adresă site</string>
-    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Introdu adresa site-ului WordPress pe care vrei să-l conectezi.</string>
+    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="module:login">Te rog să introduci un cod de verificare</string>
+    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="module:login">Te rog să introduci un nume de utilizator</string>
+    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autentifică-te în WordPress.com pentru a accesa articolul.</string>
+    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Eroare în timpul adăugării site-ului. Cod eroare: %s</string>
+    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Verific adresa site-ului</string>
+    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ai nevoie de mai mult ajutor?</string>
+    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="module:login">Adresa site-ului tău apare în bara din partea de sus a ecranului când îți vizitezi site-ul în Chrome.</string>
+    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Care este adresa site-ului meu?</string>
+    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Adresă site</string>
+    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Introdu adresa site-ului WordPress pe care vrei să-l conectezi.</string>
     <string name="login_already_logged_in_wpcom">Autentificat deja în WordPress.com</string>
-    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="login">Continuă</string>
+    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="module:login">Continuă</string>
     <string name="connect_more">Conectează un alt site</string>
-    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="login">Introdu parola ta WordPress.com.</string>
-    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="login">Cer emailul de autentificare</string>
-    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="login">Se pare că această parolă este incorectă. Te rog verifică-ți din nou informațiile și încearcă din nou.</string>
-    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="login">Cer un cod de verificare prin SMS.</string>
-    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="login">În schimb, trimite-mi un mesaj text cu un cod</string>
-    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Aproape gata! Te rog să introduci codul de verificare pentru WordPress.com din aplicația Authenticator.</string>
-    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="login">Deschide corespondența</string>
+    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Introdu parola ta WordPress.com.</string>
+    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="module:login">Cer emailul de autentificare</string>
+    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="module:login">Se pare că această parolă este incorectă. Te rog verifică-ți din nou informațiile și încearcă din nou.</string>
+    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">Cer un cod de verificare prin SMS.</string>
+    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">În schimb, trimite-mi un mesaj text cu un cod</string>
+    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Aproape gata! Te rog să introduci codul de verificare pentru WordPress.com din aplicația Authenticator.</string>
+    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="module:login">Deschide corespondența</string>
     <string name="next">Următor</string>
-    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">Autentifică-te în WordPress.com folosind o adresă de email pentru a-ți administra toate site-urile WordPress.</string>
+    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autentifică-te în WordPress.com folosind o adresă de email pentru a-ți administra toate site-urile WordPress.</string>
     <string name="me_profile_photo">Fotografie de profil</string>
     <string name="error_media_parse_error">Răspuns neașteptat de la server</string>
     <string name="upload_finished_toast">Nu pot opri încărcarea deoarece este deja terminată</string>
@@ -3154,15 +3185,15 @@ Language: ro
     <string name="media_upload_state_failed">Încărcarea a eșuat</string>
     <string name="media_upload_state_deleted">Ștearsă</string>
     <string name="media_upload_state_deleting">Ștergere</string>
-    <string name="media_upload_state_uploading">Se încarcă</string>
+    <string name="media_upload_state_uploading">Încarc</string>
     <string name="media_upload_state_queued">În coada de așteptare</string>
     <string name="image_quality">Calitate imagine</string>
     <string name="error_all_media_upload_canceled">Toate încărcările media au fost anulate din cauza unei erori necunoscute. Te rog reîncearcă încărcarea</string>
     <string name="error_unknown_post_type">Format de articol necunoscut</string>
     <string name="submit_for_review">Trimite</string>
     <string name="title_subscriber">Abonat</string>
-    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="login">A fost detectat un site duplicat.</string>
-    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="login">Acest site există deja în aplicație, nu-l poți adăuga.</string>
+    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="module:login">A fost detectat un site duplicat.</string>
+    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Acest site există deja în aplicație, nu-l poți adăuga.</string>
     <string name="already_logged_in_wpcom">Ești deja autentificat în contul tău WordPress.com, nu poți adăuga un site WordPress.com legat la un alt cont.</string>
     <string name="error_media_load">Nu pot să încarc elemente media</string>
     <string name="error_media_refresh_no_connection">Este necesară o conexiune pentru a împrospăta biblioteca</string>
@@ -3174,8 +3205,8 @@ Language: ro
     <string name="media_upload_error">A apărut o eroare la încarcarea media</string>
     <string name="retry">Reîncearcă</string>
     <string name="confirm">Confirmă</string>
-    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="login">N-am putut conecta. Am primit o eroare 403 la încercarea de a accesa\n        punctul-final XMLRPC pentru site-ul tău. Aplicația are nevoie de el pentru a comunica cu site-ul tău. Contactează-ți gazda pentru a rezolva\n        această problemă.</string>
-    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="login">Nu m-am putut conecta. Gazda ta blochează cererile POST și aplicația trebuie\n        să comunice cu site-ul tău. Contactează-ți gazda pentru a rezolva această problemă.</string>
+    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">N-am putut conecta. Am primit o eroare 403 la încercarea de a accesa\n        punctul-final XMLRPC pentru site-ul tău. Aplicația are nevoie de el pentru a comunica cu site-ul tău. Contactează-ți gazda pentru a rezolva\n        această problemă.</string>
+    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nu m-am putut conecta. Gazda ta blochează cererile POST și aplicația trebuie\n        să comunice cu site-ul tău. Contactează-ți gazda pentru a rezolva această problemă.</string>
     <string name="pending_draft_one_generic">Nu-l lăsa atârnat! \'%1$s\' așteaptă să fie publicat.</string>
     <string name="pending_draft_one_month">Nu-l lăsa atârnat! \'%1$s\' așteaptă să fie publicat.</string>
     <string name="pending_draft_one_week_2">\'%1$s\' rămâne o ciornă. Nu uita să-l publici!</string>
@@ -3276,8 +3307,8 @@ Language: ro
     <string name="error_refreshing_gravatar">Eroare la reîncărcare Gravatar</string>
     <string name="error_locating_image">Eroare de poziționare a imaginii decupate</string>
     <string name="error_cropping_image">Eroare la decuparea imaginii</string>
-    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="login">Verificarea emailului</string>
-    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="login">În prezent indisponibilă. Te rog să-ți introduci parola</string>
+    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Verificarea emailului</string>
+    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">În prezent indisponibilă. Te rog să-ți introduci parola</string>
     <string name="logging_in">Autentificare</string>
     <string name="web_address_dialog_hint">Făcută publică atunci când comentezi.</string>
     <string name="capture_or_pick_photo">Selectează sau fă o fotografie</string>
@@ -3313,7 +3344,7 @@ Language: ro
     <string name="comments_empty_list_filtered_pending">Niciun comentariu în așteptare</string>
     <string name="comments_empty_list_filtered_approved">Niciun comentariu aprobat</string>
     <string name="button_skip">Sari</string>
-    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="login">Nu ne-am putut conecta. Metodele XML-RPC necesare lipsesc de pe server.</string>
+    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nu ne-am putut conecta. Metodele XML-RPC necesare lipsesc de pe server.</string>
     <string name="alignment_center">Centru</string>
     <string name="post_format_video">Video</string>
     <string name="post_format_status">Stare</string>
@@ -3373,7 +3404,7 @@ Language: ro
     <string name="about_the_app">Despre aplicație</string>
     <string name="error_post_account_settings">N-am putut salva setările tale de cont</string>
     <string name="error_fetch_account_settings">N-am putut aduce setările tale de cont</string>
-    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="login">N-am putut aduce profilul tău</string>
+    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="module:login">N-am putut aduce profilul tău</string>
     <string name="site_settings_unknown_language_code_error">Cod de limbă nerecunoscut</string>
     <string name="site_settings_threading_dialog_description">Permite imbricarea comentariilor în fire.</string>
     <string name="site_settings_threading_dialog_header">Pe fire până la</string>
@@ -3497,7 +3528,7 @@ Language: ro
     <string name="active">Activă</string>
     <string name="support">Suport</string>
     <string name="details">Detalii</string>
-    <string name="customize">Personalizare</string>
+    <string name="customize">Personalizează</string>
     <string name="current_theme">Temă curentă</string>
     <string name="page_updated">Am actualizat pagina</string>
     <string name="post_updated">Am actualizat articolul</string>
@@ -3576,9 +3607,9 @@ Language: ro
     <string name="select_all">Selectează tot</string>
     <string name="hide">Ascunde</string>
     <string name="show">Arată</string>
-    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Autentifică-te din nou pentru a continua.</string>
-    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Codul de verificare nu este valid</string>
-    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Cod de verificare</string>
+    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autentifică-te din nou pentru a continua.</string>
+    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Codul de verificare nu este valid</string>
+    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Cod de verificare</string>
     <string name="language">Limbă</string>
     <string name="reader_empty_posts_request_failed">Nu se pot regăsi articole</string>
     <string name="error_notification_open">Nu pot deschide notificarea</string>
@@ -3642,7 +3673,7 @@ Language: ro
     <string name="ssl_certificate_error">Certificat SSL invalid</string>
     <string name="help">Ajutor</string>
     <string name="username_or_password_incorrect">Numele de utilizator sau parola introduse de tine sunt incorecte</string>
-    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="login">Introdu o adresă de email validă</string>
+    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="module:login">Introdu o adresă de email validă</string>
     <string name="invalid_email_message">Adresa ta de email nu e validă</string>
     <string name="error_downloading_image">Eroare la descărcarea imaginii</string>
     <string name="error_load_comment">Nu s-a putut încărca comentariul</string>
@@ -3658,7 +3689,7 @@ Language: ro
     <string name="cat_name_required">Câmpul cu numele categoriei este obligatoriu</string>
     <string name="adding_cat_success">Categoria a fost adăugată cu succes</string>
     <string name="adding_cat_failed">Adăugarea categoriei a eșuat</string>
-    <string name="mnu_comment_unspam">Nu e spam</string>
+    <string name="mnu_comment_unspam">Nu este spam</string>
     <string name="theme_fetch_failed">Aducerea temelor a eșuat</string>
     <string name="blog_not_found">A apărut o eroare la accesarea blogului</string>
     <string name="gallery_error">Elementul media nu a putut fi readus</string>
@@ -3675,7 +3706,7 @@ Language: ro
     <string name="new_media">Media nouă</string>
     <string name="new_post">Articol nou</string>
     <string name="notifications_empty_all">Nicio notificare… încă.</string>
-    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="login">Autorizație necesară</string>
+    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autorizarea este obligatorie</string>
     <string name="invalid_site_url_message">Verifică dacă URL-ul site-ului introdus e corect</string>
     <string name="file_error_create">Nu am putut crea fișierul temporar pentru a încărca media. Asigură-te că este destul spațiu liber pe dispozitiv.</string>
     <string name="category_name">Nume categorie</string>
@@ -3722,7 +3753,7 @@ Language: ro
     <string name="reader_likes_you_and_one">Tu și încă unul apreciați asta</string>
     <string name="pick_video">Selectează videoul</string>
     <string name="pick_photo">Selectează o fotografie</string>
-    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="login">Înregistrare</string>
+    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Înregistrare</string>
     <string name="reader_toast_err_url_intent">Nu pot deschide %s</string>
     <string name="reader_toast_err_view_image">Nu pot vedea imaginea</string>
     <string name="reader_toast_err_share_intent">Nu pot partaja</string>
@@ -3750,7 +3781,7 @@ Language: ro
     <string name="stats">Statistici</string>
     <string name="share_action">Partajează</string>
     <string name="theme_activate_button">Activare</string>
-    <string name="media_edit_failure">Actualizare eșuată</string>
+    <string name="media_edit_failure">Actualizarea a eșuat</string>
     <string name="media_edit_description_text">Descriere</string>
     <string name="media_edit_caption_text">Text asociat</string>
     <string name="media_edit_title_text">Titlu</string>
@@ -3766,11 +3797,11 @@ Language: ro
     <string name="note_reply_successful">Răspuns publicat</string>
     <string name="sign_in">Autentificare</string>
     <string name="loading">Încarc…</string>
-    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="login">parolă HTTP</string>
-    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="login">nume utilizator HTTP</string>
+    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="module:login">parolă HTTP</string>
+    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="module:login">nume utilizator HTTP</string>
     <string name="error_media_upload">A apărut o eroare la încărcarea media</string>
-    <string name="incorrect_credentials">Nume de utilizator sau parolă incorecte.</string>
-    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="login">Autentificare</string>
+    <string name="incorrect_credentials">Nume utilizator incorect sau parolă incorectă.</string>
+    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autentificare</string>
     <string name="username">Nume utilizator</string>
     <string name="password">Parolă</string>
     <string name="reader">Cititor</string>

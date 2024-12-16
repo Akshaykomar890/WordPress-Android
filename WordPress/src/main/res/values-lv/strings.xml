@@ -192,7 +192,6 @@ Language: lv
     <string name="logs_button">Žurnāli</string>
     <string name="support_faq_title">Paldies, ka pārslēdzāties uz Jetpack lietotni!</string>
     <string name="support_faq_caption">Atbildes uz bieži uzdotajiem jautājumiem skatiet mūsu BUJ.</string>
-    <string name="me_btn_help">Palīdzība</string>
     <string name="site_creation_domain_tag_best_alternative">Labākā alternatīva</string>
     <string name="site_creation_domain_tag_recommended">Ieteicams</string>
     <string name="site_creation_domain_tag_sale">Izpārdošana</string>
@@ -361,15 +360,15 @@ Language: lv
     <string name="stats_view_publicize">Jetpack Social savienojumi</string>
     <string name="app_rating_title">Vai jums patīk %s?</string>
     <string name="connections_label">Jetpack Social savienojumi</string>
-    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="login">Pārbaudiet savu e-pastu šajā ierīcē!</string>
-    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="login">Mēs tikko nosūtījām maģisko saiti uz</string>
+    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pārbaudiet savu e-pastu šajā ierīcē!</string>
+    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Mēs tikko nosūtījām maģisko saiti uz</string>
     <string name="wp_jetpack_powered_reader_powered_by_jetpack">Lasītāju darbina Jetpack</string>
     <string name="wp_jetpack_powered_reader_powered_by_jetpack_caption">Atrodiet, sekojiet un atzīmējiet visas savas iecienītākās vietnes un ziņas, izmantojot programmu Lasītājs, kas tagad ir pieejama jaunajā Jetpack lietotnē.</string>
     <string name="wp_jetpack_powered_stats_powered_by_jetpack">Statistiku nodrošina Jetpack</string>
     <string name="wp_jetpack_powered_stats_powered_by_jetpack_caption">Vērojiet savu datu plūsmu un uzziniet par savu auditoriju, izmantojot pārveidoto statistiku un ieskatus, kas tagad ir pieejami jaunajā Jetpack lietotnē.</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack">Paziņojumus nodrošina Jetpack</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack_caption">Esiet informēts ar reālā laika atjaunojumiem par komentāriem, vietnes datu plūsmu, drošību un daudz ko citu.</string>
-    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="login">Izmantojiet paroli, lai pierakstītos</string>
+    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Izmantojiet paroli, lai pierakstītos</string>
     <string name="wp_jetpack_powered_better_with_jetpack">WordPress ir labāks ar Jetpack</string>
     <string name="wp_jetpack_powered_features">Jaunajā Jetpack lietotnē ir statistika, lasītājs, paziņojumi un daudz kas cits, kas uzlabo jūsu WordPress.</string>
     <string name="wp_jetpack_get_new_jetpack_app">Izmēģiniet jauno Jetpack lietotni</string>
@@ -596,11 +595,11 @@ Language: lv
     <string name="adding_cat">Kategorijas pievienošana</string>
     <string name="my_site_dashboard_tab_title">Mājas</string>
     <string name="notification_channel_weekly_roundup_title">Iknedēļas apkopojums</string>
-    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="login">Sazinoties ar vietni, radās problēma. Tika atgriezts HTTP kļūdas kods 401.</string>
+    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="module:login">Sazinoties ar vietni, radās problēma. Tika atgriezts HTTP kļūdas kods 401.</string>
     <string name="login_select_email_client">Kuru e-pasta lietotni jūs izmantojat?</string>
-    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="login">Nevar nolasīt WordPress vietni šajā URL. Pieskarieties palīdzības ikonai, lai skatītu BUJ.</string>
-    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Šķiet, ka XML-RPC zvani šajā vietnē ir bloķēti (kļūdas kods 401). Ja mēģinājums pieteikties neizdodas, pieskarieties palīdzības ikonai, lai skatītu BUJ.</string>
-    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="login">XML-RPC pakalpojumi šajā vietnē ir atspējoti.</string>
+    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nevar nolasīt WordPress vietni šajā URL. Pieskarieties palīdzības ikonai, lai skatītu BUJ.</string>
+    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Šķiet, ka XML-RPC zvani šajā vietnē ir bloķēti (kļūdas kods 401). Ja mēģinājums pieteikties neizdodas, pieskarieties palīdzības ikonai, lai skatītu BUJ.</string>
+    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="module:login">XML-RPC pakalpojumi šajā vietnē ir atspējoti.</string>
     <string name="my_site_menu_tab_title">Izvēlne</string>
     <string name="new_site_creation_empty_domain_list_message_invalid_query">Jūsu meklēšanā ir iekļautas rakstzīmes, kas WordPress.com domēnos netiek atbalstītas. Ir atļautas šādas rakstzīmes: A–Z, a–z, 0–9.</string>
     <string name="error_edit_notification">Atjauninot paziņojuma saturu, radās kļūda</string>
@@ -963,7 +962,7 @@ Language: lv
     <string name="gutenberg_native_double_tap_to_open_bottom_sheet_to_edit_replace_or_clear_the_imag" tools:ignore="UnusedResources">Veiciet dubultskārienu, lai atvērtu apakšējo lapu, lai rediģētu, aizstātu vai notīrītu attēlu</string>
     <string name="quick_start_completed_type_customize_message">&lt;b&gt;Visi uzdevumi izpildīti&lt;/b&gt; &lt;br/&gt;Jūs esat pielāgojis savu vietni. Paveikts labi!</string>
     <string name="invite_links_disable_dialog_message">Kad šī ielūguma saite būs atspējota, neviens to nevarēs izmantot, lai pievienotos jūsu komandai. Vai esat pārliecināts?</string>
-    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="login">Vai nedomājāt izveidot jaunu kontu? Atgriezieties atpakaļ, lai atkārtoti ievadītu savu e-pasta adresi.</string>
+    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vai nedomājāt izveidot jaunu kontu? Atgriezieties atpakaļ, lai atkārtoti ievadītu savu e-pasta adresi.</string>
     <string name="invite_links_helper_text">Izmantojiet šo saiti, lai uzņemtu komandas biedrus, neuzaicinot tos pa vienam. Ikviens, kas apmeklēs šo URL, varēs pieteikties jūsu organizācijā, pat ja saiti saņēmis no kāda cita, tāpēc pārliecinieties, ka to kopīgojat ar uzticamiem cilvēkiem.</string>
     <string name="invite_links_generic_get_data_error">Iegūstot ielūgumu saišu datus, radās nezināma kļūda</string>
     <string name="invite_links_cannot_get_roles_error">Iegūstot lomas, radās kļūda</string>
@@ -1243,8 +1242,8 @@ Language: lv
     <string name="scan">Skenēt</string>
     <string name="reader_discover_empty_title">Laipni lūdzam!</string>
     <string name="reader_discover_no_posts_title">Nav pēdējo ziņu</string>
-    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="login">Atrodiet pievienoto e-pastu</string>
-    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="login">Turpiniet ar veikala akreditācijas datiem</string>
+    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Atrodiet pievienoto e-pastu</string>
+    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="module:login">Turpiniet ar veikala akreditācijas datiem</string>
     <string name="reader_discover_no_posts_follow_subtitle">Lai paplašinātu meklēšanu, mēģiniet izmantot vairākas birkas</string>
     <string name="login_prologue_third_subtitle_one">&lt;b&gt;Madison Ruiz&lt;/b&gt; patika jūsu ziņa</string>
     <string name="login_prologue_third_subtitle_two">Šodien savā vietnē esat saņēmis &lt;b&gt;50 atzīmes Patīk&lt;/b&gt;</string>
@@ -1312,8 +1311,8 @@ Language: lv
     <string name="media_browse_for_items">Pārlūkojiet vienumus</string>
     <string name="comment_unable_to_show_error">Nevar parādīt šo komentāru</string>
     <string name="permission_microphone">Mikrofons</string>
-    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="login">Hmm, mēs nevaram atrast WordPress.com kontu, kas būtu saistīts ar šo e-pasta adresi.</string>
-    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Saņemiet pieteikšanās saiti e-pastā</string>
+    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hmm, mēs nevaram atrast WordPress.com kontu, kas būtu saistīts ar šo e-pasta adresi.</string>
+    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Saņemiet pieteikšanās saiti e-pastā</string>
     <string name="reader_menu_report_post">Ziņot par šo ziņu</string>
     <string name="show_n_hidden_items_desc">Vēl %1$s vienumi</string>
     <string name="error_media_xmlrpc_not_allowed">Jūsu darbība nav atļauta</string>
@@ -1350,32 +1349,32 @@ Language: lv
     <string name="pick_file">Pievienot failu</string>
     <string name="gutenberg_native_replace_image_or_video" tools:ignore="UnusedResources">Nomainiet attēlu vai videoklipu</string>
     <string name="gutenberg_native_replace_video" tools:ignore="UnusedResources">Nomainiet video</string>
-    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">Ja turpināt izmantot Google un jums vēl nav WordPress.com konta, jūs izveidojat kontu un piekrītat mūsu %1$sPakalpojuma lietošanas noteikumiem%2$s.</string>
-    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="login">Reģistrācijas apstiprinājums</string>
+    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ja turpināt izmantot Google un jums vēl nav WordPress.com konta, jūs izveidojat kontu un piekrītat mūsu %1$sPakalpojuma lietošanas noteikumiem%2$s.</string>
+    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Reģistrācijas apstiprinājums</string>
     <string name="enter_your_site_address">Ievadiet savu esošo vietnes adresi</string>
     <string name="gutenberg_native_block_removed" tools:ignore="UnusedResources">Bloks noņemts</string>
     <string name="gutenberg_native_choose_image" tools:ignore="UnusedResources">Izvēlieties attēlu</string>
     <string name="gutenberg_native_choose_image_or_video" tools:ignore="UnusedResources">Izvēlieties attēlu vai videoklipu</string>
     <string name="gutenberg_native_choose_video" tools:ignore="UnusedResources">Izvēlieties video</string>
     <string name="gutenberg_native_convert_to_link" tools:ignore="UnusedResources">Konvertēt uz saiti</string>
-    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">Turpinot jūs piekrītat mūsu %1$sPakalpojumu sniegšanas noteikumiem%2$s.</string>
-    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="login">Mēs izmantosim šo e-pasta adresi, lai izveidotu jūsu jauno WordPress.com kontu.</string>
-    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="login">Mēs esam nosūtījuši jums e-pastā reģistrēšanās saiti, lai izveidotu savu jauno WordPress.com kontu. Pārbaudiet savu e-pastu šajā ierīcē un pieskarieties saitei e-pastā, kuru saņemat no WordPress.com.</string>
-    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Ievadiet sava konta informāciju par %1$s.</string>
-    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">Turpiniet ar Google</string>
-    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="login">vai</string>
-    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="login">Mēs jums nosūtīsim e-pasta saiti, ar kuru jūs tūlīt pieteiksieties, parole nav nepieciešama.</string>
-    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="login">Pārbaudiet savu e-pastu šajā ierīcē un pieskarieties saitei e-pastā, kuru saņēmāt no WordPress.com.</string>
-    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="login">Vai neredzat e-pastu? Pārbaudiet mapi Mēstules vai nevēlamā pasta mapi.</string>
+    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">Turpinot jūs piekrītat mūsu %1$sPakalpojumu sniegšanas noteikumiem%2$s.</string>
+    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Mēs izmantosim šo e-pasta adresi, lai izveidotu jūsu jauno WordPress.com kontu.</string>
+    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Mēs esam nosūtījuši jums e-pastā reģistrēšanās saiti, lai izveidotu savu jauno WordPress.com kontu. Pārbaudiet savu e-pastu šajā ierīcē un pieskarieties saitei e-pastā, kuru saņemat no WordPress.com.</string>
+    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ievadiet sava konta informāciju par %1$s.</string>
+    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">Turpiniet ar Google</string>
+    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="module:login">vai</string>
+    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Mēs jums nosūtīsim e-pasta saiti, ar kuru jūs tūlīt pieteiksieties, parole nav nepieciešama.</string>
+    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pārbaudiet savu e-pastu šajā ierīcē un pieskarieties saitei e-pastā, kuru saņēmāt no WordPress.com.</string>
+    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vai neredzat e-pastu? Pārbaudiet mapi Mēstules vai nevēlamā pasta mapi.</string>
     <string name="login_done">Gatavs</string>
-    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="login">Atrodiet savas vietnes adresi</string>
-    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Nosūtīt saiti e-pastā</string>
-    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="login">Izveidot profilu</string>
-    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Vai arī ierakstiet paroli</string>
-    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">Ievadiet savu e-pasta adresi, lai pieteiktos, vai izveidojiet WordPress.com kontu.</string>
-    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="login">Sāciet</string>
-    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="login">Pārbaudiet e-pastu</string>
-    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Atiestatiet paroli</string>
+    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Atrodiet savas vietnes adresi</string>
+    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nosūtīt saiti e-pastā</string>
+    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">Izveidot profilu</string>
+    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vai arī ierakstiet paroli</string>
+    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ievadiet savu e-pasta adresi, lai pieteiktos, vai izveidojiet WordPress.com kontu.</string>
+    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="module:login">Sāciet</string>
+    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pārbaudiet e-pastu</string>
+    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Atiestatiet paroli</string>
     <string name="reader_error_request_failed_title">Apstrādājot pieprasījumu, radās problēma. Lūdzu, pamēģiniet vēlreiz vēlāk.</string>
     <string name="quick_start_dialog_update_site_title_message_short">Pieskarieties &lt;b&gt;%1$s&lt;/b&gt;, lai rakstītu jaunu nosaukumu</string>
     <string name="quick_start_list_update_site_title_title">Pārbaudiet savas vietnes nosaukumu</string>
@@ -1625,13 +1624,13 @@ Language: lv
     <string name="dialog_confirm_scheduled_post_sync_yes">Sinhronizēt tūlīt</string>
     <string name="negative_prefix">-%s</string>
     <string name="new_site_creation_unavailable_domain">Šis domēns nav pieejams</string>
-    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="login">Nebija iespējams piekļūt jūsu vietnei, jo tai nepieciešama &lt;b&gt;HTTP autentifikācija&lt;/b&gt;. Lai to atrisinātu, jums būs jāsazinās ar mitinātāju.</string>
-    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="login">Nebija iespējams piekļūt jūsu vietnei, jo radās problēma ar &lt;b&gt;SSL sertifikātu&lt;/b&gt;. Lai to atrisinātu, jums būs jāsazinās ar saimnieku.</string>
-    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">Nebija iespējams piekļūt jūsu vietnei. Lai to atrisinātu, jums būs jāsazinās ar saimnieku.</string>
+    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nebija iespējams piekļūt jūsu vietnei, jo tai nepieciešama &lt;b&gt;HTTP autentifikācija&lt;/b&gt;. Lai to atrisinātu, jums būs jāsazinās ar mitinātāju.</string>
+    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nebija iespējams piekļūt jūsu vietnei, jo radās problēma ar &lt;b&gt;SSL sertifikātu&lt;/b&gt;. Lai to atrisinātu, jums būs jāsazinās ar saimnieku.</string>
+    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nebija iespējams piekļūt jūsu vietnei. Lai to atrisinātu, jums būs jāsazinās ar saimnieku.</string>
     <string name="my_site_bottom_sheet_add_page">Vietnes lapa</string>
-    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Piesakieties ar saviem %1$s vietnes akreditācijas datiem</string>
-    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="login">Gandrīz ir! Vēl tikai jāpārbauda jūsu ar Jetpack savienotā e-pasta adrese &lt;b&gt;%1$s&lt;/b&gt;</string>
-    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="login">Nebija iespējams piekļūt &lt;b&gt;XMLRPC failam&lt;/b&gt; jūsu vietnē. Lai to atrisinātu, jums būs jāsazinās ar savu mitinātāju.</string>
+    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Piesakieties ar saviem %1$s vietnes akreditācijas datiem</string>
+    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Gandrīz ir! Vēl tikai jāpārbauda jūsu ar Jetpack savienotā e-pasta adrese &lt;b&gt;%1$s&lt;/b&gt;</string>
+    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nebija iespējams piekļūt &lt;b&gt;XMLRPC failam&lt;/b&gt; jūsu vietnē. Lai to atrisinātu, jums būs jāsazinās ar savu mitinātāju.</string>
     <string name="site_cannot_be_loaded">Pašlaik ielādēt jūsu vietnes datus nav iespējams. Lūdzu, mēģiniet vēlreiz vēlāk</string>
     <string name="posts_cannot_be_started">Šobrīd atvērt ziņas nav iespējams. Lūdzu, mēģiniet vēlreiz vēlāk</string>
     <string name="suffix_1_000">%sK</string>
@@ -1732,8 +1731,6 @@ Language: lv
     <string name="button_delete_permanently">Neatgriezeniski dzēst</string>
     <string name="dialog_confirm_autosave_title">Kuru versiju vēlaties rediģēt?</string>
     <string name="dialog_confirm_autosave_body_first_part">Jūs nesen esat veicis izmaiņas ziņā, bet tās netika saglabātas. Izvēlieties versiju, ko ielādēt:\n\n\n\n</string>
-    <string name="dialog_confirm_autosave_restore_button">Versija no citas ierīces</string>
-    <string name="dialog_confirm_autosave_dont_restore_button">Šīs lietotnes versija</string>
     <string name="dialog_confirm_autosave_body_second_part">No šīs lietotnes \nsaglabāts %1$s\n\nNo citas ierīces \nsaglabāts %2$s\n</string>
     <string name="post_waiting_for_connection_private">Mēs publicēsim jūsu privāto ziņu, kad ierīce atkal būs tiešsaistē.</string>
     <string name="post_waiting_for_connection_draft">Mēs saglabāsim jūsu melnrakstu, kad ierīce atkal būs tiešsaistē</string>
@@ -1796,7 +1793,7 @@ Language: lv
     <string name="post_notification_off">Izslēgts</string>
     <string name="post_notification_one_hour_before">1 stundu iepriekš</string>
     <string name="post_notification_ten_minutes_before">10 minūtes pirms</string>
-    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="login">Lūdzu, ievadiet pilnu vietnes adresi, piemēram, example.com.</string>
+    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lūdzu, ievadiet pilnu vietnes adresi, piemēram, example.com.</string>
     <string name="site_settings_editor">Redaktors</string>
     <string name="stats_loading_card">Notiek atlasītās kartes datu ielāde</string>
     <string name="stats_overview_content_description">%1$s %2$s periodam: %3$s, izmaiņas salīdzinājumā ar iepriekšējo periodu — %4$s</string>
@@ -1808,7 +1805,7 @@ Language: lv
     <string name="stats_list_item_description">%1$s: %2$s, %3$s: %4$s</string>
     <string name="stats_post_label">Ziņa</string>
     <string name="stats_post_views_label">Skati</string>
-    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Piesakieties vietnē WordPress.com, lai izveidotu savienojumu ar %1$s</string>
+    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Piesakieties vietnē WordPress.com, lai izveidotu savienojumu ar %1$s</string>
     <string name="my_site_verify_your_email">Apstipriniet savu e-pasta adresi — norādījumi nosūtīti uz %s</string>
     <string name="my_site_verify_your_email_without_email">Apstipriniet savu e-pasta adresi — uz jūsu e-pastu nosūtīti norādījumi</string>
     <string name="description_collapse">Sakļaut</string>
@@ -1913,9 +1910,9 @@ Language: lv
     <string name="post_list_toggle_item_layout_cards_view">Pārslēgties uz karšu skatu</string>
     <string name="post_list_toggle_item_layout_list_view">Pārslēgties uz saraksta skatu</string>
     <string name="button_move_to_draft">Pārvietot uz melnrakstu</string>
-    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="login">Lūdzu, piesakieties, izmantojot savu WordPress.com lietotājvārdu, nevis e-pasta adresi.</string>
-    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Lūdzu, piesakieties ar savu lietotājvārdu un paroli.</string>
-    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="login">Vietne šajā adresē nav WordPress vietne. Lai mēs varētu ar to izveidot savienojumu, vietnei ir jāizmanto WordPress.</string>
+    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lūdzu, piesakieties, izmantojot savu WordPress.com lietotājvārdu, nevis e-pasta adresi.</string>
+    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lūdzu, piesakieties ar savu lietotājvārdu un paroli.</string>
+    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vietne šajā adresē nav WordPress vietne. Lai mēs varētu ar to izveidot savienojumu, vietnei ir jāizmanto WordPress.</string>
     <string name="stats_insights_this_year_site_stats">Šogad</string>
     <string name="stats_insights_year">gads</string>
     <string name="stats_insights_posts">Ziņas</string>
@@ -2093,7 +2090,7 @@ Language: lv
     <string name="history_load_dialog_button_positive">Ielādēt</string>
     <string name="history_loaded_revision">Ielādēta pārskatīšana</string>
     <string name="history_loading_revision">Notiek pārskatīšanas ielāde</string>
-    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="login">Lūdzu, ievadiet vietni WordPress.com vai ar Jetpack savienotu pašu mitinātu WordPress vietni</string>
+    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lūdzu, ievadiet vietni WordPress.com vai ar Jetpack savienotu pašu mitinātu WordPress vietni</string>
     <string name="description_user">Lietotāja tēls</string>
     <string name="menu_history">Vēsture</string>
     <string name="image_size_thumbnail_label">Sīktēls</string>
@@ -2111,7 +2108,7 @@ Language: lv
     <string name="pages_empty_drafts">Jums nav melnrakstu lapu</string>
     <string name="pages_empty_scheduled">Jums nav ieplānotu lapu</string>
     <string name="pages_empty_trashed">Jums nav nevienas miskastes lapas</string>
-    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="login">Esam veikuši pārāk daudz mēģinājumu nosūtīt SMS verifikācijas kodu - paņemiet pārtraukumu un pēc minūtes pieprasiet jaunu kodu.</string>
+    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="module:login">Esam veikuši pārāk daudz mēģinājumu nosūtīt SMS verifikācijas kodu - paņemiet pārtraukumu un pēc minūtes pieprasiet jaunu kodu.</string>
     <string name="pages_published" tools:ignore="UnusedResources">Publicēts</string>
     <string name="pages_drafts" tools:ignore="UnusedResources">Melnraksti</string>
     <string name="pages_scheduled" tools:ignore="UnusedResources">Plānots</string>
@@ -2120,7 +2117,7 @@ Language: lv
     <string name="pages_trashed" tools:ignore="UnusedResources">Izmests atkritnē</string>
     <string name="page_parent_changed">Lapas pamats ir mainīts</string>
     <string name="site_picker_remove_site_empty">Nav vietņu, kas atbilstu jūsu meklējumam</string>
-    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="login">Šim Google kontam nav atbilstoša WordPress.com konta.</string>
+    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="module:login">Šim Google kontam nav atbilstoša WordPress.com konta.</string>
     <string name="reader_no_followed_blogs_search_title">Nav jūsu meklēšanai atbilstošu emuāru</string>
     <string name="page_moved_to_draft">Lapa ir pārvietota uz mapi Melnraksti</string>
     <string name="page_moved_to_trash">Lapa ir izmesta</string>
@@ -2154,7 +2151,7 @@ Language: lv
     <string name="quick_start_button_negative_short" tools:ignore="UnusedResources">Atcelt</string>
     <string name="quick_start_button_positive" tools:ignore="UnusedResources">Iet</string>
     <string name="reader_empty_subscribed_tags_subtitle">Pievienojiet birkas, lai atrastu ziņas par iecienītākajām tēmām</string>
-    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="login">Piesakieties WordPress.com kontā, kuru izmantojāt, lai izveidotu savienojumu ar Jetpack.</string>
+    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="module:login">Piesakieties WordPress.com kontā, kuru izmantojāt, lai izveidotu savienojumu ar Jetpack.</string>
     <string name="stats_jetpack_connection_faq">Jetpack BUJ</string>
     <string name="jetpack">Jetpack</string>
     <string name="stats_jetpack_connection_setup_info">Lai savā WordPress vietnē izmantotu statistiku, jums būs jāinstalē Jetpack spraudnis.</string>
@@ -2208,13 +2205,13 @@ Language: lv
     <string name="reader_save_posts_locally_dialog_title">Saglabāt ziņas vēlākam laikam</string>
     <string name="sites">Vietnes</string>
     <string name="comment_read_source_post">Lasiet avota ziņu</string>
-    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="login">Burvju saite nosūtīta</string>
-    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">E-pasta adreses pieteikšanās</string>
-    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Vietnes adreses pieteikšanās</string>
-    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Burvju saites pieteikšanās</string>
-    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Burvju saite nosūtīta</string>
-    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Pieteikšanās akreditācijas dati</string>
-    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="login">Koda pārbaude</string>
+    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Burvju saite nosūtīta</string>
+    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">E-pasta adreses pieteikšanās</string>
+    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vietnes adreses pieteikšanās</string>
+    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Burvju saites pieteikšanās</string>
+    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Burvju saite nosūtīta</string>
+    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pieteikšanās akreditācijas dati</string>
+    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Koda pārbaude</string>
     <string name="removed">Noņemts</string>
     <string name="reader_save_for_later_title">Saglabātās ziņas</string>
     <string name="reader_add_bookmark">Pievienot saglabātajām ziņām</string>
@@ -2292,7 +2289,7 @@ Language: lv
     <string name="stock_media_picker_initial_empty_subtext">Fotoattēlus nodrošina %s</string>
     <string name="media_preview_title">%1$d no %2$d</string>
     <string name="fab_add_tag_desc">Izveidot birku</string>
-    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Notiek reģistrēšanās Google tīklā…</string>
+    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Notiek reģistrēšanās Google tīklā…</string>
     <string name="comment_checkmark_desc">atzīme</string>
     <string name="profile_picture">%s profila attēls</string>
     <string name="invite_user_delete_desc">noņemt %s</string>
@@ -2406,10 +2403,10 @@ Language: lv
     <string name="username_changer_header">Jūsu pašreizējais lietotājvārds ir %1$s%2$s%3$s. Ar dažiem izņēmumiem citi redzēs tikai jūsu parādāmo vārdu %4$s%5$s%6$s.</string>
     <string name="username_changer_hint">Rakstiet, lai saņemtu vairāk ieteikumu</string>
     <string name="username_changer_title">Mainiet lietotājvārdu</string>
-    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="login">Google pārāk ilgi neatbildēja. Iespējams, jums būs jāgaida, līdz būs pieejams spēcīgāks interneta savienojums.</string>
+    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google pārāk ilgi neatbildēja. Iespējams, jums būs jāgaida, līdz būs pieejams spēcīgāks interneta savienojums.</string>
     <string name="notification_site_creation_title_success">Vietne izveidota!</string>
     <string name="notification_site_creation_created">Piesitiet, lai turpinātu.</string>
-    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Sūta e-pastu</string>
+    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Sūta e-pastu</string>
     <string name="signup_updating_account">Notiek konta jaunināšana…</string>
     <string name="signup_epilogue_error_avatar">Radās problēmas augšupielādējot jūsu tēlu (avatar).</string>
     <string name="signup_epilogue_error_generic">Atjauninot jūsu kontu, radās problēmas. Lai turpinātu, varat atkārtot mēģinājumu vai atgriezt izmaiņas.</string>
@@ -2419,9 +2416,9 @@ Language: lv
     <string name="signup_epilogue_hint_password">Parole (nav obligāta)</string>
     <string name="signup_epilogue_hint_password_detail">Jūs vienmēr varat pieteikties, izmantojot tikko izmantoto saiti, bet, ja vēlaties, varat arī iestatīt paroli.</string>
     <string name="signup_epilogue_hint_username">Lietotājvārds</string>
-    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="login">Nosūtot e-pastu, radās problēmas. Tagad varat mēģināt vēlreiz vai aizvērt un mēģināt vēlāk.</string>
-    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="login">Aizvērt</string>
-    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="login">Mēģiniet vēlreiz</string>
+    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nosūtot e-pastu, radās problēmas. Tagad varat mēģināt vēlreiz vai aizvērt un mēģināt vēlāk.</string>
+    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="module:login">Aizvērt</string>
+    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="module:login">Mēģiniet vēlreiz</string>
     <string name="my_site_create_new_site">Izveidojiet jaunu vietni savam biznesam, žurnālam vai personīgajam emuāram; vai pievienojiet esošu WordPress instalāciju.</string>
     <string name="my_site_add_new_site">Pievienot jaunu vietni</string>
     <string name="site_settings_like_header">Patīk</string>
@@ -2511,18 +2508,18 @@ Language: lv
     <string name="plugin_active">Aktīvs</string>
     <string name="plugin_inactive">Neaktīvs</string>
     <string name="media_edit_link_text">Saite uz</string>
-    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="login">Radās kļūda.</string>
-    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Lūdzu, norādiet autentifikācijas kodu, lai turpinātu.</string>
-    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="login">Lūdzu, vēlreiz pārbaudiet savu paroli, lai turpinātu.</string>
-    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="login">Pieteikšanās ir pārtraukta</string>
-    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Notiek pieteikšanās…</string>
-    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="login">Lūdzu, uzgaidiet, kamēr piesakāties.</string>
-    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="login">Piesitiet, lai turpinātu.</string>
-    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="login">Pieteicies!</string>
-    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="login">Google pieteikšanos nevarēja sākt.</string>
-    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="login">Lūdzu, ievadiet paroli</string>
-    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="login">Tā vietā nosūtiet man citu kodu</string>
-    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="login">Mēs nosūtījām īsziņu uz tālruņa numuru, kas beidzas ar %s. Lūdzu, īsziņā ievadiet verifikācijas kodu.</string>
+    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Radās kļūda.</string>
+    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lūdzu, norādiet autentifikācijas kodu, lai turpinātu.</string>
+    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lūdzu, vēlreiz pārbaudiet savu paroli, lai turpinātu.</string>
+    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pieteikšanās ir pārtraukta</string>
+    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Notiek pieteikšanās…</string>
+    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lūdzu, uzgaidiet, kamēr piesakāties.</string>
+    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Piesitiet, lai turpinātu.</string>
+    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pieteicies!</string>
+    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google pieteikšanos nevarēja sākt.</string>
+    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lūdzu, ievadiet paroli</string>
+    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tā vietā nosūtiet man citu kodu</string>
+    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="module:login">Mēs nosūtījām īsziņu uz tālruņa numuru, kas beidzas ar %s. Lūdzu, īsziņā ievadiet verifikācijas kodu.</string>
     <string name="uploading_subtitle_media_only">Atlicis %1$d no %2$d failiem</string>
     <string name="uploading_subtitle_media_only_one">Atlicis 1 fails</string>
     <string name="image_size">Izmērs</string>
@@ -2539,15 +2536,15 @@ Language: lv
     <string name="confirm_remove_media_image">Vai noņemt šo attēlu no ziņas?</string>
     <string name="media_edit_file_details_card_caption">Informācija par failu</string>
     <string name="media_edit_customize_card_caption">Pielāgot</string>
-    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">Izveidojot savienojumu ar Google kontu, radās problēmas.</string>
-    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">\nVarbūt izmēģināt citu kontu?</string>
+    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">Izveidojot savienojumu ar Google kontu, radās problēmas.</string>
+    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">\nVarbūt izmēģināt citu kontu?</string>
     <string name="login_error_button">Aizvērt</string>
-    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="login">Lai turpinātu izmantot šo Google kontu, lūdzu, norādiet atbilstošo WordPress.com paroli. Tas tiks jautāts tikai vienu reizi.</string>
+    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lai turpinātu izmantot šo Google kontu, lūdzu, norādiet atbilstošo WordPress.com paroli. Tas tiks jautāts tikai vienu reizi.</string>
     <string name="error_generic_network">Radās tīkla kļūda. Lūdzu, pārbaudiet savienojumu un mēģiniet vēlreiz.</string>
     <string name="post_settings_remove_featured_image">Noņemt piedāvāto attēlu</string>
     <string name="post_settings_choose_featured_image">Izvēlieties piedāvāto attēlu</string>
-    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Piesakieties vietnē WordPress.com, lai kopīgotu saturu.</string>
-    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Ievadiet savas WordPress vietnes adresi, ar kuru vēlaties kopīgot saturu.</string>
+    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Piesakieties vietnē WordPress.com, lai kopīgotu saturu.</string>
+    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ievadiet savas WordPress vietnes adresi, ar kuru vēlaties kopīgot saturu.</string>
     <string name="jetpack_disconnect_success_toast">Vietne ir atvienota</string>
     <string name="jetpack_disconnect_error_toast">Atvienojot vietni, radās kļūda</string>
     <string name="jetpack_disconnect_confirmation_message">Vai tiešām vēlaties atvienot Jetpack no vietnes?</string>
@@ -2630,29 +2627,29 @@ Language: lv
     <string name="uploading_post">Notiek faila “%s” augšupielāde</string>
     <string name="login_epilogue_mysites_one">Mana vietne</string>
     <string name="login_epilogue_mysites_other">Manas vietnes</string>
-    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="login">Lūdzu, ievadiet verifikācijas kodu</string>
+    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lūdzu, ievadiet verifikācijas kodu</string>
     <string name="login_email_client_not_found">Nevar noteikt jūsu e-pasta klienta lietotni</string>
-    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="login">Lūdzu, ievadiet lietotājvārdu</string>
-    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="login">Lai piekļūtu ziņai, piesakieties vietnē WordPress.com.</string>
-    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="login">Pievienojot vietni, radās kļūda. Kļūdas kods: %s</string>
-    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Vietnes adreses pārbaude</string>
-    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="login">Kad apmeklējat vietni pārlūkā Chrome, ekrāna augšdaļā esošajā joslā tiek parādīta jūsu vietnes adrese.</string>
-    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="login">Vai nepieciešama papildu palīdzība?</string>
-    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="login">Kāda ir manas vietnes adrese?</string>
-    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Ievadiet tās WordPress vietnes adresi, kuru vēlaties izveidot savienojumu.</string>
-    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Vietnes adrese</string>
+    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lūdzu, ievadiet lietotājvārdu</string>
+    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lai piekļūtu ziņai, piesakieties vietnē WordPress.com.</string>
+    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pievienojot vietni, radās kļūda. Kļūdas kods: %s</string>
+    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vietnes adreses pārbaude</string>
+    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kad apmeklējat vietni pārlūkā Chrome, ekrāna augšdaļā esošajā joslā tiek parādīta jūsu vietnes adrese.</string>
+    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vai nepieciešama papildu palīdzība?</string>
+    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kāda ir manas vietnes adrese?</string>
+    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ievadiet tās WordPress vietnes adresi, kuru vēlaties izveidot savienojumu.</string>
+    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vietnes adrese</string>
     <string name="login_already_logged_in_wpcom">Jau esat pieteicies vietnē WordPress.com</string>
-    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="login">Ievadiet savu WordPress.com paroli.</string>
+    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ievadiet savu WordPress.com paroli.</string>
     <string name="connect_more">Pievienojiet citu vietni</string>
-    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="login">Turpināt</string>
-    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="login">Pieprasa pieteikšanās e-pastu</string>
-    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="login">Izskatās, ka šī parole nav pareiza. Lūdzu, vēlreiz pārbaudiet savu informāciju un mēģiniet vēlreiz.</string>
-    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="login">Verifikācijas koda pieprasīšana, izmantojot īsziņu.</string>
-    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="login">Tā vietā nosūtiet man kodu</string>
-    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Gandrīz ir! Lūdzu, ievadiet WordPress.com verifikācijas kodu no autentifikatora lietotnes.</string>
-    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">Piesakieties vietnē WordPress.com, izmantojot e-pasta adresi, lai pārvaldītu visas savas WordPress vietnes.</string>
+    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="module:login">Turpināt</string>
+    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pieprasa pieteikšanās e-pastu</string>
+    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="module:login">Izskatās, ka šī parole nav pareiza. Lūdzu, vēlreiz pārbaudiet savu informāciju un mēģiniet vēlreiz.</string>
+    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">Verifikācijas koda pieprasīšana, izmantojot īsziņu.</string>
+    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tā vietā nosūtiet man kodu</string>
+    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Gandrīz ir! Lūdzu, ievadiet WordPress.com verifikācijas kodu no autentifikatora lietotnes.</string>
+    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">Piesakieties vietnē WordPress.com, izmantojot e-pasta adresi, lai pārvaldītu visas savas WordPress vietnes.</string>
     <string name="next">Nākamais</string>
-    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="login">Open Mail</string>
+    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="module:login">Open Mail</string>
     <string name="error_media_parse_error">Negaidīta atbilde no servera</string>
     <string name="me_profile_photo">Profila fotoattēls</string>
     <string name="upload_finished_toast">Nevar apturēt augšupielādi, jo tā jau ir pabeigta</string>
@@ -2803,8 +2800,8 @@ Language: lv
     <string name="error_all_media_upload_canceled">Visas multivides augšupielādes ir atceltas nezināmas kļūdas dēļ. Lūdzu, mēģiniet augšupielādēt vēlreiz</string>
     <string name="error_unknown_post_type">Nezināms ziņas formāts</string>
     <string name="submit_for_review">Iesniegt</string>
-    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="login">Šī vietne jau pastāv lietotnē, jūs to nevarat pievienot.</string>
-    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="login">Tika konstatēta vietnes dublikāts.</string>
+    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Šī vietne jau pastāv lietotnē, jūs to nevarat pievienot.</string>
+    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tika konstatēta vietnes dublikāts.</string>
     <string name="already_logged_in_wpcom">Jūs jau esat pieteicies WordPress.com kontā, jūs nevarat pievienot WordPress.com vietni, kas ir saistīta ar citu kontu.</string>
     <string name="error_media_load">Nevar ielādēt multividi</string>
     <string name="error_media_refresh_no_connection">Nepieciešams savienojums, lai atsvaidzinātu bibliotēku</string>
@@ -2814,10 +2811,10 @@ Language: lv
     <string name="site_settings_optimize_images">Optimizēt attēlus</string>
     <string name="media_upload_error">Radās multivides augšupielādes kļūda</string>
     <string name="media_generic_error">Radās multivides kļūda</string>
-    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="login">Nevarēja izveidot savienojumu. Mēģinot piekļūt jūsu vietnes XMLRPC galapunktam, \n        mēs saņēmām kļūdu 403. Lietotnei tas ir nepieciešams, lai sazinātos ar jūsu vietni. Lai atrisinātu šo problēmu, sazinieties ar savu mitinātāju.</string>
+    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nevarēja izveidot savienojumu. Mēģinot piekļūt jūsu vietnes XMLRPC galapunktam, \n        mēs saņēmām kļūdu 403. Lietotnei tas ir nepieciešams, lai sazinātos ar jūsu vietni. Lai atrisinātu šo problēmu, sazinieties ar savu mitinātāju.</string>
     <string name="confirm">Apstiprināt</string>
     <string name="retry">Mēģiniet vēlreiz</string>
-    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="login">    Nebija iespējams izveidot savienojumu. Jūsu resursdators bloķē POST pieprasījumus, un lietotnei tad ir\nnepieciešams lai sazinātos ar jūsu vietni. Lai atrisinātu šo problēmu, sazinieties ar mitinātāju.</string>
+    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">    Nebija iespējams izveidot savienojumu. Jūsu resursdators bloķē POST pieprasījumus, un lietotnei tad ir\nnepieciešams lai sazinātos ar jūsu vietni. Lai atrisinātu šo problēmu, sazinieties ar mitinātāju.</string>
     <string name="pending_draft_one_generic">Neatstājiet to novārtā! \'%1$s\' gaida, kad tiks publicēts.</string>
     <string name="pending_draft_one_month">Neatstājiet to novārtā! \'%1$s\' gaida, kad tiks publicēts.</string>
     <string name="pending_draft_one_week_2">\'%1$s\' paliek melnraksts. Atcerieties to publicēt!</string>
@@ -2918,8 +2915,8 @@ Language: lv
     <string name="error_locating_image">Atrodot apgriezto attēlu, radās kļūda</string>
     <string name="error_refreshing_gravatar">Kļūda, atkārtoti ielādējot jūsu Gravatar</string>
     <string name="error_cropping_image">Apgriežot attēlu, radās kļūda</string>
-    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="login">Pārbauda e-pastu</string>
-    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="login">Pašlaik nav pieejams. Lūdzu ievadiet savu paroli</string>
+    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pārbauda e-pastu</string>
+    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pašlaik nav pieejams. Lūdzu ievadiet savu paroli</string>
     <string name="logging_in">Pieteikties</string>
     <string name="web_address_dialog_hint">Tiek parādīts publiski, kad komentējat.</string>
     <string name="capture_or_pick_photo">Uzņemiet vai atlasiet fotoattēlu</string>
@@ -2955,7 +2952,7 @@ Language: lv
     <string name="comments_empty_list_filtered_pending">Nav gaidošu komentāru</string>
     <string name="comments_empty_list_filtered_approved">Nav apstiprinātu komentāru</string>
     <string name="button_skip">Izlaist</string>
-    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="login">Nebija iespējams izveidot savienojumu. Serverī nav vajadzīgo XML-RPC metožu.</string>
+    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nebija iespējams izveidot savienojumu. Serverī nav vajadzīgo XML-RPC metožu.</string>
     <string name="post_format_status">Statuss</string>
     <string name="post_format_video">Video</string>
     <string name="alignment_center">Centrs</string>
@@ -3015,7 +3012,7 @@ Language: lv
     <string name="about_the_app">Par lietotni</string>
     <string name="error_post_account_settings">Nevarēja saglabāt jūsu konta iestatījumus</string>
     <string name="error_fetch_account_settings">Nevarēja izgūt jūsu konta iestatījumus</string>
-    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="login">Nevarēja izgūt jūsu profilu</string>
+    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nevarēja izgūt jūsu profilu</string>
     <string name="site_settings_unknown_language_code_error">Valodas kods nav atpazīts</string>
     <string name="site_settings_threading_dialog_description">Atļaut komentārus ievietot pavedienos.</string>
     <string name="site_settings_threading_dialog_header">Pavediens līdz</string>
@@ -3219,9 +3216,9 @@ Language: lv
     <string name="select_all">Atlasīt visus</string>
     <string name="deselect_all">Atcelt visu atlasi</string>
     <string name="language">Valoda</string>
-    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Apstiprinājuma kods</string>
-    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Nederīgs apstiprinājuma kods</string>
-    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Lai turpinātu, piesakieties vēlreiz.</string>
+    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Apstiprinājuma kods</string>
+    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nederīgs apstiprinājuma kods</string>
+    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lai turpinātu, piesakieties vēlreiz.</string>
     <string name="media_fetching">Notiek multivides iegūšana…</string>
     <string name="posts_fetching">Notiek ziņu iegūšana…</string>
     <string name="pages_fetching">Notiek lapu iegūšana…</string>
@@ -3292,7 +3289,7 @@ Language: lv
     <string name="error_load_comment">Komentāru nevarēja atvērt </string>
     <string name="error_downloading_image">Kļūda lejupielādējot attēlu</string>
     <string name="invalid_email_message">Jūsu e-pasta adrese nav derīga</string>
-    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="login">Ievadiet derīgu e-pasta adresi</string>
+    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ievadiet derīgu e-pasta adresi</string>
     <string name="username_or_password_incorrect">Ievadītais lietotājvārds vai parole ir nepareiza</string>
     <string name="no_network_message">Nav pieejams neviens tīkls</string>
     <string name="gallery_error">Multivides vienumu nevarēja izgūt</string>
@@ -3342,7 +3339,7 @@ Language: lv
     <string name="comment_status_approved">Apstiprināts</string>
     <string name="comment_status_unapproved">Gaida</string>
     <string name="invalid_site_url_message">Pārbaudiet, vai ievadītais vietnes URL ir derīgs</string>
-    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="login">Nepieciešama autorizācija</string>
+    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nepieciešama autorizācija</string>
     <string name="notifications_empty_all">Paziņojumu pagaidām nav…</string>
     <string name="new_post">Jauna ziņa</string>
     <string name="error_blog_hidden">Šis emuārs ir paslēpts, un to nevarēja ielādēt. Iespējojiet to vēlreiz iestatījumos un mēģiniet vēlreiz.</string>
@@ -3367,7 +3364,7 @@ Language: lv
     <string name="reader_toast_err_share_intent">Nevar kopīgot</string>
     <string name="reader_toast_err_view_image">Nevar skatīt attēlu</string>
     <string name="reader_toast_err_url_intent">Nevar atvērt %s</string>
-    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="login">Pierakstīties</string>
+    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pierakstīties</string>
     <string name="reader_likes_only_you">Jums patīk šis</string>
     <string name="reader_toast_err_comment_failed">Nevarēja ievietot jūsu komentāru</string>
     <string name="reader_btn_share">Dalīties</string>
@@ -3408,13 +3405,13 @@ Language: lv
     <string name="new_notifications">%d jauni paziņojumi</string>
     <string name="more_notifications">un vēl %d.</string>
     <string name="loading">Notiek ielāde…</string>
-    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP lietotājvārds</string>
-    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP parole</string>
+    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP lietotājvārds</string>
+    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP parole</string>
     <string name="error_media_upload">Augšupielādējot multividi, radās kļūda</string>
     <string name="incorrect_credentials">Nepareizs lietotājvārds vai parole.</string>
     <string name="password">Parole</string>
     <string name="username">Lietotājvārds</string>
-    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="login">Pieslēgties</string>
+    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pieslēgties</string>
     <string name="reader">Lasītājs</string>
     <string name="no_network_title">Nav pieejams neviens tīkls</string>
     <string name="anonymous">Anonīms</string>

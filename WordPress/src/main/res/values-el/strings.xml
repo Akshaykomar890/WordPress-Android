@@ -9,7 +9,6 @@ Language: el_GR
     <string name="site_creation_domain_tag_sale">Προσφορά</string>
     <string name="site_creation_domain_tag_recommended">Προτεινόμενο</string>
     <string name="site_creation_domain_tag_best_alternative">Καλύτερη Εναλλακτική</string>
-    <string name="me_btn_help">Βοήθεια</string>
     <string name="help_buttons_screen_title">Βοήθεια</string>
     <string name="free">Δωρεάν</string>
     <string name="tickets">Εισιτήρια</string>
@@ -190,7 +189,7 @@ Language: el_GR
     <string name="content_description_more">Περισσότερα</string>
     <string name="jetpack">Jetpack</string>
     <string name="stats_jetpack_connection_faq">Συχνές Ερωτήσεις για το Jetpack</string>
-    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="login">Συνδεθείτε στο WordPress.com λογαριασμό σας που χρησιμοποιείτε για να συνδεθείτε με το Jetpack.</string>
+    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="module:login">Συνδεθείτε στο WordPress.com λογαριασμό σας που χρησιμοποιείτε για να συνδεθείτε με το Jetpack.</string>
     <string name="reader_label_post_search_explainer">Τι θα θέλατε να βρείτε;</string>
     <string name="site_settings_tags_empty_title">Δεν έχετε κάποια ετικέτα</string>
     <string name="site_settings_tags_empty_button">Δημιουργήστε μια ετικέτα</string>
@@ -213,9 +212,9 @@ Language: el_GR
     <string name="support_identity_input_dialog_enter_email">Παρακαλώ συμπληρώστε το email σας</string>
     <string name="reader_empty_search_title">Δεν βρέθηκαν αποτελέσματα</string>
     <string name="sites">Ιστότοποι</string>
-    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="login">Ο μαγικός σύνδεσμος στάλθηκε</string>
-    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Στοιχεία εισόδου</string>
-    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Ο μαγικός σύνδεσμος στάλθηκε</string>
+    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ο μαγικός σύνδεσμος στάλθηκε</string>
+    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Στοιχεία εισόδου</string>
+    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ο μαγικός σύνδεσμος στάλθηκε</string>
     <string name="reader_bookmark_snack_btn">Προβολή όλων</string>
     <string name="removed">Αφαιρέθηκε</string>
     <string name="reader_save_for_later_title">Αποθηκευμένα άρθρα</string>
@@ -299,15 +298,15 @@ Language: el_GR
     <string name="username_changer_dismiss_button_positive">Απόρριψη</string>
     <string name="notification_site_creation_created">Πατήστε για να συνεχίσετε.</string>
     <string name="username_changer_title">Αλλαγή ονόματος χρήστη</string>
-    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Αποστολή email</string>
+    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Αποστολή email</string>
     <string name="signup_updating_account">Ενημέρωση λογαριασμού…</string>
     <string name="signup_epilogue_error_button_negative">Επαναφορά</string>
     <string name="signup_epilogue_error_button_positive">Προσπαθήστε ξανά</string>
     <string name="signup_epilogue_hint_display">Όνομα εμφάνισης</string>
     <string name="signup_epilogue_hint_password">Κωδικός (προαιρετικός)</string>
     <string name="signup_epilogue_hint_username">Όνομα χρήστη  </string>
-    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="login">Κλείσιμο</string>
-    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="login">Προσπαθήστε ξανά</string>
+    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="module:login">Κλείσιμο</string>
+    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="module:login">Προσπαθήστε ξανά</string>
     <string name="my_site_add_new_site">Προσθήκη ιστότοπου</string>
     <string name="plugin_caption_new">Νέο</string>
     <string name="plugin_caption_popular">Δημοφιλή</string>
@@ -375,12 +374,12 @@ Language: el_GR
     <string name="plugin_inactive">Ανενεργό</string>
     <string name="media_edit_link_hint">Άνοιγμα συνδέσμου σε νέο παράθυρο/καρτέλα</string>
     <string name="media_edit_link_text">Σύνδεσμος σε</string>
-    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="login">Προέκυψε σφάλμα.</string>
-    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Σύνδεση σε εξέλιξη…</string>
-    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="login">Περιμένετε μέχρι να συνδεθείτε.</string>
-    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="login">Πατήστε για να συνεχίσετε.</string>
-    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="login">Συνδεδεμένος!</string>
-    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="login">Παρακαλούμε εισάγετε έναν κωδικό πρόσβασης</string>
+    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Προέκυψε σφάλμα.</string>
+    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Σύνδεση σε εξέλιξη…</string>
+    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Περιμένετε μέχρι να συνδεθείτε.</string>
+    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Πατήστε για να συνεχίσετε.</string>
+    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="module:login">Συνδεδεμένος!</string>
+    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Παρακαλούμε εισάγετε έναν κωδικό πρόσβασης</string>
     <string name="image_size">Μέγεθος</string>
     <string name="uploading_subtitle_media_only_one">1 αρχείο απομένει</string>
     <string name="uploading_subtitle_media_only">%1$d από %2$d αρχεία απομένουν</string>
@@ -395,11 +394,11 @@ Language: el_GR
     <string name="confirm_remove_media_image">Αφαίρεση αυτής της εικόνας από το άρθρο;</string>
     <string name="media_edit_customize_card_caption">Προσαρμογή</string>
     <string name="media_edit_file_details_card_caption">Λεπτομέρειες αρχείου</string>
-    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">\nΊσως να δοκιμάσετε ένα διαφορετικό λογαριασμό;</string>
+    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">\nΊσως να δοκιμάσετε ένα διαφορετικό λογαριασμό;</string>
     <string name="login_error_button">Κλείσιμο</string>
     <string name="post_settings_remove_featured_image">Αφαίρεση χαρακτηριστικής εικόνας</string>
     <string name="post_settings_choose_featured_image">Επιλέξτε χαρακτηρισμένη εικόνα</string>
-    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Συνδεθείτε στο WordPress.com για να μοιραστείτε το περιεχόμενο.</string>
+    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Συνδεθείτε στο WordPress.com για να μοιραστείτε το περιεχόμενο.</string>
     <string name="jetpack_disconnect_error_toast">Σφάλμα αποσύνδεσης ιστοτόπου</string>
     <string name="jetpack_disconnect_success_toast">Ο ιστότοπος αποσυνδέθηκε</string>
     <string name="jetpack_disconnect_confirm">Αποσύνδεση</string>
@@ -448,11 +447,11 @@ Language: el_GR
     <string name="uploading_post">Μεταφόρτωση του \"%s\"</string>
     <string name="login_epilogue_mysites_one">Ο ιστότοπος μου</string>
     <string name="login_epilogue_mysites_other">Οι ιστότοποι μου</string>
-    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="login">Παρακαλώ εισάγετε έναν κωδικό επαλήθευσης</string>
-    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="login">Παρακαλώ δώστε ένα όνομα χρήστη</string>
-    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="login">Χρειάζεστε περισσότερη βοήθεια;</string>
-    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Διεύθυνση ιστότοπου</string>
-    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="login">Συνέχεια</string>
+    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="module:login">Παρακαλώ εισάγετε έναν κωδικό επαλήθευσης</string>
+    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="module:login">Παρακαλώ δώστε ένα όνομα χρήστη</string>
+    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="module:login">Χρειάζεστε περισσότερη βοήθεια;</string>
+    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Διεύθυνση ιστότοπου</string>
+    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="module:login">Συνέχεια</string>
     <string name="connect_more">Συνδέστε Έναν Άλλο Ιστότοπο</string>
     <string name="next">Επόμενο</string>
     <string name="me_profile_photo">Φωτογραφία προφίλ</string>
@@ -563,8 +562,8 @@ Language: el_GR
     <string name="error_unknown_post_type">Άγνωστη μορφή άρθρου</string>
     <string name="submit_for_review">Υποβολή</string>
     <string name="title_subscriber">Συνδρομητής</string>
-    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="login">Ανιχνεύθηκε πανομοιότυπος ιστότοπος.</string>
-    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="login">Ο ιστότοπος υπάρχιε ήδη στην εφαρμογή, δεν μπορείτε να τον προσθέσετε.</string>
+    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ανιχνεύθηκε πανομοιότυπος ιστότοπος.</string>
+    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ο ιστότοπος υπάρχιε ήδη στην εφαρμογή, δεν μπορείτε να τον προσθέσετε.</string>
     <string name="already_logged_in_wpcom">Είστε ήδη συνδεδεμένος σε ένα λογαριασμό στο WordPress.com, δεν μπορείτε να προσθέσετε έναν ιστότοπο του WordPress.com που είναι συνδεδεμένος με άλλο λογαριασμό.</string>
     <string name="error_media_load">Αδυναμία φόρτωσης πολυμέσων</string>
     <string name="error_media_refresh_no_connection">Απαιτείται σύνδεση για ανανέωση της βιβλιοθήκης</string>
@@ -576,8 +575,8 @@ Language: el_GR
     <string name="media_upload_error">Σφάλμα μεταφόρτωσης πολυμέσων</string>
     <string name="retry">Δοκιμάστε ξανά</string>
     <string name="confirm">Επιβεβαίωση</string>
-    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="login">Αδυναμία σύνδεσης. Λάβαμε ένα σφάλμα 403 προσπαθώντας να προσπελάσουμε\nτο σημείο επαφής XMLRPC του ιστοτόπου σας. Η εφαρμογή το χρειάζεται ώστε επικοινωνήσει με τον ιστότοπό σας. Επικοινωνήστε με τον πάροχο φιλοξενίας σας για να λύσετε\nαυτό το πρόβλημα.</string>
-    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="login">Αδυναμία σύνδεσης. Ο πάροχος φιλοξενίας σας μπλοκάρει τα αιτήματα POST και η εφαρμογή τα χρειάζεται\nώστε να επικοινωνήσει με τον ιστότοπό σας. Επικοινωνήστε με τον πάροχο φιλοξενίας σας για να λύσετε αυτό το πρόβλημα.</string>
+    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Αδυναμία σύνδεσης. Λάβαμε ένα σφάλμα 403 προσπαθώντας να προσπελάσουμε\nτο σημείο επαφής XMLRPC του ιστοτόπου σας. Η εφαρμογή το χρειάζεται ώστε επικοινωνήσει με τον ιστότοπό σας. Επικοινωνήστε με τον πάροχο φιλοξενίας σας για να λύσετε\nαυτό το πρόβλημα.</string>
+    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Αδυναμία σύνδεσης. Ο πάροχος φιλοξενίας σας μπλοκάρει τα αιτήματα POST και η εφαρμογή τα χρειάζεται\nώστε να επικοινωνήσει με τον ιστότοπό σας. Επικοινωνήστε με τον πάροχο φιλοξενίας σας για να λύσετε αυτό το πρόβλημα.</string>
     <string name="pending_draft_one_generic">Μην το αφήνετε να εκκρεμεί! Το \'%1$s\' περιμένει να δημοσιευτεί.</string>
     <string name="pending_draft_one_month">Μην το αφήνετε να εκκρεμεί! Το \'%1$s\' περιμένει να δημοσιευτεί.</string>
     <string name="pending_draft_one_week_2">Το \'%1$s\' παραμένει προσχέδιο. Θυμηθείτε να το δημοσιεύσετε!</string>
@@ -678,8 +677,8 @@ Language: el_GR
     <string name="error_locating_image">Σφάλμα εντοπισμού της περικομμένης εικόνας</string>
     <string name="error_refreshing_gravatar">Σφάλμα κατά την επαναφόρτωση του Gravatar σας</string>
     <string name="error_cropping_image">Σφάλμα κατά την περικοπή της εικόνας</string>
-    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="login">Έλεγχος e-mail</string>
-    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="login">Μη διαθέσιμο αυτή τη στιγμή. Παρακαλούμε εισάγετε το συνθηματικό σας</string>
+    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Έλεγχος e-mail</string>
+    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Μη διαθέσιμο αυτή τη στιγμή. Παρακαλούμε εισάγετε το συνθηματικό σας</string>
     <string name="logging_in">Γίνεται σύνδεση</string>
     <string name="web_address_dialog_hint">Εμφανίζεται δημοσίως όταν σχολιάζετε.</string>
     <string name="capture_or_pick_photo">Τραβήξτε ή επιλέξτε φωτογραφία</string>
@@ -715,7 +714,7 @@ Language: el_GR
     <string name="comments_empty_list_filtered_pending">Δεν υπάρχουν Εκκρεμή σχόλια</string>
     <string name="comments_empty_list_filtered_approved">Δεν υπάρχουν Εγκεκριμένα σχόλια</string>
     <string name="button_skip">Παράβλεψη</string>
-    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="login">Αδυναμία σύνδεσης. Οι απαιτούμενες μέθοδοι XML-RPC απουσιάζουν από το διακομιστή.</string>
+    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Αδυναμία σύνδεσης. Οι απαιτούμενες μέθοδοι XML-RPC απουσιάζουν από το διακομιστή.</string>
     <string name="post_format_status">Κατάσταση</string>
     <string name="post_format_video">Βίντεο</string>
     <string name="alignment_center">Κέντρο</string>
@@ -775,7 +774,7 @@ Language: el_GR
     <string name="about_the_app">Σχετικά με την εφαρμογή</string>
     <string name="error_post_account_settings">Αδυναμία αποθήκευσης ρυθμίσεων του λογαριασμού σας</string>
     <string name="error_fetch_account_settings">Αδυναμία ανάκτησης των ρυθμίσεων του λογαριασμού σας</string>
-    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="login">Αδυναμία ανάκτησης του προφίλ σας</string>
+    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="module:login">Αδυναμία ανάκτησης του προφίλ σας</string>
     <string name="site_settings_unknown_language_code_error">Ο κώδικας γλώσσας δεν αναγνωρίσθηκε</string>
     <string name="site_settings_threading_dialog_description">Να επιτρέπεται η κατάταξη των σχολίων σε συζητήσεις.</string>
     <string name="site_settings_threading_dialog_header">Συζητήσεις μέχρι</string>
@@ -979,9 +978,9 @@ Language: el_GR
     <string name="hide">Απόκρυψη</string>
     <string name="select_all">Επιλογή όλων</string>
     <string name="language">Γλώσσα</string>
-    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Κωδικός επαλήθευσης</string>
-    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Μη έγκυρος κωδικός επαλήθευσης</string>
-    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Συνδεθείτε ξανά για να συνεχίσετε.</string>
+    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Κωδικός επαλήθευσης</string>
+    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Μη έγκυρος κωδικός επαλήθευσης</string>
+    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Συνδεθείτε ξανά για να συνεχίσετε.</string>
     <string name="reader_empty_posts_request_failed">Αδυναμία φόρτωσης των άρθρων</string>
     <string name="error_notification_open">Αδύνατον να ανοιχτεί η ειδοποίηση</string>
     <string name="stats_search_terms_unknown_search_terms">Άγνωστοι όροι αναζήτησης</string>
@@ -1046,7 +1045,7 @@ Language: el_GR
     <string name="no_network_message">Δεν υπάρχει διαθέσιμο δίκτυο</string>
     <string name="invalid_email_message">Η διεύθυνση email σας δεν είναι έγκυρη</string>
     <string name="error_downloading_image">Σφάλμα κατά την ανάκτηση της εικόνας</string>
-    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="login">Εισάγετε μια έγκυρη διεύθυνση email</string>
+    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="module:login">Εισάγετε μια έγκυρη διεύθυνση email</string>
     <string name="gallery_error">Αδυναμία λήψης πολυμέσου</string>
     <string name="blog_not_found">Προέκυψε σφάλμα κατά την πρόσβαση σε αυτό το ιστολόγιο</string>
     <string name="theme_fetch_failed">Αποτυχία λήψης θεμάτων</string>
@@ -1100,7 +1099,7 @@ Language: el_GR
     <string name="view_in_browser">Προβολή στον περιηγητή</string>
     <string name="add_new_category">Προσθήκη νέας κατηγορίας</string>
     <string name="file_error_create">Αδυναμία δημιουργίας προσωρινού αρχείου για μεταφόρτωση πολυμέσων. Βεβαιωθείτε ότι υπάρχει αρκετός ελεύθερος χώρος στη συσκευή σας.</string>
-    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="login">Απαιτείται εξουσιοδότηση</string>
+    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Απαιτείται εξουσιοδότηση</string>
     <string name="new_media">Νέο πολυμέσο</string>
     <string name="error_blog_hidden">Αυτό το ιστολόγιο είναι κρυφό και δεν μπόρεσε να φορτωθεί. Ενεργοποιήστε το ξανά στις ρυθμίσεις και δοκιμάστε ξανά.</string>
     <string name="fatal_db_error">Προέκυψε σφάλμα κατά τη δημιουργία της βάσης δεδομένων της εφαρμογής. Δοκιμάστε να την εγκαταστήσετε ξανά.</string>
@@ -1139,7 +1138,7 @@ Language: el_GR
     <string name="empty_list_default">Αυτή η λίστα είναι κενή</string>
     <string name="reader_hint_comment_on_comment">Απάντηση σ\' αυτό το σχόλιο…</string>
     <string name="reader_label_removed_tag">Αφαιρέθηκε το %s</string>
-    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="login">Εγγραφή</string>
+    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Εγγραφή</string>
     <string name="stats">Στατιστικά</string>
     <string name="themes">Θέμα</string>
     <string name="media_gallery_type_squares">Τετράγωνα</string>
@@ -1167,13 +1166,13 @@ Language: el_GR
     <string name="new_notifications">%d νέες ενημερώσεις</string>
     <string name="more_notifications">και %d ακόμη.</string>
     <string name="loading">Φορτώνει…</string>
-    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="login">Όνομα χρήστη HTTP</string>
-    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="login">Κωδικός χρήστη HTTP</string>
+    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="module:login">Όνομα χρήστη HTTP</string>
+    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="module:login">Κωδικός χρήστη HTTP</string>
     <string name="error_media_upload">Ένα σφάλμα συνέβη κατά το ανέβασμα των πολυμέσων</string>
     <string name="incorrect_credentials">Λανθασμένος συνδυασμός ονόματος χρήστη και κωδικού.</string>
     <string name="username">Ψευδώνυμο</string>
     <string name="password">Κωδικός</string>
-    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="login">Σύνδεση</string>
+    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Σύνδεση</string>
     <string name="reader">Αναγνώστης</string>
     <string name="featured" tools:ignore="UnusedResources" a8c-src-lib="module:editor">Ορίστε ως χαρακτηριστική εικόνα</string>
     <string name="featured_in_post" tools:ignore="UnusedResources" a8c-src-lib="module:editor">Συμπεριλάβετε την εικόνα στο περιεχόμενο του άρθρου</string>

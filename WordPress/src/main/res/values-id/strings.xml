@@ -1,12 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Translation-Revision-Date: 2024-10-10 15:01:51+0000
+Translation-Revision-Date: 2024-12-10 09:54:10+0000
 Plural-Forms: nplurals=2; plural=n > 1;
 Generator: GlotPress/4.0.1
 Language: id
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="me_btn_feedback">Kirim feedback</string>
+    <string name="personalization_screen_shortcuts_accessibility_label">Tombol pintasan %s</string>
+    <string name="personalization_screen_card_accessibility_label">Tombol kartu %s</string>
+    <string name="user_avatar_content_description">Avatar untuk pengguna %s</string>
+    <string name="user_row_content_description">Tunjukkan detail untuk pengguna %s</string>
+    <string name="biographical_info_empty">Tidak ada</string>
+    <string name="biographical_info">Info Biografi</string>
+    <string name="about_the_user">Tentang pengguna</string>
+    <string name="website">Situs web</string>
+    <string name="contact_info">Info kontak</string>
+    <string name="nickname">Nama panggilan</string>
+    <string name="name">Nama</string>
+    <string name="no_users">Tidak ada pengguna</string>
+    <string name="user">Pengguna</string>
+    <string name="users">Pengguna</string>
+    <string name="me_btn_help_and_support">Bantuan &amp; Dukungan</string>
+    <string name="me_btn_experimental_features">Fitur Eksperimental</string>
+    <string name="more_content_description_plans">Paket selengkapnya</string>
+    <string name="more_content_description_recent_activity">Aktivitas terbaru selengkapnya</string>
+    <string name="more_content_description_pages">Halaman selengkapnya</string>
+    <string name="more_content_description_posts">Pos selengkapnya</string>
+    <string name="more_content_description_quick_start">Mulai cepat selengkapnya</string>
+    <string name="more_content_description_today_stats">Statistik hari ini selengkapnya</string>
+    <string name="more_content_description_blogging_prompts">Prompt selengkapnya</string>
+    <string name="more_content_description_promote_blaze">Blaze selengkapnya</string>
+    <string name="reader_toast_success_undo">Blokir blog dibuka</string>
+    <string name="feedback_form_note_link">Layar Hubungi Dukungan.</string>
+    <string name="feedback_form_note_text">Ingat bahwa ini bukan formulir dukungan dan kami tidak dapat membalas. Jika perlu dukungan, gunakan \"</string>
+    <string name="experimental_block_editor_theme_styles">Gaya editor blok eksperimental</string>
+    <string name="experimental_block_editor">Editor blok eksperimental</string>
+    <string name="experimental_features_screen_title">Fitur Eksperimental</string>
+    <string name="back">Kembali</string>
+    <string name="dialog_confirm_autosave_dont_restore_button">Dari aplikasi ini</string>
+    <string name="dialog_confirm_autosave_restore_button">Dari perangkat lain</string>
+    <string name="item_selected">Dipilih</string>
     <string name="media_pager_remove_item_content_description">Hapus item %1$d</string>
     <string name="feedback_form_add_attachments">Tambah lampiran</string>
     <string name="feedback_form_unable_to_create_tempfile">Tidak dapat membuat file sementara</string>
@@ -265,9 +298,9 @@ Language: id
     <string name="jp_migration_done_no_sites_message">Waktunya untuk melanjutkan perjalanan WordPress Anda di aplikasi Jetpack!</string>
     <string name="domain_management_clear_search">Hapus pencarian</string>
     <string name="media_encoder_quality_very_high">Sangat Tinggi</string>
-    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Silakan berikan kunci keamanan Anda untuk melanjutkan.</string>
-    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">Terjadi masalah dengan login kunci Keamanan.</string>
-    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">Gunakan kunci keamanan.</string>
+    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Silakan berikan kunci keamanan Anda untuk melanjutkan.</string>
+    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">Terjadi masalah dengan login kunci Keamanan.</string>
+    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">Gunakan kunci keamanan.</string>
     <string name="new_domain_search_screen_error_title">Tidak dapat mengambil domain</string>
     <string name="new_domain_search_screen_list_item_sale_price">%s untuk tahun pertama</string>
     <string name="new_domain_search_screen_list_item_regular_price">%s / tahun</string>
@@ -286,7 +319,6 @@ Language: id
     <string name="post_list_toggle_author_filter">Saring berdasarkan penulis</string>
     <string name="gutenberg_native_s_block_converted_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">Blok \'%s\' dikonversi menjadi blok</string>
     <string name="gutenberg_native_alternatively_you_can_convert_the_content_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">Anda dapat mengonversi konten menjadi blok.</string>
-    <string name="personalization_screen_shortcuts_add_or_remove_shortcut_button">Tambah atau Hapus pintasan</string>
     <string name="personalization_screen_tab_shortcuts_inactive_shortcuts">Pintasan Tidak Aktif</string>
     <string name="personalization_screen_tab_shortcuts_active_shortcuts">Pintasan Aktif</string>
     <string name="personalization_screen_shortcuts_tab_title">Pintasan</string>
@@ -547,7 +579,6 @@ Language: id
     <string name="site_creation_domain_tag_recommended">Disarankan</string>
     <string name="site_creation_domain_tag_best_alternative">Alternatif Terbaik</string>
     <string name="site_creation_domain_cost">per tahun</string>
-    <string name="me_btn_help">Bantuan</string>
     <string name="support_faq_caption">Tanya Jawab Umum akan menjawab berbagai pertanyaan yang umum diajukan.</string>
     <string name="support_faq_title">Terima kasih sudah beralih ke aplikasi Jetpack.</string>
     <string name="logs_button">Log</string>
@@ -713,9 +744,9 @@ Language: id
     <string name="connections_label">Koneksi Jetpack Social</string>
     <string name="stats_widget_log_in_to_add_message">Silakan login ke aplikasi Jetpack untuk menambahkan widget.</string>
     <string name="stats_view_publicize">Koneksi Jetpack Social</string>
-    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="login">Kami baru saja mengirimkan tautan ajaib ke </string>
-    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="login">Periksa email Anda di perangkat ini!</string>
-    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="login">Gunakan kata sandi untuk login</string>
+    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kami baru saja mengirimkan tautan ajaib ke </string>
+    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="module:login">Periksa email Anda di perangkat ini!</string>
+    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Gunakan kata sandi untuk login</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack_caption">Ketahui kabar terbaru dengan pembaruan real-time untuk komentar baru, lalu lintas situs, laporan keamanan, dan lain sebagainya.</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack">Pemberitahuan didukung oleh Jetpack</string>
     <string name="wp_jetpack_powered_stats_powered_by_jetpack_caption">Perhatikan pertumbuhan lalu lintas dan pelajari audiens Anda dengan Statistik dan Wawasan yang didesain ulang. Hanya tersedia di aplikasi Jetpack baru. </string>
@@ -949,10 +980,10 @@ Language: id
     <string name="my_site_dashboard_tab_title">Beranda</string>
     <string name="adding_cat">Menambahkan kategori</string>
     <string name="login_select_email_client">Aplikasi email apa yang Anda gunakan?</string>
-    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="login">Ada kendala saat berkomunikasi dengan situs. Kode error HTTP 401 dikembalikan.</string>
-    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Panggilan XML-RPC tampaknya diblok di situs ini (kode error 401). Jika upaya login gagal, ketuk ikon bantuan untuk melihat FAQ.</string>
-    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="login">Tidak dapat membaca situs WordPress dalam URL tersebut. Ketuk ikon bantuan untuk melihat FAQ.</string>
-    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="login">Layanan XML-RPC tidak tersedia di situs ini.</string>
+    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ada kendala saat berkomunikasi dengan situs. Kode error HTTP 401 dikembalikan.</string>
+    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Panggilan XML-RPC tampaknya diblok di situs ini (kode error 401). Jika upaya login gagal, ketuk ikon bantuan untuk melihat FAQ.</string>
+    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tidak dapat membaca situs WordPress dalam URL tersebut. Ketuk ikon bantuan untuk melihat FAQ.</string>
+    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="module:login">Layanan XML-RPC tidak tersedia di situs ini.</string>
     <string name="my_site_menu_tab_title">Menu</string>
     <string name="new_site_creation_empty_domain_list_message_invalid_query">Pencarian Anda includes karakter yang tidak didukung di domain WordPress.com. Karakter berikut diperbolehkan: A–Z, a–z, 0–9.</string>
     <string name="my_site_error_within_card_subtitle">Periksa koneksi internet Anda dan muat ulang halaman.</string>
@@ -1316,7 +1347,7 @@ Language: id
     <string name="new_site_creation_search_domain_input_hint">Ketik nama untuk situs Anda</string>
     <string name="quick_start_completed_type_grow_message">&lt;b&gt;Semua tugas selesai&lt;/b&gt;&lt;br/&gt;Anda akan menjangkau lebih banyak orang. Bagus!</string>
     <string name="quick_start_completed_type_customize_message">&lt;b&gt;Semua tugas selesai&lt;/b&gt;&lt;br/&gt;Anda telah menyesuaikan situs. Bagus!</string>
-    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="login">Tidak ingin membuat akun baru? Silakan kembali dan masukkan lagi alamat email Anda.</string>
+    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tidak ingin membuat akun baru? Silakan kembali dan masukkan lagi alamat email Anda.</string>
     <string name="invite_links_disable_dialog_message">Setelah tautan undangan ini dinonaktifkan, calon anggota tidak akan bisa lagi menggunakannya untuk bergabung dengan tim Anda. Apakah Anda yakin?</string>
     <string name="invite_links_disable_dialog_title">Nonaktifkan tautan undangan</string>
     <string name="invite_links_bad_format_response">Respons yang diterima tidak valid</string>
@@ -1594,8 +1625,8 @@ Language: id
     <string name="hpp_retry_error">Harap periksa koneksi internet Anda lalu coba lagi.</string>
     <string name="hpp_error_subtitle">Ketuk coba lagi saat  Anda kembali online.</string>
     <string name="hpp_error_title">Tata letak tidak tersedia saat offline</string>
-    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="login">Lanjutkan dengan kredensial toko</string>
-    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="login">Temukan email Anda yang terhubung</string>
+    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lanjutkan dengan kredensial toko</string>
+    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Temukan email Anda yang terhubung</string>
     <string name="reader_discover_no_posts_follow_subtitle">Coba ikuti lebih banyak tag untuk memperluas pencarian</string>
     <string name="reader_discover_no_posts_title">Tak ada pos terbaru</string>
     <string name="reader_discover_empty_title">Selamat datang!</string>
@@ -1663,8 +1694,8 @@ Language: id
     <string name="suggestion_no_connection">Tidak tersedia koneksi internet.\nSaran tidak tersedia.</string>
     <string name="mlp_notselected_description">%s</string>
     <string name="mlp_selected_description">%s dipilih</string>
-    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Dapatkan tautan login lewat email</string>
-    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="login">Hmm, kami tidak dapat menemukan akun WordPress.com yang terhubung dengan alamat email ini.</string>
+    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Dapatkan tautan login lewat email</string>
+    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hmm, kami tidak dapat menemukan akun WordPress.com yang terhubung dengan alamat email ini.</string>
     <string name="permission_microphone">Mikrofon</string>
     <string name="comment_unable_to_show_error">Tidak dapat menampilkan komentar ini</string>
     <string name="media_browse_for_items">Telusuri item</string>
@@ -1710,26 +1741,26 @@ Language: id
     <string name="gutenberg_native_choose_image" tools:ignore="UnusedResources">Pilih gambar</string>
     <string name="gutenberg_native_block_removed" tools:ignore="UnusedResources">Blok dihapus</string>
     <string name="enter_your_site_address">Masukkan alamat situs Anda saat ini</string>
-    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="login">Konfirmasi pendaftaran</string>
-    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">Jika Anda melanjutkan dengan Google dan belum memiliki akun WordPress.com, Anda akan membuat akun dan menyetujui  %1$sKetentuan Layanan%2$s kami.</string>
-    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">Dengan melanjutkan, Anda menyetujui %1$sKetentuan Layanan%2$s kami.</string>
-    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="login">Kami akan menggunakan alamat email ini untuk membuat akun WordPress.com baru Anda.</string>
-    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="login">Kami telah mengirimi Anda email berisi tautan masuk untuk membuat akun WordPress.com baru. Periksa email Anda di perangkat ini, dan ketuk tautan dalam email yang Anda terima dari WordPress.com</string>
-    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Masukkan informasi akun Anda untuk %1$s.</string>
-    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="login">atau</string>
-    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">Lanjutkan dengan Google</string>
-    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="login">Temukan alamat situs Anda</string>
+    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Konfirmasi pendaftaran</string>
+    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">Jika Anda melanjutkan dengan Google dan belum memiliki akun WordPress.com, Anda akan membuat akun dan menyetujui  %1$sKetentuan Layanan%2$s kami.</string>
+    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">Dengan melanjutkan, Anda menyetujui %1$sKetentuan Layanan%2$s kami.</string>
+    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kami akan menggunakan alamat email ini untuk membuat akun WordPress.com baru Anda.</string>
+    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kami telah mengirimi Anda email berisi tautan masuk untuk membuat akun WordPress.com baru. Periksa email Anda di perangkat ini, dan ketuk tautan dalam email yang Anda terima dari WordPress.com</string>
+    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Masukkan informasi akun Anda untuk %1$s.</string>
+    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="module:login">atau</string>
+    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lanjutkan dengan Google</string>
+    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Temukan alamat situs Anda</string>
     <string name="login_done">Selesai</string>
-    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="login">Tidak melihat emailnya? Periksa folder Email Spam atau Sampah.</string>
-    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="login">Periksa email Anda di perangkat ini, dan ketuk tautan dalam email yang Anda terima dari WordPress.com</string>
-    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="login">Kami akan mengirimkan email berisi tautan yang bisa Anda gunakan untuk login dalam sekejap, tanpa kata sandi.</string>
-    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="login">Periksa email</string>
-    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="login">Memulai</string>
-    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">Masukkan alamat email Anda untuk login atau membuat akun WordPress.com.</string>
-    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Atau ketik kata sandi Anda</string>
-    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="login">Buat akun</string>
-    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Kirim tautan lewat email</string>
-    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Reset kata sandi</string>
+    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tidak melihat emailnya? Periksa folder Email Spam atau Sampah.</string>
+    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Periksa email Anda di perangkat ini, dan ketuk tautan dalam email yang Anda terima dari WordPress.com</string>
+    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kami akan mengirimkan email berisi tautan yang bisa Anda gunakan untuk login dalam sekejap, tanpa kata sandi.</string>
+    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Periksa email</string>
+    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="module:login">Memulai</string>
+    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">Masukkan alamat email Anda untuk login atau membuat akun WordPress.com.</string>
+    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Atau ketik kata sandi Anda</string>
+    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">Buat akun</string>
+    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kirim tautan lewat email</string>
+    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Reset kata sandi</string>
     <string name="reader_error_request_failed_title">Ada masalah saat menangani permintaan. Silakan coba lagi nanti.</string>
     <string name="quick_start_list_update_site_title_title">Periksa judul situs Anda.</string>
     <string name="quick_start_dialog_update_site_title_message_short">Ketuk &lt;b&gt;%1$s&lt;/b&gt; untuk mengatur judul baru</string>
@@ -1982,12 +2013,12 @@ Language: id
     <string name="dialog_confirm_scheduled_post_sync_title">Siap Mensinkronkan?</string>
     <string name="new_site_creation_unavailable_domain">Domain ini tidak tersedia</string>
     <string name="negative_prefix">-%s</string>
-    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">Kami tidak dapat mengakses situs Anda. Anda harus menghubungi host untuk mengatasi masalah ini.</string>
-    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="login">Kami tidak dapat mengakses situs Anda karena ada masalah dengan &lt;b&gt;Sertifikat SSL&lt;/b&gt;. Anda harus menghubungi host untuk mengatasi masalah ini.</string>
-    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="login">Kami tidak dapat mengakses situs Anda akrena hal ini membutuhkan &lt;b&gt;Autentikasi HTTP&lt;/b&gt;. Anda harus menghubungi host untuk mengatasi masalah ini.</string>
-    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="login">Kami tidak dapat mengakses &lt;b&gt;file XMLRPC&lt;/b&gt; situs Anda. Anda harus menghubungi host untuk mengatasi masalah ini.</string>
-    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="login">Hampir selesai! Kami hanya perlu memverifikasi alamat email Anda yang terhubung dengan Jetpack &lt;b&gt;%1$s&lt;/b&gt;</string>
-    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Login dengan kredensial situs %1$s</string>
+    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kami tidak dapat mengakses situs Anda. Anda harus menghubungi host untuk mengatasi masalah ini.</string>
+    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kami tidak dapat mengakses situs Anda karena ada masalah dengan &lt;b&gt;Sertifikat SSL&lt;/b&gt;. Anda harus menghubungi host untuk mengatasi masalah ini.</string>
+    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kami tidak dapat mengakses situs Anda akrena hal ini membutuhkan &lt;b&gt;Autentikasi HTTP&lt;/b&gt;. Anda harus menghubungi host untuk mengatasi masalah ini.</string>
+    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kami tidak dapat mengakses &lt;b&gt;file XMLRPC&lt;/b&gt; situs Anda. Anda harus menghubungi host untuk mengatasi masalah ini.</string>
+    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hampir selesai! Kami hanya perlu memverifikasi alamat email Anda yang terhubung dengan Jetpack &lt;b&gt;%1$s&lt;/b&gt;</string>
+    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Login dengan kredensial situs %1$s</string>
     <string name="my_site_bottom_sheet_add_page">Halaman situs</string>
     <string name="reader_my_likes_display_name">Suka</string>
     <string name="reader_discover_display_name">Temukan</string>
@@ -2085,8 +2116,6 @@ Language: id
     <string name="post_preview_remote_auto_saving_post">Menyiapkan Pratinjau…</string>
     <string name="post_preview_saving_draft">Menyimpan…</string>
     <string name="local_post_autosave_revision_available">Anda telah membuat perubahan yang tidak tersimpan di pos ini</string>
-    <string name="dialog_confirm_autosave_dont_restore_button">Versi dari aplikasi ini</string>
-    <string name="dialog_confirm_autosave_restore_button">Versi dari perangkat lain</string>
     <string name="dialog_confirm_autosave_body_second_part">Dari aplikasi ini\nTersimpan di %1$s\n\nDari perangkat lain\nTersimpan di %2$s\n</string>
     <string name="dialog_confirm_autosave_body_first_part">Baru-baru ini Anda membuat perubahan di pos ini namun tidak menyimpannya. Pilih versi untuk dimuat:\n\n</string>
     <string name="dialog_confirm_autosave_title">Versi apa yang ingin Anda edit?</string>
@@ -2153,8 +2182,8 @@ Language: id
     <string name="post_settings_add_to_calendar">Tambahkan ke kalender</string>
     <string name="post_settings_notification">Pemberitahuan</string>
     <string name="post_settings_time_and_date">Tanggal dan Waktu</string>
-    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="login">Masukkan alamat situs web lengkap, seperti contoh.com.</string>
-    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Login dengan WordPress.com untuk terhubung ke %1$s</string>
+    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="module:login">Masukkan alamat situs web lengkap, seperti contoh.com.</string>
+    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Login dengan WordPress.com untuk terhubung ke %1$s</string>
     <string name="stats_post_views_label">Tampilan</string>
     <string name="stats_post_label">Pos</string>
     <string name="stats_list_item_description">%1$s: %2$s, %3$s: %4$s</string>
@@ -2270,8 +2299,8 @@ Language: id
     <string name="posts_draft_empty">Anda tidak memiliki pos konsep</string>
     <string name="posts_scheduled_empty">Anda belum memiliki pos terjadwal</string>
     <string name="posts_published_empty">Anda belum memublikasikan pos sama sekali</string>
-    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Silakan login dengan nama pengguna dan kata sandi Anda.</string>
-    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="login">Silakan login menggunakan nama pengguna WordPress.com sebagai ganti alamat email Anda.</string>
+    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Silakan login dengan nama pengguna dan kata sandi Anda.</string>
+    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Silakan login menggunakan nama pengguna WordPress.com sebagai ganti alamat email Anda.</string>
     <string name="stats_insights_average_words">Rata-rata kata/pos</string>
     <string name="stats_insights_total_words">Total kata</string>
     <string name="stats_insights_average_likes">Rata-rata suka/pos</string>
@@ -2281,7 +2310,7 @@ Language: id
     <string name="stats_insights_posts">Pos</string>
     <string name="stats_insights_year">Tahun</string>
     <string name="stats_insights_this_year_site_stats">Tahun Ini</string>
-    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="login">Situs di alamat ini bukan situs WordPress. Agar kami dapat menghubungkannya, situs harus menggunakan WordPress.</string>
+    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Situs di alamat ini bukan situs WordPress. Agar kami dapat menghubungkannya, situs harus menggunakan WordPress.</string>
     <string name="plugin_check_domain_credit_error">Gagal memeriksa kredit domain yang tersedia</string>
     <string name="plugin_check_domain_credits_progress_dialog_message">Memeriksa kredit domain</string>
     <string name="plugin_install_custom_domain_required_dialog_register_btn">Daftarkan domain</string>
@@ -2442,7 +2471,7 @@ Language: id
     <string name="history_detail_button_previous">Sebelumnya</string>
     <string name="history_detail_button_next">Selanjutnya</string>
     <string name="media_space_used">%1$s digunakan</string>
-    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="login">Masukkan situs WordPress dihosting sendiri yang terhubung ke Jetpack atau WordPress.com</string>
+    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Masukkan situs WordPress dihosting sendiri yang terhubung ke Jetpack atau WordPress.com</string>
     <string name="history_loading_revision">Memuat revisi</string>
     <string name="history_loaded_revision">Revisi dimuat</string>
     <string name="history_load_dialog_button_positive">Memuat</string>
@@ -2474,8 +2503,8 @@ Language: id
     <string name="pages_scheduled" tools:ignore="UnusedResources">Terjadwal</string>
     <string name="pages_drafts" tools:ignore="UnusedResources">Konsep</string>
     <string name="pages_published" tools:ignore="UnusedResources">Dipublikasikan</string>
-    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="login">Kami terlalu banyak melakukan upaya pengiriman kode verifikasi SMS. Tunggu sebentar, dan minta kode yang baru beberapa saat lagi.</string>
-    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="login">Tidak ada akun WordPress.com yang cocok dengan akun Google ini.</string>
+    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kami terlalu banyak melakukan upaya pengiriman kode verifikasi SMS. Tunggu sebentar, dan minta kode yang baru beberapa saat lagi.</string>
+    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tidak ada akun WordPress.com yang cocok dengan akun Google ini.</string>
     <string name="site_picker_remove_site_empty">Tidak ada situs yang cocok dengan pencarian Anda</string>
     <string name="reader_no_followed_blogs_search_title">Tidak ada blog yang cocok dengan pencarian Anda</string>
     <string name="page_parent_changed">Induk halaman telah diubah</string>
@@ -2511,7 +2540,7 @@ Language: id
     <string name="content_description_more">Lainnya</string>
     <string name="my_site_create_new_site_title">Anda belum memiliki situs</string>
     <string name="reader_empty_subscribed_tags_subtitle">Tambahkan tag di sini untuk menemukan pos tentang topik favorit Anda</string>
-    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="login">Login ke akun WordPress.com yang Anda gunakan untuk menghubungkan Jetpack.</string>
+    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="module:login">Login ke akun WordPress.com yang Anda gunakan untuk menghubungkan Jetpack.</string>
     <string name="jetpack">Jetpack</string>
     <string name="stats_jetpack_connection_faq">FAQ Jetpack</string>
     <string name="stats_jetpack_connection_setup_info">Untuk menggunakan Statistik di situs WordPress, Anda perlu menginstal plugin Jetpack.</string>
@@ -2565,13 +2594,13 @@ Language: id
     <string name="reader_empty_search_title">Tema tidak ditemukan</string>
     <string name="comment_read_source_post">Baca pos sumber</string>
     <string name="sites">Situs</string>
-    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="login">Tautan ajaib terkirim</string>
-    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="login">Verifikasi kode</string>
-    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Kredensial login</string>
-    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Tautan ajaib terkirim</string>
-    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Login tautan ajaib</string>
-    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Login alamat situs</string>
-    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Login alamat email</string>
+    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tautan ajaib terkirim</string>
+    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Verifikasi kode</string>
+    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kredensial login</string>
+    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tautan ajaib terkirim</string>
+    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Login tautan ajaib</string>
+    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Login alamat situs</string>
+    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Login alamat email</string>
     <string name="reader_empty_saved_posts_description">Ketuk %s untuk menyimpan pos ke dalam daftar Anda.</string>
     <string name="reader_empty_saved_posts_title">Belum ada pos yang disimpan!</string>
     <string name="reader_bookmark_snack_title">Pos disimpan</string>
@@ -2674,7 +2703,7 @@ Language: id
     <string name="invite_user_delete_desc">hapus %s</string>
     <string name="profile_picture">Foto profil %s</string>
     <string name="comment_checkmark_desc">tanda cek</string>
-    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Mendaftar dengan Google…</string>
+    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Mendaftar dengan Google…</string>
     <string name="jetpack_connection_failed_with_reason">Koneksi ke Jetpack gagal: %s</string>
     <string name="jetpack_already_connected_toast">Anda sudah terhubung dengan Jetpack!</string>
     <string name="menu_visual_mode">Mode Visual</string>
@@ -2755,7 +2784,7 @@ Language: id
     <string name="site_creation_domain_finish_button">Buat situs</string>
     <string name="notification_site_creation_created">Ketuk untuk melanjutkan.</string>
     <string name="notification_site_creation_title_success">Situs telah dibuat!</string>
-    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="login">Google terlalu lama dalam merespons. Anda mungkin harus menunggu sampai memiliki koneksi internet yang lebih kuat.</string>
+    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google terlalu lama dalam merespons. Anda mungkin harus menunggu sampai memiliki koneksi internet yang lebih kuat.</string>
     <string name="username_changer_title">Ubah nama pengguna</string>
     <string name="username_changer_hint">Ketik untuk mendapatkan lebih banyak saran</string>
     <string name="username_changer_header">Nama pengguna Anda saat ini adalah %1$s%2$s%3$s. Dengan beberapa pengecualian, yang lain hanya akan melihat nama tampilan Anda, %4$s%5$s%6$s.</string>
@@ -2767,10 +2796,10 @@ Language: id
     <string name="content_description_add_avatar">Tambahkan avatar</string>
     <string name="signup_user_exists">Email sudah ada di WordPress.com.\nLanjutkan dengan login.</string>
     <string name="signup_updating_account">Memperbarui akun…</string>
-    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Mengirim email</string>
-    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="login">Coba lagi</string>
-    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="login">Tutup</string>
-    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="login">Ada beberapa masalah saat mengirim email. Anda dapat mencoba lagi sekarang atau menutupnya dan mencoba lagi nanti.</string>
+    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Mengirim email</string>
+    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="module:login">Coba lagi</string>
+    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tutup</string>
+    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ada beberapa masalah saat mengirim email. Anda dapat mencoba lagi sekarang atau menutupnya dan mencoba lagi nanti.</string>
     <string name="signup_epilogue_hint_username">Nama pengguna</string>
     <string name="signup_epilogue_hint_password_detail">Anda dapat login dengan tautan seperti tautan yang baru Anda gunakan, tetapi Anda juga dapat menyiapkan kata sandi.</string>
     <string name="signup_epilogue_hint_password">Kata Sandi (opsional)</string>
@@ -2868,18 +2897,18 @@ Language: id
     <string name="my_site_btn_plugins">Plugin</string>
     <string name="media_edit_link_hint">Buka tautan di jendela/tab baru</string>
     <string name="media_edit_link_text">Tautan ke</string>
-    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="login">Terjadi error.</string>
-    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Masukkan kode autentikasi untuk melanjutkan.</string>
-    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="login">Periksa lagi kata sandi Anda sebelum melanjutkan.</string>
-    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="login">Login dihentikan</string>
-    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="login">Harap tunggu proses login.</string>
-    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Login sedang berlangsung…</string>
-    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="login">Ketuk untuk melanjutkan.</string>
-    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="login">Sudah login!</string>
-    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="login">Login Google tidak dapat dimulai.</string>
-    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="login">Masukkan kata sandi</string>
-    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="login">Kirimi saya kode baru</string>
-    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="login">Kami mengirimkan SMS ke nomor ponsel yang berakhiran %s. Masukkan kode verifikasi yang tercantum di SMS tersebut.</string>
+    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Terjadi error.</string>
+    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Masukkan kode autentikasi untuk melanjutkan.</string>
+    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Periksa lagi kata sandi Anda sebelum melanjutkan.</string>
+    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="module:login">Login dihentikan</string>
+    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Harap tunggu proses login.</string>
+    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Login sedang berlangsung…</string>
+    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ketuk untuk melanjutkan.</string>
+    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="module:login">Sudah login!</string>
+    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="module:login">Login Google tidak dapat dimulai.</string>
+    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Masukkan kata sandi</string>
+    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kirimi saya kode baru</string>
+    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kami mengirimkan SMS ke nomor ponsel yang berakhiran %s. Masukkan kode verifikasi yang tercantum di SMS tersebut.</string>
     <string name="image_size">Ukuran</string>
     <string name="uploading_subtitle_media_only_one">1 file tersisa</string>
     <string name="uploading_subtitle_media_only">%1$d of %2$d file tersisa</string>
@@ -2896,15 +2925,15 @@ Language: id
     <string name="confirm_remove_media_image">Hapus gambar ini dari pos?</string>
     <string name="media_edit_customize_card_caption">Sesuaikan</string>
     <string name="media_edit_file_details_card_caption">Detail File</string>
-    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">\nCoba masuk dengan akun lain?</string>
-    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">Ada masalah saat menyambungkan ke akun Google.</string>
+    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">\nCoba masuk dengan akun lain?</string>
+    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ada masalah saat menyambungkan ke akun Google.</string>
     <string name="login_error_button">Tutup</string>
-    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="login">Untuk melanjutkan dengan akun Google ini, silakan masukkan kata sandi WordPress.com yang sesuai. Tindakan ini hanya akan ditanyakan satu kali.</string>
+    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="module:login">Untuk melanjutkan dengan akun Google ini, silakan masukkan kata sandi WordPress.com yang sesuai. Tindakan ini hanya akan ditanyakan satu kali.</string>
     <string name="error_generic_network">Terjadi error jaringan. Periksa koneksi Anda dan coba lagi.</string>
     <string name="post_settings_remove_featured_image">Hapus gambar andalan</string>
     <string name="post_settings_choose_featured_image">Pilih gambar andalan</string>
-    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Login ke WordPress.com untuk membagikan konten.</string>
-    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Masukkan alamat situs WordPress tempat Anda ingin membagikan konten.</string>
+    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Login ke WordPress.com untuk membagikan konten.</string>
+    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Masukkan alamat situs WordPress tempat Anda ingin membagikan konten.</string>
     <string name="jetpack_disconnect_error_toast">Terjadi error saat memutuskan koneksi situs</string>
     <string name="jetpack_disconnect_success_toast">Situs tidak terhubung</string>
     <string name="jetpack_disconnect_confirm">Putuskan koneksi</string>
@@ -2988,28 +3017,28 @@ Language: id
     <string name="login_epilogue_mysites_other">Situs saya</string>
     <string name="login_epilogue_mysites_one">Situs saya</string>
     <string name="login_email_client_not_found">Tidak dapat mendeteksi aplikasi klien email Anda</string>
-    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="login">Masukkan kode verifikasi</string>
-    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="login">Masukkan nama pengguna</string>
-    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="login">Login ke WordPress.com untuk mengakses pos.</string>
-    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="login">Error saat menambahkan situs. Kode error: %s</string>
-    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Memeriksa alamat situs</string>
-    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="login">Butuh bantuan lebih lanjut?</string>
-    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="login">Alamat situs Anda ditampilkan di bilah bagian atas layar ketika Anda mengunjungi situs di Chrome.</string>
-    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="login">Apa alamat situs saya?</string>
-    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Alamat situs</string>
-    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Masukkan alamat situs WordPress yang ingin Anda hubungkan.</string>
+    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="module:login">Masukkan kode verifikasi</string>
+    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="module:login">Masukkan nama pengguna</string>
+    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="module:login">Login ke WordPress.com untuk mengakses pos.</string>
+    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Error saat menambahkan situs. Kode error: %s</string>
+    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Memeriksa alamat situs</string>
+    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="module:login">Butuh bantuan lebih lanjut?</string>
+    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="module:login">Alamat situs Anda ditampilkan di bilah bagian atas layar ketika Anda mengunjungi situs di Chrome.</string>
+    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Apa alamat situs saya?</string>
+    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Alamat situs</string>
+    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Masukkan alamat situs WordPress yang ingin Anda hubungkan.</string>
     <string name="login_already_logged_in_wpcom">Sudah login ke WordPress.com</string>
-    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="login">Lanjutkan</string>
+    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lanjutkan</string>
     <string name="connect_more">Hubungkan situs lainnya</string>
-    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="login">Masukkan kata sandi WordPress.com Anda.</string>
-    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="login">Meminta email login</string>
-    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="login">Sepertinya kata sandi ini salah. Periksa lagi informasi Anda dan coba lagi.</string>
-    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="login">Meminta kode verifikasi melalui SMS.</string>
-    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="login">Kirimi saya kode saja</string>
-    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Hampir selesai! Masukkan kode verifikasi untuk WordPress.com dari aplikasi pengautentikasi.</string>
-    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="login">Buka Email</string>
+    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Masukkan kata sandi WordPress.com Anda.</string>
+    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="module:login">Meminta email login</string>
+    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="module:login">Sepertinya kata sandi ini salah. Periksa lagi informasi Anda dan coba lagi.</string>
+    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">Meminta kode verifikasi melalui SMS.</string>
+    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kirimi saya kode saja</string>
+    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hampir selesai! Masukkan kode verifikasi untuk WordPress.com dari aplikasi pengautentikasi.</string>
+    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="module:login">Buka Email</string>
     <string name="next">Selanjutnya</string>
-    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">Login ke WordPress.com dengan alamat email untuk mengelola semua situs WordPress Anda.</string>
+    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">Login ke WordPress.com dengan alamat email untuk mengelola semua situs WordPress Anda.</string>
     <string name="me_profile_photo">Foto Profil</string>
     <string name="error_media_parse_error">Respons tidak terduga dari server</string>
     <string name="upload_finished_toast">Tidak dapat menghentikan pengunggahan karena prosesnya sudah selesai</string>
@@ -3161,8 +3190,8 @@ Language: id
     <string name="error_unknown_post_type">Format pos tidak diketahui</string>
     <string name="submit_for_review">Kirim</string>
     <string name="title_subscriber">Pelanggan</string>
-    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="login">Situs duplikat terdeteksi.</string>
-    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="login">Situs ini sudah ada dalam aplikasi, Anda tidak bisa menambahkannya.</string>
+    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="module:login">Situs duplikat terdeteksi.</string>
+    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Situs ini sudah ada dalam aplikasi, Anda tidak bisa menambahkannya.</string>
     <string name="already_logged_in_wpcom">Anda sudah login ke akun WordPress.com, Anda tidak dapat menambahkan situs WordPress.com yang terikat ke akun lain.</string>
     <string name="error_media_load">Tidak dapat memuat media</string>
     <string name="error_media_refresh_no_connection">Perlu koneksi untuk menyegarkan pustaka</string>
@@ -3174,8 +3203,8 @@ Language: id
     <string name="media_upload_error">Terjadi error saat mengunggah media</string>
     <string name="retry">Coba lagi</string>
     <string name="confirm">Konfirmasi</string>
-    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="login">Tidak dapat terhubung. Kami menerima error 403 saat mencoba mengakses\n titik akhir XMLRPC situs Anda. Aplikasi ini memerlukannya agar dapat berkomunikasi dengan situs Anda. Hubungi host Anda untuk mengatasi\n masalah ini.</string>
-    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="login">Tidak dapat terhubung. Host Anda memblokir permintaan POST yang dibutuhkan aplikasi\n agar dapat berkomunikasi dengan situs Anda. Hubungi host Anda untuk mengatasi masalah ini.</string>
+    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tidak dapat terhubung. Kami menerima error 403 saat mencoba mengakses\n titik akhir XMLRPC situs Anda. Aplikasi ini memerlukannya agar dapat berkomunikasi dengan situs Anda. Hubungi host Anda untuk mengatasi\n masalah ini.</string>
+    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tidak dapat terhubung. Host Anda memblokir permintaan POST yang dibutuhkan aplikasi\n agar dapat berkomunikasi dengan situs Anda. Hubungi host Anda untuk mengatasi masalah ini.</string>
     <string name="pending_draft_one_generic">Jangan biarkan menggantung! \'%1$s\' menunggu untuk diterbitkan.</string>
     <string name="pending_draft_one_month">Jangan biarkan menggantung! \'%1$s\' menunggu untuk diterbitkan.</string>
     <string name="pending_draft_one_week_2">\'%1$s\' masih berupa konsep. Ingatlah untuk menerbitkannya!</string>
@@ -3276,8 +3305,8 @@ Language: id
     <string name="error_refreshing_gravatar">Terjadi galat saat memuat ulang Gravatar</string>
     <string name="error_locating_image">Terjadi galat saat mencari gambar yang dipangkas</string>
     <string name="error_cropping_image">Terjadi galat saat memangkas gambar</string>
-    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="login">Memeriksa surat elektronik</string>
-    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="login">Saat ini tidak tersedia. Masukkan kata sandi Anda</string>
+    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Memeriksa surat elektronik</string>
+    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Saat ini tidak tersedia. Masukkan kata sandi Anda</string>
     <string name="logging_in">Proses masuk</string>
     <string name="web_address_dialog_hint">Ditampilkan secara publik saat Anda berkomentar.</string>
     <string name="capture_or_pick_photo">Ambil atau pilih foto</string>
@@ -3313,7 +3342,7 @@ Language: id
     <string name="comments_empty_list_filtered_pending">Tidak komentar tertunda</string>
     <string name="comments_empty_list_filtered_approved">Tidak ada komentar yang disetujui</string>
     <string name="button_skip">Lewati</string>
-    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="login">Tidak dapat terhubung. Metode XML-RPC yang diperlukan tidak ditemukan di server.</string>
+    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tidak dapat terhubung. Metode XML-RPC yang diperlukan tidak ditemukan di server.</string>
     <string name="alignment_center">Tengah</string>
     <string name="post_format_video">Video</string>
     <string name="post_format_status">Status</string>
@@ -3373,7 +3402,7 @@ Language: id
     <string name="about_the_app">Tentang aplikasi</string>
     <string name="error_post_account_settings">Tidak dapat menyimpan pengaturan akun Anda</string>
     <string name="error_fetch_account_settings">Tidak dapat mengambil pengaturan akun Anda</string>
-    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="login">Tidak dapat mengambil profil Anda</string>
+    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tidak dapat mengambil profil Anda</string>
     <string name="site_settings_unknown_language_code_error">Kode bahasa tidak dikenali</string>
     <string name="site_settings_threading_dialog_description">Izinkan komentar ditumpuk dalam utas.</string>
     <string name="site_settings_threading_dialog_header">Utas hingga</string>
@@ -3576,9 +3605,9 @@ Language: id
     <string name="select_all">Pilih semua</string>
     <string name="hide">Sembunyikan</string>
     <string name="show">Tampilkan</string>
-    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Log in lagi untuk melanjutkan.</string>
-    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Kode verifikasi tidak valid</string>
-    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Kode verifikasi</string>
+    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Log in lagi untuk melanjutkan.</string>
+    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kode verifikasi tidak valid</string>
+    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kode verifikasi</string>
     <string name="language">Bahasa</string>
     <string name="reader_empty_posts_request_failed">Gagal memuat pos-pos</string>
     <string name="error_notification_open">Gagal membuka notifikasi</string>
@@ -3642,7 +3671,7 @@ Language: id
     <string name="ssl_certificate_error">Sertifikat SSL tidak sah</string>
     <string name="help">Bantuan</string>
     <string name="username_or_password_incorrect">Nama pengguna atau kata sandi yang Anda masukkan tidak tepat</string>
-    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="login">Masukkan alamat email yang sah</string>
+    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="module:login">Masukkan alamat email yang sah</string>
     <string name="invalid_email_message">Alamat emailmu tidak sah</string>
     <string name="error_downloading_image">Galat saat mengunduh gambar</string>
     <string name="error_load_comment">Gagal memuat tanggapan</string>
@@ -3675,7 +3704,7 @@ Language: id
     <string name="new_media">Media baru</string>
     <string name="new_post">Pos baru</string>
     <string name="notifications_empty_all">Belum ada pemberitahuan…sampai sekarang.</string>
-    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="login">Otorisasi diwajibkan</string>
+    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Otorisasi diwajibkan</string>
     <string name="invalid_site_url_message">Pastikan URL situs yang dimasukkan sudah valid</string>
     <string name="file_error_create">Tidak bisa membuat berkas temporer untuk pengunggahan media. Pastikan masih cukup ruang di perangkat Anda.</string>
     <string name="category_name">Nama kategori</string>
@@ -3722,7 +3751,7 @@ Language: id
     <string name="reader_likes_you_and_one">Anda dan satu orang lainnya menyukai ini</string>
     <string name="pick_video">Pilih video</string>
     <string name="pick_photo">Pilih foto</string>
-    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="login">Daftar</string>
+    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Daftar</string>
     <string name="reader_toast_err_url_intent">Tidak bisa  membuka %s</string>
     <string name="reader_toast_err_view_image">Tidak dapat melihat gambar</string>
     <string name="reader_toast_err_share_intent">Tidak dapat membagikan</string>
@@ -3766,11 +3795,11 @@ Language: id
     <string name="note_reply_successful">Balasan dipublikasikan</string>
     <string name="sign_in">Log in</string>
     <string name="loading">Memuat…</string>
-    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="login">Kata sandi HTTP</string>
-    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="login">Nama pengguna HTTP</string>
+    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kata sandi HTTP</string>
+    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nama pengguna HTTP</string>
     <string name="error_media_upload">Ada masalah ketika mengunggah media</string>
     <string name="incorrect_credentials">Nama pengguna atau kata sandi salah.</string>
-    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="login">Masuk</string>
+    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Masuk</string>
     <string name="username">Nama pengguna</string>
     <string name="password">Kata sandi</string>
     <string name="reader">Pembaca</string>

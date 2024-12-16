@@ -1,0 +1,5 @@
+25.5:
+W tym miesiącu:
+- Naprawiliśmy kilka błędów trybu ciemnego
+- Wprowadziliśmy eksperymentalny edytor na Androida - wypróbuj go i daj nam znać, co myślisz!
+- Dostosowaliśmy sposób logowania użytkowników do WordPress.com - naprawiono długotrwały problem, w którym nie można było się zalogować, jeśli używany był klucz dostępu.

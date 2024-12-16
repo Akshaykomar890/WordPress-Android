@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Translation-Revision-Date: 2024-08-26 08:56:53+0000
+Translation-Revision-Date: 2024-12-10 09:54:11+0000
 Plural-Forms: nplurals=1; plural=0;
 Generator: GlotPress/4.0.1
 Language: ko_KR
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="me_btn_feedback">피드백 보내기</string>
+    <string name="personalization_screen_shortcuts_accessibility_label">%s 단축키 설정/해제</string>
+    <string name="personalization_screen_card_accessibility_label">%s 카드 설정/해제</string>
+    <string name="user_row_content_description">사용자 %s에 대한 상세 정보 표시</string>
+    <string name="biographical_info_empty">제공된 정보 없음</string>
+    <string name="biographical_info">개인 정보</string>
+    <string name="about_the_user">사용자에 대하여</string>
+    <string name="contact_info">연락처</string>
+    <string name="nickname">닉네임</string>
+    <string name="me_btn_help_and_support">도움말 및 지원</string>
+    <string name="me_btn_experimental_features">실험적 기능</string>
+    <string name="more_content_description_posts">글 더 보기</string>
+    <string name="more_content_description_quick_start">퀵 스타트 더 보기</string>
+    <string name="reader_toast_success_undo">블로그 차단 해제됨</string>
+    <string name="feedback_form_note_link">지원팀에 문의\" 화면을 사용해 주세요.</string>
+    <string name="feedback_form_note_text">이 양식은 지원 양식이 아니므로 당사에서 답변해 드릴 수 없습니다. 지원이 필요하시면 \"</string>
+    <string name="experimental_block_editor_theme_styles">실험용 블록 에디터 스타일</string>
+    <string name="experimental_block_editor">실험용 블록 에디터</string>
+    <string name="experimental_features_screen_title">실험적 기능</string>
+    <string name="back">뒤로</string>
     <string name="media_pager_remove_item_content_description">항목 %1$d 제거</string>
     <string name="feedback_form_add_attachments">첨부 파일 추가</string>
     <string name="feedback_form_unable_to_create_tempfile">임시 파일 삭제 불가</string>
@@ -265,9 +283,9 @@ Language: ko_KR
     <string name="jp_migration_done_no_sites_message">젯팩 앱에서 워드프레스 여정을 계속하실 때가 되었습니다.</string>
     <string name="domain_management_clear_search">검색 지우기</string>
     <string name="media_encoder_quality_very_high">매우 높음</string>
-    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="login">계속하려면 보안 키를 입력하세요.</string>
-    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">보안 키 로그인 문제 발생</string>
-    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">보안 키 사용</string>
+    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">계속하려면 보안 키를 입력하세요.</string>
+    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">보안 키 로그인 문제 발생</string>
+    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">보안 키 사용</string>
     <string name="new_domain_search_screen_error_title">도메인을 검색할 수 없음</string>
     <string name="new_domain_search_screen_list_item_sale_price">첫 1년 동안 %s</string>
     <string name="new_domain_search_screen_list_item_regular_price">%s/년</string>
@@ -286,7 +304,6 @@ Language: ko_KR
     <string name="post_list_toggle_author_filter">글쓴이 기준 필터</string>
     <string name="gutenberg_native_s_block_converted_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">블록으로 \'%s\' 블록 변환됨</string>
     <string name="gutenberg_native_alternatively_you_can_convert_the_content_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">콘텐츠를 블록으로 변환할 수도 있습니다.</string>
-    <string name="personalization_screen_shortcuts_add_or_remove_shortcut_button">단축키 추가 또는 제거</string>
     <string name="personalization_screen_tab_shortcuts_inactive_shortcuts">비활성 단축키</string>
     <string name="personalization_screen_tab_shortcuts_active_shortcuts">활성 단축키</string>
     <string name="personalization_screen_shortcuts_tab_title">단축키</string>
@@ -547,7 +564,6 @@ Language: ko_KR
     <string name="site_creation_domain_tag_recommended">권장</string>
     <string name="site_creation_domain_tag_best_alternative">최선의 대안</string>
     <string name="site_creation_domain_cost">연간</string>
-    <string name="me_btn_help">도움말</string>
     <string name="support_faq_caption">궁금할 수도 있는 일반적인 질문에 대한 답변은 FAQ를 참조하세요.</string>
     <string name="support_faq_title">젯팩 앱으로 전환해 주셔서 감사합니다!</string>
     <string name="logs_button">로그</string>
@@ -713,9 +729,9 @@ Language: ko_KR
     <string name="connections_label">젯팩 소셜 연결</string>
     <string name="stats_widget_log_in_to_add_message">위젯을 추가하려면 젯팩 앱에 로그인하세요.</string>
     <string name="stats_view_publicize">젯팩 소셜 연결</string>
-    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="login">방금 다음으로 매직 링크를 보내드렸습니다.</string>
-    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="login">이 기기에서 이메일을 확인하세요!</string>
-    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="login">로그인 비밀번호 사용</string>
+    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="module:login">방금 다음으로 매직 링크를 보내드렸습니다.</string>
+    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="module:login">이 기기에서 이메일을 확인하세요!</string>
+    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">로그인 비밀번호 사용</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack_caption">실시간으로 업데이트하여 새 댓글, 사이트 트래픽, 보안 보고서 등에 대한 알림을 계속 받으세요.</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack">젯팩에서 알림을 제공합니다.</string>
     <string name="wp_jetpack_powered_stats_powered_by_jetpack_caption">새로운 젯팩 앱에서 지금 사용할 수 있는 새로 설계한 통계와 인사이트로 트래픽 증가를 지켜보고 잠재 고객에 대해 알아보세요.</string>
@@ -949,10 +965,10 @@ Language: ko_KR
     <string name="my_site_dashboard_tab_title">홈</string>
     <string name="adding_cat">카테고리 추가하기</string>
     <string name="login_select_email_client">어떤 이메일 앱을 사용하시나요?</string>
-    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="login">사이트와 통신하는 중 문제가 발생했습니다. HTTP 오류 코드 401이 반환되었습니다.</string>
-    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">XML-RPC 호출이 이 사이트에서 차단된 것 같습니다(오류 코드 401). 로그인 시도가 실패하면 도움말 아이콘을 눌러 FAQ를 확인하세요.</string>
-    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="login">해당 URL에서 워드프레스 사이트를 읽을 수 없습니다. 도움말 아이콘을 눌러 FAQ를 확인하세요.</string>
-    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="login">XML-RPC 서비스가 이 사이트에서 비활성화되었습니다.</string>
+    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="module:login">사이트와 통신하는 중 문제가 발생했습니다. HTTP 오류 코드 401이 반환되었습니다.</string>
+    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">XML-RPC 호출이 이 사이트에서 차단된 것 같습니다(오류 코드 401). 로그인 시도가 실패하면 도움말 아이콘을 눌러 FAQ를 확인하세요.</string>
+    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">해당 URL에서 워드프레스 사이트를 읽을 수 없습니다. 도움말 아이콘을 눌러 FAQ를 확인하세요.</string>
+    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="module:login">XML-RPC 서비스가 이 사이트에서 비활성화되었습니다.</string>
     <string name="my_site_menu_tab_title">메뉴</string>
     <string name="new_site_creation_empty_domain_list_message_invalid_query">검색어에 워드프레스닷컴 도메인에 지원되지 않는 문자가 있습니다. 허용되는 문자는 A–Z, a–z, 0–9입니다.</string>
     <string name="my_site_error_within_card_subtitle">인터넷 연결을 확인하고 페이지를 새로 고치세요.</string>
@@ -1316,7 +1332,7 @@ Language: ko_KR
     <string name="new_site_creation_search_domain_input_hint">사이트의 이름 입력</string>
     <string name="quick_start_completed_type_grow_message">&lt;b&gt;모든 작업 완료됨&lt;/b&gt;&lt;br/&gt;더 많은 사람에게 도달하게 됩니다. 훌륭합니다!</string>
     <string name="quick_start_completed_type_customize_message">&lt;b&gt;모든 작업 완료됨&lt;/b&gt;&lt;br/&gt;사이트를 사용자 정의하셨습니다. 잘하셨습니다!</string>
-    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="login">새 계정을 만들 계획이 없으신가요? 뒤로 이동하여 이메일 주소를 다시 입력하세요.</string>
+    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">새 계정을 만들 계획이 없으신가요? 뒤로 이동하여 이메일 주소를 다시 입력하세요.</string>
     <string name="invite_links_disable_dialog_message">초대 링크를 비활성화하면 아무도 이 링크를 사용해서 이 팀에 참여할 수 없습니다. 계속할까요?</string>
     <string name="invite_links_disable_dialog_title">초대 링크 비활성화</string>
     <string name="invite_links_bad_format_response">유효하지 않은 반응을 받았습니다</string>
@@ -1594,8 +1610,8 @@ Language: ko_KR
     <string name="hpp_retry_error">인터넷 연결을 확인하고 재시도하시기 바랍니다.</string>
     <string name="hpp_error_subtitle">온라인으로 돌아오면 재시도를 누르세요.</string>
     <string name="hpp_error_title">레이아웃은 오프라인에서 사용할 수 없습니다</string>
-    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="login">상점 자격증명으로 계속하기</string>
-    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="login">연결한 이메일 찾기</string>
+    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="module:login">상점 자격증명으로 계속하기</string>
+    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">연결한 이메일 찾기</string>
     <string name="reader_discover_no_posts_follow_subtitle">검색 범위가 넓어지도록 추가 태그를 팔로우해 보세요.</string>
     <string name="reader_discover_no_posts_title">최근 글이 없습니다</string>
     <string name="reader_discover_empty_title">환영합니다!</string>
@@ -1663,8 +1679,8 @@ Language: ko_KR
     <string name="suggestion_no_connection">인터넷에 연결되지 않았습니다.\n제안을 사용할 수 없습니다.</string>
     <string name="mlp_notselected_description">%s</string>
     <string name="mlp_selected_description">%s 선택했습니다</string>
-    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">이메일로 로그인 링크 얻기</string>
-    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="login">음, 이 이메일 주소와 연결된 워드프레스닷컴 계정을 찾을 수 없습니다.</string>
+    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">이메일로 로그인 링크 얻기</string>
+    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="module:login">음, 이 이메일 주소와 연결된 워드프레스닷컴 계정을 찾을 수 없습니다.</string>
     <string name="permission_microphone">마이크</string>
     <string name="comment_unable_to_show_error">이 댓글을 볼 수 없습니다</string>
     <string name="media_browse_for_items">항목 탐색하기</string>
@@ -1710,26 +1726,26 @@ Language: ko_KR
     <string name="gutenberg_native_choose_image" tools:ignore="UnusedResources">이미지 고르기</string>
     <string name="gutenberg_native_block_removed" tools:ignore="UnusedResources">블록을 제거했습니다</string>
     <string name="enter_your_site_address">이미 있는 사이트 주소 입력하기</string>
-    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="login">등록 확인</string>
-    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">워드프레스닷컴 계정이 없는 상태에서 Google로 계속하기를 선택하는 경우, 계정을 만들고 %1$s서비스 약관%2$s에 동의하는 것으로 간주됩니다.</string>
-    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">계속하면 %1$s서비스 약관%2$s에 동의하는 것입니다.</string>
-    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="login">이 이메일 주소를 사용하여 새 워드프레스닷컴 계정을 만들 것입니다.</string>
-    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="login">워드프레스닷컴 계정을 만드는 등록 링크를 이메일 하였습니다. 이 장치에서 이메일을 확인하고, 워드프레스닷컴에서 받은 이메일에 있는 링크를 누르세요.</string>
-    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">%1$s에 대한 계정 정보를 입력합니다.</string>
-    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="login">또는</string>
-    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">Google로 계속하기</string>
-    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="login">사이트 주소 찾기</string>
+    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">등록 확인</string>
+    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">워드프레스닷컴 계정이 없는 상태에서 Google로 계속하기를 선택하는 경우, 계정을 만들고 %1$s서비스 약관%2$s에 동의하는 것으로 간주됩니다.</string>
+    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">계속하면 %1$s서비스 약관%2$s에 동의하는 것입니다.</string>
+    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">이 이메일 주소를 사용하여 새 워드프레스닷컴 계정을 만들 것입니다.</string>
+    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">워드프레스닷컴 계정을 만드는 등록 링크를 이메일 하였습니다. 이 장치에서 이메일을 확인하고, 워드프레스닷컴에서 받은 이메일에 있는 링크를 누르세요.</string>
+    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">%1$s에 대한 계정 정보를 입력합니다.</string>
+    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="module:login">또는</string>
+    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google로 계속하기</string>
+    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="module:login">사이트 주소 찾기</string>
     <string name="login_done">완료</string>
-    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="login">이메일이 보이지 않으세요? 스팸이나 정크 메일 폴더를 확인하세요.</string>
-    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="login">이 장치에서 이메일을 확인하여 워드프레스닷컴에서 받은 이메일의 링크를 누르세요.</string>
-    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="login">비밀번호가 필요하지 않고 바로 로그인할 수 있는 링크를 이메일 할 것입니다.</string>
-    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="login">이메일 확인하기</string>
-    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="login">시작하기</string>
-    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">이메일 주소를 입력하여 로그인하거나 워드프레스닷컴 계정을 만드세요.</string>
-    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">또는 비밀번호 입력하기</string>
-    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="login">계정 만들기</string>
-    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">이메일로 링크 보내기</string>
-    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">비밀번호 재설정하기</string>
+    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">이메일이 보이지 않으세요? 스팸이나 정크 메일 폴더를 확인하세요.</string>
+    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">이 장치에서 이메일을 확인하여 워드프레스닷컴에서 받은 이메일의 링크를 누르세요.</string>
+    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">비밀번호가 필요하지 않고 바로 로그인할 수 있는 링크를 이메일 할 것입니다.</string>
+    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">이메일 확인하기</string>
+    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="module:login">시작하기</string>
+    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">이메일 주소를 입력하여 로그인하거나 워드프레스닷컴 계정을 만드세요.</string>
+    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">또는 비밀번호 입력하기</string>
+    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">계정 만들기</string>
+    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">이메일로 링크 보내기</string>
+    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">비밀번호 재설정하기</string>
     <string name="reader_error_request_failed_title">요청을 처리하는 중에 문제가 있었습니다. 나중에 다시 시도하시기 바랍니다.</string>
     <string name="quick_start_list_update_site_title_title">사이트 제목 확인</string>
     <string name="quick_start_dialog_update_site_title_message_short">&lt;b&gt;%1$s&lt;/b&gt;(을)를 눌러 새 제목 설정하기</string>
@@ -1982,12 +1998,12 @@ Language: ko_KR
     <string name="dialog_confirm_scheduled_post_sync_title">동기화할 준비가 되셨습니까?</string>
     <string name="new_site_creation_unavailable_domain">이 도메인을 사용할 수 없습니다.</string>
     <string name="negative_prefix">-%s</string>
-    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">사이트에 액세스할 수 없습니다. 이 문제를 해결하려면 호스트에게 연락해야 합니다.</string>
-    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="login">&lt;b&gt;SSL 인증서&lt;/b&gt; 문제로 인해 사이트에 액세스할 수 없습니다. 이 문제를 해결하려면 호스트에게 연락해야 합니다.</string>
-    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="login">&lt;b&gt;HTTP 인증&lt;/b&gt;이 필요하므로 사이트에 액세스할 수 없습니다. 이 문제를 해결하려면 호스트에게 연락해야 합니다.</string>
-    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="login">사이트에서 &lt;b&gt;XMLRPC 파일&lt;/b&gt;에 액세스할 수 없습니다. 이 문제를 해결하려면 호스트에게 연락해야 합니다.</string>
-    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="login">마지막 부분입니다! 젯팩에 연결된 이메일 주소 &lt;b&gt;%1$s&lt;/b&gt;만 확인하면 됩니다.</string>
-    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">%1$s 사이트 자격 증명으로 로그인</string>
+    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">사이트에 액세스할 수 없습니다. 이 문제를 해결하려면 호스트에게 연락해야 합니다.</string>
+    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="module:login">&lt;b&gt;SSL 인증서&lt;/b&gt; 문제로 인해 사이트에 액세스할 수 없습니다. 이 문제를 해결하려면 호스트에게 연락해야 합니다.</string>
+    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="module:login">&lt;b&gt;HTTP 인증&lt;/b&gt;이 필요하므로 사이트에 액세스할 수 없습니다. 이 문제를 해결하려면 호스트에게 연락해야 합니다.</string>
+    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="module:login">사이트에서 &lt;b&gt;XMLRPC 파일&lt;/b&gt;에 액세스할 수 없습니다. 이 문제를 해결하려면 호스트에게 연락해야 합니다.</string>
+    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">마지막 부분입니다! 젯팩에 연결된 이메일 주소 &lt;b&gt;%1$s&lt;/b&gt;만 확인하면 됩니다.</string>
+    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">%1$s 사이트 자격 증명으로 로그인</string>
     <string name="my_site_bottom_sheet_add_page">사이트 페이지</string>
     <string name="reader_my_likes_display_name">좋아요</string>
     <string name="reader_discover_display_name">검색</string>
@@ -2085,8 +2101,6 @@ Language: ko_KR
     <string name="post_preview_remote_auto_saving_post">미리보기 생성 중…</string>
     <string name="post_preview_saving_draft">저장 중…</string>
     <string name="local_post_autosave_revision_available">이 글에 저장되지 않은 변경 사항이 있습니다.</string>
-    <string name="dialog_confirm_autosave_dont_restore_button">이 앱의 버전</string>
-    <string name="dialog_confirm_autosave_restore_button">다른 기기의 버전</string>
     <string name="dialog_confirm_autosave_body_second_part">이 앱에서\n%1$s\n에 저장됨\n다른 기기에서\n%2$s\n에 저장됨\n</string>
     <string name="dialog_confirm_autosave_body_first_part">최근에 이 글을 변경했지만 저장하지 않았습니다. 로드할 버전을 선택하세요.\n\n</string>
     <string name="dialog_confirm_autosave_title">어떤 버전을 편집하시겠어요?</string>
@@ -2153,8 +2167,8 @@ Language: ko_KR
     <string name="post_settings_add_to_calendar">달력에 추가</string>
     <string name="post_settings_notification">알림</string>
     <string name="post_settings_time_and_date">날짜와 시간</string>
-    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="login">example.com과 같은 완전한 웹사이트 주소를 입력하세요.</string>
-    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">%1$s에 연결하려면 워드프레스닷컴에 로그인하세요.</string>
+    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="module:login">example.com과 같은 완전한 웹사이트 주소를 입력하세요.</string>
+    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">%1$s에 연결하려면 워드프레스닷컴에 로그인하세요.</string>
     <string name="stats_post_views_label">조회수</string>
     <string name="stats_post_label">글</string>
     <string name="stats_list_item_description">%1$s: %2$s, %3$s: %4$s</string>
@@ -2270,8 +2284,8 @@ Language: ko_KR
     <string name="posts_draft_empty">임시글이 없습니다.</string>
     <string name="posts_scheduled_empty">예약한 글이 없습니다.</string>
     <string name="posts_published_empty">아직 글을 발행하지 않았습니다.</string>
-    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="login">사용자 이름과 비밀번호를 사용하여 로그인하세요.</string>
-    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="login">이메일 주소가 아닌 워드프레스닷컴 사용자 이름을 사용하여 로그인하세요.</string>
+    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">사용자 이름과 비밀번호를 사용하여 로그인하세요.</string>
+    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">이메일 주소가 아닌 워드프레스닷컴 사용자 이름을 사용하여 로그인하세요.</string>
     <string name="stats_insights_average_words">평균 단어 수/글 수</string>
     <string name="stats_insights_total_words">총 단어 수</string>
     <string name="stats_insights_average_likes">평균 좋아요 클릭 수/글 수</string>
@@ -2281,7 +2295,7 @@ Language: ko_KR
     <string name="stats_insights_posts">글</string>
     <string name="stats_insights_year">년</string>
     <string name="stats_insights_this_year_site_stats">올해</string>
-    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="login">이 주소의 사이트는 워드프레스 사이트가 아닙니다. 연결하려면 사이트에서 워드프레스를 사용해야 합니다.</string>
+    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">이 주소의 사이트는 워드프레스 사이트가 아닙니다. 연결하려면 사이트에서 워드프레스를 사용해야 합니다.</string>
     <string name="plugin_check_domain_credit_error">사용 가능한 도메인 크레딧을 확인하지 못함</string>
     <string name="plugin_check_domain_credits_progress_dialog_message">도메인 크레딧 확인 중</string>
     <string name="plugin_install_custom_domain_required_dialog_register_btn">도메인 등록</string>
@@ -2442,7 +2456,7 @@ Language: ko_KR
     <string name="history_detail_button_previous">이전</string>
     <string name="history_detail_button_next">다음</string>
     <string name="media_space_used">%1$s 사용</string>
-    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="login">워드프레스닷컴 또는 젯팩에 연결된 독립 호스트 워드프레스 사이트를 입력하세요.</string>
+    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">워드프레스닷컴 또는 젯팩에 연결된 독립 호스트 워드프레스 사이트를 입력하세요.</string>
     <string name="history_loading_revision">리비전 로드하는 중</string>
     <string name="history_loaded_revision">리비전 로드됨</string>
     <string name="history_load_dialog_button_positive">로드</string>
@@ -2474,8 +2488,8 @@ Language: ko_KR
     <string name="pages_scheduled" tools:ignore="UnusedResources">예약됨</string>
     <string name="pages_drafts" tools:ignore="UnusedResources">임시글</string>
     <string name="pages_published" tools:ignore="UnusedResources">발행됨</string>
-    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="login">SMS 확인 코드를 보내려는 시도가 너무 많았습니다. 잠시 후 다시 요청하세요.</string>
-    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="login">이 Google 계정과 일치하는 워드프레스닷컴 계정이 없습니다.</string>
+    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="module:login">SMS 확인 코드를 보내려는 시도가 너무 많았습니다. 잠시 후 다시 요청하세요.</string>
+    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="module:login">이 Google 계정과 일치하는 워드프레스닷컴 계정이 없습니다.</string>
     <string name="site_picker_remove_site_empty">검색어와 일치하는 사이트 없음</string>
     <string name="reader_no_followed_blogs_search_title">검색과 일치하는 블로그 없음</string>
     <string name="page_parent_changed">페이지 상위 항목이 변경되었습니다.</string>
@@ -2511,7 +2525,7 @@ Language: ko_KR
     <string name="content_description_more">더 보기</string>
     <string name="my_site_create_new_site_title">사이트가 없습니다</string>
     <string name="reader_empty_subscribed_tags_subtitle">즐겨 찾는 주제에 대한 글을 찾으려면 여기에 태그 추가</string>
-    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="login">젯팩에 연결하는 데 사용한 워드프레스닷컴 계정으로 로그인하세요.</string>
+    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="module:login">젯팩에 연결하는 데 사용한 워드프레스닷컴 계정으로 로그인하세요.</string>
     <string name="jetpack">젯팩</string>
     <string name="stats_jetpack_connection_faq">젯팩 자주 찾는 질문</string>
     <string name="stats_jetpack_connection_setup_info">워드프레스 사이트에서 통계를 사용하려면 젯팩 플러그인을 설치해야 합니다.</string>
@@ -2565,13 +2579,13 @@ Language: ko_KR
     <string name="reader_empty_search_title">일치하는 결과 없음</string>
     <string name="comment_read_source_post">원글 읽기</string>
     <string name="sites">사이트</string>
-    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="login">매직 링크가 전송됨</string>
-    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="login">코드 확인</string>
-    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">로그인 자격 증명</string>
-    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">매직 링크가 전송됨</string>
-    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">매직 링크 로그인</string>
-    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">사이트 주소 로그인</string>
-    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">이메일 주소 로그인</string>
+    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">매직 링크가 전송됨</string>
+    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">코드 확인</string>
+    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">로그인 자격 증명</string>
+    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">매직 링크가 전송됨</string>
+    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">매직 링크 로그인</string>
+    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">사이트 주소 로그인</string>
+    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">이메일 주소 로그인</string>
     <string name="reader_empty_saved_posts_description">%s을(를) 탭하여 목록에 글을 저장합니다.</string>
     <string name="reader_empty_saved_posts_title">글이 아직 저장되지 않았습니다!</string>
     <string name="reader_bookmark_snack_title">글이 저장됨</string>
@@ -2674,7 +2688,7 @@ Language: ko_KR
     <string name="invite_user_delete_desc">%s 제거</string>
     <string name="profile_picture">%s의 프로필 사진</string>
     <string name="comment_checkmark_desc">확인 표시</string>
-    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Google로 가입하는 중…</string>
+    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google로 가입하는 중…</string>
     <string name="jetpack_connection_failed_with_reason">젯팩에 연결 실패: %s</string>
     <string name="jetpack_already_connected_toast">이미 젯팩에 연결되어 있습니다.</string>
     <string name="menu_visual_mode">비주얼 모드</string>
@@ -2755,7 +2769,7 @@ Language: ko_KR
     <string name="site_creation_domain_finish_button">사이트 생성</string>
     <string name="notification_site_creation_created">계속하려면 누르세요.</string>
     <string name="notification_site_creation_title_success">사이트를 생성했습니다!</string>
-    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="login">Google에서 응답하는 데 너무 오래 걸립니다. 더 강한 인터넷 연결이 있을 때까지 기다려야 할 수 있습니다.</string>
+    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google에서 응답하는 데 너무 오래 걸립니다. 더 강한 인터넷 연결이 있을 때까지 기다려야 할 수 있습니다.</string>
     <string name="username_changer_title">사용자 이름 변경</string>
     <string name="username_changer_hint">더 많은 제안을 받으려면 입력하세요.</string>
     <string name="username_changer_header">회원님의 현재 사용자명은 %1$s%2$s%3$s입니다. 몇 가지 예외가 있지만 다른 사람들은 회원님의 공개 이름, %4$s%5$s%6$s만 볼 수 있습니다.</string>
@@ -2767,10 +2781,10 @@ Language: ko_KR
     <string name="content_description_add_avatar">아바타 추가</string>
     <string name="signup_user_exists">이메일이 이미 워드프레스닷컴에 있습니다.\n로그인을 통해 진행 중입니다.</string>
     <string name="signup_updating_account">계정 업데이트 중…</string>
-    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="login">이메일 전송 중</string>
-    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="login">다시 시도</string>
-    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="login">닫기</string>
-    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="login">이메일을 보내는 중에 문제가 발생했습니다. 지금 다시 시도하거나 닫고 나중에 다시 시도할 수 있습니다.</string>
+    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">이메일 전송 중</string>
+    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="module:login">다시 시도</string>
+    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="module:login">닫기</string>
+    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">이메일을 보내는 중에 문제가 발생했습니다. 지금 다시 시도하거나 닫고 나중에 다시 시도할 수 있습니다.</string>
     <string name="signup_epilogue_hint_username">사용자 이름</string>
     <string name="signup_epilogue_hint_password_detail">방금 사용한 것과 같은 링크로 항상 로그인할 수 있지만, 원하는 경우 비밀번호를 설정할 수도 있습니다.</string>
     <string name="signup_epilogue_hint_password">암호(옵션)</string>
@@ -2868,18 +2882,18 @@ Language: ko_KR
     <string name="my_site_btn_plugins">플러그인</string>
     <string name="media_edit_link_hint">새 창/탭에 링크 열기</string>
     <string name="media_edit_link_text">링크 연결 대상:</string>
-    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="login">오류가 발생했습니다.</string>
-    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="login">계속하려면 인증 코드를 입력하세요.</string>
-    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="login">계속하려면 비밀번호를 다시 확인하세요.</string>
-    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="login">로그인 중지됨</string>
-    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="login">로그인하는 동안 잠시 기다려 주세요.</string>
-    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="login">로그인 진행 중…</string>
-    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="login">계속하려면 누르세요.</string>
-    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="login">로그인됨!</string>
-    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="login">Google 로그인을 시작할 수 없습니다.</string>
-    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="login">비밀번호를 입력하세요.</string>
-    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="login">대신 다른 코드를 문자로 받습니다.</string>
-    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="login">%s(으)로 끝나는 전화 번호로 문자 메시지를 보냈습니다. SMS의 확인 코드를 입력하세요.</string>
+    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="module:login">오류가 발생했습니다.</string>
+    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">계속하려면 인증 코드를 입력하세요.</string>
+    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">계속하려면 비밀번호를 다시 확인하세요.</string>
+    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="module:login">로그인 중지됨</string>
+    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">로그인하는 동안 잠시 기다려 주세요.</string>
+    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">로그인 진행 중…</string>
+    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">계속하려면 누르세요.</string>
+    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="module:login">로그인됨!</string>
+    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google 로그인을 시작할 수 없습니다.</string>
+    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">비밀번호를 입력하세요.</string>
+    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="module:login">대신 다른 코드를 문자로 받습니다.</string>
+    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="module:login">%s(으)로 끝나는 전화 번호로 문자 메시지를 보냈습니다. SMS의 확인 코드를 입력하세요.</string>
     <string name="image_size">크기</string>
     <string name="uploading_subtitle_media_only_one">1개 파일 남음</string>
     <string name="uploading_subtitle_media_only">%1$d/%2$d개 파일 남음</string>
@@ -2896,15 +2910,15 @@ Language: ko_KR
     <string name="confirm_remove_media_image">글에서 이 이미지를 제거할까요?</string>
     <string name="media_edit_customize_card_caption">사용자 정의</string>
     <string name="media_edit_file_details_card_caption">파일 세부정보</string>
-    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">\n다른 계정을 사용해 보세요.</string>
-    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">Google 계정과 연결하는 데 문제가 발생했습니다.</string>
+    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">\n다른 계정을 사용해 보세요.</string>
+    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google 계정과 연결하는 데 문제가 발생했습니다.</string>
     <string name="login_error_button">닫기</string>
-    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="login">이 Google 계정으로 진행하려면 일치하는 워드프레스닷컴 비밀번호를 제공하세요. 이 메시지는 한 번만 표시됩니다.</string>
+    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="module:login">이 Google 계정으로 진행하려면 일치하는 워드프레스닷컴 비밀번호를 제공하세요. 이 메시지는 한 번만 표시됩니다.</string>
     <string name="error_generic_network">네트워크 오류가 발생했습니다. 연결을 확인하고 다시 시도하세요.</string>
     <string name="post_settings_remove_featured_image">특성 이미지 제거</string>
     <string name="post_settings_choose_featured_image">특성 이미지 선택</string>
-    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">콘텐츠를 공유하려면 워드프레스닷컴에 로그인하세요.</string>
-    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">콘텐츠를 공유하려는 워드프레스 사이트의 주소를 입력하세요.</string>
+    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">콘텐츠를 공유하려면 워드프레스닷컴에 로그인하세요.</string>
+    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">콘텐츠를 공유하려는 워드프레스 사이트의 주소를 입력하세요.</string>
     <string name="jetpack_disconnect_error_toast">사이트 연결 해제 중 오류 발생</string>
     <string name="jetpack_disconnect_success_toast">사이트 연결이 해제됨</string>
     <string name="jetpack_disconnect_confirm">연결 해제</string>
@@ -2988,28 +3002,28 @@ Language: ko_KR
     <string name="login_epilogue_mysites_other">내 사이트</string>
     <string name="login_epilogue_mysites_one">내 사이트</string>
     <string name="login_email_client_not_found">이메일 클라이언트 앱을 감지할 수 없습니다.</string>
-    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="login">확인 코드를 입력하세요.</string>
-    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="login">사용자명을 입력하세요.</string>
-    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="login">글에 액세스하려면 워드프레스닷컴에 로그인하세요.</string>
-    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="login">사이트를 추가하는 동안 오류가 발생했습니다. 에러 코드: %s</string>
-    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">사이트 주소 확인 중</string>
-    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="login">더 많은 도움이 필요하세요?</string>
-    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="login">Chrome에서 사이트를 방문할 때 화면 위쪽의 표시줄에 사이트 주소가 표시됩니다.</string>
-    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="login">내 사이트 주소는 무엇인가요?</string>
-    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">사이트 주소</string>
-    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">연결하려는 워드프레스 사이트의 주소를 입력하세요.</string>
+    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="module:login">확인 코드를 입력하세요.</string>
+    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="module:login">사용자명을 입력하세요.</string>
+    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="module:login">글에 액세스하려면 워드프레스닷컴에 로그인하세요.</string>
+    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">사이트를 추가하는 동안 오류가 발생했습니다. 에러 코드: %s</string>
+    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">사이트 주소 확인 중</string>
+    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="module:login">더 많은 도움이 필요하세요?</string>
+    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="module:login">Chrome에서 사이트를 방문할 때 화면 위쪽의 표시줄에 사이트 주소가 표시됩니다.</string>
+    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">내 사이트 주소는 무엇인가요?</string>
+    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">사이트 주소</string>
+    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">연결하려는 워드프레스 사이트의 주소를 입력하세요.</string>
     <string name="login_already_logged_in_wpcom">워드프레스닷컴에 이미 로그인되어 있습니다.</string>
-    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="login">계속</string>
+    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="module:login">계속</string>
     <string name="connect_more">다른 사이트 연결하기</string>
-    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="login">워드프레스닷컴 비밀번호를 입력합니다.</string>
-    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="login">로그인 이메일 요청 중</string>
-    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="login">이 비밀번호가 올바르지 않은 것 같습니다. 정보를 확인하고 다시 시도하세요.</string>
-    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="login">SMS를 통해 확인 코드를 요청 중입니다.</string>
-    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="login">대신 코드를 문자로 받기</string>
-    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">마무리 단계입니다! 인증 앱의 워드프레스닷컴 확인 코드를 입력하세요.</string>
-    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="login">메일 열기</string>
+    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">워드프레스닷컴 비밀번호를 입력합니다.</string>
+    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="module:login">로그인 이메일 요청 중</string>
+    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="module:login">이 비밀번호가 올바르지 않은 것 같습니다. 정보를 확인하고 다시 시도하세요.</string>
+    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">SMS를 통해 확인 코드를 요청 중입니다.</string>
+    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">대신 코드를 문자로 받기</string>
+    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">마무리 단계입니다! 인증 앱의 워드프레스닷컴 확인 코드를 입력하세요.</string>
+    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="module:login">메일 열기</string>
     <string name="next">다음</string>
-    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">이메일 주소를 입력하여 워드프레스닷컴에 로그인하고 회원님의 모든 WordPress 사이트를 관리하세요.</string>
+    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">이메일 주소를 입력하여 워드프레스닷컴에 로그인하고 회원님의 모든 WordPress 사이트를 관리하세요.</string>
     <string name="me_profile_photo">프로필 사진</string>
     <string name="error_media_parse_error">서버에서 예기치 않은 응답을 받았습니다</string>
     <string name="upload_finished_toast">업로드가 이미 완료되었기 때문에 업로드를 중지할 수 있습니다</string>
@@ -3161,8 +3175,8 @@ Language: ko_KR
     <string name="error_unknown_post_type">알 수 없는 글 형식입니다.</string>
     <string name="submit_for_review">제출하기</string>
     <string name="title_subscriber">구독자</string>
-    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="login">중복 사이트가 감지되었습니다.</string>
-    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="login">이 사이트가 이미 앱에 있으므로, 추가할 수 없습니다.</string>
+    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="module:login">중복 사이트가 감지되었습니다.</string>
+    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">이 사이트가 이미 앱에 있으므로, 추가할 수 없습니다.</string>
     <string name="already_logged_in_wpcom">이미 워드프레스닷컴 계정에 로그인되어 있으므로 다른 계정에 연결된 워드프레스닷컴 사이트를 추가할 수 없습니다.</string>
     <string name="error_media_load">미디어를 로드할 수 없음</string>
     <string name="error_media_refresh_no_connection">라이브러리를 새로 고치려면 연결해야 함</string>
@@ -3174,8 +3188,8 @@ Language: ko_KR
     <string name="media_upload_error">미디어 업로드 오류가 발생했습니다.</string>
     <string name="retry">다시 시도</string>
     <string name="confirm">확인</string>
-    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="login">연결할 수 없습니다. 사이트\n XMLRPC 엔드포인트에 액세스를 시도할 때 403 오류가 발생했습니다. 사이트와 통신하려면 이 앱에 필요합니다. 호스트에 문의하여\n 이 문제를 해결하세요.</string>
-    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="login">연결할 수 없습니다. 호스트가 POST 요청을 차단하고 있으므로, 사이트와 통신하려면 이 앱에\n 필요합니다. 호스트에 문의하여 이 문제를 해결하세요.</string>
+    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">연결할 수 없습니다. 사이트\n XMLRPC 엔드포인트에 액세스를 시도할 때 403 오류가 발생했습니다. 사이트와 통신하려면 이 앱에 필요합니다. 호스트에 문의하여\n 이 문제를 해결하세요.</string>
+    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">연결할 수 없습니다. 호스트가 POST 요청을 차단하고 있으므로, 사이트와 통신하려면 이 앱에\n 필요합니다. 호스트에 문의하여 이 문제를 해결하세요.</string>
     <string name="pending_draft_one_generic">중단된 상태로 두지 마세요! \'%1$s\'이(가) 발행될 때까지 기다리는 중입니다.</string>
     <string name="pending_draft_one_month">중단된 상태로 두지 마세요! \'%1$s\'이(가) 발행될 때까지 기다리는 중입니다.</string>
     <string name="pending_draft_one_week_2">\'%1$s\'이(가) 임시글로 남아 있습니다. 발행하는 것을 잊지 마세요!</string>
@@ -3276,8 +3290,8 @@ Language: ko_KR
     <string name="error_refreshing_gravatar">Gravatar를 다시 로드하는 중 오류가 발생했습니다.</string>
     <string name="error_locating_image">잘린 이미지를 찾는 중 오류가 발생했습니다.</string>
     <string name="error_cropping_image">이미지를 자르는 중 오류가 발생했습니다.</string>
-    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="login">이메일 확인 중</string>
-    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="login">현재 사용할 수 없습니다. 비밀번호를 입력하세요.</string>
+    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">이메일 확인 중</string>
+    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">현재 사용할 수 없습니다. 비밀번호를 입력하세요.</string>
     <string name="logging_in">로그인 중</string>
     <string name="web_address_dialog_hint">댓글을 달 때 공개적으로 표시합니다.</string>
     <string name="capture_or_pick_photo">사진 캡처 또는 선택</string>
@@ -3313,7 +3327,7 @@ Language: ko_KR
     <string name="comments_empty_list_filtered_pending">대기중인 댓글 없음</string>
     <string name="comments_empty_list_filtered_approved">승인한 댓글 없음</string>
     <string name="button_skip">넘어가기</string>
-    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="login">연결할 수 없습니다. 필수 XML-RPC 함수가 서버에 없습니다.</string>
+    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">연결할 수 없습니다. 필수 XML-RPC 함수가 서버에 없습니다.</string>
     <string name="alignment_center">가운데</string>
     <string name="post_format_video">비디오</string>
     <string name="post_format_status">상태</string>
@@ -3373,7 +3387,7 @@ Language: ko_KR
     <string name="about_the_app">앱 정보</string>
     <string name="error_post_account_settings">계정 설정을 저장할 수 없습니다.</string>
     <string name="error_fetch_account_settings">계정 설정을 검색할 수 없습니다.</string>
-    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="login">프로필을 검색할 수 없습니다.</string>
+    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="module:login">프로필을 검색할 수 없습니다.</string>
     <string name="site_settings_unknown_language_code_error">언어 코드가 인식되지 않음</string>
     <string name="site_settings_threading_dialog_description">스레드에서 댓글이 계층화되도록 허용합니다.</string>
     <string name="site_settings_threading_dialog_header">최대 스레드</string>
@@ -3576,9 +3590,9 @@ Language: ko_KR
     <string name="select_all">모두 선택</string>
     <string name="hide">숨기기</string>
     <string name="show">표시</string>
-    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">계속하려면 다시 로그인하세요.</string>
-    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">잘못된 확인 코드</string>
-    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">확인 코드</string>
+    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">계속하려면 다시 로그인하세요.</string>
+    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">잘못된 확인 코드</string>
+    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">확인 코드</string>
     <string name="language">언어</string>
     <string name="reader_empty_posts_request_failed">글을 가져올 수 없음</string>
     <string name="error_notification_open">알림을 열 수 없음</string>
@@ -3642,7 +3656,7 @@ Language: ko_KR
     <string name="ssl_certificate_error">잘못된 SSL 인증서</string>
     <string name="help">도우미</string>
     <string name="username_or_password_incorrect">입력된 사용자 이름이나 암호가 잘못되었습니다.</string>
-    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="login">유효한 이메일 주소를 입력 하십시오.</string>
+    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="module:login">유효한 이메일 주소를 입력 하십시오.</string>
     <string name="invalid_email_message">잘못된 이메일 주소입니다.</string>
     <string name="error_downloading_image">이미지를 다운로드하는 중에 오류가 발생했습니다. 다시 시도하십시오.</string>
     <string name="error_load_comment">코멘트 를 로드 할 수 없습니다. 다시 시도 하십시오.</string>
@@ -3675,7 +3689,7 @@ Language: ko_KR
     <string name="new_media">새 미디어</string>
     <string name="new_post">새 게시물</string>
     <string name="notifications_empty_all">알림이 없습니다.</string>
-    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="login">인증이 필요합니다</string>
+    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">인증이 필요합니다</string>
     <string name="invalid_site_url_message">입력한 사이트 URL이 올바른지 확인합니다.</string>
     <string name="file_error_create">미디어 업로드시에 임시 파일을 만들 수 없습니다 . 장치에 여유 공간이 있는지 확인 하십시오.</string>
     <string name="category_name">카테고리 이름</string>
@@ -3722,7 +3736,7 @@ Language: ko_KR
     <string name="reader_likes_you_and_one">당신과 다른 1명이 \"좋아요\"를 눌렀습니다.</string>
     <string name="pick_video">동영상을 선택</string>
     <string name="pick_photo">이미지를 선택</string>
-    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="login">가입</string>
+    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">가입</string>
     <string name="reader_toast_err_url_intent">%s를 열 수 없습니다</string>
     <string name="reader_toast_err_view_image">이미지를 표시 할 수 없습니다</string>
     <string name="reader_toast_err_share_intent">공유에 실패</string>
@@ -3766,11 +3780,11 @@ Language: ko_KR
     <string name="note_reply_successful">답장을 공개했습니다</string>
     <string name="sign_in">로그인</string>
     <string name="loading">로드 중입니다…</string>
-    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP 암호</string>
-    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP 사용자 이름</string>
+    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP 암호</string>
+    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP 사용자 이름</string>
     <string name="error_media_upload">미디어를 업로드할때 오류가 발생했습니다</string>
     <string name="incorrect_credentials">사용자 이름이나 암호가 올바르지 않습니다 .</string>
-    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="login">로그인</string>
+    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">로그인</string>
     <string name="username">사용자 이름</string>
     <string name="password">암호</string>
     <string name="reader">리더</string>

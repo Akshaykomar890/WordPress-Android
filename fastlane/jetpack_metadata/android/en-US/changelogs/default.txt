@@ -1,3 +1,5 @@
-Lots of under-the-hood improvements this month – mostly bugfixes, but you should notice that the app doesn't prompt you for ratings nearly as often.
-We're excited to have more to share with you soon!
-We'd love to hear your feedback on the app – you can reach us at mobile-support@automattic.com.
+This month, we've:
+- Fixed broken social media icons in Jetpack Social
+- Fixed some Dark Mode bugs
+- We've brought the experimental editor to Android – give it a try and let us know what you think!
+- Adjusted how users log into WordPress.com – this fixes a long-standing issue where you couldn't log in if you used a Passkey.

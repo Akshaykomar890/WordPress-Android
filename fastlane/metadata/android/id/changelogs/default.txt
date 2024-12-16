@@ -1,0 +1,5 @@
+25.5:
+Bulan ini, kami telah:
+- Memperbaiki sejumlah bug Mode Gelap
+- Menerapkan editor eksperimental di Android – cobalah dan sampaikan pendapat Anda!
+- Menyesuaikan cara pengguna login ke WordPress.com – ini adalah solusi untuk masalah lama yang mempersulit Anda login jika menggunakan Passkey.

@@ -1,0 +1,6 @@
+25.5 :
+Ce mois-ci, nous avons :
+- corrigé l’affichage des icônes de réseaux sociaux dans Jetpack Social
+- corrigé des bugs du mode sombre
+- lancé l’éditeur expérimental sur Android : essayez-le et dites-nous ce que vous en pensez !
+- ajusté la façon dont les utilisateurs se connectent à WordPress.com : cela vient corriger un problème de longue date qui empêchait la connexion si vous utilisiez une clé d’accès.

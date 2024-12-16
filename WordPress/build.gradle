@@ -641,9 +641,15 @@ tasks.register("printResourceConfigurations") {
     }
 }
 
-// Copy React Native JavaScript bundle and source map so they can be upload it to the Crash logging
-// service during the build process.
 android {
+    // Enable per-app language support
+    // https://developer.android.com/guide/topics/resources/app-languages
+    androidResources {
+        generateLocaleConfig = true
+    }
+
+    // Copy React Native JavaScript bundle and source map so they can be upload it to the Crash logging
+    // service during the build process.
     applicationVariants.configureEach { variant ->
         def variantAssets = variant.mergeAssetsProvider.get().outputDir.get()
 

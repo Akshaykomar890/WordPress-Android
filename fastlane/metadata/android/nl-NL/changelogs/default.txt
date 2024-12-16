@@ -1,0 +1,4 @@
+25.5: Deze maand hebben we: 
+- Opgelost: enkele Dark Mode bugs 
+- We hebben de experimentele editor naar Android gebracht – probeer het eens en laat ons weten wat je ervan vindt! 
+- Aangepast hoe gebruikers inloggen op WordPress.com – dit lost een langdurig probleem op waarbij je niet kon inloggen als je een Passkey gebruikte.

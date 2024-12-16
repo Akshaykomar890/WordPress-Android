@@ -1,12 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Translation-Revision-Date: 2024-09-19 11:25:45+0000
+Translation-Revision-Date: 2024-12-09 19:44:31+0000
 Plural-Forms: nplurals=2; plural=n != 1;
 Generator: GlotPress/4.0.1
 Language: sq_AL
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="me_btn_feedback">Dërgoni përshtypje</string>
+    <string name="default_web_client_id" a8c-src-lib="module:login">vendmbajtëse</string>
+    <string name="user_avatar_content_description">Avatar për përdoruesin %s</string>
+    <string name="user_row_content_description">Shfaq hollësi për përdoruesin %s</string>
+    <string name="biographical_info_empty">S’është dhënë gjë</string>
+    <string name="biographical_info">Hollësi Jetëshkrimore</string>
+    <string name="about_the_user">Mbi përdoruesin</string>
+    <string name="website">Sajt</string>
+    <string name="contact_info">Hollësi kontakti</string>
+    <string name="nickname">Nofkë</string>
+    <string name="name">Emër</string>
+    <string name="no_users">S’ka përdorues</string>
+    <string name="user">Përdorues</string>
+    <string name="users">Përdorues</string>
+    <string name="me_btn_help_and_support">Ndihmë &amp; Asistencë</string>
+    <string name="me_btn_experimental_features">Veçori Eksperimentale</string>
+    <string name="more_content_description_plans">Më tepër plane</string>
+    <string name="more_content_description_recent_activity">Më tepër veprimtari së fundi</string>
+    <string name="more_content_description_pages">Më tepër faqe</string>
+    <string name="more_content_description_posts">Më tepër postime</string>
+    <string name="more_content_description_quick_start">Më tepër “Nisje e shpejtë”</string>
+    <string name="more_content_description_today_stats">Më tepër “Statistika të sotme”</string>
+    <string name="more_content_description_blogging_prompts">Më tepër hapa</string>
+    <string name="reader_toast_success_undo">Blogu u zhbllokua</string>
+    <string name="feedback_form_note_link">Skenë “Lidhuni Me Asistencën”</string>
+    <string name="feedback_form_note_text">Ju lutemi, mbani parasysh se ky s’është forum asistence dhe s’do të jemi në gjendje të përgjigjemi. Nëse ju duhet asistencë, ju lutemi, përdorni</string>
+    <string name="experimental_block_editor_theme_styles">Stile eksperimentale përpunuesi me blloqe</string>
+    <string name="experimental_block_editor">Përpunues eksperimental me blloqe</string>
+    <string name="experimental_features_screen_title">Veçori Eksperimentale</string>
+    <string name="back">Mbrapsht</string>
+    <string name="dialog_confirm_autosave_dont_restore_button">Nga ky aplikacion</string>
+    <string name="dialog_confirm_autosave_restore_button">Nga pajisje tjetër</string>
+    <string name="item_selected">Përzgjedhur</string>
+    <string name="send_feedback">Dërgoni përshtypje</string>
     <string name="media_pager_remove_item_content_description">Hiq objektin %1$d</string>
     <string name="feedback_form_add_attachments">Shtoni bashkëngjitje</string>
     <string name="feedback_form_unable_to_create_tempfile">S’arrihet të krijohet kartelë e përkohshme</string>
@@ -265,9 +297,9 @@ Language: sq_AL
     <string name="jp_migration_done_no_sites_message">Ka ardhur koha a vazhdoni udhëtimin tuaj WordPress te aplikacioni Jetpack.</string>
     <string name="domain_management_clear_search">Spastroje kërkimin</string>
     <string name="media_encoder_quality_very_high">Shumë e Lartë</string>
-    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Ju lutemi, që të vazhdohet, jepni kyçin tuaj të sigurisë.</string>
-    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">Pati ca problem me hyrjen me kyç sigurie</string>
-    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">Përdorni një kyç sigurie</string>
+    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ju lutemi, që të vazhdohet, jepni kyçin tuaj të sigurisë.</string>
+    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pati ca problem me hyrjen me kyç sigurie</string>
+    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">Përdorni një kyç sigurie</string>
     <string name="new_domain_search_screen_error_title">S’u morën dot përkatësi</string>
     <string name="new_domain_search_screen_list_item_sale_price">%s për vitin e parë</string>
     <string name="new_domain_search_screen_list_item_regular_price">$%s / vit</string>
@@ -286,7 +318,6 @@ Language: sq_AL
     <string name="post_list_toggle_author_filter">Filtroji sipas autorësh</string>
     <string name="gutenberg_native_s_block_converted_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">Blloku “%s ” u shndërrua në blloqe</string>
     <string name="gutenberg_native_alternatively_you_can_convert_the_content_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">Ndryshe, mund ta shndërroni lëndën në blloqe.</string>
-    <string name="personalization_screen_shortcuts_add_or_remove_shortcut_button">Shtoni ose Hiqni shkurtore</string>
     <string name="personalization_screen_tab_shortcuts_inactive_shortcuts">Shkurtore Joaktive</string>
     <string name="personalization_screen_tab_shortcuts_active_shortcuts">Shkurtore Aktive</string>
     <string name="personalization_screen_shortcuts_tab_title">Shkurtore</string>
@@ -546,7 +577,6 @@ Language: sq_AL
     <string name="site_creation_domain_tag_recommended">E rekomanduar</string>
     <string name="site_creation_domain_tag_best_alternative">Alternativa Më e Mirë</string>
     <string name="site_creation_domain_cost">në vit</string>
-    <string name="me_btn_help">Ndihmë</string>
     <string name="support_faq_caption">Për përgjigje pyetjesh të rëndomta që mund të keni, shihni PBR-të tona.</string>
     <string name="support_faq_title">Faleminderit që kaloni te aplikacioni Jetpack!</string>
     <string name="logs_button">Regjistra</string>
@@ -712,9 +742,9 @@ Language: sq_AL
     <string name="connections_label">Lidhje Jetpack Social</string>
     <string name="stats_widget_log_in_to_add_message">Ju lutemi, që të shtoni një &lt;em&gt;widget&lt;/em&gt;, bëni hyrjen te aplikacioni Jetpack.</string>
     <string name="stats_view_publicize">Lidhje Jetpack Social</string>
-    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="login">Sapo dërguam një lidhje magjike te</string>
-    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="login">Shihni email-in tuaj në këtë pajisje!</string>
-    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="login">Përdorni fjalëkalimin për hyrje</string>
+    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Sapo dërguam një lidhje magjike te</string>
+    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="module:login">Shihni email-in tuaj në këtë pajisje!</string>
+    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Përdorni fjalëkalimin për hyrje</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack_caption">Jini gjithnjë në dijeni me përditësime aty për aty për komente të reja, trafik sajti, raporte mbi sigurinë, etj.</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack">Njoftimet sillen nga Jetpack-u</string>
     <string name="wp_jetpack_powered_stats_powered_by_jetpack_caption">Shihni si shtohet trafiku juaj dhe mësoni rreth publikut tuaj, me “Statistika dhe Prirje” të ripunuar, tanimë të përdorshme edhe në aplikacionin e ri Jetpack.</string>
@@ -945,10 +975,10 @@ Language: sq_AL
     <string name="my_site_dashboard_tab_title">Kreu</string>
     <string name="adding_cat">Shtim kategorish</string>
     <string name="login_select_email_client">Cilin aplikacion email përdorni?</string>
-    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="login">Pati një problem komunikimi me sajtin. U kthye një kod gabimi HTTP 401.</string>
-    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Duket se në këtë sajt bllokohen thirrjet XML-RPC (kod gabimi 401). Nëse dështon përpjekja për hyrje, prekni ikonën e ndihmës që të shihni PBR.</string>
-    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="login">S’arrihet të lexohet sajti WordPress tek ajo URL. Prekni ikonën e ndihmës që të shihni PBR.</string>
-    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="login">Shërbimet XML-RPC janë të çaktivizuara për këtë sajt.</string>
+    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pati një problem komunikimi me sajtin. U kthye një kod gabimi HTTP 401.</string>
+    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Duket se në këtë sajt bllokohen thirrjet XML-RPC (kod gabimi 401). Nëse dështon përpjekja për hyrje, prekni ikonën e ndihmës që të shihni PBR.</string>
+    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">S’arrihet të lexohet sajti WordPress tek ajo URL. Prekni ikonën e ndihmës që të shihni PBR.</string>
+    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="module:login">Shërbimet XML-RPC janë të çaktivizuara për këtë sajt.</string>
     <string name="my_site_menu_tab_title">Menu</string>
     <string name="new_site_creation_empty_domain_list_message_invalid_query">Kërkimi juaj përmban shenja të pambuluara në përkatësi WordPress.com. Lejohen shenjat vijuese: A–Z, a–z, 0–9.</string>
     <string name="my_site_error_within_card_subtitle">Kontrolloni lidhjen tuaj internet dhe rifreskoni faqen.</string>
@@ -1309,7 +1339,7 @@ Language: sq_AL
     <string name="new_site_creation_search_domain_input_hint">Shtypni një emër për sajtin tuaj</string>
     <string name="quick_start_completed_type_grow_message">&lt;b&gt;Krejt punët të mbaruara&lt;/b&gt;&lt;br/&gt;Do të mbërrini në më shumë njerëz. Punë e paqme!</string>
     <string name="quick_start_completed_type_customize_message">&lt;b&gt;Krejt punët të mbaruara&lt;/b&gt;&lt;br/&gt;E keni përshtatur sajtin tuaj. Ju lumtë!</string>
-    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="login">S’e kishit fjalën të krijonit një llogari të re? Kthehuni mbrapsht, që të jepni adresën tuaj email.</string>
+    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">S’e kishit fjalën të krijonit një llogari të re? Kthehuni mbrapsht, që të jepni adresën tuaj email.</string>
     <string name="invite_links_disable_dialog_message">Pasi të jetë çaktivizuar kjo lidhje ftese, askush s’do të jetë në gjendje të bëhet pjesë e ekipit tuaj. Jeni i sigurt?</string>
     <string name="invite_links_disable_dialog_title">Çaktivizo lidhje ftese</string>
     <string name="invite_links_bad_format_response">U mor përgjigje e pavlefshme</string>
@@ -1586,8 +1616,8 @@ Language: sq_AL
     <string name="hpp_retry_error">Ju lutemi, Kontrolloni lidhjen tuaj në internet dhe riprovoni.</string>
     <string name="hpp_error_subtitle">Kur të jeni sërish i lidhur, prekni Riprovo.</string>
     <string name="hpp_error_title">S’mund të kihen skema, teksa jeni jashtë linje</string>
-    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="login">Vazhdo me kredenciale shitoreje</string>
-    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="login">Gjeni email-in tuaj të lidhur</string>
+    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vazhdo me kredenciale shitoreje</string>
+    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Gjeni email-in tuaj të lidhur</string>
     <string name="reader_discover_no_posts_follow_subtitle">Provoni të ndiqni më tepër etiketa që të zgjerohet kërkimi</string>
     <string name="reader_discover_no_posts_title">Pa postime së fundi</string>
     <string name="reader_discover_empty_title">Mirë se vini!</string>
@@ -1655,8 +1685,8 @@ Language: sq_AL
     <string name="suggestion_no_connection">S’ka lidhje në internet.\nS’merren dot sugjerime.</string>
     <string name="mlp_notselected_description">%s</string>
     <string name="mlp_selected_description">%s të përzgjedhura</string>
-    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Merrni me email një lidhje hyrjeje</string>
-    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="login">Hëm, s’gjejmë dot një llogari WordPress.com të lidhur me këtë adresë email.</string>
+    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Merrni me email një lidhje hyrjeje</string>
+    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hëm, s’gjejmë dot një llogari WordPress.com të lidhur me këtë adresë email.</string>
     <string name="permission_microphone">Mikrofon</string>
     <string name="comment_unable_to_show_error">S’arrihet të shfaqet ky koment</string>
     <string name="media_browse_for_items">Shfletoni për objekte</string>
@@ -1702,26 +1732,26 @@ Language: sq_AL
     <string name="gutenberg_native_choose_image" tools:ignore="UnusedResources">Zgjidhni figurë</string>
     <string name="gutenberg_native_block_removed" tools:ignore="UnusedResources">Blloku u hoq</string>
     <string name="enter_your_site_address">Jepni adresën e sajtit tuaj ekzistues</string>
-    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="login">Ripohim regjistrimi</string>
-    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">Nëse vazhdoni me Google dhe ende s’keni një llogari WordPress.com, po krijoni një llogari dhe pajtoheni me %1$sKushtet tona të Shërbimit%2$s.</string>
-    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">Duke u regjistruar, pajtoheni me %1$sKushtet tona të Shërbimit%2$s.</string>
-    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="login">Këtë adresë email do ta përdorim për të krijuar llogarinë tuaj të re WordPress.com.</string>
-    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="login">Ju dërguam me email një lidhje regjistrimi për të krijuar llogarinë tuaj të re WordPress.com. Kontrolloni email-et në këtë pajisje dhe prekni lidhjen te email-i i ardhur nga WordPress.com.</string>
-    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Jepni të dhënat e llogarisë suaj për %1$s.</string>
-    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="login">ose</string>
-    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">Vazhdoni me Google</string>
-    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="login">Gjeni adresën e sajtit tuaj</string>
+    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ripohim regjistrimi</string>
+    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nëse vazhdoni me Google dhe ende s’keni një llogari WordPress.com, po krijoni një llogari dhe pajtoheni me %1$sKushtet tona të Shërbimit%2$s.</string>
+    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">Duke u regjistruar, pajtoheni me %1$sKushtet tona të Shërbimit%2$s.</string>
+    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Këtë adresë email do ta përdorim për të krijuar llogarinë tuaj të re WordPress.com.</string>
+    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ju dërguam me email një lidhje regjistrimi për të krijuar llogarinë tuaj të re WordPress.com. Kontrolloni email-et në këtë pajisje dhe prekni lidhjen te email-i i ardhur nga WordPress.com.</string>
+    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Jepni të dhënat e llogarisë suaj për %1$s.</string>
+    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="module:login">ose</string>
+    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vazhdoni me Google</string>
+    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Gjeni adresën e sajtit tuaj</string>
     <string name="login_done">U bë</string>
-    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="login">S’e shihni email-in? Shihni te dosja juaj Të padëshiruar ose Të pavlera.</string>
-    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="login">Hapni email-et në këtë pajisje dhe prekni lidhjen te email-i që morët nga WordPress.com.</string>
-    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="login">Do t’ju dërgojmë me email një lidhje që do t’ju fusë menjëherë, pa qenë nevoja për fjalëkalim.</string>
-    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="login">Kontrolloni email-in</string>
-    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="login">Fillojani</string>
-    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">Që të bëni hyrjen ose të krijoni një llogari te WordPress.com, jepni adresën tuaj email.</string>
-    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Ose shtypni fjalëkalimin tuaj</string>
-    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="login">Krijo llogari</string>
-    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Dërgoje lidhjen me email</string>
-    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Ricaktoni fjalëkalimi tuaj</string>
+    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">S’e shihni email-in? Shihni te dosja juaj Të padëshiruar ose Të pavlera.</string>
+    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hapni email-et në këtë pajisje dhe prekni lidhjen te email-i që morët nga WordPress.com.</string>
+    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Do t’ju dërgojmë me email një lidhje që do t’ju fusë menjëherë, pa qenë nevoja për fjalëkalim.</string>
+    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kontrolloni email-in</string>
+    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="module:login">Fillojani</string>
+    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">Që të bëni hyrjen ose të krijoni një llogari te WordPress.com, jepni adresën tuaj email.</string>
+    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ose shtypni fjalëkalimin tuaj</string>
+    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">Krijo llogari</string>
+    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Dërgoje lidhjen me email</string>
+    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ricaktoni fjalëkalimi tuaj</string>
     <string name="reader_error_request_failed_title">Pati një problem me trajtimin e kërkesës. Ju lutemi, riprovoni.</string>
     <string name="quick_start_list_update_site_title_title">Kontrolloni titullin e sajtit tuaj</string>
     <string name="quick_start_dialog_update_site_title_message_short">Prekni &lt;b&gt;%1$s&lt;/b&gt; që të caktoni një titull të ri</string>
@@ -1974,12 +2004,12 @@ Language: sq_AL
     <string name="dialog_confirm_scheduled_post_sync_title">Gati për Njëkohësim?</string>
     <string name="new_site_creation_unavailable_domain">Kjo përkatësi s’është e lirë</string>
     <string name="negative_prefix">-%s</string>
-    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">S’qemë në gjendje të hyjmë në sajtin tuaj. Do t’ju duhet të lidheni me strehuesin tuaj që ta zgjidhni këtë problem.</string>
-    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="login">S’qemë në gjendje të hyjmë në sajtin tuaj, për shkak të një problemi me &lt;b&gt;Dëshminë SSL&lt;/b&gt;. Do t’ju duhet të lidheni me strehuesin tuaj që ta zgjidhni këtë problem.</string>
-    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="login">S’qemë në gjendje të hyjmë në sajtin tuaj, ngaqë lyp &lt;b&gt;Mirëfilltësim HTTP&lt;/b&gt;. Do t’ju duhet të lidheni me strehuesin tuaj që ta zgjidhni këtë problem.</string>
-    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="login">S’qemë në gjendje të hyjmë te &lt;b&gt;kartela&lt;/b&gt; në sajtin tuaj. Do t’ju duhet të lidheni me strehuesin tuaj që ta zgjidhni këtë problem.</string>
-    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="login">Thuajse mbërritëm! Na duhet vetëm të verifikojmë adresën tuaj email të lidhur me Jetpack-un &lt;b&gt;%1$s&lt;/b&gt;</string>
-    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Hyni me kredencialet tuaja për sajtin %1$s</string>
+    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">S’qemë në gjendje të hyjmë në sajtin tuaj. Do t’ju duhet të lidheni me strehuesin tuaj që ta zgjidhni këtë problem.</string>
+    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="module:login">S’qemë në gjendje të hyjmë në sajtin tuaj, për shkak të një problemi me &lt;b&gt;Dëshminë SSL&lt;/b&gt;. Do t’ju duhet të lidheni me strehuesin tuaj që ta zgjidhni këtë problem.</string>
+    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="module:login">S’qemë në gjendje të hyjmë në sajtin tuaj, ngaqë lyp &lt;b&gt;Mirëfilltësim HTTP&lt;/b&gt;. Do t’ju duhet të lidheni me strehuesin tuaj që ta zgjidhni këtë problem.</string>
+    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="module:login">S’qemë në gjendje të hyjmë te &lt;b&gt;kartela&lt;/b&gt; në sajtin tuaj. Do t’ju duhet të lidheni me strehuesin tuaj që ta zgjidhni këtë problem.</string>
+    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Thuajse mbërritëm! Na duhet vetëm të verifikojmë adresën tuaj email të lidhur me Jetpack-un &lt;b&gt;%1$s&lt;/b&gt;</string>
+    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hyni me kredencialet tuaja për sajtin %1$s</string>
     <string name="my_site_bottom_sheet_add_page">Faqe sajti</string>
     <string name="reader_my_likes_display_name">Pëlqime</string>
     <string name="reader_discover_display_name">Zbuloni</string>
@@ -2077,8 +2107,6 @@ Language: sq_AL
     <string name="post_preview_remote_auto_saving_post">Po Prodhohet Paraparja…</string>
     <string name="post_preview_saving_draft">Po ruhet…</string>
     <string name="local_post_autosave_revision_available">Keni bërë ndryshime të paruajtura në këtë postim</string>
-    <string name="dialog_confirm_autosave_dont_restore_button">Versioni prej këtij aplikacioni</string>
-    <string name="dialog_confirm_autosave_restore_button">Versioni prej pajisje tjetër</string>
     <string name="dialog_confirm_autosave_body_second_part">Nga ky aplikacion\nRuajtur më %1$s\n\nPrej një pajisje tjetër\nRuajtur më %2$s\n</string>
     <string name="dialog_confirm_autosave_body_first_part">Së fundi keni bëtë ndryshime te ky postim, por nuk i ruajtët. Zgjidhni një version për ngarkim:\n\n</string>
     <string name="dialog_confirm_autosave_title">Cilin version do të donit të përpunonit?</string>
@@ -2145,8 +2173,8 @@ Language: sq_AL
     <string name="post_settings_add_to_calendar">Shtoje në kalendar</string>
     <string name="post_settings_notification">Njoftim</string>
     <string name="post_settings_time_and_date">Data dhe Koha</string>
-    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="login">Ju lutemi, jepni një adresë të plotë sajti, bie fjala, example.com.</string>
-    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Që të lidheni me %1$s, bëni hyrjen te llogaria juaj WordPress.com</string>
+    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ju lutemi, jepni një adresë të plotë sajti, bie fjala, example.com.</string>
+    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Që të lidheni me %1$s, bëni hyrjen te llogaria juaj WordPress.com</string>
     <string name="stats_post_views_label">Pamje</string>
     <string name="stats_post_label">Postim</string>
     <string name="stats_list_item_description">%1$s: %2$s, %3$s: %4$s</string>
@@ -2262,8 +2290,8 @@ Language: sq_AL
     <string name="posts_draft_empty">S’keni ndonjë postim skicë</string>
     <string name="posts_scheduled_empty">S’keni postime të planifikuara për botim</string>
     <string name="posts_published_empty">S’keni botuar ende ndonjë postim</string>
-    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Ju lutemi, bëni hyrjen me emrin tuaj të përdoruesit dhe fjalëkalimin.</string>
-    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="login">Ju lutemi, hyni duke përdorur emrin tuaj të përdoruesit WordPress.com, në vend se adresën tuaj email.</string>
+    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ju lutemi, bëni hyrjen me emrin tuaj të përdoruesit dhe fjalëkalimin.</string>
+    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ju lutemi, hyni duke përdorur emrin tuaj të përdoruesit WordPress.com, në vend se adresën tuaj email.</string>
     <string name="stats_insights_average_words">Mesatare fjalësh/postim</string>
     <string name="stats_insights_total_words">Fjalë gjithsej</string>
     <string name="stats_insights_average_likes">Mesatare pëlqimesh/postim</string>
@@ -2273,7 +2301,7 @@ Language: sq_AL
     <string name="stats_insights_posts">Postime</string>
     <string name="stats_insights_year">Vit</string>
     <string name="stats_insights_this_year_site_stats">Këtë Vit</string>
-    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="login">Sajti në këtë adresë s’është sajt WordPress. Që të mund të lidhemi me të, sajti duhet të përdorë WordPress-in.</string>
+    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Sajti në këtë adresë s’është sajt WordPress. Që të mund të lidhemi me të, sajti duhet të përdorë WordPress-in.</string>
     <string name="plugin_check_domain_credit_error">S’u arrit të kontrollohet kredit përkatësie gjendje</string>
     <string name="plugin_check_domain_credits_progress_dialog_message">Po kontrollohet kredit përkatësie</string>
     <string name="plugin_install_custom_domain_required_dialog_register_btn">Regjistroje përkatësinë</string>
@@ -2434,7 +2462,7 @@ Language: sq_AL
     <string name="history_detail_button_previous">I mëparshmi</string>
     <string name="history_detail_button_next">Pasuesi</string>
     <string name="media_space_used">%1$s të përdorura</string>
-    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="login">Ju lutemi, jepni një sajt WordPress.com ose një WordPress që e strehoni diku dhe që është i lidhur me Jetpack-un</string>
+    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ju lutemi, jepni një sajt WordPress.com ose një WordPress që e strehoni diku dhe që është i lidhur me Jetpack-un</string>
     <string name="history_loading_revision">Po ngarkohet rishikimi</string>
     <string name="history_loaded_revision">Rishikimi u ngarkua</string>
     <string name="history_load_dialog_button_positive">Ngarkoje</string>
@@ -2466,8 +2494,8 @@ Language: sq_AL
     <string name="pages_scheduled" tools:ignore="UnusedResources">Planifikuar</string>
     <string name="pages_drafts" tools:ignore="UnusedResources">Skica</string>
     <string name="pages_published" tools:ignore="UnusedResources">I botuar</string>
-    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="login">Provuam shumë herë t’ju dërgonin një kod verifikimi SMS — bëni ca pushim, dhe kërkoni një të ri pas ndonjë minute.</string>
-    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="login">S’ka llogari WordPress.com që përputhet me këtë llogari Google.</string>
+    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="module:login">Provuam shumë herë t’ju dërgonin një kod verifikimi SMS — bëni ca pushim, dhe kërkoni një të ri pas ndonjë minute.</string>
+    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="module:login">S’ka llogari WordPress.com që përputhet me këtë llogari Google.</string>
     <string name="site_picker_remove_site_empty">S’u gjetën sajte me përputhje për kërkimin tuaj</string>
     <string name="reader_no_followed_blogs_search_title">S’ka blogje që përputhen me kërkimin tuaj</string>
     <string name="page_parent_changed">Faqja mëmë është ndryshuar</string>
@@ -2503,7 +2531,7 @@ Language: sq_AL
     <string name="content_description_more">Më tepër</string>
     <string name="my_site_create_new_site_title">S’keni ende ndonjë sajt</string>
     <string name="reader_empty_subscribed_tags_subtitle">Shtoni këtu etiketa që të gjeni postime rreth temave tuaja të parapëlqyera</string>
-    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="login">Bëni hyrjen te llogaria WordPress.com që përdorët për t’ia përshoqëruar Jetpack-ut.</string>
+    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="module:login">Bëni hyrjen te llogaria WordPress.com që përdorët për t’ia përshoqëruar Jetpack-ut.</string>
     <string name="jetpack">Jetpack</string>
     <string name="stats_jetpack_connection_faq">PBR për Jetpack</string>
     <string name="stats_jetpack_connection_setup_info">Që të përdorni Statistikat te sajti juaj WordPress, do t’ju duhet të instaloni shtojcën Jetpack.</string>
@@ -2557,13 +2585,13 @@ Language: sq_AL
     <string name="reader_empty_search_title">S’u gjetën përfundime</string>
     <string name="comment_read_source_post">Lexoni postimin burim</string>
     <string name="sites">Sajte</string>
-    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="login">Lidhja magjike u dërgua</string>
-    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="login">Verifikim kodi</string>
-    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Kredenciale hyrjeje</string>
-    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Lidhja magjike u dërgua</string>
-    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Hyrje me lidhje magjike</string>
-    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Hyrje me adresë sajti</string>
-    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Hyrje me adresë email</string>
+    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lidhja magjike u dërgua</string>
+    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Verifikim kodi</string>
+    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kredenciale hyrjeje</string>
+    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lidhja magjike u dërgua</string>
+    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hyrje me lidhje magjike</string>
+    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hyrje me adresë sajti</string>
+    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hyrje me adresë email</string>
     <string name="reader_empty_saved_posts_description">Prekeni %s që të ruhet një postim te lista juaj.</string>
     <string name="reader_empty_saved_posts_title">Ende pa postime të ruajtur!</string>
     <string name="reader_bookmark_snack_title">Postimi u ruajt</string>
@@ -2666,7 +2694,7 @@ Language: sq_AL
     <string name="invite_user_delete_desc">hiqe %s</string>
     <string name="profile_picture">Foto profili e %s</string>
     <string name="comment_checkmark_desc">shenjë</string>
-    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Po bëhet regjistrim me Google…</string>
+    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Po bëhet regjistrim me Google…</string>
     <string name="jetpack_connection_failed_with_reason">Dështoi lidhja me Jetpack-un: %s</string>
     <string name="jetpack_already_connected_toast">Jeni tashmë i lidhur te Jetpack-u</string>
     <string name="menu_visual_mode">Mënyra Pamore</string>
@@ -2747,7 +2775,7 @@ Language: sq_AL
     <string name="site_creation_domain_finish_button">Krijoje sajtin</string>
     <string name="notification_site_creation_created">Prekeni që të vazhdohet.</string>
     <string name="notification_site_creation_title_success">Sajti u krijua!</string>
-    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="login">Google u vonua shumë me përgjigjen. Mund të doni të prisni derisa të keni një lidhje internet më të fuqishme.</string>
+    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google u vonua shumë me përgjigjen. Mund të doni të prisni derisa të keni një lidhje internet më të fuqishme.</string>
     <string name="username_changer_title">Ndryshoni emër përdoruesi</string>
     <string name="username_changer_hint">Shtypni që të merrni më tepër sugjerime</string>
     <string name="username_changer_header">Emri juaj i tanishëm i përdoruesit është %1$s%2$s%3$s. Me pak përjashtime, të tjerët zor se do ta shohin emrin tuaj të ekranit, %4$s%5$s%6$s.</string>
@@ -2759,10 +2787,10 @@ Language: sq_AL
     <string name="content_description_add_avatar">Shtoni avatar</string>
     <string name="signup_user_exists">Email tashmë ekzistues në WordPress.com.\nPo vazhdohet me hyrjen.</string>
     <string name="signup_updating_account">Po përditësohet llogaria…</string>
-    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Mesazhi po dërgohet</string>
-    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="login">Riprovoni</string>
-    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="login">Mbylle</string>
-    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="login">Pati ca probleme me dërgimin e email-it.  Mund të riprovoni tani ose ta mbyllni dhe të riprovoni më vonë.</string>
+    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Mesazhi po dërgohet</string>
+    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="module:login">Riprovoni</string>
+    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="module:login">Mbylle</string>
+    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pati ca probleme me dërgimin e email-it.  Mund të riprovoni tani ose ta mbyllni dhe të riprovoni më vonë.</string>
     <string name="signup_epilogue_hint_username">Emër përdoruesi</string>
     <string name="signup_epilogue_hint_password_detail">Mundeni të hyni përherë me një lidhje si ajo që sapo përdorët, por mund të caktoni edhe një fjalëkalim, nëse parapëlqeni.</string>
     <string name="signup_epilogue_hint_password">Fjalëkalim (opsional)</string>
@@ -2860,18 +2888,18 @@ Language: sq_AL
     <string name="my_site_btn_plugins">Shtojca</string>
     <string name="media_edit_link_hint">Hape lidhjen në dritare/skedë të re</string>
     <string name="media_edit_link_text">Lidhje për te</string>
-    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="login">Ndodhi një gabim.</string>
-    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Ju lutemi, që të vazhdohet jepni një kod mirëfilltësimi.</string>
-    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="login">Ju lutemi, që të vazhdohet, rikontrolloni fjalëkalimin.</string>
-    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="login">Hyrja u ndal</string>
-    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="login">Ju lutemi, prisni, teksa bëhet hyrja.</string>
-    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Hyrja në ecuri e sipër…</string>
-    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="login">Prekeni që të vazhdohet.</string>
-    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="login">U futët!</string>
-    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="login">S’u nis dot hyrja me Google.</string>
-    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="login">Ju lutemi, jepni një fjalëkalim</string>
-    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="login">Më mirë më dërgoni një kod tjetër</string>
-    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="login">Dërguam një mesazh teksti te numri i telefonit që përfundon me %s. Ju lutemi, futni kodin e verifikimit nga SMS-ja.</string>
+    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ndodhi një gabim.</string>
+    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ju lutemi, që të vazhdohet jepni një kod mirëfilltësimi.</string>
+    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ju lutemi, që të vazhdohet, rikontrolloni fjalëkalimin.</string>
+    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hyrja u ndal</string>
+    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ju lutemi, prisni, teksa bëhet hyrja.</string>
+    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hyrja në ecuri e sipër…</string>
+    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Prekeni që të vazhdohet.</string>
+    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="module:login">U futët!</string>
+    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="module:login">S’u nis dot hyrja me Google.</string>
+    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ju lutemi, jepni një fjalëkalim</string>
+    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="module:login">Më mirë më dërgoni një kod tjetër</string>
+    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="module:login">Dërguam një mesazh teksti te numri i telefonit që përfundon me %s. Ju lutemi, futni kodin e verifikimit nga SMS-ja.</string>
     <string name="image_size">Përmasa</string>
     <string name="uploading_subtitle_media_only_one">ende 1 kartelë</string>
     <string name="uploading_subtitle_media_only">Ende %1$d nga %2$d kartela gjithsej</string>
@@ -2888,15 +2916,15 @@ Language: sq_AL
     <string name="confirm_remove_media_image">Të hiqet kjo figurë nga postimi?</string>
     <string name="media_edit_customize_card_caption">Përshtateni</string>
     <string name="media_edit_file_details_card_caption">Hollësi Kartele</string>
-    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">\nNdoshta të provohej me një llogari tjetër?</string>
-    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">Pati problem në lidhjen me llogarinë Google.</string>
+    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">\nNdoshta të provohej me një llogari tjetër?</string>
+    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pati problem në lidhjen me llogarinë Google.</string>
     <string name="login_error_button">Mbylle</string>
-    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="login">Që të vazhdohet me këtë llogari Google, ju lutemi, jepni fjalëkalimin për te WordPress.com. Kjo do t’ju kërkohet vetëm një herë.</string>
+    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="module:login">Që të vazhdohet me këtë llogari Google, ju lutemi, jepni fjalëkalimin për te WordPress.com. Kjo do t’ju kërkohet vetëm një herë.</string>
     <string name="error_generic_network">Ndodhi një gabim rrjeti. Ju lutemi, kontrolloni lidhjen tuaj dhe riprovoni.</string>
     <string name="post_settings_remove_featured_image">Hiqe figurën e zgjedhur</string>
     <string name="post_settings_choose_featured_image">Zgjidhni figurë të zgjedhur</string>
-    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Që ta ndani lëndën me të tjerët, bëni hyrjen në WordPress.com.</string>
-    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Jepni adresën e sajtit tuaj WordPress te i cili do të donit të ndanit lëndë me të tjerët.</string>
+    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Që ta ndani lëndën me të tjerët, bëni hyrjen në WordPress.com.</string>
+    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Jepni adresën e sajtit tuaj WordPress te i cili do të donit të ndanit lëndë me të tjerët.</string>
     <string name="jetpack_disconnect_error_toast">Gabim në shkëputje sajti</string>
     <string name="jetpack_disconnect_success_toast">Sajti u shkëput</string>
     <string name="jetpack_disconnect_confirm">Shkëpute</string>
@@ -2980,28 +3008,28 @@ Language: sq_AL
     <string name="login_epilogue_mysites_other">Sajtet e mi</string>
     <string name="login_epilogue_mysites_one">Sajti im</string>
     <string name="login_email_client_not_found">S’zbulohet dot aplikacioni juaj për email</string>
-    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="login">Ju lutem, jepni një kod verifikimi</string>
-    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="login">Ju lutemi, jepni emër përdoruesi</string>
-    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="login">Që të lexoni këtë postim, bëni hyrjen te WordPress.com.</string>
-    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="login">Gabim gjatë shtimit të sajtit. Kod gabimi: %s</string>
-    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Po kontrollohet adresa e sajtit</string>
-    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="login">Ju duhet më tepër ndihmë?</string>
-    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="login">Adresa e sajtit tuaj shfaqet te shtylla në krye të skenës, kur vizitoni sajtin tuaj nën Chrome.</string>
-    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="login">Cila është adresa e sajtit tim?</string>
-    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Adresë sajti</string>
-    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Jepni adresën e sajtit WordPress te i cili do të donit të lidheshit.</string>
+    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ju lutem, jepni një kod verifikimi</string>
+    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ju lutemi, jepni emër përdoruesi</string>
+    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="module:login">Që të lexoni këtë postim, bëni hyrjen te WordPress.com.</string>
+    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Gabim gjatë shtimit të sajtit. Kod gabimi: %s</string>
+    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Po kontrollohet adresa e sajtit</string>
+    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ju duhet më tepër ndihmë?</string>
+    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="module:login">Adresa e sajtit tuaj shfaqet te shtylla në krye të skenës, kur vizitoni sajtin tuaj nën Chrome.</string>
+    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Cila është adresa e sajtit tim?</string>
+    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Adresë sajti</string>
+    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Jepni adresën e sajtit WordPress te i cili do të donit të lidheshit.</string>
     <string name="login_already_logged_in_wpcom">Jeni tashmë i futur te WordPress.com</string>
-    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="login">Vazhdo</string>
+    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vazhdo</string>
     <string name="connect_more">Lidhni një sajt tjetër</string>
-    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="login">Jepni fjalëkalimin tuaj WordPress.com.</string>
-    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="login">Po kërkohet email hyrjesh</string>
-    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="login">Duket sikur ky fjalëkalim është i pasaktë. Ju lutemi, kontrollojeni edhe një herë informacionin tuaj dhe riprovoni.</string>
-    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="login">Po kërkohet një kod verifikimi përmes SMS-je.</string>
-    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="login">Më mirë më dërgoni kod me tekst</string>
-    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Thuajse arritëm! Ju lutemi, jepni kodin e verifikimit për WordPress.com prej aplikacionit tuaj të mirëfilltësimeve.</string>
-    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="login">Hap Postën</string>
+    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Jepni fjalëkalimin tuaj WordPress.com.</string>
+    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="module:login">Po kërkohet email hyrjesh</string>
+    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="module:login">Duket sikur ky fjalëkalim është i pasaktë. Ju lutemi, kontrollojeni edhe një herë informacionin tuaj dhe riprovoni.</string>
+    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">Po kërkohet një kod verifikimi përmes SMS-je.</string>
+    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">Më mirë më dërgoni kod me tekst</string>
+    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Thuajse arritëm! Ju lutemi, jepni kodin e verifikimit për WordPress.com prej aplikacionit tuaj të mirëfilltësimeve.</string>
+    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hap Postën</string>
     <string name="next">Pasuesi</string>
-    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">Që të administroni krejt sajtet tuaj WordPress, bëni hyrjen te WordPress.com.</string>
+    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">Që të administroni krejt sajtet tuaj WordPress, bëni hyrjen te WordPress.com.</string>
     <string name="me_profile_photo">Foto Profili</string>
     <string name="error_media_parse_error">Përgjigje e papritur nga shërbyesi</string>
     <string name="upload_finished_toast">Ngarkimi s’mund të ndalet, ngaqë ka mbaruar tashmë</string>
@@ -3153,8 +3181,8 @@ Language: sq_AL
     <string name="error_unknown_post_type">Format i panjohur postimesh</string>
     <string name="submit_for_review">Parashtroje</string>
     <string name="title_subscriber">Pajtimtar</string>
-    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="login">U pikas një sajt i përsëdytur.</string>
-    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="login">Ky sajt ekziston tashmë në aplikacion, s’mund ta shtoni.</string>
+    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="module:login">U pikas një sajt i përsëdytur.</string>
+    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ky sajt ekziston tashmë në aplikacion, s’mund ta shtoni.</string>
     <string name="already_logged_in_wpcom">Jeni tashmë i futur në një llogari WordPress.com, s’mund të shtoni një sajt WordPress.com të lidhur pas një llogarie tjetër.</string>
     <string name="error_media_load">S’arrihet të ngarkohet media</string>
     <string name="error_media_refresh_no_connection">Lypset lidhje që të rifreskohet mediateka</string>
@@ -3166,8 +3194,8 @@ Language: sq_AL
     <string name="media_upload_error">Ndodhi një gabim ngarkimi mediash</string>
     <string name="retry">Riprovoni</string>
     <string name="confirm">Ripohojeni</string>
-    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="login">S’u bë dot lidhja. Morëm një gabim 403, kur provuam të hyjmë\n        te pikëmbarimi XMLRPC i sajtit tuaj. Kjo i duhet aplikacionit, që të mund të komunikojë me sajtin tuaj.\n        Lidhuni me strehuesin tuaj që ta zgjidhni këtë problem.</string>
-    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="login">S’u bë dot lidhja. Strehuesi juaj i bllokon kërkesat POST, dhe aplikacionit\n        i duhen që të mund të komunikojë me sajtin tuaj. Lidhuni me strehuesin tuaj që ta zgjidhni këtë problem.</string>
+    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">S’u bë dot lidhja. Morëm një gabim 403, kur provuam të hyjmë\n        te pikëmbarimi XMLRPC i sajtit tuaj. Kjo i duhet aplikacionit, që të mund të komunikojë me sajtin tuaj.\n        Lidhuni me strehuesin tuaj që ta zgjidhni këtë problem.</string>
+    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">S’u bë dot lidhja. Strehuesi juaj i bllokon kërkesat POST, dhe aplikacionit\n        i duhen që të mund të komunikojë me sajtin tuaj. Lidhuni me strehuesin tuaj që ta zgjidhni këtë problem.</string>
     <string name="pending_draft_one_generic">Mos e lini varur! \'%1$s\' është në pritje të botimit.</string>
     <string name="pending_draft_one_month">Mos e lini varur! \'%1$s\' është në pritje të botimit.</string>
     <string name="pending_draft_one_week_2">\'%1$s\' mbetet skicë. Mos harroni ta botoni!</string>
@@ -3268,8 +3296,8 @@ Language: sq_AL
     <string name="error_refreshing_gravatar">Gabim në ringarkimin e Gravatarit tuaj</string>
     <string name="error_locating_image">Gabim në ngarkimin e figurës së qethur</string>
     <string name="error_cropping_image">Gabim teksa qethej figura</string>
-    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="login">Po kontrollohet email-i</string>
-    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="login">Jo e mundshme këtë çast. Ju lutemi, jepni fjalëkalimin tuaj</string>
+    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Po kontrollohet email-i</string>
+    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Jo e mundshme këtë çast. Ju lutemi, jepni fjalëkalimin tuaj</string>
     <string name="logging_in">Po hyhet</string>
     <string name="web_address_dialog_hint">E shfaqur publikisht kur komentoni.</string>
     <string name="capture_or_pick_photo">Bëni ose përzgjidhni foto</string>
@@ -3305,7 +3333,7 @@ Language: sq_AL
     <string name="comments_empty_list_filtered_pending">S’ka komente në pritje të shqyrtimit</string>
     <string name="comments_empty_list_filtered_approved">S’ka komente të miratuara</string>
     <string name="button_skip">Anashkaloje</string>
-    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="login">S’u lidh dot. Metodat e domosdoshme XML-RPC mungojnë te shërbyesi.</string>
+    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">S’u lidh dot. Metodat e domosdoshme XML-RPC mungojnë te shërbyesi.</string>
     <string name="alignment_center">Në qendër</string>
     <string name="post_format_video">Video</string>
     <string name="post_format_status">Gjendje</string>
@@ -3365,7 +3393,7 @@ Language: sq_AL
     <string name="about_the_app">Rreth aplikacionit</string>
     <string name="error_post_account_settings">S’u ruajtën dot rregullimet e llogarisë tuaj</string>
     <string name="error_fetch_account_settings">S’u morën dot rregullimet e llogarisë tuaj</string>
-    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="login">S’u mor dot profili juaj</string>
+    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="module:login">S’u mor dot profili juaj</string>
     <string name="site_settings_unknown_language_code_error">Kod gjuhe i papranuar</string>
     <string name="site_settings_threading_dialog_description">Lejo komente të folezëzuar në rrjedha.</string>
     <string name="site_settings_threading_dialog_header">Rrjedhë deri në</string>
@@ -3568,9 +3596,9 @@ Language: sq_AL
     <string name="select_all">Përzgjidhe krejt</string>
     <string name="hide">Fshihe</string>
     <string name="show">Shfaqe</string>
-    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Hyni sërish që të vazhdohet.</string>
-    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Kod verifikimi i pavlefshëm</string>
-    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Kod verifikimi</string>
+    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hyni sërish që të vazhdohet.</string>
+    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kod verifikimi i pavlefshëm</string>
+    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kod verifikimi</string>
     <string name="language">Gjuhë</string>
     <string name="reader_empty_posts_request_failed">S’arrin të marrë dot postimet</string>
     <string name="error_notification_open">S’u hap dot njoftimi</string>
@@ -3634,7 +3662,7 @@ Language: sq_AL
     <string name="ssl_certificate_error">Dëshmi SSL e pavlefshme</string>
     <string name="help">Ndihmë</string>
     <string name="username_or_password_incorrect">Emri i përdoruesit apo fjalëkalimi që dhatë është i pasaktë</string>
-    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="login">Jepni një adresë email të vlefshme</string>
+    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="module:login">Jepni një adresë email të vlefshme</string>
     <string name="invalid_email_message">Adresa juaj email s’është e vlefshme</string>
     <string name="error_downloading_image">Gabim në shkarkim figure</string>
     <string name="error_load_comment">S\'u ngarkua dot komenti</string>
@@ -3667,7 +3695,7 @@ Language: sq_AL
     <string name="new_media">Media e re</string>
     <string name="new_post">Postim i ri</string>
     <string name="notifications_empty_all">Ende pa njoftime.</string>
-    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="login">Lypset autorizim</string>
+    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lypset autorizim</string>
     <string name="invalid_site_url_message">Kontrolloni nëse URL-ja e sajtit të dhënë është e vlefshme</string>
     <string name="file_error_create">S’u krijua dot kartelë e përkohshme për ngarkim medie. Sigurohuni që në pajisjen tuaj ka hapësirë të lirë të mjaftueshme.</string>
     <string name="category_name">Emër kategorie</string>
@@ -3714,7 +3742,7 @@ Language: sq_AL
     <string name="reader_likes_you_and_one">Këtë e pëlqeni ju dhe një tjetër</string>
     <string name="pick_video">Përzgjidhni video</string>
     <string name="pick_photo">Përzgjidhni foto</string>
-    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="login">Regjistrohuni</string>
+    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Regjistrohuni</string>
     <string name="reader_toast_err_url_intent">S’arrin të hapë %s</string>
     <string name="reader_toast_err_view_image">S’arrin të shihet figura</string>
     <string name="reader_toast_err_share_intent">S’arrin të ndajë me të tjerët</string>
@@ -3758,11 +3786,11 @@ Language: sq_AL
     <string name="note_reply_successful">Përgjigja u botua</string>
     <string name="sign_in">Hyni</string>
     <string name="loading">Po ngarkohet…</string>
-    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="login">Fjalëkalim HTTP</string>
-    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="login">Emër përdoruesi HTTP</string>
+    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="module:login">Fjalëkalim HTTP</string>
+    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="module:login">Emër përdoruesi HTTP</string>
     <string name="error_media_upload">Ndodhi një gabim gjatë ngarkimit të medias</string>
     <string name="incorrect_credentials">Emër përdoruesi ose fjalëkalim i pasaktë.</string>
-    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="login">Hyni</string>
+    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hyni</string>
     <string name="username">Emër përdoruesi</string>
     <string name="password">Fjalëkalim</string>
     <string name="reader">Lexues</string>

@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Translation-Revision-Date: 2024-08-29 09:54:07+0000
+Translation-Revision-Date: 2024-12-05 16:47:56+0000
 Plural-Forms: nplurals=2; plural=n != 1;
 Generator: GlotPress/4.0.1
 Language: sv_SE
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="me_btn_feedback">Skicka feedback</string>
+    <string name="default_web_client_id" a8c-src-lib="module:login">platshållare</string>
+    <string name="user_avatar_content_description">Profilbild för användare %s</string>
+    <string name="user_row_content_description">Visa detaljer för användare %s</string>
+    <string name="biographical_info">Biografisk information</string>
+    <string name="about_the_user">Om användaren</string>
+    <string name="website">Webbplats</string>
+    <string name="contact_info">Kontaktinformation</string>
+    <string name="nickname">Smeknamn</string>
+    <string name="name">Namn</string>
+    <string name="no_users">Inga användare</string>
+    <string name="user">Användare</string>
+    <string name="users">Användare</string>
+    <string name="me_btn_help_and_support">Hjälp och support</string>
+    <string name="me_btn_experimental_features">Experimentella funktioner</string>
+    <string name="experimental_features_screen_title">Experimentella funktioner</string>
+    <string name="back">Tillbaka</string>
+    <string name="dialog_confirm_autosave_dont_restore_button">Från denna app</string>
+    <string name="dialog_confirm_autosave_restore_button">Från annan enhet</string>
+    <string name="item_selected">Valda</string>
+    <string name="send_feedback">Skicka feedback</string>
     <string name="media_pager_remove_item_content_description">Ta bort objekt %1$d</string>
     <string name="feedback_form_add_attachments">Lägg till bilagor</string>
     <string name="feedback_form_unable_to_create_tempfile">Kunde inte skapa temporär fil</string>
@@ -265,9 +284,9 @@ Language: sv_SE
     <string name="jp_migration_done_no_sites_message">Det är dags att fortsätta din WordPress-resa med Jetpack-appen.</string>
     <string name="domain_management_clear_search">Rensa sökning</string>
     <string name="media_encoder_quality_very_high">Mycket hög</string>
-    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Ange din säkerhetsnyckel för att fortsätta.</string>
-    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">Det uppstod vissa problem med säkerhetsnyckelsinloggningen</string>
-    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">Använd en säkerhetsnyckel</string>
+    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ange din säkerhetsnyckel för att fortsätta.</string>
+    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">Det uppstod vissa problem med säkerhetsnyckelsinloggningen</string>
+    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">Använd en säkerhetsnyckel</string>
     <string name="new_domain_search_screen_error_title">Kunde inte att hämta domäner</string>
     <string name="new_domain_search_screen_list_item_sale_price">%s för första året</string>
     <string name="new_domain_search_screen_list_item_regular_price">%s/år</string>
@@ -286,7 +305,6 @@ Language: sv_SE
     <string name="post_list_toggle_author_filter">Filtrera efter författare</string>
     <string name="gutenberg_native_s_block_converted_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">\'%s\' block konverterade till block</string>
     <string name="gutenberg_native_alternatively_you_can_convert_the_content_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">Alternativt kan du konvertera innehållet till block.</string>
-    <string name="personalization_screen_shortcuts_add_or_remove_shortcut_button">Lägg till eller ta bort genvägar</string>
     <string name="personalization_screen_tab_shortcuts_inactive_shortcuts">Inaktiva genvägar</string>
     <string name="personalization_screen_tab_shortcuts_active_shortcuts">Aktiva genvägar</string>
     <string name="personalization_screen_shortcuts_tab_title">Genvägar</string>
@@ -547,7 +565,6 @@ Language: sv_SE
     <string name="site_creation_domain_tag_recommended">Rekommenderat</string>
     <string name="site_creation_domain_tag_best_alternative">Bästa alternativ</string>
     <string name="site_creation_domain_cost">per år</string>
-    <string name="me_btn_help">Hjälp</string>
     <string name="support_faq_caption">Se våra vanliga frågor för svar på vanliga frågor du kan ha.</string>
     <string name="support_faq_title">Tack för att du byter till Jetpack-appen!</string>
     <string name="logs_button">Loggar</string>
@@ -713,9 +730,9 @@ Language: sv_SE
     <string name="connections_label">Jetpack Social-anslutningar</string>
     <string name="stats_widget_log_in_to_add_message">Logga in på Jetpack-appen för att lägga till en widget.</string>
     <string name="stats_view_publicize">Jetpack Social-anslutningar</string>
-    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="login">Vi har precis skickat en magisk länk till</string>
-    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="login">Kontrollera din e-post på denna enhet!</string>
-    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="login">Använd lösenord för att logga in</string>
+    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vi har precis skickat en magisk länk till</string>
+    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kontrollera din e-post på denna enhet!</string>
+    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Använd lösenord för att logga in</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack_caption">Håll dig informerad med uppdateringar i realtid för nya kommentarer, webbplatstrafik, säkerhetsrapporter och mer.</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack">Aviseringar drivs med Jetpack</string>
     <string name="wp_jetpack_powered_stats_powered_by_jetpack_caption">Följ upp hur trafiken växer och hitta mer information om dina läsare i den nydesignade sektionen statistik och insikter som nu finns i den nya Jetpack-appen.</string>
@@ -949,10 +966,10 @@ Language: sv_SE
     <string name="my_site_dashboard_tab_title">Hem</string>
     <string name="adding_cat">Lägger till kategori</string>
     <string name="login_select_email_client">Vilken e-postapp använder du?</string>
-    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="login">Det uppstod ett problem med att kommunicera med webbplatsen. En HTTP-felkod 401 returnerades.</string>
-    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Anrop med XML-RPC verkar blockerade på denna webbplats (felkod 401). Om försöket att logga in misslyckas tryck på hjälpikonen för att se vanliga frågor.</string>
-    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="login">Kunde inte läsa WordPress-webbplatsen på denna URL. Tryck på hjälpikonen för att se vanliga frågor.</string>
-    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="login">Tjänsten XML-RPC är inaktiverad på denna webbplats.</string>
+    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="module:login">Det uppstod ett problem med att kommunicera med webbplatsen. En HTTP-felkod 401 returnerades.</string>
+    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Anrop med XML-RPC verkar blockerade på denna webbplats (felkod 401). Om försöket att logga in misslyckas tryck på hjälpikonen för att se vanliga frågor.</string>
+    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kunde inte läsa WordPress-webbplatsen på denna URL. Tryck på hjälpikonen för att se vanliga frågor.</string>
+    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tjänsten XML-RPC är inaktiverad på denna webbplats.</string>
     <string name="my_site_menu_tab_title">Meny</string>
     <string name="new_site_creation_empty_domain_list_message_invalid_query">Din sökning innehåller tecken som inte stöds i WordPress.com-domäner. Följande tecken är tillåtna: A–Z, a–z, 0–9.</string>
     <string name="my_site_error_within_card_subtitle">Kontrollera din internetanslutning och ladda om sidan.</string>
@@ -1316,7 +1333,7 @@ Language: sv_SE
     <string name="new_site_creation_search_domain_input_hint">Skriv ett namn för din webbplats</string>
     <string name="quick_start_completed_type_grow_message">&lt;b&gt;Alla uppgifter är utförda&lt;/b&gt;&lt;br/&gt;Nu kommer du att nå fler. Bra gjort!</string>
     <string name="quick_start_completed_type_customize_message">&lt;b&gt;Alla uppgifter är utförda&lt;/b&gt;&lt;br/&gt;Nu har du anpassat webbplatsen. Bra gjort!</string>
-    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="login">Vill du inte registrera ett nytt konto? Gå tillbaka för att mata in e-postadressen igen.</string>
+    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vill du inte registrera ett nytt konto? Gå tillbaka för att mata in e-postadressen igen.</string>
     <string name="invite_links_disable_dialog_message">När denna inbjudningslänk har inaktiverats kan ingen använda den för att ansluta sig till ditt team. Är du säker?</string>
     <string name="invite_links_disable_dialog_title">Inaktivera inbjudningslänk</string>
     <string name="invite_links_bad_format_response">Ett ogiltigt svar har tagits emot</string>
@@ -1594,8 +1611,8 @@ Language: sv_SE
     <string name="hpp_retry_error">Kontrollera din internet-anslutning och försök igen.</string>
     <string name="hpp_error_subtitle">Tryck på ”Försök igen” när du har förbindelse med internet igen.</string>
     <string name="hpp_error_title">Layouter är inte tillgängliga när du saknar internetförbindelse</string>
-    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="login">Fortsätt med butiksautentiseringsuppgifter</string>
-    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="login">Hitta din anslutna e-postadress</string>
+    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="module:login">Fortsätt med butiksautentiseringsuppgifter</string>
+    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hitta din anslutna e-postadress</string>
     <string name="reader_discover_no_posts_follow_subtitle">Försök att följa fler etiketter för att söka bredare</string>
     <string name="reader_discover_no_posts_title">Inga nya inlägg</string>
     <string name="reader_discover_empty_title">Välkommen!</string>
@@ -1663,8 +1680,8 @@ Language: sv_SE
     <string name="suggestion_no_connection">Internetförbindelse saknas.\nFörslag är inte tillgängliga.</string>
     <string name="mlp_notselected_description">%s</string>
     <string name="mlp_selected_description">%s valt</string>
-    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Få en länk för inloggning via e-post</string>
-    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="login">Hmm. Vi hittar inget konto hos WordPress.com som är kopplat till denna e-postadress.</string>
+    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Få en länk för inloggning via e-post</string>
+    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hmm. Vi hittar inget konto hos WordPress.com som är kopplat till denna e-postadress.</string>
     <string name="permission_microphone">Mikrofon</string>
     <string name="comment_unable_to_show_error">Det går inte att visa denna kommentar</string>
     <string name="media_browse_for_items">Bläddra bland objekt</string>
@@ -1710,26 +1727,26 @@ Language: sv_SE
     <string name="gutenberg_native_choose_image" tools:ignore="UnusedResources">Välj bild</string>
     <string name="gutenberg_native_block_removed" tools:ignore="UnusedResources">Blocket har tagits bort</string>
     <string name="enter_your_site_address">Ange din befintliga webbplatsadress</string>
-    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="login">Bekräftelse av registrering</string>
-    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">Om du fortsätter med Google och inte redan har ett WordPress.com-konto, skapar du ett konto och samtycker till våra %1$sanvändarvillkor%2$s.</string>
-    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">Genom att gå vidare accepterar du våra %1$sanvändarvillkor%2$s.</string>
-    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="login">Vi kommer att använda den här e-postadressen för att skapa ditt nya WordPress.com-konto.</string>
-    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="login">Vi har skickat en registreringslänk som låter dig skapa ditt nya konto hos WordPress.com. Öppna e-posten på din enhet och tryck på länken i meddelandet du fått från WordPress.com.</string>
-    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Ange din kontoinformation för %1$s.</string>
-    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="login">eller</string>
-    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">Fortsätt med Google</string>
-    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="login">Hitta din webbplatsadress</string>
+    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Bekräftelse av registrering</string>
+    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">Om du fortsätter med Google och inte redan har ett WordPress.com-konto, skapar du ett konto och samtycker till våra %1$sanvändarvillkor%2$s.</string>
+    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">Genom att gå vidare accepterar du våra %1$sanvändarvillkor%2$s.</string>
+    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vi kommer att använda den här e-postadressen för att skapa ditt nya WordPress.com-konto.</string>
+    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vi har skickat en registreringslänk som låter dig skapa ditt nya konto hos WordPress.com. Öppna e-posten på din enhet och tryck på länken i meddelandet du fått från WordPress.com.</string>
+    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ange din kontoinformation för %1$s.</string>
+    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="module:login">eller</string>
+    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">Fortsätt med Google</string>
+    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hitta din webbplatsadress</string>
     <string name="login_done">Klart</string>
-    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="login">Hittar du inte meddelandet? Kolla i mappen för skräppost eller reklam.</string>
-    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="login">Öppna e-posten på din enhet och tryck på länken i meddelandet du fått från WordPress.com.</string>
-    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="login">Vi skickar en länk som låter dig logga in direkt, utan något lösenord.</string>
-    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="login">Kolla din e-post</string>
-    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="login">Kom igång</string>
-    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">Ange din e-postadress för att logga in eller skapa ett WordPress.com-konto.</string>
-    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Eller skriv ditt lösenord</string>
-    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="login">Skapa konto</string>
-    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Skicka länk via e-post</string>
-    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Återställ ditt lösenord</string>
+    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hittar du inte meddelandet? Kolla i mappen för skräppost eller reklam.</string>
+    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Öppna e-posten på din enhet och tryck på länken i meddelandet du fått från WordPress.com.</string>
+    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vi skickar en länk som låter dig logga in direkt, utan något lösenord.</string>
+    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kolla din e-post</string>
+    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kom igång</string>
+    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ange din e-postadress för att logga in eller skapa ett WordPress.com-konto.</string>
+    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Eller skriv ditt lösenord</string>
+    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">Skapa konto</string>
+    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Skicka länk via e-post</string>
+    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Återställ ditt lösenord</string>
     <string name="reader_error_request_failed_title">Ett problem inträffade när din begäran skulle behandlas. Försök igen senare.</string>
     <string name="quick_start_list_update_site_title_title">Kontrollera din webbplatsrubrik</string>
     <string name="quick_start_dialog_update_site_title_message_short">Tryck &lt;b&gt;%1$s&lt;/b&gt; för att ange en ny rubrik</string>
@@ -1982,12 +1999,12 @@ Language: sv_SE
     <string name="dialog_confirm_scheduled_post_sync_title">Är du klar att synkronisera?</string>
     <string name="new_site_creation_unavailable_domain">Denna domän är inte tillgänglig</string>
     <string name="negative_prefix">-%s</string>
-    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">Vi kunde inte nå din webbplats. För att lösa detta behöver du kontakta ditt webbhotell.</string>
-    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="login">Vi kunde inte nå din webbplats på grund av ett problem med &lt;b&gt;SSL-certifikatet&lt;/b&gt;. För att lösa detta behöver du kontakta ditt webbhotell.</string>
-    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="login">Vi kunde inte nå din webbplats eftersom den kräver &lt;b&gt;HTTP-autentisering&lt;/b&gt;. För att lösa detta behöver du kontakta ditt webbhotell.</string>
-    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="login">Vi kunde inte nå filen &lt;b&gt;XMLRPC&lt;/b&gt; på din webbplats. För att lösa detta behöver du kontakta ditt webbhotell.</string>
-    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="login">Nästan klart! Vi behöver bara bekräfta den e-postadress du har registrerad hos Jetpack &lt;b&gt;%1$s&lt;/b&gt;</string>
-    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Logga in med dina inloggningsuppgifter för webbplatsen %1$s</string>
+    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vi kunde inte nå din webbplats. För att lösa detta behöver du kontakta ditt webbhotell.</string>
+    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vi kunde inte nå din webbplats på grund av ett problem med &lt;b&gt;SSL-certifikatet&lt;/b&gt;. För att lösa detta behöver du kontakta ditt webbhotell.</string>
+    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vi kunde inte nå din webbplats eftersom den kräver &lt;b&gt;HTTP-autentisering&lt;/b&gt;. För att lösa detta behöver du kontakta ditt webbhotell.</string>
+    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vi kunde inte nå filen &lt;b&gt;XMLRPC&lt;/b&gt; på din webbplats. För att lösa detta behöver du kontakta ditt webbhotell.</string>
+    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nästan klart! Vi behöver bara bekräfta den e-postadress du har registrerad hos Jetpack &lt;b&gt;%1$s&lt;/b&gt;</string>
+    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Logga in med dina inloggningsuppgifter för webbplatsen %1$s</string>
     <string name="my_site_bottom_sheet_add_page">Webbplatssida</string>
     <string name="reader_my_likes_display_name">Gillar</string>
     <string name="reader_discover_display_name">Upptäck</string>
@@ -2085,8 +2102,6 @@ Language: sv_SE
     <string name="post_preview_remote_auto_saving_post">Genererar förhandsgranskning …</string>
     <string name="post_preview_saving_draft">Sparar …</string>
     <string name="local_post_autosave_revision_available">Du har gjort ändringar i detta inlägg som inte är sparade</string>
-    <string name="dialog_confirm_autosave_dont_restore_button">Versionen från denna app</string>
-    <string name="dialog_confirm_autosave_restore_button">Versionen från en annan enhet</string>
     <string name="dialog_confirm_autosave_body_second_part">Från denna app\nSparad den %1$s\n\nFrån en annan enhet\nSparad den %2$s\n</string>
     <string name="dialog_confirm_autosave_body_first_part">Du har nyligen gjort några ändringar i detta inlägg utan att spara. Välj vilken version du vill använda:\n\n</string>
     <string name="dialog_confirm_autosave_title">Vilken version vill du redigera?</string>
@@ -2153,8 +2168,8 @@ Language: sv_SE
     <string name="post_settings_add_to_calendar">Lägg till i kalender</string>
     <string name="post_settings_notification">Avisering</string>
     <string name="post_settings_time_and_date">Datum och tid</string>
-    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="login">Skriv in den fullständiga adressen till en webbplats, såsom example.com.</string>
-    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Logga in med WordPress.com för ansluta till %1$s</string>
+    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="module:login">Skriv in den fullständiga adressen till en webbplats, såsom example.com.</string>
+    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Logga in med WordPress.com för ansluta till %1$s</string>
     <string name="stats_post_views_label">Visningar</string>
     <string name="stats_post_label">Inlägg</string>
     <string name="stats_list_item_description">%1$s: %2$s, %3$s: %4$s</string>
@@ -2270,8 +2285,8 @@ Language: sv_SE
     <string name="posts_draft_empty">Du har inte några utkast till inlägg</string>
     <string name="posts_scheduled_empty">Du har inte några schemalagda inlägg</string>
     <string name="posts_published_empty">Du har inte publicerat några inlägg ännu</string>
-    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Logga in med ditt användarnamn och lösenord.</string>
-    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="login">Logga in med ditt användarnamn för WordPress.com och inte med din e-postadress.</string>
+    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Logga in med ditt användarnamn och lösenord.</string>
+    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Logga in med ditt användarnamn för WordPress.com och inte med din e-postadress.</string>
     <string name="stats_insights_average_words">Ord per inlägg i snitt</string>
     <string name="stats_insights_total_words">Totalt antal ord</string>
     <string name="stats_insights_average_likes">Gilla per inlägg i snitt</string>
@@ -2281,7 +2296,7 @@ Language: sv_SE
     <string name="stats_insights_posts">Inlägg</string>
     <string name="stats_insights_year">År</string>
     <string name="stats_insights_this_year_site_stats">I år</string>
-    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="login">Webbplatsen på denna adress är inte en WordPress-webbplats.  För att vi ska kunna ansluta till den måste webbplatsen använda WordPress.</string>
+    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Webbplatsen på denna adress är inte en WordPress-webbplats.  För att vi ska kunna ansluta till den måste webbplatsen använda WordPress.</string>
     <string name="plugin_check_domain_credit_error">Lyckades inte kontrollera domänens saldo</string>
     <string name="plugin_check_domain_credits_progress_dialog_message">Kontrollerar domänens saldo</string>
     <string name="plugin_install_custom_domain_required_dialog_register_btn">Registrera domän</string>
@@ -2442,7 +2457,7 @@ Language: sv_SE
     <string name="history_detail_button_previous">Föregående</string>
     <string name="history_detail_button_next">Nästa</string>
     <string name="media_space_used">%1$s används</string>
-    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="login">Ange en webbplats som ligger på WordPress.com eller en WordPress-webbplats på egen server som är ansluten till Jetpack</string>
+    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ange en webbplats som ligger på WordPress.com eller en WordPress-webbplats på egen server som är ansluten till Jetpack</string>
     <string name="history_loading_revision">Läser in version</string>
     <string name="history_loaded_revision">Versionen har lästs in</string>
     <string name="history_load_dialog_button_positive">Läs in</string>
@@ -2474,8 +2489,8 @@ Language: sv_SE
     <string name="pages_scheduled" tools:ignore="UnusedResources">Schemalagda</string>
     <string name="pages_drafts" tools:ignore="UnusedResources">Utkast</string>
     <string name="pages_published" tools:ignore="UnusedResources">Publicerade</string>
-    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="login">Vi har gjort för många försök att leverera en verifieringskod via SMS – Vänta lite och be om en ny om en minut.</string>
-    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="login">Det finns inget WordPress.com-konto som stämmer mot detta Google-konto.</string>
+    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vi har gjort för många försök att leverera en verifieringskod via SMS – Vänta lite och be om en ny om en minut.</string>
+    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="module:login">Det finns inget WordPress.com-konto som stämmer mot detta Google-konto.</string>
     <string name="site_picker_remove_site_empty">Inga webbplatser motsvarar din sökning</string>
     <string name="reader_no_followed_blogs_search_title">Inga bloggar matchar din sökning</string>
     <string name="page_parent_changed">Överordnad sida har uppdaterats</string>
@@ -2511,7 +2526,7 @@ Language: sv_SE
     <string name="content_description_more">Mera</string>
     <string name="my_site_create_new_site_title">Du har inga webbplatser</string>
     <string name="reader_empty_subscribed_tags_subtitle">Lägg till etiketter här för att hitta inlägg om dina favoritämnen</string>
-    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="login">Logga in på WordPress.com-kontot du använde för att ansluta Jetpack.</string>
+    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="module:login">Logga in på WordPress.com-kontot du använde för att ansluta Jetpack.</string>
     <string name="jetpack">Jetpack</string>
     <string name="stats_jetpack_connection_faq">Vanliga frågor om Jetpack</string>
     <string name="stats_jetpack_connection_setup_info">För att använda statistik på din WordPress-webbplats måste du installera tillägget Jetpack.</string>
@@ -2565,13 +2580,13 @@ Language: sv_SE
     <string name="reader_empty_search_title">Inga resultat hittades</string>
     <string name="comment_read_source_post">Läs käll-inlägget</string>
     <string name="sites">Webbplatser</string>
-    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="login">Magisk länk har skickats</string>
-    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="login">Bekräftelse av kod</string>
-    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Inloggningsuppgifter</string>
-    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Magisk länk har skickats</string>
-    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Inloggning via magisk länk</string>
-    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Webbplatsens inloggningsadress</string>
-    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">E-postadress för inloggning</string>
+    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Magisk länk har skickats</string>
+    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Bekräftelse av kod</string>
+    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Inloggningsuppgifter</string>
+    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Magisk länk har skickats</string>
+    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Inloggning via magisk länk</string>
+    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Webbplatsens inloggningsadress</string>
+    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">E-postadress för inloggning</string>
     <string name="reader_empty_saved_posts_description">Knacka på %s för att spara ett inlägg till din lista.</string>
     <string name="reader_empty_saved_posts_title">Inga inlägg sparade – ännu!</string>
     <string name="reader_bookmark_snack_title">Inlägget sparat</string>
@@ -2674,7 +2689,7 @@ Language: sv_SE
     <string name="invite_user_delete_desc">ta bort %s</string>
     <string name="profile_picture">profilbild för %s</string>
     <string name="comment_checkmark_desc">förbockningsmärke</string>
-    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Registrering via Google…</string>
+    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Registrering via Google…</string>
     <string name="jetpack_connection_failed_with_reason">Anslutningen till Jetpack fungerade inte: %s</string>
     <string name="jetpack_already_connected_toast">DU är redan ansluten till Jetpack</string>
     <string name="menu_visual_mode">Visuellt läge</string>
@@ -2755,7 +2770,7 @@ Language: sv_SE
     <string name="site_creation_domain_finish_button">Skapa webbplats</string>
     <string name="notification_site_creation_created">Tryck för att fortsätta.</string>
     <string name="notification_site_creation_title_success">Webbplats skapad!</string>
-    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="login">Det tog för lång tid för Google att svara. Du kan behöva vänta tills du har en stabilare internetuppkoppling.</string>
+    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="module:login">Det tog för lång tid för Google att svara. Du kan behöva vänta tills du har en stabilare internetuppkoppling.</string>
     <string name="username_changer_title">Ändra användarnamn</string>
     <string name="username_changer_hint">Fortsätt skriva för att få fler förslag</string>
     <string name="username_changer_header">Ditt nuvarande användarnamn är %1$s%2$s%3$s. Med få undantag kommer andra personer bara att se ditt visningsnamn, %4$s%5$s%6$s.</string>
@@ -2767,10 +2782,10 @@ Language: sv_SE
     <string name="content_description_add_avatar">Lägg till profilbild</string>
     <string name="signup_user_exists">E-postadressen finns redan på WordPress.com.\nGår vidare till inloggning.</string>
     <string name="signup_updating_account">Uppdaterar kontot…</string>
-    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Skickar e-post</string>
-    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="login">Försök igen</string>
-    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="login">Stäng</string>
-    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="login">Det gick inte att sända e-postmeddelandet. Du kan försöka igen nu eller stänga och göra ett nytt försök senare.</string>
+    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Skickar e-post</string>
+    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="module:login">Försök igen</string>
+    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="module:login">Stäng</string>
+    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Det gick inte att sända e-postmeddelandet. Du kan försöka igen nu eller stänga och göra ett nytt försök senare.</string>
     <string name="signup_epilogue_hint_username">Användarnamn</string>
     <string name="signup_epilogue_hint_password_detail">Du kan alltid logga in med en länk av samma typ som du just använde, men om du vill, kan du också konfigurera ett lösenord.</string>
     <string name="signup_epilogue_hint_password">Lösenord (valfritt)</string>
@@ -2868,18 +2883,18 @@ Language: sv_SE
     <string name="my_site_btn_plugins">Tillägg</string>
     <string name="media_edit_link_hint">Öppna länk i nytt fönster/ny flik</string>
     <string name="media_edit_link_text">Länka till</string>
-    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="login">Ett fel har inträffat.</string>
-    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Fyll i en autentiseringskod för att fortsätta.</string>
-    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="login">Dubbelkolla ditt lösenord för att fortsätta.</string>
-    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="login">Inloggningen avbruten</string>
-    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="login">Vänta medan inloggningen pågår.</string>
-    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Inloggning pågår…</string>
-    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="login">Tryck för att fortsätta.</string>
-    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="login">Inloggad!</string>
-    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="login">Google login kunde inte startas.</string>
-    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="login">Skriv in ett lösenord</string>
-    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="login">Skicka ett nytt SMS med en kod till mig istället</string>
-    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="login">Vi har skickat ett SMS till telefonnumret som slutar på %s. Skriv in bekräftelsekoden from SMS;et.</string>
+    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ett fel har inträffat.</string>
+    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Fyll i en autentiseringskod för att fortsätta.</string>
+    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Dubbelkolla ditt lösenord för att fortsätta.</string>
+    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="module:login">Inloggningen avbruten</string>
+    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vänta medan inloggningen pågår.</string>
+    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Inloggning pågår…</string>
+    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tryck för att fortsätta.</string>
+    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="module:login">Inloggad!</string>
+    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google login kunde inte startas.</string>
+    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Skriv in ett lösenord</string>
+    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="module:login">Skicka ett nytt SMS med en kod till mig istället</string>
+    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vi har skickat ett SMS till telefonnumret som slutar på %s. Skriv in bekräftelsekoden from SMS;et.</string>
     <string name="image_size">Storlek</string>
     <string name="uploading_subtitle_media_only_one">1 fil återstår</string>
     <string name="uploading_subtitle_media_only">%1$d av %2$d filer återstår</string>
@@ -2896,15 +2911,15 @@ Language: sv_SE
     <string name="confirm_remove_media_image">Ta bort denna bild ur inlägget?</string>
     <string name="media_edit_customize_card_caption">Anpassa</string>
     <string name="media_edit_file_details_card_caption">Filinformation</string>
-    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">\nDu kanske vill prova ett annat konto?</string>
-    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">Det var något som inte stämde vid uppkoppling till Google-kontot.</string>
+    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">\nDu kanske vill prova ett annat konto?</string>
+    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">Det var något som inte stämde vid uppkoppling till Google-kontot.</string>
     <string name="login_error_button">Stäng</string>
-    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="login">Ange motsvarande lösenord för WordPress.com för att fortsätta med detta Google-konto. Denna fråga får du endast en gång.</string>
+    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ange motsvarande lösenord för WordPress.com för att fortsätta med detta Google-konto. Denna fråga får du endast en gång.</string>
     <string name="error_generic_network">Ett nätverksfel har inträffat. Kontrollera anslutningen och försök igen.</string>
     <string name="post_settings_remove_featured_image">Ta bort den utvalda bilden</string>
     <string name="post_settings_choose_featured_image">Välj utvald bild</string>
-    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Logga in på WordPress.com för att dela innehållet.</string>
-    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Skriv in adressen för den WordPress-webbplats dit du vill dela innehållet.</string>
+    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Logga in på WordPress.com för att dela innehållet.</string>
+    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Skriv in adressen för den WordPress-webbplats dit du vill dela innehållet.</string>
     <string name="jetpack_disconnect_error_toast">Ett fel inträffade när webbplatsen skulle kopplas bort</string>
     <string name="jetpack_disconnect_success_toast">Webbplatsen har kopplats bort</string>
     <string name="jetpack_disconnect_confirm">Koppla bort</string>
@@ -2988,28 +3003,28 @@ Language: sv_SE
     <string name="login_epilogue_mysites_other">Mina webbplatser</string>
     <string name="login_epilogue_mysites_one">Min webbplats</string>
     <string name="login_email_client_not_found">Lyckas inte hitta ditt e-postprogram</string>
-    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="login">Skriv in en verifieringskod</string>
-    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="login">Skriv in ett användarnamn</string>
-    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="login">Logga in till ditt konto på WordPress.com för att nå inlägget.</string>
-    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="login">Ett fel inträffade när webbplatsen skulle läggas till. Felkod: %s</string>
-    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Webbplatsadressen kontrolleras</string>
-    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="login">Behöver du mer hjälp?</string>
-    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="login">Din webbplatsadress visas i fältet längst upp när du besöker din webbplats i Chrome.</string>
-    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="login">Vilket webbplatsadress har jag?</string>
-    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Webbplatsadress</string>
-    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Skriv in adressen för den WordPress-webbplats du vill ansluta.</string>
+    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="module:login">Skriv in en verifieringskod</string>
+    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="module:login">Skriv in ett användarnamn</string>
+    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="module:login">Logga in till ditt konto på WordPress.com för att nå inlägget.</string>
+    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ett fel inträffade när webbplatsen skulle läggas till. Felkod: %s</string>
+    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Webbplatsadressen kontrolleras</string>
+    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="module:login">Behöver du mer hjälp?</string>
+    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="module:login">Din webbplatsadress visas i fältet längst upp när du besöker din webbplats i Chrome.</string>
+    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vilket webbplatsadress har jag?</string>
+    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Webbplatsadress</string>
+    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Skriv in adressen för den WordPress-webbplats du vill ansluta.</string>
     <string name="login_already_logged_in_wpcom">Redan inloggad på WordPress.com</string>
-    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="login">Fortsätt</string>
+    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="module:login">Fortsätt</string>
     <string name="connect_more">Anslut ytterligare en webbplats</string>
-    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="login">Skriv in ditt lösenord för WordPress.com.</string>
-    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="login">Begär e-postadress för inloggning</string>
-    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="login">Det verkar som om ditt lösenord inte stämmer. Dubbelkolla dina uppgifer och försök igen.</string>
-    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="login">Begär en verifieringskod via SMS.</string>
-    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="login">Skicka mig en kod via SMS istället</string>
-    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Nästan där! Ange verifieringskoden för WordPress.com från din autentiseringsapp.</string>
-    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="login">Öppna e-posten</string>
+    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Skriv in ditt lösenord för WordPress.com.</string>
+    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="module:login">Begär e-postadress för inloggning</string>
+    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="module:login">Det verkar som om ditt lösenord inte stämmer. Dubbelkolla dina uppgifer och försök igen.</string>
+    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">Begär en verifieringskod via SMS.</string>
+    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">Skicka mig en kod via SMS istället</string>
+    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nästan där! Ange verifieringskoden för WordPress.com från din autentiseringsapp.</string>
+    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="module:login">Öppna e-posten</string>
     <string name="next">Nästa</string>
-    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">Logga in på WordPress.com med hjälp av en e-postadress för att hantera alla dina WordPress-webbplatser.</string>
+    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">Logga in på WordPress.com med hjälp av en e-postadress för att hantera alla dina WordPress-webbplatser.</string>
     <string name="me_profile_photo">Profilfoto</string>
     <string name="error_media_parse_error">Oväntat svar från servern</string>
     <string name="upload_finished_toast">Det går inte att stoppa uppladdningen eftersom den redan är klar</string>
@@ -3161,8 +3176,8 @@ Language: sv_SE
     <string name="error_unknown_post_type">Okänt inläggsformat</string>
     <string name="submit_for_review">Skicka</string>
     <string name="title_subscriber">Prenumerant</string>
-    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="login">En dublett-webbplats har hittats.</string>
-    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="login">Det går inte att lägga till denna webbplats. Den finns redan i appen.</string>
+    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="module:login">En dublett-webbplats har hittats.</string>
+    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Det går inte att lägga till denna webbplats. Den finns redan i appen.</string>
     <string name="already_logged_in_wpcom">Du är redan inloggad till ditt konto hos WordPress.com. Du kan inte lägga till någon webbplats från WordPress.com som är kopplad till ett annat konto.</string>
     <string name="error_media_load">Det går inte att läsa in media</string>
     <string name="error_media_refresh_no_connection">Anslutning krävs för uppdatering av biblioteket</string>
@@ -3174,8 +3189,8 @@ Language: sv_SE
     <string name="media_upload_error">Ett fel inträffade vid uppladdning av media</string>
     <string name="retry">Försök igen</string>
     <string name="confirm">Bekräfta</string>
-    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="login">Det gick inte att ansluta. Vi får fel 403 (förbjudet) när vi anropar XMLRPC-ändpunkten för din webbplats. Appen behöver detta för att kunna kommunicera med din webbplats. Kontakta webbhotellet för att lösa detta problem.</string>
-    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="login">Det gick inte att ansluta. Din webbserver blockerar POST-anrop, som appen behöver för att kommunicera med din webbplats. Kontakta ditt webbhotell för att lösa detta problem.</string>
+    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Det gick inte att ansluta. Vi får fel 403 (förbjudet) när vi anropar XMLRPC-ändpunkten för din webbplats. Appen behöver detta för att kunna kommunicera med din webbplats. Kontakta webbhotellet för att lösa detta problem.</string>
+    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Det gick inte att ansluta. Din webbserver blockerar POST-anrop, som appen behöver för att kommunicera med din webbplats. Kontakta ditt webbhotell för att lösa detta problem.</string>
     <string name="pending_draft_one_generic">Dröj inte längre, \'%1$s\' vill bli publicerad!</string>
     <string name="pending_draft_one_month">Dröj inte längre, \'%1$s\' vill bli publicerad!</string>
     <string name="pending_draft_one_week_2">\'%1$s\' är fortfarande ett utkast. Kom ihåg att publicera!</string>
@@ -3276,8 +3291,8 @@ Language: sv_SE
     <string name="error_refreshing_gravatar">Det gick inte att ladda om din Gravatar</string>
     <string name="error_locating_image">Det gick inte att hitta den beskurna bilden</string>
     <string name="error_cropping_image">Det gick inte att beskära bilden</string>
-    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="login">Kontrollerar e-post</string>
-    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="login">Inte tillgänglig för närvarande. Ange ditt lösenord</string>
+    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kontrollerar e-post</string>
+    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Inte tillgänglig för närvarande. Ange ditt lösenord</string>
     <string name="logging_in">Loggar in</string>
     <string name="web_address_dialog_hint">Visas offentligt när du kommenterar.</string>
     <string name="capture_or_pick_photo">Ta eller välj ett foto</string>
@@ -3313,7 +3328,7 @@ Language: sv_SE
     <string name="comments_empty_list_filtered_pending">Inga väntande kommentarer</string>
     <string name="comments_empty_list_filtered_approved">Inga godkända kommentarer</string>
     <string name="button_skip">Hoppa över</string>
-    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="login">Kunde inte ansluta. Obligatoriska XML-RPC-metoder saknas på servern.</string>
+    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kunde inte ansluta. Obligatoriska XML-RPC-metoder saknas på servern.</string>
     <string name="alignment_center">Centrerat</string>
     <string name="post_format_video">Videoklipp</string>
     <string name="post_format_status">Status</string>
@@ -3373,7 +3388,7 @@ Language: sv_SE
     <string name="about_the_app">Om appen</string>
     <string name="error_post_account_settings">Kunde inte spara dina kontoinställningar</string>
     <string name="error_fetch_account_settings">Kunde inte hämta dina kontoinställningar</string>
-    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="login">Kunde inte hämta din profil</string>
+    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kunde inte hämta din profil</string>
     <string name="site_settings_unknown_language_code_error">Språkkoden känns inte igen</string>
     <string name="site_settings_threading_dialog_description">Tillåt att kommentarer staplas i trådar.</string>
     <string name="site_settings_threading_dialog_header">Trådar upp till</string>
@@ -3576,9 +3591,9 @@ Language: sv_SE
     <string name="select_all">Välj alla</string>
     <string name="hide">Dölj</string>
     <string name="show">Visa</string>
-    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Logga in igen för att fortsätta.</string>
-    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Ogiltig verifieringskod</string>
-    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Verifieringskod</string>
+    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Logga in igen för att fortsätta.</string>
+    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ogiltig verifieringskod</string>
+    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Verifieringskod</string>
     <string name="language">Språk</string>
     <string name="reader_empty_posts_request_failed">Kunde inte hämta inlägg</string>
     <string name="error_notification_open">Kunde inte öppna aviseringen</string>
@@ -3642,7 +3657,7 @@ Language: sv_SE
     <string name="ssl_certificate_error">Ogiltigt SSL-ceritfikat</string>
     <string name="help">Hjälp</string>
     <string name="username_or_password_incorrect">Användarnamnet eller lösenordet som angavs är felaktigt</string>
-    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="login">Ange en giltig epostadress</string>
+    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ange en giltig epostadress</string>
     <string name="invalid_email_message">Din epostadress är ogilltig</string>
     <string name="error_downloading_image">Fel vid nedladdning av bild</string>
     <string name="error_load_comment">Kunde inte ladda kommentaren</string>
@@ -3675,7 +3690,7 @@ Language: sv_SE
     <string name="new_media">Ny media</string>
     <string name="new_post">Nytt inlägg</string>
     <string name="notifications_empty_all">Inga aviseringar … ännu.</string>
-    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="login">Autentisering krävs</string>
+    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autentisering krävs</string>
     <string name="invalid_site_url_message">Kontrollera att webbplatsens URL är giltig</string>
     <string name="file_error_create">Kunde inte skapa temporär mediafil för uppladdning. Se till att det finns tillräckligt med utrymme på din enhet.</string>
     <string name="category_name">Kategorinamn</string>
@@ -3722,7 +3737,7 @@ Language: sv_SE
     <string name="reader_likes_you_and_one">Du och en annan gillar detta</string>
     <string name="pick_video">Välj video</string>
     <string name="pick_photo">Välj bild</string>
-    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="login">Registrera</string>
+    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Registrera</string>
     <string name="reader_toast_err_url_intent">Kunde inte öppna %s</string>
     <string name="reader_toast_err_view_image">Kunde inte visa bild</string>
     <string name="reader_toast_err_share_intent">Kunde inte dela</string>
@@ -3766,11 +3781,11 @@ Language: sv_SE
     <string name="note_reply_successful">Svar publicerat</string>
     <string name="sign_in">Logga in</string>
     <string name="loading">Laddar in …</string>
-    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP-lösenord</string>
-    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP-användarnamn</string>
+    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP-lösenord</string>
+    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP-användarnamn</string>
     <string name="error_media_upload">Ett fel uppstod vid uppladdning av media</string>
     <string name="incorrect_credentials">Felaktigt användarnamn eller lösenord.</string>
-    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="login">Logga in</string>
+    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Logga in</string>
     <string name="username">Användarnamn</string>
     <string name="password">Lösenord</string>
     <string name="reader">Läsare</string>

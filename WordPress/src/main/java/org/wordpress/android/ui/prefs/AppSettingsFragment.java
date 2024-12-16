@@ -4,6 +4,7 @@ import android.app.Dialog;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
@@ -48,6 +49,7 @@ import org.wordpress.android.models.JetpackPoweredScreen;
 import org.wordpress.android.ui.deeplinks.DeepLinkOpenWebLinksWithJetpackHelper;
 import org.wordpress.android.ui.jetpackoverlay.JetpackFeatureRemovalPhaseHelper;
 import org.wordpress.android.ui.mysite.jetpackbadge.JetpackPoweredBottomSheetFragment;
+import org.wordpress.android.util.PerAppLocaleManager;
 import org.wordpress.android.ui.prefs.language.LocalePickerBottomSheet;
 import org.wordpress.android.ui.prefs.language.LocalePickerBottomSheet.LocalePickerCallback;
 import org.wordpress.android.ui.reader.services.update.ReaderUpdateLogic;
@@ -99,6 +101,7 @@ public class AppSettingsFragment extends PreferenceFragment
     private WPSwitchPreference mOpenWebLinksWithJetpack;
 
     private Preference mWhatsNew;
+    private Boolean mIsPerAppLanguagePrefsEnabled;
 
     @Inject SiteStore mSiteStore;
     @Inject AccountStore mAccountStore;
@@ -111,6 +114,7 @@ public class AppSettingsFragment extends PreferenceFragment
     @Inject DeepLinkOpenWebLinksWithJetpackHelper mOpenWebLinksWithJetpackHelper;
     @Inject UiHelpers mUiHelpers;
     @Inject JetpackFeatureRemovalPhaseHelper mJetpackFeatureRemovalPhaseHelper;
+    @Inject PerAppLocaleManager mPerAppLocaleManager;
 
     private static final String TRACK_STYLE = "style";
     private static final String TRACK_ENABLED = "enabled";
@@ -120,6 +124,8 @@ public class AppSettingsFragment extends PreferenceFragment
         super.onCreate(savedInstanceState);
         ((WordPress) getActivity().getApplication()).component().inject(this);
         mDispatcher.register(this);
+
+        mIsPerAppLanguagePrefsEnabled = mPerAppLocaleManager.isPerAppLanguagePrefsEnabled();
 
         addPreferencesFromResource(R.xml.app_settings);
 
@@ -143,11 +149,6 @@ public class AppSettingsFragment extends PreferenceFragment
                 }
         );
         updateAnalyticsSyncUI();
-
-        mLanguagePreference = (WPPreference) findPreference(getString(R.string.pref_key_language));
-        mLanguagePreference.setOnPreferenceChangeListener(this);
-        mLanguagePreference.setOnPreferenceClickListener(this);
-        mLanguagePreference.setSummary(mLocaleProvider.getAppLanguageDisplayString());
 
         mAppThemePreference = (ListPreference) findPreference(getString(R.string.pref_key_app_theme));
         mAppThemePreference.setOnPreferenceChangeListener(this);
@@ -254,6 +255,16 @@ public class AppSettingsFragment extends PreferenceFragment
             ViewCompat.setNestedScrollingEnabled(listOfPreferences, true);
             addJetpackBadgeAsFooterIfEnabled(inflater, listOfPreferences);
         }
+
+        mLanguagePreference = (WPPreference) findPreference(getString(R.string.pref_key_language));
+        mLanguagePreference.setOnPreferenceChangeListener(this);
+        mLanguagePreference.setOnPreferenceClickListener(this);
+        if (mIsPerAppLanguagePrefsEnabled) {
+            mLanguagePreference.setSummary(mPerAppLocaleManager.getCurrentLocaleDisplayName());
+        } else {
+            mLanguagePreference.setSummary(mLocaleProvider.getAppLanguageDisplayString());
+        }
+
         return view;
     }
 
@@ -368,6 +379,7 @@ public class AppSettingsFragment extends PreferenceFragment
         if (event.isError()) {
             switch (event.error.type) {
                 case SETTINGS_FETCH_GENERIC_ERROR:
+                case ACCOUNT_FETCH_ERROR:
                     ToastUtils
                             .showToast(getActivity(), R.string.error_fetch_account_settings, ToastUtils.Duration.LONG);
                     break;
@@ -377,6 +389,10 @@ public class AppSettingsFragment extends PreferenceFragment
                     break;
                 case SETTINGS_POST_ERROR:
                     ToastUtils.showToast(getActivity(), R.string.error_post_account_settings, ToastUtils.Duration.LONG);
+                    break;
+                case SEND_VERIFICATION_EMAIL_ERROR:
+                    break;
+                case GENERIC_ERROR:
                     break;
             }
         } else if (event.causeOfChange == AccountAction.FETCH_SETTINGS) {
@@ -632,7 +648,12 @@ public class AppSettingsFragment extends PreferenceFragment
     }
 
     private boolean handleAppLocalePickerClick() {
-        if (getActivity() instanceof AppCompatActivity) {
+        // if per-app language preferences are enabled and the device is on API 33+, take the user to the
+        // system app settings to change the language
+        if (mIsPerAppLanguagePrefsEnabled && Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            mPerAppLocaleManager.openAppLanguageSettings(getContext());
+            return true;
+        } else if (getActivity() instanceof AppCompatActivity) {
             LocalePickerBottomSheet bottomSheet = LocalePickerBottomSheet.newInstance();
             bottomSheet.setLocalePickerCallback(this);
             bottomSheet.show(((AppCompatActivity) getActivity()).getSupportFragmentManager(),
@@ -657,7 +678,11 @@ public class AppSettingsFragment extends PreferenceFragment
 
     @Override
     public void onLocaleSelected(@NonNull String languageCode) {
-        onPreferenceChange(mLanguagePreference, languageCode);
+        if (mIsPerAppLanguagePrefsEnabled) {
+            mPerAppLocaleManager.setCurrentLocaleByLanguageCode(languageCode);
+        } else {
+            onPreferenceChange(mLanguagePreference, languageCode);
+        }
     }
 
     private void handleOpenLinksInJetpack(Boolean newValue) {

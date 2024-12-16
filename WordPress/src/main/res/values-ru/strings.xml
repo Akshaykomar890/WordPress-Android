@@ -1,12 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Translation-Revision-Date: 2024-08-28 13:54:09+0000
+Translation-Revision-Date: 2024-12-11 09:54:12+0000
 Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);
 Generator: GlotPress/4.0.1
 Language: ru
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="me_btn_feedback">Отправить отзыв</string>
+    <string name="default_web_client_id" a8c-src-lib="module:login">заполнитель</string>
+    <string name="personalization_screen_shortcuts_accessibility_label">Включить ярлык %s</string>
+    <string name="personalization_screen_card_accessibility_label">Включить карточку %s</string>
+    <string name="user_avatar_content_description">Аватар пользователя %s</string>
+    <string name="user_row_content_description">Показать сведения о пользователе %s</string>
+    <string name="biographical_info_empty">Не указано</string>
+    <string name="biographical_info">Биография</string>
+    <string name="about_the_user">О пользователе</string>
+    <string name="website">Веб-сайт</string>
+    <string name="contact_info">Контакты</string>
+    <string name="nickname">Ник</string>
+    <string name="name">Имя</string>
+    <string name="no_users">Нет пользователей</string>
+    <string name="user">Пользователь</string>
+    <string name="users">Пользователи</string>
+    <string name="me_btn_help_and_support">Помощь и техническая поддержка</string>
+    <string name="me_btn_experimental_features">Экспериментальные функции</string>
+    <string name="more_content_description_plans">Другие планы</string>
+    <string name="more_content_description_recent_activity">Другие недавние действия</string>
+    <string name="more_content_description_pages">Другие страницы</string>
+    <string name="more_content_description_posts">Другие записи</string>
+    <string name="more_content_description_quick_start">Другие ознакомительные занятия</string>
+    <string name="more_content_description_today_stats">Другая статистика за сегодня</string>
+    <string name="more_content_description_blogging_prompts">Другие подсказки</string>
+    <string name="more_content_description_promote_blaze">Другое: Blaze</string>
+    <string name="reader_toast_success_undo">Блог разблокирован</string>
+    <string name="feedback_form_note_link">Экран «Обратиться в службу поддержки»</string>
+    <string name="feedback_form_note_text">Обратите внимание, что это не форма обращения в службу поддержки и мы не сможем вам ответить. Если вам требуется поддержка, воспользуйтесь \"</string>
+    <string name="experimental_block_editor_theme_styles">Экспериментальные стили редактора блоков</string>
+    <string name="experimental_block_editor">Экспериментальная версия редактора блоков</string>
+    <string name="experimental_features_screen_title">Экспериментальные функции</string>
+    <string name="back">Назад</string>
+    <string name="dialog_confirm_autosave_dont_restore_button">Из этого приложения</string>
+    <string name="dialog_confirm_autosave_restore_button">С другого устройства</string>
+    <string name="item_selected">Выбрано</string>
     <string name="media_pager_remove_item_content_description">Удалить товар %1$d</string>
     <string name="feedback_form_add_attachments">Добавить вложения</string>
     <string name="feedback_form_unable_to_create_tempfile">Не удалось создать временный файл</string>
@@ -265,9 +299,9 @@ Language: ru
     <string name="jp_migration_done_no_sites_message">Пришло время продолжить путешествие по WordPress в приложении Jetpack!</string>
     <string name="domain_management_clear_search">Очистить поиск</string>
     <string name="media_encoder_quality_very_high">Очень высокое</string>
-    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Пожалуйста предоставьте ключ безопасности для продолжения.</string>
-    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">Возникла проблема со входом в систему с помощью ключа безопасности</string>
-    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">Использовать ключ безопасности</string>
+    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пожалуйста предоставьте ключ безопасности для продолжения.</string>
+    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">Возникла проблема со входом в систему с помощью ключа безопасности</string>
+    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">Использовать ключ безопасности</string>
     <string name="new_domain_search_screen_error_title">Не удалось получить список доменов</string>
     <string name="new_domain_search_screen_list_item_sale_price">%s за первый год</string>
     <string name="new_domain_search_screen_list_item_regular_price">%s в год</string>
@@ -286,7 +320,6 @@ Language: ru
     <string name="post_list_toggle_author_filter">Фильтр по автору</string>
     <string name="gutenberg_native_s_block_converted_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">Блок \'%s\' сконвертирован в блоки</string>
     <string name="gutenberg_native_alternatively_you_can_convert_the_content_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">Альтернативно вы можете конвертировать содержимое в блоки.</string>
-    <string name="personalization_screen_shortcuts_add_or_remove_shortcut_button">Добавить или удалить ярлыки</string>
     <string name="personalization_screen_tab_shortcuts_inactive_shortcuts">Неактивные ярлыки</string>
     <string name="personalization_screen_tab_shortcuts_active_shortcuts">Активные ярлыки</string>
     <string name="personalization_screen_shortcuts_tab_title">Ярлыки</string>
@@ -547,7 +580,6 @@ Language: ru
     <string name="site_creation_domain_tag_recommended">Рекомендуемые</string>
     <string name="site_creation_domain_tag_best_alternative">Лучшая альтернатива</string>
     <string name="site_creation_domain_cost">в год</string>
-    <string name="me_btn_help">Справка</string>
     <string name="support_faq_caption">Ищите ответы на типовые вопросы в разделе \"Часто задаваемые вопросы\".</string>
     <string name="support_faq_title">Благодарим за переход на приложение Jetpack!</string>
     <string name="logs_button">Журналы</string>
@@ -713,9 +745,9 @@ Language: ru
     <string name="connections_label">Подключения Jetpack Social</string>
     <string name="stats_widget_log_in_to_add_message">Войдите в приложение Jetpack для добавления виджета.</string>
     <string name="stats_view_publicize">Подключения Jetpack Social</string>
-    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="login">Только что мы отправили специальную ссылку на</string>
-    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="login">Проверьте электронную почту на этом устройстве!</string>
-    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="login">Войти с паролем</string>
+    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Только что мы отправили специальную ссылку на</string>
+    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="module:login">Проверьте электронную почту на этом устройстве!</string>
+    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Войти с паролем</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack_caption">Будьте в курсе обновлений в режиме реального времени для новых комментариев, посещаемости сайта, отчетов о безопасности и многого другого.</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack">Уведомления работают на Jetpack</string>
     <string name="wp_jetpack_powered_stats_powered_by_jetpack_caption">Наблюдайте за ростом трафика и узнавайте о своей аудитории с помощью переработанной статистики и аналитических данных, которые теперь доступны в новом приложении Jetpack.</string>
@@ -949,10 +981,10 @@ Language: ru
     <string name="my_site_dashboard_tab_title">Главная</string>
     <string name="adding_cat">Добавление категории</string>
     <string name="login_select_email_client">Каким приложением электронной почты вы пользуетесь?</string>
-    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="login">Возникла проблема при подключении к сайту. Получен код ошибки HTTP 401.</string>
-    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Вызовы XML-RPC на этом сайте заблокированы (код ошибки 401). Если войти не удалось, нажмите на значок справки, чтобы открыть часто задаваемые вопросы.</string>
-    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="login">Не удалось найти веб-сайт WordPress по этому URL-адресу. Нажмите на значок справки, чтобы открыть часто задаваемые вопросы.</string>
-    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="login">Сервисы XML-RPC на этом сайте отключены.</string>
+    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="module:login">Возникла проблема при подключении к сайту. Получен код ошибки HTTP 401.</string>
+    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Вызовы XML-RPC на этом сайте заблокированы (код ошибки 401). Если войти не удалось, нажмите на значок справки, чтобы открыть часто задаваемые вопросы.</string>
+    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Не удалось найти веб-сайт WordPress по этому URL-адресу. Нажмите на значок справки, чтобы открыть часто задаваемые вопросы.</string>
+    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="module:login">Сервисы XML-RPC на этом сайте отключены.</string>
     <string name="my_site_menu_tab_title">Меню сайта</string>
     <string name="new_site_creation_empty_domain_list_message_invalid_query">Ваш поиск включает символы, которые не поддерживаются в доменах WordPress.com. Допускаются только буквенно-цифровые символы: A–Z, a–z, 0–9.</string>
     <string name="my_site_error_within_card_subtitle">Проверьте подключение к Интернету и обновите страницу.</string>
@@ -1316,7 +1348,7 @@ Language: ru
     <string name="new_site_creation_search_domain_input_hint">Выберите название для вашего сайта.</string>
     <string name="quick_start_completed_type_grow_message">&lt;b&gt;Все задачи выполнены&lt;/b&gt;&lt;br/&gt; Вы привлечёте больше посетителей. Хорошая работа!</string>
     <string name="quick_start_completed_type_customize_message">&lt;b&gt;Все задачи выполнены&lt;/b&gt;&lt;br/&gt;Вы персонализировали ваш сайт. Отлично!</string>
-    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="login">Не планировали создание новой учётной записи? Перейдите назад и введите ваш адрес email.</string>
+    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">Не планировали создание новой учётной записи? Перейдите назад и введите ваш адрес email.</string>
     <string name="invite_links_disable_dialog_message">Если эта ссылка для приглашения будет отключена, никто не сможет использовать её для присоединения к вашей команде. Вы уверены в этом?</string>
     <string name="invite_links_disable_dialog_title">Отключить пригласительную ссылку</string>
     <string name="invite_links_bad_format_response">Получен неверный ответ</string>
@@ -1594,8 +1626,8 @@ Language: ru
     <string name="hpp_retry_error">Проверьте подключение к Интернету и повторите попытку.</string>
     <string name="hpp_error_subtitle">Нажмите повторить при появлении подключения к сети.</string>
     <string name="hpp_error_title">Макеты недоступны при отсутствии подключения к сети</string>
-    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="login">Продолжить с учетными данными магазина</string>
-    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="login">Узнать адрес привязанной эл. почты</string>
+    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="module:login">Продолжить с учетными данными магазина</string>
+    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Узнать адрес привязанной эл. почты</string>
     <string name="reader_discover_no_posts_follow_subtitle">Для расширения поиска попробуйте подписаться на больше меток</string>
     <string name="reader_discover_no_posts_title">Нет свежих записей</string>
     <string name="reader_discover_empty_title">Добро пожаловать!</string>
@@ -1663,8 +1695,8 @@ Language: ru
     <string name="suggestion_no_connection">Нет подключения к сети.\nПредложения недоступны.</string>
     <string name="mlp_notselected_description">%s</string>
     <string name="mlp_selected_description">Выбрано %s</string>
-    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Получить ссылку для входа по email</string>
-    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="login">Не получается найти учётную запись WordPress.com для этого адреса email.</string>
+    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Получить ссылку для входа по email</string>
+    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="module:login">Не получается найти учётную запись WordPress.com для этого адреса email.</string>
     <string name="permission_microphone">микрофон</string>
     <string name="comment_unable_to_show_error">Не удаётся показать этот комментарий</string>
     <string name="media_browse_for_items">Поиск элементов</string>
@@ -1710,26 +1742,26 @@ Language: ru
     <string name="gutenberg_native_choose_image" tools:ignore="UnusedResources">Выбор изображения</string>
     <string name="gutenberg_native_block_removed" tools:ignore="UnusedResources">Блок удалён</string>
     <string name="enter_your_site_address">Введите адрес вашего сайта</string>
-    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="login">Подтверждение регистрации</string>
-    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">Если вы продолжите работу с учетной записью Google, не имея учётной записи WordPress.com, вы создадите учётную запись и примете наши %1$sУсловия обслуживания%2$s.</string>
-    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">Продолжив, вы соглашаетесь с нашими %1$sПравилами пользования%2$s.</string>
-    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="login">Этот адрес эл.почты будет использован при создании вашей новой учётной записи WordPress.com.</string>
-    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="login">Мы отослали вам ссылку для создания учётной записи WordPress.com. Проверьте почту на вашем устройстве и нажмите на ссылку, полученную с WordPress.com.</string>
-    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Введите данные вашей учётной записи для %1$s.</string>
-    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="login">или</string>
-    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">Продолжить с Google</string>
-    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="login">Найдите адрес вашего сайта</string>
+    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Подтверждение регистрации</string>
+    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">Если вы продолжите работу с учетной записью Google, не имея учётной записи WordPress.com, вы создадите учётную запись и примете наши %1$sУсловия обслуживания%2$s.</string>
+    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">Продолжив, вы соглашаетесь с нашими %1$sПравилами пользования%2$s.</string>
+    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Этот адрес эл.почты будет использован при создании вашей новой учётной записи WordPress.com.</string>
+    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Мы отослали вам ссылку для создания учётной записи WordPress.com. Проверьте почту на вашем устройстве и нажмите на ссылку, полученную с WordPress.com.</string>
+    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Введите данные вашей учётной записи для %1$s.</string>
+    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="module:login">или</string>
+    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">Продолжить с Google</string>
+    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Найдите адрес вашего сайта</string>
     <string name="login_done">Готово</string>
-    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="login">Не нашли письмо? Загляните в папку со спамом.</string>
-    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="login">Проверьте почту на этом устройстве и нажмите ссылку в письме от WordPress.com</string>
-    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="login">Мы пришлём вам ссылку для входа, которая позволит вам сразу войти без пароля.</string>
-    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="login">Проверка почты</string>
-    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="login">Начать </string>
-    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">Введите ваш адрес электронной почты чтобы войти или создать учётную запись WordPress.com.</string>
-    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">или введите ваш пароль</string>
-    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="login">Создать учётную запись</string>
-    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Прислать ссылку по электронной почте</string>
-    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Сбросить пароль</string>
+    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Не нашли письмо? Загляните в папку со спамом.</string>
+    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Проверьте почту на этом устройстве и нажмите ссылку в письме от WordPress.com</string>
+    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Мы пришлём вам ссылку для входа, которая позволит вам сразу войти без пароля.</string>
+    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Проверка почты</string>
+    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="module:login">Начать </string>
+    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">Введите ваш адрес электронной почты чтобы войти или создать учётную запись WordPress.com.</string>
+    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">или введите ваш пароль</string>
+    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">Создать учётную запись</string>
+    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Прислать ссылку по электронной почте</string>
+    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Сбросить пароль</string>
     <string name="reader_error_request_failed_title">При выполнении запроса возникла проблема. Повторите попытку позже.</string>
     <string name="quick_start_list_update_site_title_title">Проверьте название сайта</string>
     <string name="quick_start_dialog_update_site_title_message_short">Нажмите &lt;b&gt;%1$s&lt;/b&gt; для установки нового названия</string>
@@ -1982,12 +2014,12 @@ Language: ru
     <string name="dialog_confirm_scheduled_post_sync_title">Готовы начать синхронизацию?</string>
     <string name="new_site_creation_unavailable_domain">Этот домен недоступен</string>
     <string name="negative_prefix">-%s</string>
-    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">Мы не смогли подключиться к сайту. Возможно потребуется обратиться в техподдержку хостинга, чтобы решить эту проблему.</string>
-    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="login">Мы не смогли подключиться к сайту, поскольку имеется проблема с &lt;b&gt;сертификатом SSL&lt;/b&gt;. Возможно потребуется обратиться в техподдержку хостинга, чтобы решить эту проблему.</string>
-    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="login">Мы не смогли подключиться к сайту, поскольку он требует &lt;b&gt;HTTP авторизации&lt;/b&gt;. Возможно потребуется обратиться в техподдержку хостинга, чтобы решить эту проблему.</string>
-    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="login">Мы не смогли подключиться к &lt;b&gt;XMLRPC&lt;/b&gt; сайта. Возможно потребуется обратиться в техподдержку хостинга, чтобы решить эту проблему.</string>
-    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="login">Почти готово! Нужно только проверить адрес эл.почты подключения Jetpack &lt;b&gt;%1$s&lt;/b&gt;</string>
-    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Войдите с именем пользователя и паролем для сайта %1$s</string>
+    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">Мы не смогли подключиться к сайту. Возможно потребуется обратиться в техподдержку хостинга, чтобы решить эту проблему.</string>
+    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="module:login">Мы не смогли подключиться к сайту, поскольку имеется проблема с &lt;b&gt;сертификатом SSL&lt;/b&gt;. Возможно потребуется обратиться в техподдержку хостинга, чтобы решить эту проблему.</string>
+    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="module:login">Мы не смогли подключиться к сайту, поскольку он требует &lt;b&gt;HTTP авторизации&lt;/b&gt;. Возможно потребуется обратиться в техподдержку хостинга, чтобы решить эту проблему.</string>
+    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="module:login">Мы не смогли подключиться к &lt;b&gt;XMLRPC&lt;/b&gt; сайта. Возможно потребуется обратиться в техподдержку хостинга, чтобы решить эту проблему.</string>
+    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Почти готово! Нужно только проверить адрес эл.почты подключения Jetpack &lt;b&gt;%1$s&lt;/b&gt;</string>
+    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Войдите с именем пользователя и паролем для сайта %1$s</string>
     <string name="my_site_bottom_sheet_add_page">Страница сайта</string>
     <string name="reader_my_likes_display_name">Отметки \"Нравится\"</string>
     <string name="reader_discover_display_name">Найти</string>
@@ -2085,8 +2117,6 @@ Language: ru
     <string name="post_preview_remote_auto_saving_post">Создание предварительного просмотра…</string>
     <string name="post_preview_saving_draft">Сохранение…</string>
     <string name="local_post_autosave_revision_available">Вы внесли но не сохранили изменения в эту запись</string>
-    <string name="dialog_confirm_autosave_dont_restore_button">Версия из этого приложения</string>
-    <string name="dialog_confirm_autosave_restore_button">Версия с другого устройства</string>
     <string name="dialog_confirm_autosave_body_second_part">Из этого приложения\nСохранено %1$s\n\nС другого устройства\nСохранено %2$s\n</string>
     <string name="dialog_confirm_autosave_body_first_part">Вы недавно внесли изменения в эту запись, но не сохранили их. Выберите версию для загрузки:\n\n</string>
     <string name="dialog_confirm_autosave_title">Какой вариант вы хотите отредактировать?</string>
@@ -2153,8 +2183,8 @@ Language: ru
     <string name="post_settings_add_to_calendar">Добавить в календарь</string>
     <string name="post_settings_notification">Уведомление</string>
     <string name="post_settings_time_and_date">Дата и время</string>
-    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="login">Введите полный адрес вебсайта, например example.com.</string>
-    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Войдите на WordPress.com, чтобы подключиться к %1$s</string>
+    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="module:login">Введите полный адрес вебсайта, например example.com.</string>
+    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Войдите на WordPress.com, чтобы подключиться к %1$s</string>
     <string name="stats_post_views_label">Просмотры</string>
     <string name="stats_post_label">Запись</string>
     <string name="stats_list_item_description">%1$s: %2$s, %3$s: %4$s</string>
@@ -2270,8 +2300,8 @@ Language: ru
     <string name="posts_draft_empty">У вас нет черновиков записей</string>
     <string name="posts_scheduled_empty">У вас нет запланированных записей</string>
     <string name="posts_published_empty">У вас нет опубликрованных записей</string>
-    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Пожалуйста, войдите указав имя пользователя и пароль.</string>
-    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="login">Пожалуйста, войдите с именем пользователя на WordPress.com вместо email адреса.</string>
+    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пожалуйста, войдите указав имя пользователя и пароль.</string>
+    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пожалуйста, войдите с именем пользователя на WordPress.com вместо email адреса.</string>
     <string name="stats_insights_average_words">В среднем слов на запись</string>
     <string name="stats_insights_total_words">Всего слов</string>
     <string name="stats_insights_average_likes">В среднем отметок \"нравится\" на запись</string>
@@ -2281,7 +2311,7 @@ Language: ru
     <string name="stats_insights_posts">Записи</string>
     <string name="stats_insights_year">Год</string>
     <string name="stats_insights_this_year_site_stats">За этот год</string>
-    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="login">Сайт по этому адресу не использует WordPress. Вы можете подключиться только к сайтам на WordPress.</string>
+    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Сайт по этому адресу не использует WordPress. Вы можете подключиться только к сайтам на WordPress.</string>
     <string name="plugin_check_domain_credit_error">Ошибка проверки возможности покупки домена</string>
     <string name="plugin_check_domain_credits_progress_dialog_message">Проверка возможности покупки домена</string>
     <string name="plugin_install_custom_domain_required_dialog_register_btn">Зарегистрировать домен</string>
@@ -2442,7 +2472,7 @@ Language: ru
     <string name="history_detail_button_previous">Предыдущая</string>
     <string name="history_detail_button_next">Следующая</string>
     <string name="media_space_used">Использовано места: %1$s</string>
-    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="login">Пожалуйста введите сайт WordPress.com или с подключенным Jetpack</string>
+    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пожалуйста введите сайт WordPress.com или с подключенным Jetpack</string>
     <string name="history_loading_revision">Загрузка редакции</string>
     <string name="history_loaded_revision">Редакция загружена</string>
     <string name="history_load_dialog_button_positive">Загрузить</string>
@@ -2474,8 +2504,8 @@ Language: ru
     <string name="pages_scheduled" tools:ignore="UnusedResources">Запланировано</string>
     <string name="pages_drafts" tools:ignore="UnusedResources">Черновики</string>
     <string name="pages_published" tools:ignore="UnusedResources">Опубликовано</string>
-    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="login">Слишком много попыток отправить СМС-код проверки, отдохните и запросите снова через пару минут.</string>
-    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="login">Ни одна учетная запись WordPress.com не совпадает с этой записью в Google.</string>
+    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="module:login">Слишком много попыток отправить СМС-код проверки, отдохните и запросите снова через пару минут.</string>
+    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ни одна учетная запись WordPress.com не совпадает с этой записью в Google.</string>
     <string name="site_picker_remove_site_empty">Нет сайтов по критериям поиска</string>
     <string name="reader_no_followed_blogs_search_title">Нет блогов по критериям поиска</string>
     <string name="page_parent_changed">Родитель для страницы сменен</string>
@@ -2511,7 +2541,7 @@ Language: ru
     <string name="content_description_more">Больше</string>
     <string name="my_site_create_new_site_title">У вас нет сайтов</string>
     <string name="reader_empty_subscribed_tags_subtitle">Добавьте любимые метки здесь, чтобы найти по ним записи</string>
-    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="login">Войдите в учетную запись WordPress.com, с которой был подключен Jetpack.</string>
+    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="module:login">Войдите в учетную запись WordPress.com, с которой был подключен Jetpack.</string>
     <string name="jetpack">Jetpack</string>
     <string name="stats_jetpack_connection_faq">Jetpack FAQ</string>
     <string name="stats_jetpack_connection_setup_info">Для использования Статистики на вашем сайте WordPress требуется установить плагин Jetpack.</string>
@@ -2565,13 +2595,13 @@ Language: ru
     <string name="reader_empty_search_title">Результатов не найдено</string>
     <string name="comment_read_source_post">Прочесть исходную запись</string>
     <string name="sites">Сайты</string>
-    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="login">Магическая ссылка отослана</string>
-    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="login">Проверка кода</string>
-    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Данные для входа</string>
-    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Магическая ссылка отослана</string>
-    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Вход по магической ссылке</string>
-    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Вход по адресу сайта</string>
-    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Вход по email адресу</string>
+    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Магическая ссылка отослана</string>
+    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Проверка кода</string>
+    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Данные для входа</string>
+    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Магическая ссылка отослана</string>
+    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Вход по магической ссылке</string>
+    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Вход по адресу сайта</string>
+    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Вход по email адресу</string>
     <string name="reader_empty_saved_posts_description">Нажмите %s для сохранения записи в ваш список.</string>
     <string name="reader_empty_saved_posts_title">Пока не сохранено никаких записей!</string>
     <string name="reader_bookmark_snack_title">Запись сохранена</string>
@@ -2674,7 +2704,7 @@ Language: ru
     <string name="invite_user_delete_desc">удалить %s</string>
     <string name="profile_picture">Изображение профиля %s</string>
     <string name="comment_checkmark_desc">отметка</string>
-    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Регистрация через Google…</string>
+    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Регистрация через Google…</string>
     <string name="jetpack_connection_failed_with_reason">Подключение к Jetpack не удалось: %s</string>
     <string name="jetpack_already_connected_toast">Вы уже подключили Jetpack</string>
     <string name="menu_visual_mode">Визуальный режим</string>
@@ -2755,7 +2785,7 @@ Language: ru
     <string name="site_creation_domain_finish_button">Создать сайт</string>
     <string name="notification_site_creation_created">Нажмите для продолжения.</string>
     <string name="notification_site_creation_title_success">Сайт создан!</string>
-    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="login">Google отвечает слишком долго. Возможно вам стоит подождать пока ваше подключение к Интернет станет лучше.</string>
+    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google отвечает слишком долго. Возможно вам стоит подождать пока ваше подключение к Интернет станет лучше.</string>
     <string name="username_changer_title">Сменить имя пользователя</string>
     <string name="username_changer_hint">Введите что-нибудь для получения еще предложений</string>
     <string name="username_changer_header">Ваше имя пользователя - %1$s%2$s%3$s. За некоторыми исключениями, другие будут видеть ваше отображаемое имя - %4$s%5$s%6$s.</string>
@@ -2767,10 +2797,10 @@ Language: ru
     <string name="content_description_add_avatar">Добавить аватар</string>
     <string name="signup_user_exists">Email уже зарегистрирован на WordPress.com\nПереходим ко входу.</string>
     <string name="signup_updating_account">Обновление учетной записи…</string>
-    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Отправка email</string>
-    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="login">Повторить</string>
-    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="login">Закрыть</string>
-    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="login">Возникла проблема при отправке почты. Вы можете повторить сейчас или закрыть и попробовать еще раз позже.</string>
+    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Отправка email</string>
+    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="module:login">Повторить</string>
+    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="module:login">Закрыть</string>
+    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Возникла проблема при отправке почты. Вы можете повторить сейчас или закрыть и попробовать еще раз позже.</string>
     <string name="signup_epilogue_hint_username">Имя пользователя</string>
     <string name="signup_epilogue_hint_password_detail">Вы всегда можете войти со ссылкой, как вы только что использовали, но если хотите, то можно и установить пароль.</string>
     <string name="signup_epilogue_hint_password">Пароль (не обязательно)</string>
@@ -2868,18 +2898,18 @@ Language: ru
     <string name="my_site_btn_plugins">Плагины</string>
     <string name="media_edit_link_hint">Открыть ссылку в новом окне/вкладке</string>
     <string name="media_edit_link_text">Ссылка на</string>
-    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="login">Произошла ошибка</string>
-    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Пожалуйста, введите код авторизации для продолжения.</string>
-    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="login">Пожалуйста, перепроверьте свой пароль для продолжения.</string>
-    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="login">Вход остановлен</string>
-    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="login">Пожалуйста подождите пока авторизуемся.</string>
-    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Вход …</string>
-    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="login">Нажмите чтобы продолжить.</string>
-    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="login">Вход успешен!</string>
-    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="login">Процесс входа в Google не может быть запущен.</string>
-    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="login">Пожалуйста, введите пароль</string>
-    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="login">Пришлите мне другой код.</string>
-    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="login">Мы послали текстовое сообщение на телефонный номер оканчивающийся на %s. Пожалуйста введите проверочный код из SMS.</string>
+    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Произошла ошибка</string>
+    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пожалуйста, введите код авторизации для продолжения.</string>
+    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пожалуйста, перепроверьте свой пароль для продолжения.</string>
+    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="module:login">Вход остановлен</string>
+    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пожалуйста подождите пока авторизуемся.</string>
+    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Вход …</string>
+    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Нажмите чтобы продолжить.</string>
+    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="module:login">Вход успешен!</string>
+    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="module:login">Процесс входа в Google не может быть запущен.</string>
+    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пожалуйста, введите пароль</string>
+    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пришлите мне другой код.</string>
+    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="module:login">Мы послали текстовое сообщение на телефонный номер оканчивающийся на %s. Пожалуйста введите проверочный код из SMS.</string>
     <string name="image_size">Размер</string>
     <string name="uploading_subtitle_media_only_one">остался 1 файл</string>
     <string name="uploading_subtitle_media_only">осталось %1$d из %2$d файлов</string>
@@ -2896,15 +2926,15 @@ Language: ru
     <string name="confirm_remove_media_image">Удалить это изображение из записи?</string>
     <string name="media_edit_customize_card_caption">Настроить</string>
     <string name="media_edit_file_details_card_caption">Информация о файле</string>
-    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">\nВозможно попробуете другую учетную запись?</string>
-    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">Возникла ошибка подключения к учетной записи Google.</string>
+    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">\nВозможно попробуете другую учетную запись?</string>
+    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">Возникла ошибка подключения к учетной записи Google.</string>
     <string name="login_error_button">Закрыть</string>
-    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="login">Чтобы войти через эту учетную запись Google, пожалуйста укажите соответствующий пароль WordPress.com. Это запрашивается только один раз.</string>
+    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="module:login">Чтобы войти через эту учетную запись Google, пожалуйста укажите соответствующий пароль WordPress.com. Это запрашивается только один раз.</string>
     <string name="error_generic_network">Возникла ошибка сети. Проверьте ваше подключение и попробуйте снова.</string>
     <string name="post_settings_remove_featured_image">Убрать изображение записи</string>
     <string name="post_settings_choose_featured_image">Выберите изображение записи</string>
-    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Войдите в WordPress.com чтобы поделиться содержимым.</string>
-    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Введите адрес вашего сайта WordPress, на который вы хотите поделиться содержимым.</string>
+    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Войдите в WordPress.com чтобы поделиться содержимым.</string>
+    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Введите адрес вашего сайта WordPress, на который вы хотите поделиться содержимым.</string>
     <string name="jetpack_disconnect_error_toast">Ошибка отключения сайта</string>
     <string name="jetpack_disconnect_success_toast">Сайт отключен</string>
     <string name="jetpack_disconnect_confirm">Отключить</string>
@@ -2988,28 +3018,28 @@ Language: ru
     <string name="login_epilogue_mysites_other">Мои сайты</string>
     <string name="login_epilogue_mysites_one">Мой сайт</string>
     <string name="login_email_client_not_found">Не удалось определить ваш почтовый клиент</string>
-    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="login">Введите проверочный код.</string>
-    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="login">Введите имя пользователя</string>
-    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="login">Чтобы получить доступ к записи, войдите на WordPress.com.</string>
-    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="login">При добавлении сайта произошла ошибка. Код ошибки: %s</string>
-    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Проверка адреса сайта</string>
-    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="login">Нужна дополнительная помощь?</string>
-    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="login">При открытии сайта в браузере Chrome его адрес отображается в строке в верхней части экрана.</string>
-    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="login">Какой адрес у моего сайта?</string>
-    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Адрес сайта</string>
-    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Введите адрес сайта WordPress, к которому требуется подключиться.</string>
+    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="module:login">Введите проверочный код.</string>
+    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="module:login">Введите имя пользователя</string>
+    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="module:login">Чтобы получить доступ к записи, войдите на WordPress.com.</string>
+    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">При добавлении сайта произошла ошибка. Код ошибки: %s</string>
+    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Проверка адреса сайта</string>
+    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="module:login">Нужна дополнительная помощь?</string>
+    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="module:login">При открытии сайта в браузере Chrome его адрес отображается в строке в верхней части экрана.</string>
+    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Какой адрес у моего сайта?</string>
+    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Адрес сайта</string>
+    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Введите адрес сайта WordPress, к которому требуется подключиться.</string>
     <string name="login_already_logged_in_wpcom">Вы уже вошли на WordPress.com</string>
-    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="login">Продолжить</string>
+    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="module:login">Продолжить</string>
     <string name="connect_more">Подключить ещё один сайт</string>
-    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="login">Введите свой пароль на WordPress.com.</string>
-    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="login">Выполняется запрос электронного письма со ссылкой для входа</string>
-    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="login">Похоже, пароль введён неправильно. Проверьте правильность введенных данных и повторите попытку.</string>
-    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="login">Выполняется запрос на получение проверочного кода в SMS-сообщении.</string>
-    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="login">Пришлите мне сообщение с кодом.</string>
-    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Почти готово! Введите проверочный код для WordPress.com из приложения Authenticator.</string>
-    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="login">Открыть почту</string>
+    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Введите свой пароль на WordPress.com.</string>
+    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="module:login">Выполняется запрос электронного письма со ссылкой для входа</string>
+    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="module:login">Похоже, пароль введён неправильно. Проверьте правильность введенных данных и повторите попытку.</string>
+    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">Выполняется запрос на получение проверочного кода в SMS-сообщении.</string>
+    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пришлите мне сообщение с кодом.</string>
+    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Почти готово! Введите проверочный код для WordPress.com из приложения Authenticator.</string>
+    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="module:login">Открыть почту</string>
     <string name="next">Вперед</string>
-    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">Для управления всеми своими сайтами WordPress войдите в систему WordPress.com с помощью адреса электронной почты.</string>
+    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">Для управления всеми своими сайтами WordPress войдите в систему WordPress.com с помощью адреса электронной почты.</string>
     <string name="me_profile_photo">Фотография профиля</string>
     <string name="error_media_parse_error">Непредвиденный ответ сервера.</string>
     <string name="upload_finished_toast">Загрузку нельзя остановить, так как она уже завершена.</string>
@@ -3161,8 +3191,8 @@ Language: ru
     <string name="error_unknown_post_type">Неизвестный формат записи</string>
     <string name="submit_for_review">Отправить</string>
     <string name="title_subscriber">Подписчик</string>
-    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="login">Обнаружена копия сайта.</string>
-    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="login">Этот сайт уже существует в приложении, его нельзя добавить.</string>
+    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="module:login">Обнаружена копия сайта.</string>
+    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Этот сайт уже существует в приложении, его нельзя добавить.</string>
     <string name="already_logged_in_wpcom">Вы уже вошли в учетную запись WordPress.com. Вы не можете добавить сайт WordPress.com, привязанный к другой учетной записи.</string>
     <string name="error_media_load">Не удается загрузить медиафайлы</string>
     <string name="error_media_refresh_no_connection">Для обновления библиотеки требуется подключение</string>
@@ -3174,8 +3204,8 @@ Language: ru
     <string name="media_upload_error">Ошибка при загрузке медиафайла на сайт</string>
     <string name="retry">Повторить попытку</string>
     <string name="confirm">Подтвердить</string>
-    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="login">Не удалось подключиться. При попытке подключиться к конечной точке XMLRPC вашего сайта мы получили\n ошибку 403. Это необходимо для обмена данными между приложением и вашим сайтом. Свяжитесь с хостинг-провайдером, чтобы решить\n эту проблему.</string>
-    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="login">Не удалось подключиться. Ваш хостинг-провайдер блокирует запросы POST, которые нужны приложению\n для обмена данными с вашим сайтом. Свяжитесь с хостинг-провайдером, чтобы решить эту проблему.</string>
+    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Не удалось подключиться. При попытке подключиться к конечной точке XMLRPC вашего сайта мы получили\n ошибку 403. Это необходимо для обмена данными между приложением и вашим сайтом. Свяжитесь с хостинг-провайдером, чтобы решить\n эту проблему.</string>
+    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Не удалось подключиться. Ваш хостинг-провайдер блокирует запросы POST, которые нужны приложению\n для обмена данными с вашим сайтом. Свяжитесь с хостинг-провайдером, чтобы решить эту проблему.</string>
     <string name="pending_draft_one_generic">Не бросайте эту запись! Запись «%1$s» должна увидеть свет.</string>
     <string name="pending_draft_one_month">Не бросайте эту запись! Запись «%1$s» должна увидеть свет.</string>
     <string name="pending_draft_one_week_2">Запись «%1$s» остаётся в черновиках. Не забудьте опубликовать её!</string>
@@ -3276,8 +3306,8 @@ Language: ru
     <string name="error_refreshing_gravatar">При перезагрузке граватара произошла ошибка</string>
     <string name="error_locating_image">Не удалось найти обрезанное изображение</string>
     <string name="error_cropping_image">При обрезке изображения произошла ошибка</string>
-    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="login">Проверка адреса эл. почты</string>
-    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="login">В настоящий момент ссылка недоступна. Введите пароль</string>
+    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Проверка адреса эл. почты</string>
+    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">В настоящий момент ссылка недоступна. Введите пароль</string>
     <string name="logging_in">Вход в систему</string>
     <string name="web_address_dialog_hint">Отображается для всех пользователей, когда вы добавляете комментарии.</string>
     <string name="capture_or_pick_photo">Сделайте снимок или выберите фото</string>
@@ -3313,7 +3343,7 @@ Language: ru
     <string name="comments_empty_list_filtered_pending">Нет комментариев на утверждении</string>
     <string name="comments_empty_list_filtered_approved">Нет одобренных комментариев</string>
     <string name="button_skip">Пропустить</string>
-    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="login">Не удалось подключиться. На сервере отсутствуют необходимые методы XML-RPC.</string>
+    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Не удалось подключиться. На сервере отсутствуют необходимые методы XML-RPC.</string>
     <string name="alignment_center">По центру</string>
     <string name="post_format_video">Видео</string>
     <string name="post_format_status">Статус</string>
@@ -3373,7 +3403,7 @@ Language: ru
     <string name="about_the_app">О приложении</string>
     <string name="error_post_account_settings">Не удалось сохранить настройки учётной записи.</string>
     <string name="error_fetch_account_settings">Не удалось загрузить настройки учетной записи.</string>
-    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="login">Не удалось загрузить профиль.</string>
+    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="module:login">Не удалось загрузить профиль.</string>
     <string name="site_settings_unknown_language_code_error">Код языка не распознан.</string>
     <string name="site_settings_threading_dialog_description">Разрешить вложение комментариев в ветках.</string>
     <string name="site_settings_threading_dialog_header">Ветки до</string>
@@ -3576,9 +3606,9 @@ Language: ru
     <string name="select_all">Выделить все</string>
     <string name="hide">Скрыть</string>
     <string name="show">Показать</string>
-    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Войдите заново для продолжения.</string>
-    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Неверный код подтверждения</string>
-    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Код подтверждения</string>
+    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Войдите заново для продолжения.</string>
+    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Неверный код подтверждения</string>
+    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Код подтверждения</string>
     <string name="language">Язык</string>
     <string name="reader_empty_posts_request_failed">Не удалось загрузить записи.</string>
     <string name="error_notification_open">Не удалось открыть уведомление.</string>
@@ -3642,7 +3672,7 @@ Language: ru
     <string name="ssl_certificate_error">Недействительный сертификат SSL</string>
     <string name="help">Помощь</string>
     <string name="username_or_password_incorrect">Имя пользователя или пароль введены неверно</string>
-    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="login">Введите правильный email адрес</string>
+    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="module:login">Введите правильный email адрес</string>
     <string name="invalid_email_message">Ваш адрес email не подходит</string>
     <string name="error_downloading_image">Ошибка при загрузке картинки</string>
     <string name="error_load_comment">Невозможно загрузить комментарии</string>
@@ -3675,7 +3705,7 @@ Language: ru
     <string name="new_media">Новое медиа</string>
     <string name="new_post">Новая запись</string>
     <string name="notifications_empty_all">Уведомлений пока нет.</string>
-    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="login">Требуется авторизация</string>
+    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Требуется авторизация</string>
     <string name="invalid_site_url_message">Убедитесь, что введен допустимый URL-адрес сайта</string>
     <string name="file_error_create">Не удалось создать временный файл для выгрузки медиа. Убедитесь, что имеется достаточно свободного места на вашем устройстве.</string>
     <string name="category_name">Имя категории</string>
@@ -3722,7 +3752,7 @@ Language: ru
     <string name="reader_likes_you_and_one">Вам и ещё одному понравилось это</string>
     <string name="pick_video">Выберите видео</string>
     <string name="pick_photo">Выберите фото</string>
-    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="login">Зарегистрироваться</string>
+    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Зарегистрироваться</string>
     <string name="reader_toast_err_url_intent">Не удаётся открыть %s</string>
     <string name="reader_toast_err_view_image">Не удаётся просмотреть изображение</string>
     <string name="reader_toast_err_share_intent">Не в состоянии поделиться</string>
@@ -3766,11 +3796,11 @@ Language: ru
     <string name="note_reply_successful">Ответ опубликован</string>
     <string name="sign_in">Войти</string>
     <string name="loading">Загрузка…</string>
-    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="login">Пароль для HTTP-авторизации</string>
-    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="login">Имя для HTTP-авторизации</string>
+    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пароль для HTTP-авторизации</string>
+    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="module:login">Имя для HTTP-авторизации</string>
     <string name="error_media_upload">Произошла ошибка при загрузке медиафайла</string>
     <string name="incorrect_credentials">Неправильное имя или пароль.</string>
-    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="login">Войти</string>
+    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Войти</string>
     <string name="username">Имя</string>
     <string name="password">Пароль</string>
     <string name="reader">Читать</string>

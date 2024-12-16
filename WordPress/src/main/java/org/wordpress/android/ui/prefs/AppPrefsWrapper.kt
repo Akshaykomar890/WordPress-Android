@@ -400,7 +400,7 @@ class AppPrefsWrapper @Inject constructor(val buildConfigWrapper: BuildConfigWra
         isHidden: Boolean
     ) = AppPrefs.setShouldHidePostDashboardCard(siteId, postCardType, isHidden)
 
-    fun getShouldHidePostDashboardCard(siteId: Long, postCardType: String,): Boolean =
+    fun getShouldHidePostDashboardCard(siteId: Long, postCardType: String): Boolean =
         AppPrefs.getShouldHidePostDashboardCard(siteId, postCardType)
 
     fun setShouldHideNextStepsDashboardCard(siteId: Long, isHidden: Boolean) =
@@ -442,7 +442,7 @@ class AppPrefsWrapper @Inject constructor(val buildConfigWrapper: BuildConfigWra
     fun setShouldHideDynamicCard(id: String, isHidden: Boolean): Unit =
         AppPrefs.setShouldHideDynamicCard(id, isHidden)
 
-    fun getShouldHideDynamicCard(id: String, ): Boolean =
+    fun getShouldHideDynamicCard(id: String): Boolean =
         AppPrefs.getShouldHideDynamicCard(id)
 
     fun shouldUpdateBookmarkPostsPseudoIds(tag: ReaderTag?): Boolean = AppPrefs.shouldUpdateBookmarkPostsPseudoIds(tag)
@@ -455,6 +455,14 @@ class AppPrefsWrapper @Inject constructor(val buildConfigWrapper: BuildConfigWra
         AppPrefs.setShouldShowReaderAnnouncementCard(shouldShow)
 
     fun getAllPrefs(): Map<String, Any?> = AppPrefs.getAllPrefs()
+
+    fun getPrefString(key: String, defValue: String): String? {
+        return AppPrefs.prefs().getString(key, defValue)
+    }
+
+    fun setPrefString(key: String, value: String) {
+        AppPrefs.prefs().edit().putString(key, value).apply()
+    }
 
     fun getDebugBooleanPref(key: String, default: Boolean = false) =
         buildConfigWrapper.isDebug() && AppPrefs.getRawBoolean({ key }, default)

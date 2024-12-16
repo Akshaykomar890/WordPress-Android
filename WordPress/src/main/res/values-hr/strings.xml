@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Translation-Revision-Date: 2024-04-16 07:31:04+0000
+Translation-Revision-Date: 2024-11-26 20:52:06+0000
 Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);
 Generator: GlotPress/4.0.1
 Language: hr
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="feedback_form_title">Povratne informacije</string>
+    <string name="submit">Pošalji</string>
+    <string name="close">Zatvoriti</string>
+    <string name="sending">Šaljem</string>
+    <string name="voice_to_content_done_label">Završeno</string>
     <string name="label_done_button">Gotovo</string>
     <string name="scan">Skeniraj</string>
     <string name="reader_discover_empty_title">Dobro došli!</string>
@@ -129,8 +134,8 @@ Language: hr
     <string name="error_refreshing_gravatar">Pogreška tijekom učitavanja vašeg Gravatara</string>
     <string name="error_locating_image">Pogreška tijekom pronalaženja izrezane slike</string>
     <string name="error_cropping_image">Pogreška tijekom izrezivanja slike</string>
-    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="login">Provjeravam e-poštu</string>
-    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="login">Trenutačno nedostupno. Molimo unesite svoju lozinku</string>
+    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Provjeravam e-poštu</string>
+    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Trenutačno nedostupno. Molimo unesite svoju lozinku</string>
     <string name="logging_in">Prijavljivanje</string>
     <string name="web_address_dialog_hint">Prikazuje se javno kada komentirate.</string>
     <string name="capture_or_pick_photo">Snimite fotografiju fotoaparatom ili odaberite fotografiju</string>
@@ -223,7 +228,7 @@ Language: hr
     <string name="about_the_app">O aplikaciji</string>
     <string name="error_post_account_settings">Neuspjelo snimanje postavki vašeg računa</string>
     <string name="error_fetch_account_settings">Neuspjelo dohvaćanje postavki vašeg računa</string>
-    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="login">Neuspjelo dohvaćanje vašeg profila</string>
+    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="module:login">Neuspjelo dohvaćanje vašeg profila</string>
     <string name="site_settings_unknown_language_code_error">Jezični kod nije prepoznat</string>
     <string name="site_settings_threading_dialog_description">Dopusti grananje komentara.</string>
     <string name="site_settings_threading_dialog_header">Grananje do </string>
@@ -424,9 +429,9 @@ Language: hr
     <string name="select_all">Odaberi sve</string>
     <string name="deselect_all">Odznači sve</string>
     <string name="language">Jezik</string>
-    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Kod za provjeru</string>
-    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Neispravan verifikacijski kod</string>
-    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Ponovno se prijavite za nastavak.</string>
+    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Kod za provjeru</string>
+    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Neispravan verifikacijski kod</string>
+    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ponovno se prijavite za nastavak.</string>
     <string name="error_notification_open">Ne mogu otvoriti obavjesti</string>
     <string name="pages_fetching">Dohvaćanje stranica…</string>
     <string name="posts_fetching">Dohvaćanje objava…</string>
@@ -507,7 +512,7 @@ Language: hr
     <string name="error_downloading_image">Greška pri preuzimanju slike</string>
     <string name="username_or_password_incorrect">Korisničko ime ili lozinka koje ste unijeli nisu točni</string>
     <string name="invalid_email_message">Vaša adresa e-pošte nije valjana</string>
-    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="login">Unesite ispravnu adresu e-pošte</string>
+    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="module:login">Unesite ispravnu adresu e-pošte</string>
     <string name="error_deleting_post">Dogodila se greška prilikom brisanja posta</string>
     <string name="add_new_category">Dodaj novu kategoriju</string>
     <string name="category_name">Ime kategorije</string>
@@ -546,7 +551,7 @@ Language: hr
     <string name="post_not_found">Dogodila se greška tijekom učitavanja objave. Osvježite objave i pokušajte ponovno.</string>
     <string name="file_not_found">Nije moguće pronaći medijski zapis za prijenos. Jeli obrisan ili premješten?</string>
     <string name="file_error_create">Nije moguće kreirati privremeni zapis za prijenos medijskog zapisa. Provjerite da ima dovoljno slobodnog mjesta na vašem uređaju.</string>
-    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="login">Potrebna autorizacija</string>
+    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Potrebna autorizacija</string>
     <string name="error_blog_hidden">Blog je skriven i nije ga moguće učitati. Ponovno ga omogućite u postavkama i pokušajte ponovno.</string>
     <string name="fatal_db_error">Pojavila se greška prilikom kreiranja app baze podataka. Pokušajte ponovno instalirati app.</string>
     <string name="remove_account">Ukloni web-stranicu</string>
@@ -579,7 +584,7 @@ Language: hr
     <string name="reader_toast_err_view_image">Nije moguće prikazati sliku</string>
     <string name="reader_toast_err_url_intent">Nije moguće otvoriti %s</string>
     <string name="comments_empty_list">Još nema komentara</string>
-    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="login">Prijavite se</string>
+    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Prijavite se</string>
     <string name="stats_timeframe_days">Dani</string>
     <string name="stats_timeframe_weeks">Tjedni</string>
     <string name="stats_timeframe_months">Mjeseci</string>
@@ -607,13 +612,13 @@ Language: hr
     <string name="more_notifications">i %d više.</string>
     <string name="note_reply_successful">Odgovor objavljen</string>
     <string name="loading">Učitavanje…</string>
-    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP korisničko ime</string>
-    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP lozinka</string>
+    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP korisničko ime</string>
+    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP lozinka</string>
     <string name="error_media_upload">Dogodila se greška tijekom prijenosa medijskog zapisa</string>
     <string name="incorrect_credentials">Neispravno korisničko ime ili lozinka.</string>
     <string name="password">Lozinka</string>
     <string name="username">Korisničko ime</string>
-    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="login">Prijavi se</string>
+    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Prijavi se</string>
     <string name="reader">Čitač</string>
     <string name="no_network_title">Nema dostupne mreže</string>
     <string name="width" tools:ignore="UnusedResources" a8c-src-lib="module:editor">Širina</string>

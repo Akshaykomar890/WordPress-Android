@@ -1,0 +1,6 @@
+25.5:
+Este mes, hemos:
+- Corregido los iconos de redes sociales rotos en Jetpack Social
+- Corregido algunos errores del modo oscuro
+- Llevado el editor experimental a Android. ¡Pruébalo y dinos qué te parece!
+- Ajustado la forma en que los usuarios inician sesión en WordPress.com, corrigiendo un problema de hace tiempo que hacía que no se pudiera iniciar sesión con la contraseña numérica.

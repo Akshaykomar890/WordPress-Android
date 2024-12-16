@@ -49,8 +49,8 @@ Language: az
     <string name="hide">Gizlət</string>
     <string name="select_all">Tamamını seç</string>
     <string name="language">Dil</string>
-    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Təsdiqləmə kodu</string>
-    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Keçərsiz təsdiqləmə kodu</string>
+    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Təsdiqləmə kodu</string>
+    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Keçərsiz təsdiqləmə kodu</string>
     <string name="reader_empty_posts_request_failed">Yazılar geri alına bilmir</string>
     <string name="error_notification_open">Bildiriş açılmadı</string>
     <string name="stats_search_terms_unknown_search_terms">Bilinməyən Axtarış Kriteriyaları</string>
@@ -126,7 +126,7 @@ Language: az
     <string name="error_downloading_image">Təsvir endirilərkən xəta baş verdi</string>
     <string name="error_edit_comment">Şərh redaktəsi sırasında xəta baş verdi</string>
     <string name="invalid_email_message">Keçərsiz e-poçt ünvanı</string>
-    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="login">Etibarlı e-poçt ünvanı daxil edin</string>
+    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="module:login">Etibarlı e-poçt ünvanı daxil edin</string>
     <string name="username_or_password_incorrect">Yanlış istifadəçi adı və ya parol daxil etdiniz</string>
     <string name="select_categories">Kateqoriyaları seç</string>
     <string name="connection_error">Qoşulma xətası</string>
@@ -138,7 +138,7 @@ Language: az
     <string name="wordpress_blog">WordPress bloqu</string>
     <string name="error_blog_hidden">Bu bloq gizlidir və yüklənmədi. Parametrlərdən yenidən aktivləşdirin və təkrar yoxlayın.</string>
     <string name="fatal_db_error">Proqram üçün verilənlər bazası yaradılarkən bir xəta baş verdi. Proqramı təkrar qurmağa cəhd edin.</string>
-    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="login">Qeydiyyat gərəklidir</string>
+    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Qeydiyyat gərəklidir</string>
     <string name="view_in_browser">Brauzerdə bax</string>
     <string name="add_new_category">Yeni kateqoriya əlavə et</string>
     <string name="category_name">Kateqoriya adı</string>
@@ -217,8 +217,8 @@ Language: az
     <string name="more_notifications">və %d daha çox.</string>
     <string name="new_notifications">%d yeni bildirişlər</string>
     <string name="loading">Yüklənir…</string>
-    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP istifadəçi adı</string>
-    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP parolu</string>
+    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP istifadəçi adı</string>
+    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP parolu</string>
     <string name="error_media_upload">Media faylının yüklənməsi zamanı xəta baş verdi.</string>
     <string name="incorrect_credentials">Yanlış istifadəçi adı və ya parol</string>
     <string name="password">Parol</string>

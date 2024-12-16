@@ -1,12 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Translation-Revision-Date: 2024-08-29 09:54:08+0000
+Translation-Revision-Date: 2024-12-10 11:54:10+0000
 Plural-Forms: nplurals=2; plural=n > 1;
 Generator: GlotPress/4.0.1
 Language: fr
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="me_btn_feedback">Envoyer des commentaires</string>
+    <string name="default_web_client_id" a8c-src-lib="module:login">texte indicatif</string>
+    <string name="personalization_screen_shortcuts_accessibility_label">(Dés)activer le raccourci %s</string>
+    <string name="personalization_screen_card_accessibility_label">(Dés)activer la carte %s</string>
+    <string name="user_avatar_content_description">Avatar pour l’utilisateur %s</string>
+    <string name="user_row_content_description">Afficher les détails pour l’utilisateur %s</string>
+    <string name="biographical_info_empty">Aucun renseignement saisi</string>
+    <string name="biographical_info">Renseignements biographiques</string>
+    <string name="about_the_user">À propos de l’utilisateur</string>
+    <string name="website">Site Web</string>
+    <string name="contact_info">Informations de contact</string>
+    <string name="nickname">Pseudonyme</string>
+    <string name="no_users">Aucun utilisateur</string>
+    <string name="more_content_description_plans">En savoir plus sur les Plans</string>
+    <string name="more_content_description_recent_activity">En savoir plus sur l’Activité récente</string>
+    <string name="more_content_description_pages">En savoir plus sur les Pages</string>
+    <string name="more_content_description_posts">En savoir plus sur les Publications</string>
+    <string name="more_content_description_quick_start">En savoir plus sur le Démarrage rapide</string>
+    <string name="more_content_description_today_stats">En savoir plus sur les Statistiques du jour</string>
+    <string name="more_content_description_blogging_prompts">En savoir plus sur les Invites</string>
+    <string name="more_content_description_promote_blaze">En savoir plus sur Blaze</string>
+    <string name="reader_toast_success_undo">Blog déverrouillé</string>
+    <string name="feedback_form_note_link">Écran Contacter l’assistance.</string>
+    <string name="feedback_form_note_text">Veuillez noter qu’il ne s’agit pas d’un formulaire d’assistance et que nous ne pourrons pas répondre. Si vous avez besoin d’assistance, veuillez utiliser notre \"</string>
+    <string name="experimental_block_editor_theme_styles">Styles de l’éditeur de blocs expérimentaux</string>
+    <string name="experimental_block_editor">Éditeur de blocs expérimentaux</string>
+    <string name="dialog_confirm_autosave_dont_restore_button">Depuis cette application</string>
+    <string name="dialog_confirm_autosave_restore_button">Depuis un autre appareil</string>
     <string name="media_pager_remove_item_content_description">Supprimer l’élément %1$d</string>
     <string name="feedback_form_add_attachments">Ajouter des pièces jointes</string>
     <string name="feedback_form_unable_to_create_tempfile">Impossible de créer un fichier temporaire</string>
@@ -260,9 +286,9 @@ Language: fr
     <string name="jp_migration_done_no_sites_message">Il est temps de poursuivre votre aventure WordPress sur l’application Jetpack.</string>
     <string name="domain_management_clear_search">Supprimer la recherche</string>
     <string name="media_encoder_quality_very_high">Très élevée</string>
-    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Veuillez fournir votre clé de sécurité pour continuer.</string>
-    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">La connexion via la clé de sécurité rencontre des soucis</string>
-    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">Utiliser une clé de sécurité</string>
+    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Veuillez fournir votre clé de sécurité pour continuer.</string>
+    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">La connexion via la clé de sécurité rencontre des soucis</string>
+    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">Utiliser une clé de sécurité</string>
     <string name="new_domain_search_screen_error_title">Impossible de récupérer les domaines</string>
     <string name="new_domain_search_screen_list_item_sale_price">%s la première année</string>
     <string name="new_domain_search_screen_list_item_regular_price">%s/an</string>
@@ -281,7 +307,6 @@ Language: fr
     <string name="post_list_toggle_author_filter">Filtrer par auteur</string>
     <string name="gutenberg_native_s_block_converted_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">Bloc « %s » converti en blocs</string>
     <string name="gutenberg_native_alternatively_you_can_convert_the_content_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">Vous pouvez également convertir le contenu en blocs.</string>
-    <string name="personalization_screen_shortcuts_add_or_remove_shortcut_button">Ajouter ou supprimer des raccourcis</string>
     <string name="personalization_screen_tab_shortcuts_inactive_shortcuts">Raccourcis inactifs</string>
     <string name="personalization_screen_tab_shortcuts_active_shortcuts">Raccourcis actifs</string>
     <string name="personalization_screen_shortcuts_tab_title">Raccourcis</string>
@@ -540,7 +565,6 @@ Language: fr
     <string name="site_creation_domain_tag_recommended">Recommandé</string>
     <string name="site_creation_domain_tag_best_alternative">Meilleure alternative</string>
     <string name="site_creation_domain_cost">par an</string>
-    <string name="me_btn_help">Aide</string>
     <string name="support_faq_caption">Notre FAQ comporte les réponses aux questions fréquentes que vous vous posez peut-être.</string>
     <string name="support_faq_title">Merci d’être passé à l’application Jetpack !</string>
     <string name="logs_button">Journaux</string>
@@ -706,9 +730,9 @@ Language: fr
     <string name="connections_label">Connexions Jetpack Social</string>
     <string name="stats_widget_log_in_to_add_message">Connectez-vous à l’application Jetpack pour ajouter un widget.</string>
     <string name="stats_view_publicize">Connexions Jetpack Social</string>
-    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="login">Nous venons d\'envoyer un lien magique à </string>
-    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="login">Consultez votre messagerie sur cet appareil !</string>
-    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="login">Utilisez le mot de passe pour la connexion</string>
+    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nous venons d\'envoyer un lien magique à </string>
+    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="module:login">Consultez votre messagerie sur cet appareil !</string>
+    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Utilisez le mot de passe pour la connexion</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack_caption">Restez informé grâce aux mises à jour en temps réel relatives aux nouveaux commentaires, au trafic du site, aux rapports de sécurité, et bien plus encore.</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack">Les notifications sont propulsées par Jetpack</string>
     <string name="wp_jetpack_powered_stats_powered_by_jetpack_caption">Suivez l\'évolution de votre trafic et apprenez-en davantage sur votre public à l\'aide de la section Tendances et statistiques remaniée, disponible dans la nouvelle application Jetpack.</string>
@@ -941,10 +965,10 @@ Language: fr
     <string name="my_site_dashboard_tab_title">Accueil</string>
     <string name="adding_cat">Ajout d’une catégorie</string>
     <string name="login_select_email_client">Quelle app utilisez-vous pour vos e-mails ?</string>
-    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="login">Un problème est survenu lors de la communication avec le site. Cela a provoqué une erreur HTTP 401.</string>
-    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Le protocole XML-RPC semble être bloqué sur ce site (code erreur 401). Si votre tentative de connexion échoue, tapez sur l’icône d’aide pour afficher la FAQ.</string>
-    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="login">Impossible de lire le site WordPress  à cette adresse web. Tapez sur l’icône d’aide pour afficher la FAQ.</string>
-    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="login">Les services XML-RPC sont désactivés sur ce site.</string>
+    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="module:login">Un problème est survenu lors de la communication avec le site. Cela a provoqué une erreur HTTP 401.</string>
+    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Le protocole XML-RPC semble être bloqué sur ce site (code erreur 401). Si votre tentative de connexion échoue, tapez sur l’icône d’aide pour afficher la FAQ.</string>
+    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Impossible de lire le site WordPress  à cette adresse web. Tapez sur l’icône d’aide pour afficher la FAQ.</string>
+    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="module:login">Les services XML-RPC sont désactivés sur ce site.</string>
     <string name="my_site_menu_tab_title">Menu</string>
     <string name="new_site_creation_empty_domain_list_message_invalid_query">Votre recherche contient des caractères non pris en charge dans les domaines WordPress.com. Les caractères sont les seuls autorisés : A–Z, a–z, 0–9.</string>
     <string name="my_site_error_within_card_subtitle">Vérifiez votre connexion Internet et actualisez la page.</string>
@@ -1307,7 +1331,7 @@ Language: fr
     <string name="new_site_creation_search_domain_input_hint">Saisissez un nom pour votre site</string>
     <string name="quick_start_completed_type_grow_message">&lt;b&gt;Toutes les tâches sont terminées&lt;/b&gt;.&lt;br/&gt;Vous toucherez plus de personnes. Bon travail !</string>
     <string name="quick_start_completed_type_customize_message">&lt;b&gt;Toutes les tâches sont terminées&lt;/b&gt;.&lt;br/&gt;Vous avez personnalisé votre site. Bravo !</string>
-    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="login">Vous ne voulez pas créer de nouveau compte ? Revenez en arrière et ressaisissez votre adresse e-mail.</string>
+    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vous ne voulez pas créer de nouveau compte ? Revenez en arrière et ressaisissez votre adresse e-mail.</string>
     <string name="invite_links_disable_dialog_message">Une fois le lien d’invitation désactivé, plus personne ne pourra l’utiliser pour rejoindre votre équipe. Confirmez-vous ?</string>
     <string name="invite_links_disable_dialog_title">Désactiver le lien d’invitation</string>
     <string name="invite_links_bad_format_response">Réponse reçue non valide</string>
@@ -1585,8 +1609,8 @@ Language: fr
     <string name="hpp_retry_error">Veuillez vérifier votre connexion internet, puis réessayez.</string>
     <string name="hpp_error_subtitle">Appuyez sur Réessayer lorsque vous êtes de nouveau en ligne.</string>
     <string name="hpp_error_title">Mises en page non disponibles hors connexion</string>
-    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="login">Continuer avec les identifiants de connexion de la boutique</string>
-    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="login">Trouver votre e-mail connecté</string>
+    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="module:login">Continuer avec les identifiants de connexion de la boutique</string>
+    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Trouver votre e-mail connecté</string>
     <string name="reader_discover_no_posts_follow_subtitle">Essayez de suivre plus d’étiquettes pour élargir la recherche</string>
     <string name="reader_discover_no_posts_title">Pas d’articles récents.</string>
     <string name="reader_discover_empty_title">Bienvenue !</string>
@@ -1654,8 +1678,8 @@ Language: fr
     <string name="suggestion_no_connection">Aucune connexion internet.\nLes suggestions ne sont pas disponibles.</string>
     <string name="mlp_notselected_description">%s</string>
     <string name="mlp_selected_description">%s sélectionné </string>
-    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Obtenir un lien de connexion par e-mail.</string>
-    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="login">Hum, nous ne trouvons pas de compte WordPress.com connecté à cet adresse e-mail.</string>
+    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Obtenir un lien de connexion par e-mail.</string>
+    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hum, nous ne trouvons pas de compte WordPress.com connecté à cet adresse e-mail.</string>
     <string name="permission_microphone">Microphone</string>
     <string name="comment_unable_to_show_error">Impossible d’afficher ce commentaire</string>
     <string name="media_browse_for_items">Parcourir les éléments.</string>
@@ -1701,26 +1725,26 @@ Language: fr
     <string name="gutenberg_native_choose_image" tools:ignore="UnusedResources">Choisir une image</string>
     <string name="gutenberg_native_block_removed" tools:ignore="UnusedResources">Bloc supprimé</string>
     <string name="enter_your_site_address">Saisissez l’adresse de votre site actuel</string>
-    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="login">Confirmation de l’inscription</string>
-    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">Si vous continuez avec Google sans disposer au préalable d’un compte WordPress.com, vous créez un compte et acceptez nos %1$sconditions d’utilisation%2$s.</string>
-    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">En poursuivant, vous acceptez nos %1$sConditions d’utilisation%2$s.</string>
-    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="login">Nous utiliserons cette adresse e-mail pour créer votre nouveau compte WordPress.com.</string>
-    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="login">Nous vous avons envoyé un lien par e-mail pour créer votre nouveau compte WordPress.com. Consultez vos e-mails sur cet appareil et appuyez sur le lien dans l’e-mail que vous avez reçu de WordPress.com.</string>
-    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Saisissez vos informations de compte pour %1$s.</string>
-    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="login">ou</string>
-    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">Continuer avec Google</string>
-    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="login">Trouver l’adresse de votre site</string>
+    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Confirmation de l’inscription</string>
+    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">Si vous continuez avec Google sans disposer au préalable d’un compte WordPress.com, vous créez un compte et acceptez nos %1$sconditions d’utilisation%2$s.</string>
+    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">En poursuivant, vous acceptez nos %1$sConditions d’utilisation%2$s.</string>
+    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nous utiliserons cette adresse e-mail pour créer votre nouveau compte WordPress.com.</string>
+    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nous vous avons envoyé un lien par e-mail pour créer votre nouveau compte WordPress.com. Consultez vos e-mails sur cet appareil et appuyez sur le lien dans l’e-mail que vous avez reçu de WordPress.com.</string>
+    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Saisissez vos informations de compte pour %1$s.</string>
+    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="module:login">ou</string>
+    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">Continuer avec Google</string>
+    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Trouver l’adresse de votre site</string>
     <string name="login_done">Terminé</string>
-    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="login">Vous ne voyez pas l’e-mail ? Vérifiez votre dossier de courrier indésirable.</string>
-    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="login">Consultez vos e-mails sur cet appareil et appuyez sur le lien dans l’e-mail que vous avez reçu de WordPress.com.</string>
-    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="login">Nous vous enverrons par e-mail un lien qui vous connectera instantanément, sans mot de passe.</string>
-    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="login">Vérifier les e-mails</string>
-    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="login">Premiers pas</string>
-    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">Entrez votre adresse e-mail pour vous connecter ou créez un compte WordPress.com.</string>
-    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Vous pouvez également saisir votre mot de passe</string>
-    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="login">Créer un compte</string>
-    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Envoyer un lien par e-mail</string>
-    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Réinitialiser votre mot de passe</string>
+    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vous ne voyez pas l’e-mail ? Vérifiez votre dossier de courrier indésirable.</string>
+    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Consultez vos e-mails sur cet appareil et appuyez sur le lien dans l’e-mail que vous avez reçu de WordPress.com.</string>
+    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nous vous enverrons par e-mail un lien qui vous connectera instantanément, sans mot de passe.</string>
+    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vérifier les e-mails</string>
+    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="module:login">Premiers pas</string>
+    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">Entrez votre adresse e-mail pour vous connecter ou créez un compte WordPress.com.</string>
+    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vous pouvez également saisir votre mot de passe</string>
+    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">Créer un compte</string>
+    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Envoyer un lien par e-mail</string>
+    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Réinitialiser votre mot de passe</string>
     <string name="reader_error_request_failed_title">Un problème est survenu lors du traitement de la demande. Veuillez réessayer plus tard.</string>
     <string name="quick_start_list_update_site_title_title">Vérifier le titre de votre site</string>
     <string name="quick_start_dialog_update_site_title_message_short">Appuyer sur &lt;b&gt;%1$s&lt;/b&gt; pour définir un nouveau titre</string>
@@ -1972,12 +1996,12 @@ Language: fr
     <string name="dialog_confirm_scheduled_post_sync_title">Prêt à synchroniser ?</string>
     <string name="new_site_creation_unavailable_domain">Ce domaine n’est pas disponible</string>
     <string name="negative_prefix">-%s</string>
-    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">Nous n’avons pas pu accéder à votre site. Vous devrez contacter votre hébergeur pour résoudre ce problème.</string>
-    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="login">Nous n’avons pas pu accéder à votre site à cause d’un problème avec le &lt;b&gt;certificat SSL&lt;/b&gt;. Vous devrez contacter votre hébergeur pour résoudre ce problème.</string>
-    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="login">Nous n’avons pas pu accéder à votre site car il requiert une &lt;b&gt;authentification HTTP&lt;/b&gt;. Vous devrez contacter votre hébergeur pour résoudre ce problème.</string>
-    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="login">Nous n’avons pas pu accéder au &lt;b&gt;fichier XMLRPC&lt;/b&gt; sur votre site. Vous devrez contacter votre hébergeur pour résoudre ce problème.</string>
-    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="login">Vous y êtes presque ! Nous devons juste vérifier votre adresse e-mail connectée à Jetpack &lt;b&gt;%1$s&lt;/b&gt;</string>
-    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Connexion avec vos identifiants au site %1$s</string>
+    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nous n’avons pas pu accéder à votre site. Vous devrez contacter votre hébergeur pour résoudre ce problème.</string>
+    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nous n’avons pas pu accéder à votre site à cause d’un problème avec le &lt;b&gt;certificat SSL&lt;/b&gt;. Vous devrez contacter votre hébergeur pour résoudre ce problème.</string>
+    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nous n’avons pas pu accéder à votre site car il requiert une &lt;b&gt;authentification HTTP&lt;/b&gt;. Vous devrez contacter votre hébergeur pour résoudre ce problème.</string>
+    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nous n’avons pas pu accéder au &lt;b&gt;fichier XMLRPC&lt;/b&gt; sur votre site. Vous devrez contacter votre hébergeur pour résoudre ce problème.</string>
+    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vous y êtes presque ! Nous devons juste vérifier votre adresse e-mail connectée à Jetpack &lt;b&gt;%1$s&lt;/b&gt;</string>
+    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Connexion avec vos identifiants au site %1$s</string>
     <string name="my_site_bottom_sheet_add_page">Page du site</string>
     <string name="reader_my_likes_display_name">J’aime</string>
     <string name="reader_discover_display_name">Découvrez</string>
@@ -2075,8 +2099,6 @@ Language: fr
     <string name="post_preview_remote_auto_saving_post">Génération de l\'aperçu…</string>
     <string name="post_preview_saving_draft">Enregistrement en cours…</string>
     <string name="local_post_autosave_revision_available">Les modifications que vous avez apportées à cet article n\'ont pas été enregistrées</string>
-    <string name="dialog_confirm_autosave_dont_restore_button">La version de cette application</string>
-    <string name="dialog_confirm_autosave_restore_button">La version d\'un autre appareil</string>
     <string name="dialog_confirm_autosave_body_second_part">Depuis cette application\nEnregistré sur %1$s\n\nDepuis un autre appareil\nEnregistré sur %2$s\n</string>
     <string name="dialog_confirm_autosave_body_first_part">Vous avez récemment apporté des modifications à cet article, mais ne les avez pas enregistrées. Choisissez une version à charger :\n\n</string>
     <string name="dialog_confirm_autosave_title">Quelle version souhaitez-vous modifier ?</string>
@@ -2143,8 +2165,8 @@ Language: fr
     <string name="post_settings_add_to_calendar">Ajouter au calendrier</string>
     <string name="post_settings_notification">Notification</string>
     <string name="post_settings_time_and_date">Date et heure</string>
-    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="login">Veuillez entrer une adresse de site Web complète, telle que exemple.com.</string>
-    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Connectez-vous à WordPress.com pour accéder à %1$s</string>
+    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="module:login">Veuillez entrer une adresse de site Web complète, telle que exemple.com.</string>
+    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Connectez-vous à WordPress.com pour accéder à %1$s</string>
     <string name="stats_post_views_label">Vues</string>
     <string name="stats_post_label">Article</string>
     <string name="stats_list_item_description">%1$s : %2$s, %3$s: %4$s</string>
@@ -2260,8 +2282,8 @@ Language: fr
     <string name="posts_draft_empty">Vous n\'avez pas de brouillons d\'article</string>
     <string name="posts_scheduled_empty">Vous n\'avez aucun article planifié</string>
     <string name="posts_published_empty">Vous n\'avez pas encore publié d\'articles</string>
-    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Veuillez vous connecter avec votre identifiant et votre mot de passe.</string>
-    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="login">Veuillez vous connecter avec votre identifiant WordPress.com plutôt qu\'avec votre adresse de messagerie.</string>
+    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Veuillez vous connecter avec votre identifiant et votre mot de passe.</string>
+    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Veuillez vous connecter avec votre identifiant WordPress.com plutôt qu\'avec votre adresse de messagerie.</string>
     <string name="stats_insights_average_words">Moyenne mots/article</string>
     <string name="stats_insights_total_words">Total des mots</string>
     <string name="stats_insights_average_likes">Moyenne des j’aime/article</string>
@@ -2271,7 +2293,7 @@ Language: fr
     <string name="stats_insights_posts">Articles</string>
     <string name="stats_insights_year">Année</string>
     <string name="stats_insights_this_year_site_stats">Cette année</string>
-    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="login">Le site à cette adresse n’est pas un site WordPress. Pour que nous le connections, le site doit utiliser WordPress.</string>
+    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Le site à cette adresse n’est pas un site WordPress. Pour que nous le connections, le site doit utiliser WordPress.</string>
     <string name="plugin_check_domain_credit_error">Impossible de vérifier les crédits de domaine disponibles</string>
     <string name="plugin_check_domain_credits_progress_dialog_message">Vérification des crédits de domaine</string>
     <string name="plugin_install_custom_domain_required_dialog_register_btn">Enregistrer le domaine</string>
@@ -2432,7 +2454,7 @@ Language: fr
     <string name="history_detail_button_previous">Précédent</string>
     <string name="history_detail_button_next">Suivant</string>
     <string name="media_space_used">%1$s utilisé</string>
-    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="login">Veuillez entrer un site WordPress auto-hébergé et connecté à Jetpack ou un site WordPress.com</string>
+    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Veuillez entrer un site WordPress auto-hébergé et connecté à Jetpack ou un site WordPress.com</string>
     <string name="history_loading_revision">Chargement de la révision</string>
     <string name="history_loaded_revision">Révision chargée</string>
     <string name="history_load_dialog_button_positive">Charger</string>
@@ -2464,8 +2486,8 @@ Language: fr
     <string name="pages_scheduled" tools:ignore="UnusedResources">Planifiées</string>
     <string name="pages_drafts" tools:ignore="UnusedResources">Brouillons</string>
     <string name="pages_published" tools:ignore="UnusedResources">Publiées</string>
-    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="login">Le nombre de tentatives d\'envoi d\'un code de vérification par SMS a été dépassé – faites une pause et redemandez-en un dans une minute.</string>
-    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="login">Aucun compte WordPress.com ne correspond à ce compte Google.</string>
+    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="module:login">Le nombre de tentatives d\'envoi d\'un code de vérification par SMS a été dépassé – faites une pause et redemandez-en un dans une minute.</string>
+    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="module:login">Aucun compte WordPress.com ne correspond à ce compte Google.</string>
     <string name="site_picker_remove_site_empty">Aucun site ne correspond à votre recherche</string>
     <string name="reader_no_followed_blogs_search_title">Aucun blog ne correspond à votre recherche</string>
     <string name="page_parent_changed">Le parent de la page a été modifié</string>
@@ -2501,7 +2523,7 @@ Language: fr
     <string name="content_description_more">Plus</string>
     <string name="my_site_create_new_site_title">Vous n\'avez pas de sites.</string>
     <string name="reader_empty_subscribed_tags_subtitle">Ajouter des étiquettes ici pour trouver des articles sur vos thèmes préférés</string>
-    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="login">Connectez-vous au compte WordPress.com que vous utilisez pour connecter Jetpack.</string>
+    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="module:login">Connectez-vous au compte WordPress.com que vous utilisez pour connecter Jetpack.</string>
     <string name="jetpack">Jetpack</string>
     <string name="stats_jetpack_connection_faq">FAQ Jetpack</string>
     <string name="stats_jetpack_connection_setup_info">Pour utiliser les statistiques sur votre site WordPress, vous devez installer l\'extension Jetpack.</string>
@@ -2555,13 +2577,13 @@ Language: fr
     <string name="reader_empty_search_title">Aucun résultat trouvé</string>
     <string name="comment_read_source_post">Lire la source de l’article</string>
     <string name="sites">Sites</string>
-    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="login">Lien magique envoyé</string>
-    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="login">Code de vérification</string>
-    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Informations de connexion</string>
-    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Lien magique envoyé</string>
-    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Lien magique de connexion</string>
-    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Adresse de site de connexion</string>
-    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Adresse e-mail de connexion</string>
+    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lien magique envoyé</string>
+    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Code de vérification</string>
+    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Informations de connexion</string>
+    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lien magique envoyé</string>
+    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Lien magique de connexion</string>
+    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Adresse de site de connexion</string>
+    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Adresse e-mail de connexion</string>
     <string name="reader_empty_saved_posts_description">Appuyez sur %s pour enregistrer un article dans votre liste.</string>
     <string name="reader_empty_saved_posts_title">Aucun article enregistré — pour le moment !</string>
     <string name="reader_bookmark_snack_title">Article enregistré</string>
@@ -2664,7 +2686,7 @@ Language: fr
     <string name="invite_user_delete_desc">supprimer %s</string>
     <string name="profile_picture">Photo de profil de %s</string>
     <string name="comment_checkmark_desc">coche</string>
-    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Inscription avec Google…</string>
+    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Inscription avec Google…</string>
     <string name="jetpack_connection_failed_with_reason">Échec de la connexion à Jetpack : %s</string>
     <string name="jetpack_already_connected_toast">Vous êtes déjà abonné à Jetpack</string>
     <string name="menu_visual_mode">Mode visuel</string>
@@ -2745,7 +2767,7 @@ Language: fr
     <string name="site_creation_domain_finish_button">Créer un site</string>
     <string name="notification_site_creation_created">Touchez pour continuer.</string>
     <string name="notification_site_creation_title_success">Le site a bien été créé !</string>
-    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="login">Google a mis trop longtemps à répondre. Vous devrez peut-être attendre de profiter d\'une meilleure connexion Internet.</string>
+    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google a mis trop longtemps à répondre. Vous devrez peut-être attendre de profiter d\'une meilleure connexion Internet.</string>
     <string name="username_changer_title">Modifier l\'identifiant</string>
     <string name="username_changer_hint">Appuyez pour obtenir plus de suggestions.</string>
     <string name="username_changer_header">Votre identifiant actuel est %1$s%2$s%3$s. À quelques exceptions près, le nom que verront les autres utilisateurs est %4$s%5$s%6$s.</string>
@@ -2757,10 +2779,10 @@ Language: fr
     <string name="content_description_add_avatar">Ajouter un avatar</string>
     <string name="signup_user_exists">L\'adresse e-mail existe déjà sur WordPress.com.\nPoursuite de la connexion.</string>
     <string name="signup_updating_account">Mise à jour du compte…</string>
-    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Envoi de l\'e-mail</string>
-    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="login">Réessayer</string>
-    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="login">Fermer</string>
-    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="login">Une erreur s\'est produite lors de l’envoi de l\'e-mail. Vous pouvez recommencer maintenant ou fermer et réessayer ultérieurement.</string>
+    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Envoi de l\'e-mail</string>
+    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="module:login">Réessayer</string>
+    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="module:login">Fermer</string>
+    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Une erreur s\'est produite lors de l’envoi de l\'e-mail. Vous pouvez recommencer maintenant ou fermer et réessayer ultérieurement.</string>
     <string name="signup_epilogue_hint_username">Identifiant</string>
     <string name="signup_epilogue_hint_password_detail">Vous pouvez toujours vous connecter avec un lien de connexion comme celui que vous venez d\'utiliser. Vous pouvez également définir un mot de passe si vous le préférez.</string>
     <string name="signup_epilogue_hint_password">Mot de passe (facultatif)</string>
@@ -2858,18 +2880,18 @@ Language: fr
     <string name="my_site_btn_plugins">Extensions</string>
     <string name="media_edit_link_hint">Ouvrir le lien dans une nouvelle fenêtre/onglet</string>
     <string name="media_edit_link_text">Lien vers</string>
-    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="login">Une erreur est survenue.</string>
-    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Veuillez fournir un code d\'authentification pour continuer. </string>
-    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="login">Veuillez confirmer deux fois votre mot de passe pour continuer.</string>
-    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="login">Connexion stoppée</string>
-    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="login">Veuillez patienter durant la connexion.</string>
-    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Connexion en cours…</string>
-    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="login">Touchez pour continuer.</string>
-    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="login">Connecté⋅e !</string>
-    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="login">La connexion Google n’a pas pu démarrer.</string>
-    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="login">Veuillez saisir un mot de passe</string>
-    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="login">Envoyez-moi un autre code à la place</string>
-    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="login">Nous envoyons un message texte au numéro de téléphone se terminant par %s. Veuillez saisir le code de vérification dans le SMS.</string>
+    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Une erreur est survenue.</string>
+    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Veuillez fournir un code d\'authentification pour continuer. </string>
+    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Veuillez confirmer deux fois votre mot de passe pour continuer.</string>
+    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="module:login">Connexion stoppée</string>
+    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Veuillez patienter durant la connexion.</string>
+    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Connexion en cours…</string>
+    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Touchez pour continuer.</string>
+    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="module:login">Connecté⋅e !</string>
+    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="module:login">La connexion Google n’a pas pu démarrer.</string>
+    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Veuillez saisir un mot de passe</string>
+    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="module:login">Envoyez-moi un autre code à la place</string>
+    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nous envoyons un message texte au numéro de téléphone se terminant par %s. Veuillez saisir le code de vérification dans le SMS.</string>
     <string name="image_size">Taille</string>
     <string name="uploading_subtitle_media_only_one">1 fichier restant</string>
     <string name="uploading_subtitle_media_only">%1$d fichiers sur %2$d fichiers</string>
@@ -2886,15 +2908,15 @@ Language: fr
     <string name="confirm_remove_media_image">Retirer cette image de l’article ?</string>
     <string name="media_edit_customize_card_caption">Personnaliser</string>
     <string name="media_edit_file_details_card_caption">Détails du fichier</string>
-    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">Essayer avec un autre compte ?</string>
-    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">Il y a eu des problèmes avec le compte Google.</string>
+    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">Essayer avec un autre compte ?</string>
+    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">Il y a eu des problèmes avec le compte Google.</string>
     <string name="login_error_button">Fermer</string>
-    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="login">Pour faire cela avec ce compte Google, veuillez fournir le mot de passe WordPress.com correspondant. Ceci ne sera demandé qu’une seule fois.</string>
+    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="module:login">Pour faire cela avec ce compte Google, veuillez fournir le mot de passe WordPress.com correspondant. Ceci ne sera demandé qu’une seule fois.</string>
     <string name="error_generic_network">Une erreur réseau est survenue. Veuillez vérifier votre connexion et essayer à nouveau.</string>
     <string name="post_settings_remove_featured_image">Retirer l’image mise en avant</string>
     <string name="post_settings_choose_featured_image">Choisir l’image mise en avant</string>
-    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Connectez-vous sur WordPress.com pour partager ce contenu.</string>
-    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Saisissez l’adresse du site WordPress sur lequel vous souhaitez partager le contenu.</string>
+    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Connectez-vous sur WordPress.com pour partager ce contenu.</string>
+    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Saisissez l’adresse du site WordPress sur lequel vous souhaitez partager le contenu.</string>
     <string name="jetpack_disconnect_error_toast">Erreur lors de la déconnexion du site</string>
     <string name="jetpack_disconnect_success_toast">Site déconnecté</string>
     <string name="jetpack_disconnect_confirm">Déconnexion</string>
@@ -2978,28 +3000,28 @@ Language: fr
     <string name="login_epilogue_mysites_other">Mes sites</string>
     <string name="login_epilogue_mysites_one">Mon site</string>
     <string name="login_email_client_not_found">Aucune application de messagerie détectée</string>
-    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="login">Veuillez saisir votre code de vérification</string>
-    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="login">Veuillez saisir un identifiant</string>
-    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="login">Connectez-vous à WordPress.com pour accéder à l’article.</string>
-    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="login">Erreur lors de l’ajout du site. Code erreur : %s</string>
-    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Vérification de l’adresse du site</string>
-    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="login">Besoin d’aide ?</string>
-    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="login">L’adresse de votre site apparait dans la barre en haut de l’écran quand vous visitez votre site avec Chrome.</string>
-    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="login">Quelle est l’adresse de mon site ?</string>
-    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Adresse du site</string>
-    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Saisissez l’adresse du site WordPress que vous voulez connecter.</string>
+    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="module:login">Veuillez saisir votre code de vérification</string>
+    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="module:login">Veuillez saisir un identifiant</string>
+    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="module:login">Connectez-vous à WordPress.com pour accéder à l’article.</string>
+    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Erreur lors de l’ajout du site. Code erreur : %s</string>
+    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vérification de l’adresse du site</string>
+    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="module:login">Besoin d’aide ?</string>
+    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="module:login">L’adresse de votre site apparait dans la barre en haut de l’écran quand vous visitez votre site avec Chrome.</string>
+    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Quelle est l’adresse de mon site ?</string>
+    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Adresse du site</string>
+    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Saisissez l’adresse du site WordPress que vous voulez connecter.</string>
     <string name="login_already_logged_in_wpcom">Déjà connecté·e à WordPress.com</string>
-    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="login">Continuer</string>
+    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="module:login">Continuer</string>
     <string name="connect_more">Connectez un autre site</string>
-    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="login">Saisissez votre mot de passe WordPress.com.</string>
-    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="login">Demande de l’e-mail de connexion</string>
-    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="login">Il semblerait que ce mot de passe est incorrect. Veuillez vérifier et essayer à nouveau.</string>
-    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="login">Demande d’un code de vérification par SMS.</string>
-    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="login">Envoyez-moi un code par SMS à la place</string>
-    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Vous y êtes presque ! Veuillez saisir le code de vérification WordPress.com de votre application d’authentification.</string>
-    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="login">Ouvrir la messagerie</string>
+    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Saisissez votre mot de passe WordPress.com.</string>
+    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="module:login">Demande de l’e-mail de connexion</string>
+    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="module:login">Il semblerait que ce mot de passe est incorrect. Veuillez vérifier et essayer à nouveau.</string>
+    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">Demande d’un code de vérification par SMS.</string>
+    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">Envoyez-moi un code par SMS à la place</string>
+    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vous y êtes presque ! Veuillez saisir le code de vérification WordPress.com de votre application d’authentification.</string>
+    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ouvrir la messagerie</string>
     <string name="next">Suivant</string>
-    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">Connectez-vous à WordPress.com en utilisant une adresse de messagerie pour gérer tous vos sites WordPress.com.</string>
+    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">Connectez-vous à WordPress.com en utilisant une adresse de messagerie pour gérer tous vos sites WordPress.com.</string>
     <string name="me_profile_photo">Photographie de profil.</string>
     <string name="error_media_parse_error">Réponse inattendue reçue du serveur.</string>
     <string name="upload_finished_toast">Impossible de stopper le téléversement car il est déjà terminé.</string>
@@ -3150,8 +3172,8 @@ Language: fr
     <string name="error_all_media_upload_canceled">Tous les téléversements de médias ont été annulés à cause d’une erreur inconnue. Veuillez essayer à nouveau le téléversement.</string>
     <string name="error_unknown_post_type">Format d\'article inconnu</string>
     <string name="submit_for_review">Envoyer</string>
-    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="login">Un site dupliqué a été détecté.</string>
-    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="login">Ce site existe déjà dans l’app. Vous ne pouvez pas l’ajouter.</string>
+    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="module:login">Un site dupliqué a été détecté.</string>
+    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ce site existe déjà dans l’app. Vous ne pouvez pas l’ajouter.</string>
     <string name="already_logged_in_wpcom">Vous êtes déjà connecté à votre compte WordPress.com. Vous ne pouvez pas ajouter un site WordPress.com lié à un autre compte.</string>
     <string name="error_media_load">Impossible de charger le média</string>
     <string name="error_media_refresh_no_connection">Connexion obligatoire pour actualiser la bibliothèque</string>
@@ -3163,8 +3185,8 @@ Language: fr
     <string name="media_upload_error">Une erreur de téléversement de média s’est produite</string>
     <string name="retry">Réessayer</string>
     <string name="confirm">Confirmer</string>
-    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="login">Connexion impossible. Nous avons reçu une erreur 403 lors de \nnotre tentative d\'accès au point de terminaison XML-RPC de votre site. \nL’application en a besoin pour communiquer avec votre site. \nContactez votre hébergeur pour résoudre ce problème.</string>
-    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="login">Connexion impossible. Votre hébergeur bloque les requêtes POST\ndont votre application a besoin pour communiquer avec votre site. \nContactez-le pour résoudre ce problème.</string>
+    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Connexion impossible. Nous avons reçu une erreur 403 lors de \nnotre tentative d\'accès au point de terminaison XML-RPC de votre site. \nL’application en a besoin pour communiquer avec votre site. \nContactez votre hébergeur pour résoudre ce problème.</string>
+    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Connexion impossible. Votre hébergeur bloque les requêtes POST\ndont votre application a besoin pour communiquer avec votre site. \nContactez-le pour résoudre ce problème.</string>
     <string name="pending_draft_one_generic">Ne le laissez pas sur la touche&amp;nbsp;! «&amp;nbsp;%1$s&amp;nbsp;» attendre d’être publié.</string>
     <string name="pending_draft_one_month">Ne le laissez pas sur la touche&amp;nbsp;! «&amp;nbsp;%1$s&amp;nbsp;» attendre d’être publié.</string>
     <string name="pending_draft_one_week_2">«&amp;nbsp;%1$s&amp;nbsp;» est toujours un brouillon. N\'oubliez pas de le publier&amp;nbsp;!</string>
@@ -3265,8 +3287,8 @@ Language: fr
     <string name="error_refreshing_gravatar">Erreur lors de la mise en ligne de votre Gravatar</string>
     <string name="error_locating_image">Erreur de la localisation de l\'image recadrée</string>
     <string name="error_cropping_image">Erreur lors du recadrage de l\'image</string>
-    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="login">Vérification de l\'adresse e-mail</string>
-    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="login">Actuellement indisponible. Veuillez saisir votre mot de passe</string>
+    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Vérification de l\'adresse e-mail</string>
+    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Actuellement indisponible. Veuillez saisir votre mot de passe</string>
     <string name="logging_in">Connexion</string>
     <string name="web_address_dialog_hint">Affiché publiquement quand vous commentez.</string>
     <string name="capture_or_pick_photo">Prenez une photo ou choisissez-en une</string>
@@ -3302,7 +3324,7 @@ Language: fr
     <string name="comments_empty_list_filtered_pending">Aucun commentaire en attente</string>
     <string name="comments_empty_list_filtered_approved">Aucun commentaire approuvé</string>
     <string name="button_skip">Sauter</string>
-    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="login">Impossible de se connecter. Le serveur ne dispose pas des méthodes XML-RPC requises.</string>
+    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Impossible de se connecter. Le serveur ne dispose pas des méthodes XML-RPC requises.</string>
     <string name="alignment_center">Centré</string>
     <string name="post_format_video">Vidéo</string>
     <string name="post_format_status">État</string>
@@ -3362,7 +3384,7 @@ Language: fr
     <string name="about_the_app">À propos de l\'application</string>
     <string name="error_post_account_settings">Impossible d\'enregistrer vos réglages de compte</string>
     <string name="error_fetch_account_settings">Impossible de récupérer vos réglages de compte</string>
-    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="login">Impossible de récupérer votre profil</string>
+    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="module:login">Impossible de récupérer votre profil</string>
     <string name="site_settings_unknown_language_code_error">Code de langue non reconnu</string>
     <string name="site_settings_threading_dialog_description">Autoriser les commentaires à se faire en discussion imbriquées.</string>
     <string name="site_settings_threading_dialog_header">Imbriquer jusqu\'à</string>
@@ -3565,9 +3587,9 @@ Language: fr
     <string name="select_all">Tout selectionner</string>
     <string name="hide">Masquer</string>
     <string name="show">Montrer</string>
-    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Se reconnecter pour continuer.</string>
-    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Code de vérification invalide</string>
-    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Code de vérification</string>
+    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Se reconnecter pour continuer.</string>
+    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Code de vérification invalide</string>
+    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Code de vérification</string>
     <string name="language">Langue</string>
     <string name="reader_empty_posts_request_failed">Impossible de récupérer les articles</string>
     <string name="error_notification_open">Impossible d\'ouvrir la notification</string>
@@ -3631,7 +3653,7 @@ Language: fr
     <string name="ssl_certificate_error">Certificat SSL invalide</string>
     <string name="help">Aide</string>
     <string name="username_or_password_incorrect">L\'identifiant ou le mot de passe saisi est incorrect</string>
-    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="login">Entrez une adresse e-mail valide</string>
+    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="module:login">Entrez une adresse e-mail valide</string>
     <string name="invalid_email_message">Votre adresse e-mail est invalide</string>
     <string name="error_downloading_image">Erreur du téléchargement d\'image</string>
     <string name="error_load_comment">Ne peut pas charger le commentaire</string>
@@ -3664,7 +3686,7 @@ Language: fr
     <string name="new_media">Nouveau média</string>
     <string name="new_post">Nouvel article</string>
     <string name="notifications_empty_all">Pas (encore) de notifications.</string>
-    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="login">Autorisation requise</string>
+    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Autorisation requise</string>
     <string name="invalid_site_url_message">Vérifiez que l\'URL saisie est valide</string>
     <string name="file_error_create">Impossible de créer un fichier temporaire pour le téléversement de média. Veuillez vérifier que vous disposez d\'assez d\'espace libre sur votre appareil.</string>
     <string name="category_name">Nom de la catégorie</string>
@@ -3711,7 +3733,7 @@ Language: fr
     <string name="reader_likes_you_and_one">Vous et un autre avez aimé ceci</string>
     <string name="pick_video">Sélectionner une vidéo</string>
     <string name="pick_photo">Sélectionner une photo</string>
-    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="login">S’inscrire</string>
+    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">S’inscrire</string>
     <string name="reader_toast_err_url_intent">Impossible d\'ouvrir %s</string>
     <string name="reader_toast_err_view_image">Impossible de voir l\'image</string>
     <string name="reader_toast_err_share_intent">Impossible de partager</string>
@@ -3755,11 +3777,11 @@ Language: fr
     <string name="note_reply_successful">Réponse envoyée</string>
     <string name="sign_in">Se connecter</string>
     <string name="loading">Chargement…</string>
-    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="login">Mot de passe HTTP</string>
-    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="login">Nom d’utilisateur HTTP</string>
+    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="module:login">Mot de passe HTTP</string>
+    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="module:login">Nom d’utilisateur HTTP</string>
     <string name="error_media_upload">Désolé, une erreur est survenue pendant le téléversement du média</string>
     <string name="incorrect_credentials">L\'identifiant ou le mot de passe sont incorrects.</string>
-    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="login">Connexion</string>
+    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Connexion</string>
     <string name="username">Identifiant</string>
     <string name="password">Mot de passe</string>
     <string name="reader">Lecteur</string>

@@ -6,7 +6,6 @@ Generator: GlotPress/4.0.1
 Language: ja_JP
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="me_btn_feedback">フィードバックを送る</string>
     <string name="media_pager_remove_item_content_description">アイテム%1$dを削除</string>
     <string name="feedback_form_add_attachments">添付ファイルを追加</string>
     <string name="feedback_form_unable_to_create_tempfile">一時ファイルを作成できません</string>
@@ -256,9 +255,9 @@ Language: ja_JP
     <string name="jp_migration_done_no_sites_message">Jetpack アプリで WordPress のジャーニーを続ける時が来ました。</string>
     <string name="domain_management_clear_search">検索をクリア</string>
     <string name="media_encoder_quality_very_high">非常に高い</string>
-    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="login">続行するにはセキュリティキーを入力してください。</string>
-    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">セキュリティキーログインで問題が発生しました</string>
-    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">セキュリティキーを使用</string>
+    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">続行するにはセキュリティキーを入力してください。</string>
+    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">セキュリティキーログインで問題が発生しました</string>
+    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">セキュリティキーを使用</string>
     <string name="new_domain_search_screen_error_title">ドメインを取得できませんでした</string>
     <string name="new_domain_search_screen_list_item_sale_price">初年度: %s</string>
     <string name="new_domain_search_screen_list_item_regular_price">%s / 年</string>
@@ -277,7 +276,6 @@ Language: ja_JP
     <string name="post_list_toggle_author_filter">投稿者別に絞り込む</string>
     <string name="gutenberg_native_s_block_converted_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">「%s」ブロックがブロックに変換されました</string>
     <string name="gutenberg_native_alternatively_you_can_convert_the_content_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">またはコンテンツをブロックに変換することもできます。</string>
-    <string name="personalization_screen_shortcuts_add_or_remove_shortcut_button">ショートカットを追加または削除</string>
     <string name="personalization_screen_tab_shortcuts_inactive_shortcuts">無効なショートカット</string>
     <string name="personalization_screen_tab_shortcuts_active_shortcuts">有効なショートカット</string>
     <string name="personalization_screen_shortcuts_tab_title">ショートカット</string>
@@ -535,7 +533,6 @@ Language: ja_JP
     <string name="site_creation_domain_tag_recommended">おすすめ</string>
     <string name="site_creation_domain_tag_best_alternative">こちらもおすすめ</string>
     <string name="site_creation_domain_cost">/年</string>
-    <string name="me_btn_help">ヘルプ</string>
     <string name="support_faq_caption">FAQ でよくある質問に対する回答をご確認ください。</string>
     <string name="support_faq_title">Jetpack アプリにお切り替えいただきありがとうございます !</string>
     <string name="logs_button">ログ</string>
@@ -701,9 +698,9 @@ Language: ja_JP
     <string name="connections_label">Jetpack ソーシャル連携</string>
     <string name="stats_widget_log_in_to_add_message">ウィジェットを追加するには Jetpack アプリにログインしてください。</string>
     <string name="stats_view_publicize">Jetpack ソーシャル連携</string>
-    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="login">マジックリンクを次のアドレスに送信しました: </string>
-    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="login">この端末でメールアドレスを確認してください。</string>
-    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="login">パスワードを使用してログイン</string>
+    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="module:login">マジックリンクを次のアドレスに送信しました: </string>
+    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="module:login">この端末でメールアドレスを確認してください。</string>
+    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">パスワードを使用してログイン</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack_caption">新しいコメント、サイトトラフィック、セキュリティレポートなど、リアルタイムの更新を入手できます。</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack">通知は、Jetpack が提供しています。</string>
     <string name="wp_jetpack_powered_stats_powered_by_jetpack_caption">新しい Jetpack アプリで利用できる新しい統計情報と統計概要を使用して、トラフィックの増加を監視し、オーディエンスについて学びましょう。</string>
@@ -937,10 +934,10 @@ Language: ja_JP
     <string name="my_site_dashboard_tab_title">ホーム</string>
     <string name="adding_cat">カテゴリーを追加しています</string>
     <string name="login_select_email_client">どのメールアプリを使用していますか ?</string>
-    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="login">サイトとの通信中に問題が発生しました。 HTTP エラーコード401が返されました。</string>
-    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">このサイトでは XML-RPC コールがブロックされているようです (エラーコード401)。 ログインに失敗する場合は、ヘルプアイコンをタップして FAQ をご確認ください。</string>
-    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="login">ご指定の URL の WordPress サイトを読み込めません。 ヘルプアイコンをタップして FAQ を表示してください。</string>
-    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="login">このサイトでは XML-RPC サービスが無効になっています。</string>
+    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="module:login">サイトとの通信中に問題が発生しました。 HTTP エラーコード401が返されました。</string>
+    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">このサイトでは XML-RPC コールがブロックされているようです (エラーコード401)。 ログインに失敗する場合は、ヘルプアイコンをタップして FAQ をご確認ください。</string>
+    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">ご指定の URL の WordPress サイトを読み込めません。 ヘルプアイコンをタップして FAQ を表示してください。</string>
+    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="module:login">このサイトでは XML-RPC サービスが無効になっています。</string>
     <string name="my_site_menu_tab_title">メニュー</string>
     <string name="new_site_creation_empty_domain_list_message_invalid_query">検索内容に WordPress.com のドメインではサポートされていない文字が含まれています。 サポートされている文字は A–Z、a–z、0–9です。</string>
     <string name="my_site_error_within_card_subtitle">インターネット接続を確認してページを更新してください。</string>
@@ -1304,7 +1301,7 @@ Language: ja_JP
     <string name="new_site_creation_search_domain_input_hint">サイトの名前を入力してください</string>
     <string name="quick_start_completed_type_grow_message">&lt;b&gt;全タスク完了&lt;/b&gt;&lt;br/&gt;より多くの人に発信できるでしょう。素晴らしいです !</string>
     <string name="quick_start_completed_type_customize_message">&lt;b&gt;全タスク完了&lt;/b&gt;&lt;br/&gt;サイトをカスタマイズしました。いい感じです !</string>
-    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="login">新しいアカウントを作成しない場合は、 戻ってメールアドレスを再度入力してください。</string>
+    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">新しいアカウントを作成しない場合は、 戻ってメールアドレスを再度入力してください。</string>
     <string name="invite_links_disable_dialog_message">招待リンクを無効化すると、このリンクを使用してチームに参加できなくなります。本当に実行しますか ?</string>
     <string name="invite_links_disable_dialog_title">招待リンクを無効化</string>
     <string name="invite_links_bad_format_response">無効な応答を受信しました</string>
@@ -1582,8 +1579,8 @@ Language: ja_JP
     <string name="hpp_retry_error">ネットワーク接続を確認して、もう一度お試しください。</string>
     <string name="hpp_error_subtitle">オンラインに戻ったら、「再試行」をタップします。</string>
     <string name="hpp_error_title">レイアウトはオフラインでは利用できません</string>
-    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="login">ストアのログイン情報で続ける</string>
-    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="login">連携済みのメールアドレスを検索</string>
+    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="module:login">ストアのログイン情報で続ける</string>
+    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">連携済みのメールアドレスを検索</string>
     <string name="reader_discover_no_posts_follow_subtitle">もっと多くのタグをフォローして、検索範囲を広げてみてください</string>
     <string name="reader_discover_no_posts_title">最近の投稿はありません</string>
     <string name="reader_discover_empty_title">ようこそ !</string>
@@ -1651,8 +1648,8 @@ Language: ja_JP
     <string name="suggestion_no_connection">インターネットに接続していません。\n提案が利用できません。</string>
     <string name="mlp_notselected_description">%s</string>
     <string name="mlp_selected_description">%sを選択済み</string>
-    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">ログインリンクをメールで取得</string>
-    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="login">このメールアドレスに紐付けられている WordPress.com アカウントが見つかりません。</string>
+    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">ログインリンクをメールで取得</string>
+    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="module:login">このメールアドレスに紐付けられている WordPress.com アカウントが見つかりません。</string>
     <string name="permission_microphone">マイク</string>
     <string name="comment_unable_to_show_error">このコメントを表示できません</string>
     <string name="media_browse_for_items">項目を閲覧</string>
@@ -1698,26 +1695,26 @@ Language: ja_JP
     <string name="gutenberg_native_choose_image" tools:ignore="UnusedResources">画像を選択</string>
     <string name="gutenberg_native_block_removed" tools:ignore="UnusedResources">削除したブロック</string>
     <string name="enter_your_site_address">既存のサイトアドレスを入力</string>
-    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="login">登録の確認</string>
-    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">Google を引き続き使用し、WordPress.com アカウントをまだお持ちでない場合は、アカウントを作成して WordPress.com の%1$s利用規約%2$sに同意します。</string>
-    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">継続することで、%1$s利用規約%2$sに合意したことになります。</string>
-    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="login">このメールアドレスは新しい WordPress.com アカウントの作成に使用します。</string>
-    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="login">新しい WordPress.com アカウントを作成するための登録リンクをメールでお送りしました。現在の端末でメールをチェックし、WordPress.com から届いたメールにあるリンクをタップしてください。</string>
-    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">%1$s のアカウント情報を入力してください。</string>
-    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="login">または</string>
-    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">Google で続ける</string>
-    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="login">サイトアドレスを検索</string>
+    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">登録の確認</string>
+    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google を引き続き使用し、WordPress.com アカウントをまだお持ちでない場合は、アカウントを作成して WordPress.com の%1$s利用規約%2$sに同意します。</string>
+    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">継続することで、%1$s利用規約%2$sに合意したことになります。</string>
+    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">このメールアドレスは新しい WordPress.com アカウントの作成に使用します。</string>
+    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">新しい WordPress.com アカウントを作成するための登録リンクをメールでお送りしました。現在の端末でメールをチェックし、WordPress.com から届いたメールにあるリンクをタップしてください。</string>
+    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">%1$s のアカウント情報を入力してください。</string>
+    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="module:login">または</string>
+    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google で続ける</string>
+    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="module:login">サイトアドレスを検索</string>
     <string name="login_done">終了</string>
-    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="login">メールが表示されない場合は、 スパムメールや迷惑メールのフォルダーを確認してください。</string>
-    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="login">この端末でメールをチェックして、WordPress.com から届いたメールにあるリンクをタップしてください。</string>
-    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="login">パスワードなしですぐにログインできるリンクのメールをお送りします。</string>
-    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="login">メールを確認</string>
-    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="login">今すぐ始める</string>
-    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">メールアドレスを入力してログインするか、WordPress.com アカウントを作成します。</string>
-    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">またはパスワードを入力</string>
-    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="login">アカウントを作成</string>
-    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">リンクをメールで送信</string>
-    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">パスワードをリセット</string>
+    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">メールが表示されない場合は、 スパムメールや迷惑メールのフォルダーを確認してください。</string>
+    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">この端末でメールをチェックして、WordPress.com から届いたメールにあるリンクをタップしてください。</string>
+    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">パスワードなしですぐにログインできるリンクのメールをお送りします。</string>
+    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">メールを確認</string>
+    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="module:login">今すぐ始める</string>
+    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">メールアドレスを入力してログインするか、WordPress.com アカウントを作成します。</string>
+    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">またはパスワードを入力</string>
+    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">アカウントを作成</string>
+    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">リンクをメールで送信</string>
+    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">パスワードをリセット</string>
     <string name="reader_error_request_failed_title">リクエストの処理中に問題が発生しました。 後ほど、もう一度お試しください。</string>
     <string name="quick_start_list_update_site_title_title">サイトタイトルを確認</string>
     <string name="quick_start_dialog_update_site_title_message_short">新しいタイトルを設定するには&lt;b&gt;%1$s&lt;/b&gt;をタップしてください</string>
@@ -1970,12 +1967,12 @@ Language: ja_JP
     <string name="dialog_confirm_scheduled_post_sync_title">同期しても良いですか ?</string>
     <string name="new_site_creation_unavailable_domain">このドメインは利用できません</string>
     <string name="negative_prefix">-%s</string>
-    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">サイトにアクセスできませんでした。ホストに問い合わせてこの問題を解決してください。</string>
-    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="login">&lt;b&gt;SSL 証明書&lt;/b&gt;の問題により、サイトにアクセスできませんでした。ホストに問い合わせてこの問題を解決してください。</string>
-    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="login">&lt;b&gt;HTTP 認証&lt;/b&gt;の問題により、サイトにアクセスできませんでした。ホストに問い合わせてこの問題を解決してください。</string>
-    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="login">サイトの &lt;b&gt;XMLRPC ファイル&lt;/b&gt;にアクセスできませんでした。ホストに問い合わせてこの問題を解決してください。</string>
-    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="login">もう少しです !最後に、Jetpack に連携したメールアドレス &lt;b&gt;%1$s&lt;/b&gt; を確認します</string>
-    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">%1$s サイトのアカウント情報でログイン</string>
+    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">サイトにアクセスできませんでした。ホストに問い合わせてこの問題を解決してください。</string>
+    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="module:login">&lt;b&gt;SSL 証明書&lt;/b&gt;の問題により、サイトにアクセスできませんでした。ホストに問い合わせてこの問題を解決してください。</string>
+    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="module:login">&lt;b&gt;HTTP 認証&lt;/b&gt;の問題により、サイトにアクセスできませんでした。ホストに問い合わせてこの問題を解決してください。</string>
+    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="module:login">サイトの &lt;b&gt;XMLRPC ファイル&lt;/b&gt;にアクセスできませんでした。ホストに問い合わせてこの問題を解決してください。</string>
+    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">もう少しです !最後に、Jetpack に連携したメールアドレス &lt;b&gt;%1$s&lt;/b&gt; を確認します</string>
+    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">%1$s サイトのアカウント情報でログイン</string>
     <string name="my_site_bottom_sheet_add_page">サイトのページ</string>
     <string name="reader_my_likes_display_name">いいね</string>
     <string name="reader_discover_display_name">ディスカバー</string>
@@ -2073,8 +2070,6 @@ Language: ja_JP
     <string name="post_preview_remote_auto_saving_post">プレビューを生成中…</string>
     <string name="post_preview_saving_draft">保存中…</string>
     <string name="local_post_autosave_revision_available">この投稿に保存されていない変更が加えられました</string>
-    <string name="dialog_confirm_autosave_dont_restore_button">このアプリからのバージョン</string>
-    <string name="dialog_confirm_autosave_restore_button">他の端末からのバージョン</string>
     <string name="dialog_confirm_autosave_body_second_part">このアプリから\n%1$s\n に保存しました\nほかのデバイスから\n%2$s\n に保存しました\n</string>
     <string name="dialog_confirm_autosave_body_first_part">この投稿に最近変更が加えられましたが、保存されませんでした。読み込むバージョンを選択します。\n\n</string>
     <string name="dialog_confirm_autosave_title">どのバージョンを編集しますか ?</string>
@@ -2141,8 +2136,8 @@ Language: ja_JP
     <string name="post_settings_add_to_calendar">カレンダーに追加</string>
     <string name="post_settings_notification">通知</string>
     <string name="post_settings_time_and_date">日付と時刻</string>
-    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="login">ウェブサイトの完全なアドレス (例 : example.com) を入力してください。</string>
-    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">WordPress.com でログインして、%1$s に接続してください</string>
+    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="module:login">ウェブサイトの完全なアドレス (例 : example.com) を入力してください。</string>
+    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">WordPress.com でログインして、%1$s に接続してください</string>
     <string name="stats_post_views_label">表示数</string>
     <string name="stats_post_label">投稿</string>
     <string name="stats_list_item_description">%1$s:%2$s、%3$s:%4$s</string>
@@ -2258,8 +2253,8 @@ Language: ja_JP
     <string name="posts_draft_empty">投稿の下書きはありません</string>
     <string name="posts_scheduled_empty">予約済み投稿はありません</string>
     <string name="posts_published_empty">公開した投稿はまだありません</string>
-    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="login">ユーザー名とパスワードでログインしてください。</string>
-    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="login">メールアドレスではなく WordPress.com ユーザー名を使用してログインしてください。</string>
+    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">ユーザー名とパスワードでログインしてください。</string>
+    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">メールアドレスではなく WordPress.com ユーザー名を使用してログインしてください。</string>
     <string name="stats_insights_average_words">1投稿あたりの平均単語数</string>
     <string name="stats_insights_total_words">総単語数</string>
     <string name="stats_insights_average_likes">1投稿あたりの「いいね」の平均数</string>
@@ -2269,7 +2264,7 @@ Language: ja_JP
     <string name="stats_insights_posts">投稿</string>
     <string name="stats_insights_year">年</string>
     <string name="stats_insights_this_year_site_stats">今年</string>
-    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="login">このアドレスのサイトは WordPress のサイトではありません。接続するには、接続先のサイトが WordPress を使用している必要があります。</string>
+    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">このアドレスのサイトは WordPress のサイトではありません。接続するには、接続先のサイトが WordPress を使用している必要があります。</string>
     <string name="plugin_check_domain_credit_error">登録可能なドメインクレジットの確認に失敗しました</string>
     <string name="plugin_check_domain_credits_progress_dialog_message">ドメインクレジットの確認</string>
     <string name="plugin_install_custom_domain_required_dialog_register_btn">ドメインを登録</string>
@@ -2430,7 +2425,7 @@ Language: ja_JP
     <string name="history_detail_button_previous">前へ</string>
     <string name="history_detail_button_next">次へ</string>
     <string name="media_space_used">%1$s を使用</string>
-    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="login">WordPress.com または Jetpack と連携したインストール型 WordPress サイトを入力してください</string>
+    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">WordPress.com または Jetpack と連携したインストール型 WordPress サイトを入力してください</string>
     <string name="history_loading_revision">変更履歴を読み込んでいます</string>
     <string name="history_loaded_revision">変更履歴の読み取りが完了しました</string>
     <string name="history_load_dialog_button_positive">読み込む</string>
@@ -2462,8 +2457,8 @@ Language: ja_JP
     <string name="pages_scheduled" tools:ignore="UnusedResources">予約済み</string>
     <string name="pages_drafts" tools:ignore="UnusedResources">下書き</string>
     <string name="pages_published" tools:ignore="UnusedResources">公開済み</string>
-    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="login">SMS 認証コードの送信試行回数が多すぎます。しばらくしてから、新しい認証コードをリクエストしてください。</string>
-    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="login">この Google アカウントに一致する WordPress.com アカウントはありません。</string>
+    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="module:login">SMS 認証コードの送信試行回数が多すぎます。しばらくしてから、新しい認証コードをリクエストしてください。</string>
+    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="module:login">この Google アカウントに一致する WordPress.com アカウントはありません。</string>
     <string name="site_picker_remove_site_empty">検索に一致するサイトはありません</string>
     <string name="reader_no_followed_blogs_search_title">検索に一致するブログがありません</string>
     <string name="page_parent_changed">ページの親が変更されました</string>
@@ -2499,7 +2494,7 @@ Language: ja_JP
     <string name="content_description_more">もっと見る</string>
     <string name="my_site_create_new_site_title">サイトがありません</string>
     <string name="reader_empty_subscribed_tags_subtitle">ここでタグを追加して、お気に入りのトピックに関する投稿を検索します</string>
-    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="login">Jetpack を接続するのに使用した WordPress.com アカウントにログインします。</string>
+    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="module:login">Jetpack を接続するのに使用した WordPress.com アカウントにログインします。</string>
     <string name="jetpack">Jetpack</string>
     <string name="stats_jetpack_connection_faq">Jetpack よくある質問</string>
     <string name="stats_jetpack_connection_setup_info">WordPress サイトの統計情報を利用するには、Jetpack プラグインのインするが必要です。</string>
@@ -2553,13 +2548,13 @@ Language: ja_JP
     <string name="reader_empty_search_title">一致する結果が見つかりません</string>
     <string name="comment_read_source_post">元の投稿を読む</string>
     <string name="sites">サイト</string>
-    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="login">マジックリンクが送信されました</string>
-    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="login">コードの認証</string>
-    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">ログイン情報</string>
-    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">マジックリンクが送信されました</string>
-    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">マジックリンクでのログイン</string>
-    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">サイトアドレスでのログイン</string>
-    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">メールアドレスでのログイン</string>
+    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">マジックリンクが送信されました</string>
+    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">コードの認証</string>
+    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">ログイン情報</string>
+    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">マジックリンクが送信されました</string>
+    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">マジックリンクでのログイン</string>
+    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">サイトアドレスでのログイン</string>
+    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">メールアドレスでのログイン</string>
     <string name="reader_empty_saved_posts_description">%s をタップし、投稿をリストに保存します。</string>
     <string name="reader_empty_saved_posts_title">投稿はまだ保存されていません。</string>
     <string name="reader_bookmark_snack_title">投稿を保存しました</string>
@@ -2662,7 +2657,7 @@ Language: ja_JP
     <string name="invite_user_delete_desc">%s を削除</string>
     <string name="profile_picture">%s のプロフィール写真</string>
     <string name="comment_checkmark_desc">チェックマーク</string>
-    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Google アカウントで登録中…</string>
+    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google アカウントで登録中…</string>
     <string name="jetpack_connection_failed_with_reason">Jetpack への接続に失敗しました:%s</string>
     <string name="jetpack_already_connected_toast">すでに Jetpack に接続しています</string>
     <string name="menu_visual_mode">ビジュアルモード</string>
@@ -2743,7 +2738,7 @@ Language: ja_JP
     <string name="site_creation_domain_finish_button">サイトの作成</string>
     <string name="notification_site_creation_created">続行するにはタップしてください。</string>
     <string name="notification_site_creation_title_success">サイトを作成しました。</string>
-    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="login">Google が応答するのに時間がかかりすぎました。インターネット接続が安定するまで時間がかかる場合があります。</string>
+    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google が応答するのに時間がかかりすぎました。インターネット接続が安定するまで時間がかかる場合があります。</string>
     <string name="username_changer_title">ユーザー名の変更</string>
     <string name="username_changer_hint">入力してさらに候補を表示</string>
     <string name="username_changer_header">現在のユーザー名は %1$s%2$s%3$s です。いくつかの例外はありますが、他のユーザーには表示名 %4$s%5$s%6$s しか表示されません。</string>
@@ -2755,10 +2750,10 @@ Language: ja_JP
     <string name="content_description_add_avatar">アバターの追加</string>
     <string name="signup_user_exists">WordPress.com にすでにメールがあります。\nログインを処理しています。</string>
     <string name="signup_updating_account">アカウントを更新しています…</string>
-    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="login">メールを送信中</string>
-    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="login">再試行</string>
-    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="login">閉じる</string>
-    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="login">メールの送信中にエラーが発生しました。今すぐ再試行するか、しばらくしてからもう一度お試しください。</string>
+    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">メールを送信中</string>
+    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="module:login">再試行</string>
+    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="module:login">閉じる</string>
+    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">メールの送信中にエラーが発生しました。今すぐ再試行するか、しばらくしてからもう一度お試しください。</string>
     <string name="signup_epilogue_hint_username">ユーザー名</string>
     <string name="signup_epilogue_hint_password_detail">先ほど使用したようなリンクでいつでもログインできますが、ご希望の場合はパスワードを設定することもできます。</string>
     <string name="signup_epilogue_hint_password">パスワード (オプション)</string>
@@ -2856,18 +2851,18 @@ Language: ja_JP
     <string name="my_site_btn_plugins">プラグイン</string>
     <string name="media_edit_link_hint">リンクを新しいウィンドウまたはタブで開く</string>
     <string name="media_edit_link_text">リンク先</string>
-    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="login">エラーが発生しました。</string>
-    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="login">続行するには認証コードを入力してください。</string>
-    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="login">続行するにはパスワードをダブルチェックしてください。</string>
-    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="login">ログインが停止されました</string>
-    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="login">ログインするまでしばらくお待ちください。</string>
-    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="login">ログイン中…</string>
-    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="login">続行するにはタップしてください。</string>
-    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="login">ログインしました。</string>
-    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="login">Google ログインを開始できませんでした。</string>
-    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="login">パスワードを入力してください</string>
-    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="login">代わりに別のコードを送信する</string>
-    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="login">末尾が%sで終わる電話番号にテキストメッセージを送信しました。SMS の認証コードを入力してください。</string>
+    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="module:login">エラーが発生しました。</string>
+    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">続行するには認証コードを入力してください。</string>
+    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">続行するにはパスワードをダブルチェックしてください。</string>
+    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="module:login">ログインが停止されました</string>
+    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">ログインするまでしばらくお待ちください。</string>
+    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">ログイン中…</string>
+    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">続行するにはタップしてください。</string>
+    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="module:login">ログインしました。</string>
+    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google ログインを開始できませんでした。</string>
+    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">パスワードを入力してください</string>
+    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="module:login">代わりに別のコードを送信する</string>
+    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="module:login">末尾が%sで終わる電話番号にテキストメッセージを送信しました。SMS の認証コードを入力してください。</string>
     <string name="image_size">サイズ</string>
     <string name="uploading_subtitle_media_only_one">残り1ファイルです</string>
     <string name="uploading_subtitle_media_only">残り%1$d/%2$dファイルです</string>
@@ -2884,15 +2879,15 @@ Language: ja_JP
     <string name="confirm_remove_media_image">この画像を投稿から削除しますか ?</string>
     <string name="media_edit_customize_card_caption">カスタマイズ</string>
     <string name="media_edit_file_details_card_caption">ファイルの詳細</string>
-    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">\n別のアカウントを試してみますか ?</string>
-    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">Google アカウントへの接続で何らかの問題が発生しました。</string>
+    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">\n別のアカウントを試してみますか ?</string>
+    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google アカウントへの接続で何らかの問題が発生しました。</string>
     <string name="login_error_button">閉じる</string>
-    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="login">この Google アカウントで続行するには、一致する WordPress.com パスワードを入力してください。この操作が必要になるのは一度だけです。</string>
+    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="module:login">この Google アカウントで続行するには、一致する WordPress.com パスワードを入力してください。この操作が必要になるのは一度だけです。</string>
     <string name="error_generic_network">ネットワークエラーが発生しました。接続を確認して、もう一度お試しください。</string>
     <string name="post_settings_remove_featured_image">アイキャッチ画像を削除</string>
     <string name="post_settings_choose_featured_image">アイキャッチ画像を選択</string>
-    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">WordPress.com にログインしてコンテンツを共有します。</string>
-    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">コンテンツを共有する WordPress サイトのアドレスを入力します。</string>
+    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">WordPress.com にログインしてコンテンツを共有します。</string>
+    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">コンテンツを共有する WordPress サイトのアドレスを入力します。</string>
     <string name="jetpack_disconnect_error_toast">サイトの接続解除中のエラー</string>
     <string name="jetpack_disconnect_success_toast">サイトが接続解除されました</string>
     <string name="jetpack_disconnect_confirm">連携解除</string>
@@ -2976,28 +2971,28 @@ Language: ja_JP
     <string name="login_epilogue_mysites_other">自分のサイト</string>
     <string name="login_epilogue_mysites_one">自分のサイト</string>
     <string name="login_email_client_not_found">メールクライアントアプリを検出できません</string>
-    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="login">認証コードを入力してください</string>
-    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="login">ユーザー名を入力してください</string>
-    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="login">WordPress.com にログインして投稿にアクセスしてください。</string>
-    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="login">サイトを追加する際にエラーが発生しました。エラーコード: %s</string>
-    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">サイトアドレスの確認</string>
-    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="login">問題が解決しない場合</string>
-    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="login">Chrome でサイトにアクセスすると、画面の上部にあるバーにサイトアドレスが表示されます。</string>
-    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="login">自分のサイトアドレスは ?</string>
-    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">サイトアドレス</string>
-    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">連携する WordPress サイトのアドレスを入力してください。</string>
+    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="module:login">認証コードを入力してください</string>
+    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="module:login">ユーザー名を入力してください</string>
+    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="module:login">WordPress.com にログインして投稿にアクセスしてください。</string>
+    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">サイトを追加する際にエラーが発生しました。エラーコード: %s</string>
+    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">サイトアドレスの確認</string>
+    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="module:login">問題が解決しない場合</string>
+    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="module:login">Chrome でサイトにアクセスすると、画面の上部にあるバーにサイトアドレスが表示されます。</string>
+    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">自分のサイトアドレスは ?</string>
+    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">サイトアドレス</string>
+    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">連携する WordPress サイトのアドレスを入力してください。</string>
     <string name="login_already_logged_in_wpcom">すでに WordPress.com にログインしています</string>
-    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="login">次へ</string>
+    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="module:login">次へ</string>
     <string name="connect_more">別のサイトと連携</string>
-    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="login">WordPress.com パスワードを入力してください。</string>
-    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="login">ログインメールのリクエスト</string>
-    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="login">このパスワードは間違っているようです。入力した情報をもう一度確認してから、やり直してください。</string>
-    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="login">SMS 経由で認証コードをリクエスト。</string>
-    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="login">代わりに SMS でコードを送信する</string>
-    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">もう少しです ! 認証アプリから WordPress.com の認証コードを入力してください。</string>
-    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="login">メールを開く</string>
+    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">WordPress.com パスワードを入力してください。</string>
+    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="module:login">ログインメールのリクエスト</string>
+    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="module:login">このパスワードは間違っているようです。入力した情報をもう一度確認してから、やり直してください。</string>
+    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">SMS 経由で認証コードをリクエスト。</string>
+    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">代わりに SMS でコードを送信する</string>
+    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">もう少しです ! 認証アプリから WordPress.com の認証コードを入力してください。</string>
+    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="module:login">メールを開く</string>
     <string name="next">次へ</string>
-    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">メールアドレスを使用して WordPress.com にログインすると、自分のすべての WordPress サイトを管理できます。</string>
+    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">メールアドレスを使用して WordPress.com にログインすると、自分のすべての WordPress サイトを管理できます。</string>
     <string name="me_profile_photo">プロフィール写真</string>
     <string name="error_media_parse_error">サーバーから予期しない応答が返されました</string>
     <string name="upload_finished_toast">読み込みはすでに完了しているため、停止することはできません</string>
@@ -3148,8 +3143,8 @@ Language: ja_JP
     <string name="error_all_media_upload_canceled">不明なエラーにより、メディアのアップロードはすべてキャンセルされました。もう一度アップロードをお試しください</string>
     <string name="error_unknown_post_type">投稿フォーマットが不明です</string>
     <string name="submit_for_review">送信</string>
-    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="login">重複サイトが検出されました。</string>
-    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="login">このサイトはすでにアプリに存在します。新たに追加することはできません。</string>
+    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="module:login">重複サイトが検出されました。</string>
+    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">このサイトはすでにアプリに存在します。新たに追加することはできません。</string>
     <string name="already_logged_in_wpcom">すでに WordPress.com アカウントにログインしています。別のアカウントに結び付いている WordPress.com サイトを追加することはできません。</string>
     <string name="error_media_load">メディアを読み込めません</string>
     <string name="error_media_refresh_no_connection">ライブラリのリフレッシュに接続が必要</string>
@@ -3161,8 +3156,8 @@ Language: ja_JP
     <string name="media_upload_error">メディアアップロードエラーが発生しました</string>
     <string name="retry">再試行</string>
     <string name="confirm">確認</string>
-    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="login">接続できませんでした。サイトの XMLRPC エンドポイントにアクセスしようとした際に403エラーを受け取りました。サイトと通信するために、アプリはこのエンドポイントにアクセスする必要があります。この問題を解決するには、ホスティングサービスに連絡してください。</string>
-    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="login">接続できませんでした。ご使用のホストは POST リクエストをブロックしていますが、サイトと通信するためにアプリはこのリクエストを必要とします。ホストに連絡して、この問題を解決してください。</string>
+    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">接続できませんでした。サイトの XMLRPC エンドポイントにアクセスしようとした際に403エラーを受け取りました。サイトと通信するために、アプリはこのエンドポイントにアクセスする必要があります。この問題を解決するには、ホスティングサービスに連絡してください。</string>
+    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">接続できませんでした。ご使用のホストは POST リクエストをブロックしていますが、サイトと通信するためにアプリはこのリクエストを必要とします。ホストに連絡して、この問題を解決してください。</string>
     <string name="pending_draft_one_generic">途中でやめないでください。「%1$s」は公開待ち中です。</string>
     <string name="pending_draft_one_month">途中でやめないでください。「%1$s」は公開待ち中です。</string>
     <string name="pending_draft_one_week_2">「%1$s」は下書きのままになります。忘れずに公開してください。</string>
@@ -3263,8 +3258,8 @@ Language: ja_JP
     <string name="error_refreshing_gravatar">Gravatar 再読み込みエラー</string>
     <string name="error_locating_image">切り抜き済み画像位置不明エラー</string>
     <string name="error_cropping_image">画像切り抜きエラー</string>
-    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="login">メールをチェック</string>
-    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="login">現在ご利用いただけません。パスワードを入力してください</string>
+    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">メールをチェック</string>
+    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">現在ご利用いただけません。パスワードを入力してください</string>
     <string name="logging_in">ログインしています</string>
     <string name="web_address_dialog_hint">コメントする際に公開表示されます。</string>
     <string name="capture_or_pick_photo">写真を撮影または選択</string>
@@ -3300,7 +3295,7 @@ Language: ja_JP
     <string name="comments_empty_list_filtered_pending">保留中のコメントはありません</string>
     <string name="comments_empty_list_filtered_approved">承認済みのコメントはありません</string>
     <string name="button_skip">スキップ</string>
-    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="login">接続できませんでした。必要な XML-RPC メソッドがサーバーにありません。</string>
+    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">接続できませんでした。必要な XML-RPC メソッドがサーバーにありません。</string>
     <string name="alignment_center">中央</string>
     <string name="post_format_video">動画</string>
     <string name="post_format_status">ステータス</string>
@@ -3360,7 +3355,7 @@ Language: ja_JP
     <string name="about_the_app">このアプリについて</string>
     <string name="error_post_account_settings">アカウント設定を保存できませんでした</string>
     <string name="error_fetch_account_settings">アカウント設定を読み込めませんでした</string>
-    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="login">プロフィールを読み込めませんでした</string>
+    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="module:login">プロフィールを読み込めませんでした</string>
     <string name="site_settings_unknown_language_code_error">言語コードを認識できません</string>
     <string name="site_settings_threading_dialog_description">コメントスレッドでの入れ子化を許可する。</string>
     <string name="site_settings_threading_dialog_header">入れ子数の上限</string>
@@ -3563,9 +3558,9 @@ Language: ja_JP
     <string name="select_all">すべて選択</string>
     <string name="hide">隠す</string>
     <string name="show">表示</string>
-    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">続けるにはログインしてください。</string>
-    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">無効な認証コード</string>
-    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">認証コード</string>
+    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">続けるにはログインしてください。</string>
+    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">無効な認証コード</string>
+    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">認証コード</string>
     <string name="language">言語</string>
     <string name="reader_empty_posts_request_failed">投稿を取得できません</string>
     <string name="error_notification_open">通知を開けませんでした</string>
@@ -3629,7 +3624,7 @@ Language: ja_JP
     <string name="ssl_certificate_error">無効な SSL 証明書</string>
     <string name="help">ヘルプ</string>
     <string name="username_or_password_incorrect">入力されたユーザー名またはパスワードが間違っています</string>
-    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="login">有効なメールアドレスを入力してください</string>
+    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="module:login">有効なメールアドレスを入力してください</string>
     <string name="invalid_email_message">無効なメールアドレスです</string>
     <string name="error_downloading_image">画像ダウンロードエラー</string>
     <string name="error_load_comment">コメントを読み込めませんでした</string>
@@ -3662,7 +3657,7 @@ Language: ja_JP
     <string name="new_media">新規メディア</string>
     <string name="new_post">新規投稿</string>
     <string name="notifications_empty_all">通知はまだありません。</string>
-    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="login">認証が必要です</string>
+    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">認証が必要です</string>
     <string name="invalid_site_url_message">入力したサイト URL が正しいか確認してください</string>
     <string name="file_error_create">メディアアップロードの際に一時ファイルを作成できませんでした。端末上に空き容量があるか確認してください。</string>
     <string name="category_name">カテゴリー名</string>
@@ -3709,7 +3704,7 @@ Language: ja_JP
     <string name="reader_likes_you_and_one">あなたと他1人が「いいね」をつけました</string>
     <string name="pick_video">動画を選択</string>
     <string name="pick_photo">画像を選択</string>
-    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="login">登録</string>
+    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">登録</string>
     <string name="reader_toast_err_url_intent">%sを開けませんでした</string>
     <string name="reader_toast_err_view_image">画像を表示できません</string>
     <string name="reader_toast_err_share_intent">共有に失敗しました</string>
@@ -3753,11 +3748,11 @@ Language: ja_JP
     <string name="note_reply_successful">返信を公開しました</string>
     <string name="sign_in">ログイン</string>
     <string name="loading">読込中…</string>
-    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP パスワード</string>
-    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP ユーザー名</string>
+    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP パスワード</string>
+    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP ユーザー名</string>
     <string name="error_media_upload">メディアをアップロードする際にエラーが発生しました</string>
     <string name="incorrect_credentials">ユーザー名またはパスワードが正しくありません。</string>
-    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="login">ログイン</string>
+    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">ログイン</string>
     <string name="username">ユーザー名</string>
     <string name="password">パスワード</string>
     <string name="reader">購読ブログ</string>

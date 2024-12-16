@@ -120,9 +120,9 @@ Language: en_CA
     <string name="jp_migration_done_no_sites_message">It\'s time to continue your WordPress journey on the Jetpack app.</string>
     <string name="jp_migration_lets_go_button">Let\'s go</string>
     <string name="media_encoder_quality_very_high">Very High</string>
-    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">There was some trouble with the Security key login</string>
-    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="login">Use a security key</string>
-    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Please provide your security key to continue.</string>
+    <string name="login_error_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">There was some trouble with the Security key login</string>
+    <string name="login_text_security_key" tools:ignore="UnusedResources" a8c-src-lib="module:login">Use a security key</string>
+    <string name="notification_security_key_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Please provide your security key to continue.</string>
     <string name="domain_management_error_title">Couldn\'t retrieve your domains</string>
     <string name="domain_management_site_domains_button">All</string>
     <string name="my_site_blogging_prompt_card_attribution_bloganuary">From &lt;b&gt;Bloganuary&lt;/b&gt;</string>
@@ -142,7 +142,6 @@ Language: en_CA
     <string name="gutenberg_native_alternatively_you_can_convert_the_content_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">Alternatively, you can convert the content to blocks.</string>
     <string name="gutenberg_native_s_block_converted_to_blocks" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">\'%s\' block converted to blocks</string>
     <string name="personalization_screen_cards_tab_title">Cards</string>
-    <string name="personalization_screen_shortcuts_add_or_remove_shortcut_button">Add or Remove shortcuts</string>
     <string name="personalization_screen_shortcuts_tab_title">Shortcuts</string>
     <string name="personalization_screen_tab_shortcuts_active_shortcuts">Active Shortcuts</string>
     <string name="personalization_screen_tab_shortcuts_inactive_shortcuts">Inactive Shortcuts</string>
@@ -396,7 +395,6 @@ Language: en_CA
     <string name="help_buttons_screen_title">Help</string>
     <string name="free">Free</string>
     <string name="logs_button">Logs</string>
-    <string name="me_btn_help">Help</string>
     <string name="site_creation_domain_tag_sale">Sale</string>
     <string name="blaze_activity_title">Blaze</string>
     <string name="tickets">Tickets</string>
@@ -568,9 +566,9 @@ Language: en_CA
     <string name="connections_label">Jetpack Social Connections</string>
     <string name="stats_view_publicize">Jetpack Social Connections</string>
     <string name="stats_widget_log_in_to_add_message">Please log in to the Jetpack app to add a widget.</string>
-    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="login">We just sent a magic link to</string>
-    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="login">Check your email on this device!</string>
-    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="login">Use password to sign in</string>
+    <string name="login_magic_links_email_sent" tools:ignore="UnusedResources" a8c-src-lib="module:login">We just sent a magic link to</string>
+    <string name="login_magic_links_sent_label_short" tools:ignore="UnusedResources" a8c-src-lib="module:login">Check your email on this device!</string>
+    <string name="or_use_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Use password to sign in</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack">Notifications are powered by Jetpack</string>
     <string name="wp_jetpack_powered_notifications_powered_by_jetpack_caption">Stay informed with realtime updates for new comments, site traffic, security reports and more.</string>
     <string name="wp_jetpack_powered_reader_powered_by_jetpack">Reader is powered by Jetpack</string>
@@ -802,10 +800,10 @@ Language: en_CA
     <string name="my_site_dashboard_tab_title">Home</string>
     <string name="adding_cat">Adding category</string>
     <string name="login_select_email_client">Which email app do you use?</string>
-    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="login">There was a problem communicating with the site. An HTTP error code 401 was returned.</string>
-    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">XML-RPC calls seem blocked on this site (error code 401). If attempt to login fails tap on help icon to view the FAQ.</string>
-    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="login">Unable to read the WordPress site at that URL. Tap on help icon to view the FAQ.</string>
-    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="login">XML-RPC services are disabled on this site.</string>
+    <string name="login_error_xml_rpc_auth_error_communicating" tools:ignore="UnusedResources" a8c-src-lib="module:login">There was a problem communicating with the site. An HTTP error code 401 was returned.</string>
+    <string name="login_error_xml_rpc_cannot_read_site_auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">XML-RPC calls seem blocked on this site (error code 401). If attempt to login fails tap on help icon to view the FAQ.</string>
+    <string name="login_error_xml_rpc_cannot_read_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Unable to read the WordPress site at that URL. Tap on help icon to view the FAQ.</string>
+    <string name="login_error_xml_rpc_services_disabled" tools:ignore="UnusedResources" a8c-src-lib="module:login">XML-RPC services are disabled on this site.</string>
     <string name="my_site_menu_tab_title">Menu</string>
     <string name="new_site_creation_empty_domain_list_message_invalid_query">Your search includes characters not supported in WordPress.com domains. The following characters are allowed: A–Z, a–z, 0–9.</string>
     <string name="error_edit_notification">An error occurred while updating the notification content</string>
@@ -1170,7 +1168,7 @@ Language: en_CA
     <string name="quick_start_completed_type_grow_message">&lt;b&gt;All tasks completed&lt;/b&gt;&lt;br/&gt;You’ll reach more people. Nice job!</string>
     <string name="quick_start_completed_type_customize_message">&lt;b&gt;All tasks completed&lt;/b&gt;&lt;br/&gt;You’ve customized your site. Well done!</string>
     <string name="invite_links_disable_dialog_message">Once this invite link is disabled, nobody will be able to use it to join your team. Are you sure?</string>
-    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="login">Didn\'t mean to create a new account? Go back to re-enter your email address.</string>
+    <string name="magic_link_not_meaning_to_create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">Didn\'t mean to create a new account? Go back to re-enter your email address.</string>
     <string name="invite_links_bad_format_response">Invalid response received</string>
     <string name="invite_links_cannot_get_role_data_error">There was an error getting data for role %1$s</string>
     <string name="invite_links_cannot_get_roles_error">There was an error getting roles</string>
@@ -1447,8 +1445,8 @@ Language: en_CA
     <string name="hpp_error_title">Layouts not available while offline</string>
     <string name="hpp_retry_error">Please check your internet connection and retry.</string>
     <string name="hpp_choose_error">There was an error while selecting the theme.</string>
-    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="login">Continue with store credentials</string>
-    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="login">Find your connected email</string>
+    <string name="continue_site_credentials" tools:ignore="UnusedResources" a8c-src-lib="module:login">Continue with store credentials</string>
+    <string name="login_find_your_connected_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Find your connected email</string>
     <string name="reader_discover_no_posts_title">No recent posts</string>
     <string name="reader_discover_empty_title">Welcome!</string>
     <string name="scan">Scan</string>
@@ -1514,8 +1512,8 @@ Language: en_CA
     <string name="suggestion_no_connection">No internet connection.\nSuggestions are unavailable.</string>
     <string name="mlp_notselected_description">%s</string>
     <string name="mlp_selected_description">%s selected</string>
-    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Get a login link by email</string>
-    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="login">Hmm, we can\'t find a WordPress.com account connected to this email address.</string>
+    <string name="login_get_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Get a login link by email</string>
+    <string name="email_not_registered_wpcom" tools:ignore="UnusedResources" a8c-src-lib="module:login">Hmm, we can\'t find a WordPress.com account connected to this email address.</string>
     <string name="permission_microphone">Microphone</string>
     <string name="comment_unable_to_show_error">Unable to show this comment</string>
     <string name="media_browse_for_items">Browse for items</string>
@@ -1559,28 +1557,28 @@ Language: en_CA
     <string name="gutenberg_native_choose_image_or_video" tools:ignore="UnusedResources">Choose image or video</string>
     <string name="gutenberg_native_choose_video" tools:ignore="UnusedResources">Choose video</string>
     <string name="gutenberg_native_block_removed" tools:ignore="UnusedResources">Block removed</string>
-    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="login">Signup confirmation</string>
-    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">If you continue with Google and don\'t already have a WordPress.com account, you are creating an account and you agree to our %1$sTerms of Service%2$s.</string>
+    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Signup confirmation</string>
+    <string name="continue_with_google_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">If you continue with Google and don\'t already have a WordPress.com account, you are creating an account and you agree to our %1$sTerms of Service%2$s.</string>
     <string name="enter_your_site_address">Enter your existing site address</string>
     <string name="gutenberg_native_convert_to_link" tools:ignore="UnusedResources">Convert to link</string>
-    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">By continuing, you agree to our %1$sTerms of Service%2$s.</string>
-    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="login">We’ll use this email address to create your new WordPress.com account.</string>
-    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="login">We’ve emailed you a signup link to create your new WordPress.com account. Check your email on this device, and tap the link in the email you receive from WordPress.com.</string>
-    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Enter your account information for %1$s.</string>
-    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="login">or</string>
-    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">Continue with Google</string>
-    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="login">Find your site address</string>
+    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">By continuing, you agree to our %1$sTerms of Service%2$s.</string>
+    <string name="signup_confirmation_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">We’ll use this email address to create your new WordPress.com account.</string>
+    <string name="signup_magic_link_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">We’ve emailed you a signup link to create your new WordPress.com account. Check your email on this device, and tap the link in the email you receive from WordPress.com.</string>
+    <string name="enter_account_info_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Enter your account information for %1$s.</string>
+    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="module:login">or</string>
+    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">Continue with Google</string>
+    <string name="login_find_your_site_adress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Find your site address</string>
     <string name="login_done">Done</string>
-    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="login">Not seeing the email? Check your Spam or Junk Mail folder.</string>
-    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="login">Check your email on this device and tap the link in the email you received from WordPress.com.</string>
-    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="login">We\'ll email you a link that\'ll log you in instantly, no password needed.</string>
-    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="login">Get Started</string>
-    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Or type your password</string>
-    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">Enter your email address to log in or create a WordPress.com account.</string>
-    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="login">Create account</string>
-    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Send link by email</string>
-    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="login">Check email</string>
-    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Reset your password</string>
+    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Not seeing the email? Check your Spam or Junk Mail folder.</string>
+    <string name="login_magic_links_sent_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Check your email on this device and tap the link in the email you received from WordPress.com.</string>
+    <string name="login_magic_links_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">We\'ll email you a link that\'ll log you in instantly, no password needed.</string>
+    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="module:login">Get Started</string>
+    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Or type your password</string>
+    <string name="enter_email_to_continue_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">Enter your email address to log in or create a WordPress.com account.</string>
+    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">Create account</string>
+    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Send link by email</string>
+    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Check email</string>
+    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Reset your password</string>
     <string name="reader_error_request_failed_title">There was a problem handling the request. Please try again later.</string>
     <string name="quick_start_dialog_update_site_title_message_short">Tap &lt;b&gt;%1$s&lt;/b&gt; to set a new title</string>
     <string name="quick_start_list_update_site_title_title">Check your site title</string>
@@ -1833,12 +1831,12 @@ Language: en_CA
     <string name="dialog_confirm_scheduled_post_sync_title">Ready to Sync?</string>
     <string name="new_site_creation_unavailable_domain">This domain is unavailable</string>
     <string name="negative_prefix">-%s</string>
-    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">We were unable to access your site. You will need to reach out to your host to resolve this.</string>
-    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="login">We were unable to access your site because of a problem with the &lt;b&gt;SSL Certificate&lt;/b&gt;. You will need to reach out to your host to resolve this.</string>
-    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="login">We were unable to access your site because it requires &lt;b&gt;HTTP Authentication&lt;/b&gt;. You will need to reach out to your host to resolve this.</string>
-    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="login">We were unable to access the &lt;b&gt;XMLRPC file&lt;/b&gt; on your site. You will need to reach out to your host to resolve this.</string>
-    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="login">Almost there! We just need to verify your Jetpack connected email address &lt;b&gt;%1$s&lt;/b&gt;</string>
-    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Log in with your %1$s site credentials</string>
+    <string name="login_discovery_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">We were unable to access your site. You will need to reach out to your host to resolve this.</string>
+    <string name="login_discovery_error_ssl" tools:ignore="UnusedResources" a8c-src-lib="module:login">We were unable to access your site because of a problem with the &lt;b&gt;SSL Certificate&lt;/b&gt;. You will need to reach out to your host to resolve this.</string>
+    <string name="login_discovery_error_http_auth" tools:ignore="UnusedResources" a8c-src-lib="module:login">We were unable to access your site because it requires &lt;b&gt;HTTP Authentication&lt;/b&gt;. You will need to reach out to your host to resolve this.</string>
+    <string name="login_discovery_error_xmlrpc" tools:ignore="UnusedResources" a8c-src-lib="module:login">We were unable to access the &lt;b&gt;XMLRPC file&lt;/b&gt; on your site. You will need to reach out to your host to resolve this.</string>
+    <string name="login_site_credentials_magic_link_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Almost there! We just need to verify your Jetpack connected email address &lt;b&gt;%1$s&lt;/b&gt;</string>
+    <string name="enter_credentials_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Log in with your %1$s site credentials</string>
     <string name="my_site_bottom_sheet_add_page">Site page</string>
     <string name="posts_cannot_be_started">We cannot open the posts right now. Please try again later</string>
     <string name="suffix_1_000_000_000">%sB</string>
@@ -1936,8 +1934,6 @@ Language: en_CA
     <string name="post_preview_remote_auto_saving_post">Generating Preview…</string>
     <string name="post_preview_saving_draft">Saving…</string>
     <string name="local_post_autosave_revision_available">You\'ve made unsaved changes to this post</string>
-    <string name="dialog_confirm_autosave_dont_restore_button">The version from this app</string>
-    <string name="dialog_confirm_autosave_restore_button">The version from another device</string>
     <string name="dialog_confirm_autosave_body_first_part">You recently made changes to this post but didn\'t save them. Choose a version to load:\n\n</string>
     <string name="dialog_confirm_autosave_title">Which version would you like to edit?</string>
     <string name="button_delete_permanently">Delete Permanently</string>
@@ -2004,8 +2000,8 @@ Language: en_CA
     <string name="post_settings_add_to_calendar">Add to calendar</string>
     <string name="post_settings_notification">Notification</string>
     <string name="post_settings_time_and_date">Date and Time</string>
-    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="login">Please enter a complete website address, like example.com.</string>
-    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="login">Log in with WordPress.com to connect to %1$s</string>
+    <string name="login_invalid_site_url" tools:ignore="UnusedResources" a8c-src-lib="module:login">Please enter a complete website address, like example.com.</string>
+    <string name="enter_email_for_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Log in with WordPress.com to connect to %1$s</string>
     <string name="stats_post_views_label">Views</string>
     <string name="stats_post_label">Post</string>
     <string name="stats_list_item_description">%1$s: %2$s, %3$s: %4$s</string>
@@ -2121,15 +2117,15 @@ Language: en_CA
     <string name="posts_draft_empty">You don\'t have any draft posts</string>
     <string name="posts_scheduled_empty">You don\'t have any scheduled posts</string>
     <string name="posts_published_empty">You haven\'t published any posts yet</string>
-    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Please log in with your username and password.</string>
-    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="login">Please log in using your WordPress.com username instead of your email address.</string>
+    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Please log in with your username and password.</string>
+    <string name="error_user_username_instead_of_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Please log in using your WordPress.com username instead of your email address.</string>
     <string name="stats_insights_average_words">Avg words/post</string>
     <string name="stats_insights_average_likes">Avg likes/post</string>
     <string name="stats_insights_total_likes">Total likes</string>
     <string name="stats_insights_total_comments">Total comments</string>
     <string name="stats_insights_posts">Posts</string>
     <string name="stats_insights_year">Year</string>
-    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="login">The site at this address is not a WordPress site. For us to connect to it, the site must use WordPress.</string>
+    <string name="no_site_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">The site at this address is not a WordPress site. For us to connect to it, the site must use WordPress.</string>
     <string name="stats_insights_total_words">Total words</string>
     <string name="stats_insights_average_comments">Avg comments/post</string>
     <string name="stats_insights_this_year_site_stats">This Year</string>
@@ -2293,7 +2289,7 @@ Language: en_CA
     <string name="history_detail_button_previous">Previous</string>
     <string name="history_detail_button_next">Next</string>
     <string name="media_space_used">%1$s used</string>
-    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="login">Please enter a WordPress.com or Jetpack-connected self-hosted WordPress site</string>
+    <string name="enter_wpcom_or_jetpack_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Please enter a WordPress.com or Jetpack-connected self-hosted WordPress site</string>
     <string name="history_loading_revision">Loading revision</string>
     <string name="history_loaded_revision">Revision loaded</string>
     <string name="history_load_dialog_button_positive">Load</string>
@@ -2324,9 +2320,9 @@ Language: en_CA
     <string name="pages_scheduled" tools:ignore="UnusedResources">Scheduled</string>
     <string name="pages_drafts" tools:ignore="UnusedResources">Drafts</string>
     <string name="pages_published" tools:ignore="UnusedResources">Published</string>
-    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="login">We\'ve made too many attempts to send an SMS verification code — take a break, and request a new one in a minute.</string>
+    <string name="login_error_sms_throttled" tools:ignore="UnusedResources" a8c-src-lib="module:login">We\'ve made too many attempts to send an SMS verification code — take a break, and request a new one in a minute.</string>
     <string name="pages_trashed" tools:ignore="UnusedResources">Trashed</string>
-    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="login">There\'s no WordPress.com account matching this Google account.</string>
+    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="module:login">There\'s no WordPress.com account matching this Google account.</string>
     <string name="site_picker_remove_site_empty">No sites matching your search</string>
     <string name="page_parent_changed">Page parent has been changed</string>
     <string name="reader_no_followed_blogs_search_title">No blogs matching your search</string>
@@ -2362,7 +2358,7 @@ Language: en_CA
     <string name="my_site_create_new_site_title">You don\'t have any sites</string>
     <string name="content_description_more">More</string>
     <string name="reader_empty_subscribed_tags_subtitle">Add tags here to find posts about your favorite topics</string>
-    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="login">Log in to the WordPress.com account you used to connect Jetpack.</string>
+    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="module:login">Log in to the WordPress.com account you used to connect Jetpack.</string>
     <string name="jetpack">Jetpack</string>
     <string name="stats_jetpack_connection_faq">Jetpack FAQ</string>
     <string name="stats_jetpack_connection_setup_info">To use Stats on your WordPress site, you\'ll need to install the Jetpack plugin.</string>
@@ -2416,13 +2412,13 @@ Language: en_CA
     <string name="reader_empty_search_title">No results found</string>
     <string name="comment_read_source_post">Read the source post</string>
     <string name="sites">Sites</string>
-    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="login">Magic link sent</string>
-    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="login">Code verification</string>
-    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Login credentials</string>
-    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Magic link sent</string>
-    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Magic link login</string>
-    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Site address login</string>
-    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Email address login</string>
+    <string name="signup_magic_link_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Magic link sent</string>
+    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Code verification</string>
+    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Login credentials</string>
+    <string name="magic_link_sent_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Magic link sent</string>
+    <string name="magic_link_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Magic link login</string>
+    <string name="site_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Site address login</string>
+    <string name="email_address_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Email address login</string>
     <string name="reader_empty_saved_posts_description">Tap %s to save a post to your list.</string>
     <string name="reader_bookmark_snack_title">Post saved</string>
     <string name="reader_bookmark_snack_btn">View All</string>
@@ -2524,7 +2520,7 @@ Language: en_CA
     <string name="invite_user_delete_desc">remove %s</string>
     <string name="profile_picture">%s\'s profile picture</string>
     <string name="comment_checkmark_desc">check mark</string>
-    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Signing up with Google…</string>
+    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Signing up with Google…</string>
     <string name="open_external_link_desc">Open external link</string>
     <string name="jetpack_connection_failed_with_reason">Connection to Jetpack failed: %s</string>
     <string name="jetpack_already_connected_toast">You are already connected to Jetpack</string>
@@ -2606,7 +2602,7 @@ Language: en_CA
     <string name="site_creation_domain_finish_button">Create site</string>
     <string name="notification_site_creation_created">Tap to continue.</string>
     <string name="notification_site_creation_title_success">Site created!</string>
-    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="login">Google took too long to respond. You may need to wait until you have a stronger internet connection.</string>
+    <string name="google_error_timeout" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google took too long to respond. You may need to wait until you have a stronger internet connection.</string>
     <string name="username_changer_title">Change username</string>
     <string name="username_changer_hint">Type to get more suggestions</string>
     <string name="username_changer_header">Your current username is %1$s%2$s%3$s. With few exceptions, others will only ever see your display name, %4$s%5$s%6$s.</string>
@@ -2618,9 +2614,9 @@ Language: en_CA
     <string name="content_description_add_avatar">Add avatar</string>
     <string name="signup_user_exists">Email already exists on WordPress.com.\nProceeding with login.</string>
     <string name="signup_updating_account">Updating account…</string>
-    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Sending email</string>
-    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="login">Retry</string>
-    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="login">Close</string>
+    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Sending email</string>
+    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="module:login">Retry</string>
+    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="module:login">Close</string>
     <string name="signup_epilogue_hint_username">Username</string>
     <string name="signup_epilogue_hint_password">Password (optional)</string>
     <string name="signup_epilogue_hint_display">Display Name</string>
@@ -2628,7 +2624,7 @@ Language: en_CA
     <string name="signup_epilogue_error_button_negative">Revert</string>
     <string name="signup_epilogue_error_generic">There was some trouble updating your account. You can retry or revert your changes to continue.</string>
     <string name="signup_epilogue_error_avatar">There was some trouble uploading your avatar.</string>
-    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="login">There was some trouble sending the email. You can retry now or close and try again later.</string>
+    <string name="signup_magic_link_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">There was some trouble sending the email. You can retry now or close and try again later.</string>
     <string name="signup_epilogue_hint_password_detail">You can always log in with a link like the one you just used, but you can also set up a password if you prefer.</string>
     <string name="plugin_needs_update">Needs update</string>
     <string name="plugin_caption_search">Search Plugins</string>
@@ -2719,18 +2715,18 @@ Language: en_CA
     <string name="my_site_btn_plugins">Plugins</string>
     <string name="media_edit_link_hint">Open link in a new window/tab</string>
     <string name="media_edit_link_text">Link to</string>
-    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="login">An error has occurred.</string>
-    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Please provide an authentication code to continue.</string>
-    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="login">Please double check your password to continue.</string>
-    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="login">Login stopped</string>
-    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="login">Please wait while logging in.</string>
-    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Login in progress…</string>
-    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="login">Tap to continue.</string>
-    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="login">Logged in!</string>
-    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="login">Google login could not be started.</string>
-    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="login">Please enter a password</string>
-    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="login">Text me another code instead</string>
-    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="login">We sent a text message to the phone number ending in %s. Please enter the verification code in the SMS.</string>
+    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="module:login">An error has occurred.</string>
+    <string name="notification_2fa_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Please provide an authentication code to continue.</string>
+    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Please double check your password to continue.</string>
+    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="module:login">Login stopped</string>
+    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Please wait while logging in.</string>
+    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Login in progress…</string>
+    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Tap to continue.</string>
+    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="module:login">Logged in!</string>
+    <string name="login_error_generic_start" tools:ignore="UnusedResources" a8c-src-lib="module:login">Google login could not be started.</string>
+    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Please enter a password</string>
+    <string name="login_text_otp_another" tools:ignore="UnusedResources" a8c-src-lib="module:login">Text me another code instead</string>
+    <string name="enter_verification_code_sms" tools:ignore="UnusedResources" a8c-src-lib="module:login">We sent a text message to the phone number ending in %s. Please enter the verification code in the SMS.</string>
     <string name="image_size">Size</string>
     <string name="uploading_subtitle_media_only_one">1 file remaining</string>
     <string name="uploading_subtitle_media_only">%1$d of %2$d files remaining</string>
@@ -2747,15 +2743,15 @@ Language: en_CA
     <string name="confirm_remove_media_image">Remove this image from the post?</string>
     <string name="media_edit_customize_card_caption">Customize</string>
     <string name="media_edit_file_details_card_caption">File Details</string>
-    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">\nMaybe try a different account?</string>
-    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="login">There was some trouble connecting with the Google account.</string>
+    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">\nMaybe try a different account?</string>
+    <string name="login_error_generic" tools:ignore="UnusedResources" a8c-src-lib="module:login">There was some trouble connecting with the Google account.</string>
     <string name="login_error_button">Close</string>
-    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="login">To proceed with this Google account, please provide the matching WordPress.com password. This will be asked only once.</string>
+    <string name="enter_wpcom_password_google" tools:ignore="UnusedResources" a8c-src-lib="module:login">To proceed with this Google account, please provide the matching WordPress.com password. This will be asked only once.</string>
     <string name="error_generic_network">A network error occurred. Please check your connection and try again.</string>
     <string name="post_settings_remove_featured_image">Remove featured image</string>
     <string name="post_settings_choose_featured_image">Choose featured image</string>
-    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Log in to WordPress.com to share the content.</string>
-    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Enter the address of your WordPress site you\'d like to share the content to.</string>
+    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Log in to WordPress.com to share the content.</string>
+    <string name="enter_site_address_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Enter the address of your WordPress site you\'d like to share the content to.</string>
     <string name="jetpack_disconnect_error_toast">Error disconnecting site</string>
     <string name="jetpack_disconnect_success_toast">Site disconnected</string>
     <string name="jetpack_disconnect_confirm">Disconnect</string>
@@ -2839,28 +2835,28 @@ Language: en_CA
     <string name="login_epilogue_mysites_other">My sites</string>
     <string name="login_epilogue_mysites_one">My site</string>
     <string name="login_email_client_not_found">Can\'t detect your email client app</string>
-    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="login">Please enter a verification code</string>
-    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="login">Please enter a username</string>
-    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="login">Log in to WordPress.com to access the post.</string>
-    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="login">Error while adding site. Error code: %s</string>
-    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Checking site address</string>
-    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="login">Need more help?</string>
-    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="login">Your site address appears in the bar at the top of the screen when you visit your site in Chrome.</string>
-    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="login">What\'s my site address?</string>
-    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Site address</string>
-    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Enter the address of the WordPress site you\'d like to connect.</string>
+    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="module:login">Please enter a verification code</string>
+    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="module:login">Please enter a username</string>
+    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="module:login">Log in to WordPress.com to access the post.</string>
+    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Error while adding site. Error code: %s</string>
+    <string name="login_checking_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Checking site address</string>
+    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="module:login">Need more help?</string>
+    <string name="login_site_address_help_content" tools:ignore="UnusedResources" a8c-src-lib="module:login">Your site address appears in the bar at the top of the screen when you visit your site in Chrome.</string>
+    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">What\'s my site address?</string>
+    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Site address</string>
+    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Enter the address of the WordPress site you\'d like to connect.</string>
     <string name="login_already_logged_in_wpcom">Already logged in to WordPress.com</string>
-    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="login">Continue</string>
-    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="login">Enter your WordPress.com password.</string>
+    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="module:login">Continue</string>
+    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Enter your WordPress.com password.</string>
     <string name="connect_more">Connect another site</string>
-    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="login">Requesting log-in email</string>
-    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="login">It looks like this password is incorrect. Please double check your information and try again.</string>
-    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="login">Requesting a verification code via SMS.</string>
-    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="login">Text me a code instead</string>
-    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Almost there! Please enter the verification code for WordPress.com from your authenticator app.</string>
+    <string name="login_magic_link_email_requesting" tools:ignore="UnusedResources" a8c-src-lib="module:login">Requesting log-in email</string>
+    <string name="password_incorrect" tools:ignore="UnusedResources" a8c-src-lib="module:login">It looks like this password is incorrect. Please double check your information and try again.</string>
+    <string name="requesting_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">Requesting a verification code via SMS.</string>
+    <string name="login_text_otp" tools:ignore="UnusedResources" a8c-src-lib="module:login">Text me a code instead</string>
+    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Almost there! Please enter the verification code for WordPress.com from your authenticator app.</string>
     <string name="next">Next</string>
-    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="login">Log in to WordPress.com using an email address to manage all your WordPress sites.</string>
-    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="login">Open Mail</string>
+    <string name="enter_email_wordpress_com" tools:ignore="UnusedResources" a8c-src-lib="module:login">Log in to WordPress.com using an email address to manage all your WordPress sites.</string>
+    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="module:login">Open Mail</string>
     <string name="me_profile_photo">Profile Photo</string>
     <string name="error_media_parse_error">Unexpected response from server</string>
     <string name="upload_finished_toast">Can\'t stop the upload because it\'s already finished</string>
@@ -3011,8 +3007,8 @@ Language: en_CA
     <string name="error_all_media_upload_canceled">All media uploads have been cancelled due to an unknown error. Please retry uploading</string>
     <string name="error_unknown_post_type">Unknown post format</string>
     <string name="submit_for_review">Submit</string>
-    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="login">A duplicate site has been detected.</string>
-    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="login">This site already exists in the app, you can\'t add it.</string>
+    <string name="duplicate_site_detected" tools:ignore="UnusedResources" a8c-src-lib="module:login">A duplicate site has been detected.</string>
+    <string name="cannot_add_duplicate_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">This site already exists in the app, you can\'t add it.</string>
     <string name="already_logged_in_wpcom">You\'re already logged in a WordPress.com account, you can\'t add a WordPress.com site bound to another account.</string>
     <string name="error_media_load">Unable to load media</string>
     <string name="error_media_refresh_no_connection">Connection required to refresh library</string>
@@ -3024,8 +3020,8 @@ Language: en_CA
     <string name="media_upload_error">Media upload error occurred</string>
     <string name="retry">Retry</string>
     <string name="confirm">Confirm</string>
-    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="login">Couldn\'t connect. We received a 403 error when trying to access your\n        site XMLRPC endpoint. The app needs that in order to communicate with your site. Contact your host to solve\n        this problem.</string>
-    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="login">Couldn\'t connect. Your host is blocking POST requests, and the app needs\n        that in order to communicate with your site. Contact your host to solve this problem.</string>
+    <string name="xmlrpc_endpoint_forbidden_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Couldn\'t connect. We received a 403 error when trying to access your\n        site XMLRPC endpoint. The app needs that in order to communicate with your site. Contact your host to solve\n        this problem.</string>
+    <string name="xmlrpc_post_blocked_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Couldn\'t connect. Your host is blocking POST requests, and the app needs\n        that in order to communicate with your site. Contact your host to solve this problem.</string>
     <string name="pending_draft_one_generic">Don\'t leave it hanging! \'%1$s\' is waiting to be published.</string>
     <string name="pending_draft_one_month">Don\'t leave it hanging! \'%1$s\' is waiting to be published.</string>
     <string name="pending_draft_one_week_2">\'%1$s\' remains a draft. Remember to publish it!</string>
@@ -3125,8 +3121,8 @@ Language: en_CA
     <string name="error_locating_image">Error locating the cropped image</string>
     <string name="error_refreshing_gravatar">Error reloading your Gravatar</string>
     <string name="error_cropping_image">Error cropping the image</string>
-    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="login">Checking email</string>
-    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="login">Currently unavailable. Please enter your password</string>
+    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Checking email</string>
+    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Currently unavailable. Please enter your password</string>
     <string name="logging_in">Logging in</string>
     <string name="web_address_dialog_hint">Shown publicly when you comment.</string>
     <string name="capture_or_pick_photo">Capture or select photo</string>
@@ -3162,7 +3158,7 @@ Language: en_CA
     <string name="comments_empty_list_filtered_pending">No pending comments</string>
     <string name="comments_empty_list_filtered_approved">No approved comments</string>
     <string name="button_skip">Skip</string>
-    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="login">Couldn\'t connect. Required XML-RPC methods are missing on the server.</string>
+    <string name="xmlrpc_missing_method_error" tools:ignore="UnusedResources" a8c-src-lib="module:login">Couldn\'t connect. Required XML-RPC methods are missing on the server.</string>
     <string name="post_format_status">Status</string>
     <string name="post_format_video">Video</string>
     <string name="alignment_center">Centre</string>
@@ -3222,7 +3218,7 @@ Language: en_CA
     <string name="about_the_app">About the app</string>
     <string name="error_post_account_settings">Couldn\'t save your account settings</string>
     <string name="error_fetch_account_settings">Couldn\'t retrieve your account settings</string>
-    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="login">Couldn\'t retrieve your profile</string>
+    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="module:login">Couldn\'t retrieve your profile</string>
     <string name="site_settings_unknown_language_code_error">Language code not recognised</string>
     <string name="site_settings_threading_dialog_description">Allow comments to be nested in threads.</string>
     <string name="site_settings_threading_dialog_header">Thread up to</string>
@@ -3425,9 +3421,9 @@ Language: en_CA
     <string name="hide">Hide</string>
     <string name="select_all">Select all</string>
     <string name="language">Language</string>
-    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Verification code</string>
-    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Invalid verification code</string>
-    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Log in again to continue.</string>
+    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Verification code</string>
+    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Invalid verification code</string>
+    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Log in again to continue.</string>
     <string name="stats_view_authors">Authors</string>
     <string name="reader_empty_posts_request_failed">Unable to retrieve posts</string>
     <string name="error_notification_open">Could not open notification</string>
@@ -3507,7 +3503,7 @@ Language: en_CA
     <string name="error_load_comment">Couldn\'t load the comment</string>
     <string name="error_downloading_image">Error downloading image</string>
     <string name="invalid_email_message">Your email address isn\'t valid</string>
-    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="login">Enter a valid email address</string>
+    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="module:login">Enter a valid email address</string>
     <string name="username_or_password_incorrect">The username or password you entered is incorrect</string>
     <string name="error_deleting_post">An error occurred while deleting the post</string>
     <string name="select_categories">Select categories</string>
@@ -3545,7 +3541,7 @@ Language: en_CA
     <string name="error_blog_hidden">This blog is hidden and couldn\'t be loaded. Enable it again in settings and try again.</string>
     <string name="fatal_db_error">An error occurred while creating the app database. Try reinstalling the app.</string>
     <string name="reader_title_applog">Application log</string>
-    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="login">Authorization required</string>
+    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Authorization required</string>
     <string name="comment_status_trash">Trashed</string>
     <string name="mnu_comment_trash">Trash</string>
     <string name="dlg_confirm_trash_comments">Send to trash?</string>
@@ -3584,7 +3580,7 @@ Language: en_CA
     <string name="reader_toast_err_url_intent">Unable to open %s</string>
     <string name="comments_empty_list">No comments yet</string>
     <string name="reader_view_reblog">Reblog</string>
-    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="login">Sign Up</string>
+    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Sign Up</string>
     <string name="reader_toast_err_tag_not_valid">That isn\'t a valid tag</string>
     <string name="themes">Themes</string>
     <string name="media_gallery_type_squares">Squares</string>
@@ -3613,13 +3609,13 @@ Language: en_CA
     <string name="more_notifications">and %d more.</string>
     <string name="sign_in">Log in</string>
     <string name="loading">Loading…</string>
-    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP username</string>
-    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP password</string>
+    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP username</string>
+    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP password</string>
     <string name="error_media_upload">An error occurred while uploading media</string>
     <string name="incorrect_credentials">Incorrect username or password.</string>
     <string name="password">Password</string>
     <string name="username">Username</string>
-    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="login">Log In</string>
+    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Log In</string>
     <string name="reader">Reader</string>
     <string name="featured" tools:ignore="UnusedResources" a8c-src-lib="module:editor">Use as featured image</string>
     <string name="featured_in_post" tools:ignore="UnusedResources" a8c-src-lib="module:editor">Include image in post content</string>

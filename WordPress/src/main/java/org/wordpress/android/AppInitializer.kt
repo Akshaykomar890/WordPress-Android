@@ -100,6 +100,7 @@ import org.wordpress.android.util.FluxCUtils
 import org.wordpress.android.util.LocaleManager
 import org.wordpress.android.util.NetworkUtils
 import org.wordpress.android.util.PackageUtils
+import org.wordpress.android.util.PerAppLocaleManager
 import org.wordpress.android.util.ProfilingUtils
 import org.wordpress.android.util.QuickStartUtils
 import org.wordpress.android.util.RateLimitedTask
@@ -230,6 +231,9 @@ class AppInitializer @Inject constructor(
 
     @Inject
     lateinit var jetpackFeatureRemovalPhaseHelper: JetpackFeatureRemovalPhaseHelper
+
+    @Inject
+    lateinit var perAppLocaleManager: PerAppLocaleManager
 
     private lateinit var applicationLifecycleMonitor: ApplicationLifecycleMonitor
 
@@ -946,8 +950,13 @@ class AppInitializer @Inject constructor(
      */
     private inner class MemoryAndConfigChangeMonitor : ComponentCallbacks2 {
         override fun onConfigurationChanged(newConfig: Configuration) {
-            // Reapply locale on configuration change
-            LocaleManager.setLocale(context)
+            // If per-app locale is enabled make sure the in-app locale is correct,
+            // otherwise reapply in-app locale on configuration change
+            if (perAppLocaleManager.isPerAppLanguagePrefsEnabled()) {
+                perAppLocaleManager.checkAndUpdateOldLanguagePrefKey()
+            } else {
+                LocaleManager.setLocale(context)
+            }
         }
 
         override fun onLowMemory() {

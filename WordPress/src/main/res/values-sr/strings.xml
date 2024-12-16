@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Translation-Revision-Date: 2024-09-22 20:24:54+0000
+Translation-Revision-Date: 2024-09-22 20:24:32+0000
 Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);
 Generator: GlotPress/4.0.1
 Language: sr_RS
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="feedback_form_add_attachments">Додај прилог</string>
-    <string name="me_btn_feedback">Пошаљи повратну информацију</string>
     <string name="bloganuary_dashboard_nudge_overlay_action_dismiss">Идемо!</string>
     <string name="bloganuary_dashboard_nudge_overlay_action_turn_on_prompts">Укључи предлоге за блоговање</string>
     <string name="gutenberg_native_ungroup_block" tools:ignore="UnusedResources" a8c-src-lib="gutenberg">Разгрупиши блок</string>
@@ -280,19 +279,19 @@ Language: sr_RS
     <string name="gutenberg_native_choose_image_or_video" tools:ignore="UnusedResources">Одабери слику или видео запис</string>
     <string name="gutenberg_native_choose_image" tools:ignore="UnusedResources">Одабери слику</string>
     <string name="gutenberg_native_block_removed" tools:ignore="UnusedResources">Уклоњен блок</string>
-    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="login">Потврда пријаве</string>
+    <string name="signup_confirmation_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Потврда пријаве</string>
     <string name="enter_your_site_address">Унесите постојећу адресу свој сајта</string>
-    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="login">Наставком, прихваћате наше %1$sУслове коришћења%2$s.</string>
-    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="login">или</string>
-    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">Настави са Google-ом</string>
+    <string name="continue_terms_of_service_text" tools:ignore="UnusedResources" a8c-src-lib="module:login">Наставком, прихваћате наше %1$sУслове коришћења%2$s.</string>
+    <string name="login_or" tools:ignore="UnusedResources" a8c-src-lib="module:login">или</string>
+    <string name="continue_google_button_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">Настави са Google-ом</string>
     <string name="login_done">Готово</string>
-    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="login">Не видите електронску пошту? Проверите Непожељну пошту или Смеће.</string>
-    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="login">Направите налог</string>
-    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="login">Провери електронску пошту</string>
-    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="login">Започните</string>
-    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Или укуцајте своју лозинку</string>
-    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="login">Пошаљи повезницу електронском поштом</string>
-    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="login">Ресетујте своју лозинку</string>
+    <string name="magic_link_not_seeing_email_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Не видите електронску пошту? Проверите Непожељну пошту или Смеће.</string>
+    <string name="create_account" tools:ignore="UnusedResources" a8c-src-lib="module:login">Направите налог</string>
+    <string name="check_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Провери електронску пошту</string>
+    <string name="get_started" tools:ignore="UnusedResources" a8c-src-lib="module:login">Започните</string>
+    <string name="or_type_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Или укуцајте своју лозинку</string>
+    <string name="send_link_by_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пошаљи повезницу електронском поштом</string>
+    <string name="reset_your_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Ресетујте своју лозинку</string>
     <string name="quick_start_dialog_update_site_title_message_short">Додирни &lt;b&gt;%1$s&lt;/b&gt; за постављање новог наслова</string>
     <string name="quick_start_list_update_site_title_title">Проверите наслов свог сајта</string>
     <string name="gutenberg_native_s_block_options" tools:ignore="UnusedResources">опције блока %s</string>
@@ -510,9 +509,7 @@ Language: sr_RS
     <string name="post_preview_remote_auto_saving_post">Прављење прегледа…</string>
     <string name="post_preview_saving_draft">Чување…</string>
     <string name="local_post_autosave_revision_available">Направили сте измене на овом чланку које нису сачуване</string>
-    <string name="dialog_confirm_autosave_dont_restore_button">Издање ове апликације</string>
     <string name="button_delete_permanently">Обриши трајно</string>
-    <string name="dialog_confirm_autosave_restore_button">Верзија са другог уређаја</string>
     <string name="settings_username_changer_snackbar_cancel">Ова радња се не може отказати. Корисничко име је можда већ ажурирано.</string>
     <string name="settings_username_changer_toast_content">Ваше ново корисничко име је %1$s</string>
     <string name="settings_username_changer_progress_dialog">Чување корисничког имена …</string>
@@ -642,7 +639,7 @@ Language: sr_RS
     <string name="posts_trashed_empty">Немате чланке у отпаду</string>
     <string name="posts_scheduled_empty">Немате заказане чланке</string>
     <string name="posts_published_empty">Још увек нисте објавили ниједан чланак</string>
-    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="login">Молимо, пријавите се са својим корисничким именом и лозинком.</string>
+    <string name="notification_wpcom_username_needed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Молимо, пријавите се са својим корисничким именом и лозинком.</string>
     <string name="stats_insights_total_comments">Укупно коментара</string>
     <string name="stats_insights_average_comments">Просечно коментара / чланак</string>
     <string name="stats_insights_average_words">Просечно речи по чланку</string>
@@ -817,7 +814,7 @@ Language: sr_RS
     <string name="pages_set_parent">Постави родитеља</string>
     <string name="pages_view">Види</string>
     <string name="site_picker_remove_site_empty">Нема сајтова који се поклапају са Вашом претрагом</string>
-    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="login">Не постоји WordPress.com налог који се поклапа са овим Google налогом.</string>
+    <string name="login_error_email_not_found_v2" tools:ignore="UnusedResources" a8c-src-lib="module:login">Не постоји WordPress.com налог који се поклапа са овим Google налогом.</string>
     <string name="page_parent_changed">Родитељ странице је промењен</string>
     <string name="page_moved_to_scheduled">Страница је заказана</string>
     <string name="page_permanently_deleted">Страница је трајно обрисана</string>
@@ -846,7 +843,7 @@ Language: sr_RS
     <string name="my_site_create_new_site_title">Немате ниједан сајт</string>
     <string name="jetpack">Jetpack</string>
     <string name="stats_jetpack_connection_faq">Jetpack Често Постављана Питања</string>
-    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="login">Пријавите се на WordPress.com налог који сте користили за повезивање Jetpack-а.</string>
+    <string name="login_to_to_connect_jetpack" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пријавите се на WordPress.com налог који сте користили за повезивање Jetpack-а.</string>
     <string name="sign_out_wpcom_confirm_with_no_changes">Одјавите се из Вордпреса?</string>
     <string name="site_settings_tags_empty_button">Направити ознаку</string>
     <string name="site_settings_tags_empty_title">Немате ниједну ознаку</string>
@@ -890,8 +887,8 @@ Language: sr_RS
     <string name="reader_empty_search_request_failed">Није могуће извршити претрагу</string>
     <string name="comment_read_source_post">Прочитајте изворни чланак</string>
     <string name="sites">Сајтови</string>
-    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="login">Верификација кодом</string>
-    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="login">Креденцијали за пријаву</string>
+    <string name="verification_2fa_screen_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Верификација кодом</string>
+    <string name="selfhosted_site_login_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Креденцијали за пријаву</string>
     <string name="removed">Уклоњено</string>
     <string name="reader_save_for_later_title">Сачувани чланци</string>
     <string name="reader_add_bookmark">Додато у сачуване чланке</string>
@@ -980,7 +977,7 @@ Language: sr_RS
     <string name="media_grid_item_trash_desc">отпад</string>
     <string name="media_grid_item_retry_desc">покушај поново</string>
     <string name="invite_user_delete_desc">уклони %s</string>
-    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Регистровање са Google-ом…</string>
+    <string name="signup_with_google_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Регистровање са Google-ом…</string>
     <string name="jetpack_already_connected_toast">Већ сте повезани на Jetpack</string>
     <string name="jetpack_connection_failed_with_reason">Неуспело повезивање на Jetpack: %s</string>
     <string name="file_size_in_terabytes">%s TB</string>
@@ -1065,9 +1062,9 @@ Language: sr_RS
     <string name="content_description_add_avatar">Додај аватар</string>
     <string name="signup_user_exists">Електронска пошта већ постоји на WordPress.com.\nНаставите са пријавом.</string>
     <string name="signup_updating_account">Ажурирање налога…</string>
-    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Слање електронске поште</string>
-    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="login">Покушај поново</string>
-    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="login">Затвори</string>
+    <string name="signup_magic_link_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Слање електронске поште</string>
+    <string name="signup_magic_link_error_button_positive" tools:ignore="UnusedResources" a8c-src-lib="module:login">Покушај поново</string>
+    <string name="signup_magic_link_error_button_negative" tools:ignore="UnusedResources" a8c-src-lib="module:login">Затвори</string>
     <string name="signup_epilogue_hint_username">Корисничко име</string>
     <string name="signup_epilogue_hint_password">Лозинка (опционо)</string>
     <string name="signup_epilogue_hint_display">Име које се приказује</string>
@@ -1155,14 +1152,14 @@ Language: sr_RS
     <string name="plugin_inactive">Искључен</string>
     <string name="media_edit_link_hint">Отвори везу у новом прозору/језичку</string>
     <string name="media_edit_link_text">Веза ка</string>
-    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="login">Дошло је до грешке.</string>
-    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="login">Молимо проверите своју лозинку за наставак.</string>
-    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="login">Пријављивање обустављено</string>
-    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="login">Молимо сачекајте док траје пријављивање.</string>
-    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="login">Пријављивање у току…</string>
-    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="login">Додирни за наставак.</string>
-    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="login">Успешна пријава!</string>
-    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="login">Молимо унесите лозинку</string>
+    <string name="notification_login_failed" tools:ignore="UnusedResources" a8c-src-lib="module:login">Дошло је до грешке.</string>
+    <string name="notification_error_wrong_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Молимо проверите своју лозинку за наставак.</string>
+    <string name="notification_login_title_stopped" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пријављивање обустављено</string>
+    <string name="notification_logging_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Молимо сачекајте док траје пријављивање.</string>
+    <string name="notification_login_title_in_progress" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пријављивање у току…</string>
+    <string name="notification_logged_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Додирни за наставак.</string>
+    <string name="notification_login_title_success" tools:ignore="UnusedResources" a8c-src-lib="module:login">Успешна пријава!</string>
+    <string name="login_empty_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Молимо унесите лозинку</string>
     <string name="image_size">Величина</string>
     <string name="uploading_subtitle_media_only_one">Преостала 1 датотека</string>
     <string name="uploading_subtitle_media_only">Преостало %1$d од %2$d датотека</string>
@@ -1179,11 +1176,11 @@ Language: sr_RS
     <string name="confirm_remove_media_image">Уклони ову слику из чланка?</string>
     <string name="media_edit_customize_card_caption">Прилагоди</string>
     <string name="media_edit_file_details_card_caption">Детаљи датотеке</string>
-    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="login">\nА да покушате са другим налогом?</string>
+    <string name="login_error_suffix" tools:ignore="UnusedResources" a8c-src-lib="module:login">\nА да покушате са другим налогом?</string>
     <string name="login_error_button">Затвори</string>
     <string name="post_settings_remove_featured_image">Уклони издвојену слику</string>
     <string name="post_settings_choose_featured_image">Одабери издвојену слику</string>
-    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="login">Улогуј се на WordPress.com како би поделио садржај.</string>
+    <string name="login_log_in_for_share_intent" tools:ignore="UnusedResources" a8c-src-lib="module:login">Улогуј се на WordPress.com како би поделио садржај.</string>
     <string name="jetpack_disconnect_success_toast">Прекинута веза сајта</string>
     <string name="jetpack_disconnect_error_toast">Грешка приликом прекида везе сајта</string>
     <string name="jetpack_disconnect_confirm">Прекини везу</string>
@@ -1248,21 +1245,21 @@ Language: sr_RS
     <string name="connection_to_server_lost">Веза са сервером је изгубљена</string>
     <string name="login_epilogue_mysites_other">Моји сајтови</string>
     <string name="login_epilogue_mysites_one">Мој сајт</string>
-    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="login">Молимо унесите верификациони код</string>
-    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="login">Унесите корисничко име</string>
-    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="login">Улогујте се на WordPress.com како би приступили чланку.</string>
-    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="login">Грешка приликом додавања сајта. Код грешке: %s</string>
-    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="login">Потребна додатна помоћ?</string>
-    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="login">Која је адреса мог сајта?</string>
-    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Адреса сајта</string>
-    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="login">Унесите адресу Вордпрес сајта који бисте желели да повежете.</string>
+    <string name="login_empty_2fa" tools:ignore="UnusedResources" a8c-src-lib="module:login">Молимо унесите верификациони код</string>
+    <string name="login_empty_username" tools:ignore="UnusedResources" a8c-src-lib="module:login">Унесите корисничко име</string>
+    <string name="login_log_in_for_deeplink" tools:ignore="UnusedResources" a8c-src-lib="module:login">Улогујте се на WordPress.com како би приступили чланку.</string>
+    <string name="login_error_while_adding_site" tools:ignore="UnusedResources" a8c-src-lib="module:login">Грешка приликом додавања сајта. Код грешке: %s</string>
+    <string name="login_site_address_more_help" tools:ignore="UnusedResources" a8c-src-lib="module:login">Потребна додатна помоћ?</string>
+    <string name="login_site_address_help_title" tools:ignore="UnusedResources" a8c-src-lib="module:login">Која је адреса мог сајта?</string>
+    <string name="login_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Адреса сајта</string>
+    <string name="enter_site_address" tools:ignore="UnusedResources" a8c-src-lib="module:login">Унесите адресу Вордпрес сајта који бисте желели да повежете.</string>
     <string name="login_already_logged_in_wpcom">Већ сте пријављени на WordPress.com</string>
-    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="login">Унесите своју WordPress.com лозинку.</string>
-    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="login">Настави</string>
+    <string name="enter_wpcom_password" tools:ignore="UnusedResources" a8c-src-lib="module:login">Унесите своју WordPress.com лозинку.</string>
+    <string name="login_continue" tools:ignore="UnusedResources" a8c-src-lib="module:login">Настави</string>
     <string name="connect_more">Повежи други сајт</string>
-    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Скоро сте ту! Унесите верификациони код за WordPress.com из ваше аутентификационе апликације.</string>
+    <string name="enter_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Скоро сте ту! Унесите верификациони код за WordPress.com из ваше аутентификационе апликације.</string>
     <string name="next">Следећи</string>
-    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="login">Отвори пошту</string>
+    <string name="open_mail" tools:ignore="UnusedResources" a8c-src-lib="module:login">Отвори пошту</string>
     <string name="me_profile_photo">Профилна слика</string>
     <string name="error_media_parse_error">Неочекивани одговор од сервера</string>
     <string name="post_title">Наслов</string>
@@ -1469,8 +1466,8 @@ Language: sr_RS
     <string name="error_refreshing_gravatar">Грешка током учитавања вашег Граватара</string>
     <string name="error_locating_image">Грешка приликом налажења исечене слике</string>
     <string name="error_cropping_image">Грешка током сечења слике</string>
-    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="login">Проверавам емаил</string>
-    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="login">Тренутно недоступно. Молимо вас унесите вашу шифру</string>
+    <string name="checking_email" tools:ignore="UnusedResources" a8c-src-lib="module:login">Проверавам емаил</string>
+    <string name="magic_link_unavailable_error_message" tools:ignore="UnusedResources" a8c-src-lib="module:login">Тренутно недоступно. Молимо вас унесите вашу шифру</string>
     <string name="logging_in">Пријављивање</string>
     <string name="web_address_dialog_hint">Приказано свима када коментаришете.</string>
     <string name="capture_or_pick_photo">Сликај камером или изабери слику</string>
@@ -1558,7 +1555,7 @@ Language: sr_RS
     <string name="about_the_app">О апликацији</string>
     <string name="error_post_account_settings">Није било могуће сачувати Ваша подешавања налога</string>
     <string name="error_fetch_account_settings">Није било могуће повратити Ваша подешавања налога</string>
-    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="login">Није било могуће повратити Ваш налог</string>
+    <string name="error_fetch_my_profile" tools:ignore="UnusedResources" a8c-src-lib="module:login">Није било могуће повратити Ваш налог</string>
     <string name="site_settings_unknown_language_code_error">Код језика није препознат</string>
     <string name="disabled">Онемогућено</string>
     <string name="search">Претрага</string>
@@ -1730,9 +1727,9 @@ Language: sr_RS
     <string name="show">Прикажи</string>
     <string name="select_all">Изабери све</string>
     <string name="language">Језик</string>
-    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Код за потврђивање</string>
-    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="login">Погрешан верификациони код</string>
-    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="login">Пријавите се поново за наставак.</string>
+    <string name="verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Код за потврђивање</string>
+    <string name="invalid_verification_code" tools:ignore="UnusedResources" a8c-src-lib="module:login">Погрешан верификациони код</string>
+    <string name="auth_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пријавите се поново за наставак.</string>
     <string name="error_notification_open">Није могуће отворити обавештење</string>
     <string name="stats_search_terms_unknown_search_terms">Непознати термини за претрагу</string>
     <string name="stats_view_authors">Аутори</string>
@@ -1808,7 +1805,7 @@ Language: sr_RS
     <string name="error_load_comment">Није могуће учитати коментар</string>
     <string name="error_downloading_image">Грешка приликом преузимања слике</string>
     <string name="invalid_email_message">Ваша адреса е-поште није исправна</string>
-    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="login">Унесите исправну адресу е-поште</string>
+    <string name="email_invalid" tools:ignore="UnusedResources" a8c-src-lib="module:login">Унесите исправну адресу е-поште</string>
     <string name="username_or_password_incorrect">Неисправно корисничко име или лозинка</string>
     <string name="sdcard_message">Уграђена SD картица је неопходна за отпремање медија</string>
     <string name="error_refresh_posts">Чланци тренутно не могу бити освежени</string>
@@ -1830,7 +1827,7 @@ Language: sr_RS
     <string name="media_error_no_permission">Немате дозволу да прегледате библиотеку медија</string>
     <string name="trash">Отпад</string>
     <string name="saving_changes">Чувам измене</string>
-    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="login">Неопходно овлашћење</string>
+    <string name="http_authorization_required" tools:ignore="UnusedResources" a8c-src-lib="module:login">Неопходно овлашћење</string>
     <string name="new_post">Нови чланак</string>
     <string name="new_media">Нови медиј</string>
     <string name="local_changes">Локалне измене</string>
@@ -1885,7 +1882,7 @@ Language: sr_RS
     <string name="empty_list_default">Овај списак је празан</string>
     <string name="reader_hint_comment_on_comment">Одговор на коментар…</string>
     <string name="comments_empty_list">Још увек нема коментара</string>
-    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="login">Пријави се</string>
+    <string name="sign_up_label" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пријави се</string>
     <string name="media_gallery_type_squares">Квадрати</string>
     <string name="media_gallery_type_circles">Кругови</string>
     <string name="media_edit_title_text">Наслов</string>
@@ -1913,13 +1910,13 @@ Language: sr_RS
     <string name="more_notifications">и %d још.</string>
     <string name="sign_in">Пријава</string>
     <string name="loading">Учитавање…</string>
-    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP корисничко име</string>
-    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="login">HTTP лозинка</string>
+    <string name="httpuser" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP корисничко име</string>
+    <string name="httppassword" tools:ignore="UnusedResources" a8c-src-lib="module:login">HTTP лозинка</string>
     <string name="error_media_upload">Дошло је до грешке током отпремања медија</string>
     <string name="incorrect_credentials">Неисправно корисничко име или лозинка.</string>
     <string name="password">Лозинка</string>
     <string name="username">Корисничко име</string>
-    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="login">Пријавите се</string>
+    <string name="log_in" tools:ignore="UnusedResources" a8c-src-lib="module:login">Пријавите се</string>
     <string name="reader">Читач</string>
     <string name="pages">Стране</string>
     <string name="featured" tools:ignore="UnusedResources" a8c-src-lib="module:editor">Користи као препоручену слику</string>

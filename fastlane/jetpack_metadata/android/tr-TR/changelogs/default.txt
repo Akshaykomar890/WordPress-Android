@@ -1,0 +1,6 @@
+25.5:
+Bu ay şunlar yapıldı:
+- Jetpack Social'daki bozuk sosyal medya simgeleri düzeltildi
+- Karanlık Mod ile ilgili bazı hatalar düzeltildi
+- Android'e deneysel düzenleyici eklendi. Deneyip düşüncelerinizi bizimle paylaşın!
+- Kullanıcıların WordPress.com'da oturum açma şekli değiştirildi. Bu değişiklik uzun süredir devam eden ve güvenlik anahtarı kullanarak oturum açamamanıza neden olan bir sorunu düzeltti.
